@@ -1,0 +1,14 @@
+linux/bash,.bash_profile
+linux/bash,.bash_functions
+linux/bash,.bash_history
+linux/bash,.bash_logout
+linux/bash,.bashrc
+linux/nano,.nano
+linux/nano,.nanorc
+linux/python,.python_history
+linux/python,.ipython
+linux/gtk,.gtkrc-2.0
+linux/gtk,.config/gtk-2.0
+linux/gtk,.config/gtk-3.0
+linux/gtk,.config/gtk-4.0
+linux/applications,.config/cherrytree
