@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Wednesday, 3rd July 2019 10:47:48 pm
+# Last Modified: Sunday, 28th July 2019 2:17:53 am
 # ----
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
 # MIT License - http://www.opensource.org/licenses/MIT
@@ -66,12 +66,21 @@ function clipSwitch {
     esac
 }
 
-#function pasteSwitch {
-#}
+function clearWrap {
+    if [[ $@ =~ "l" ]] || [[ $@ =~ "a" ]];
+    then
+        /usr/bin/clear;
+        /usr/bin/ls -al --color=auto;
+        return 0
+        exit 0;
+    else
+        /usr/bin/clear $@
+    fi
+}
 
-function color(){
+function color() {
     local i=$((( $(tput cols) / 8 ) - 8))
-    for c; do
+    for c in $@; do
         printf '\e[0m%03d: ' $c;
         printf '\e[48;5;%dm  \t' $c;
         

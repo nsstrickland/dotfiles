@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Sunday, 28th July 2019 12:44:50 am
+# Last Modified: Sunday, 28th July 2019 2:18:55 am
 # ----
 # 
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
@@ -148,6 +148,7 @@
 
     alias cls=clear
     alias clip=clipSwitch
+    alias clear=clearWrap
     #alias paste=wl-paste
     alias push=pushd
     alias pop=popd

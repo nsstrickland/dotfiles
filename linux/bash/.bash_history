@@ -10634,3 +10634,835 @@ do
 dot
 #1564289070
 clear
+#1564294741
+clear -al
+#1564294743
+clear
+#1564292603
+cd .config/
+#1564292604
+ls -al
+#1564292608
+dot add
+#1564292631
+dot add cherrytree/ $DOT_DIR/linux/applications/cherrytree
+#1564292652
+ls -al
+#1564292656
+ls cherrytree/
+#1564292657
+ls cherrytree/ -al
+#1564292676
+ls configstore/
+#1564292686
+cat configstore/update-notifier-generator-code.json 
+#1564292691
+cat configstore/yo.json 
+#1564292693
+yo
+#1564292698
+yo --help
+#1564292700
+man yo
+#1564292701
+clear
+#1564292704
+ls -al
+#1564292705
+rm configstore/
+#1564292709
+ls dconf/
+#1564292711
+ls dconf/user 
+#1564292713
+cat dconf/user 
+#1564292716
+clear
+#1564292717
+ls -al
+#1564292746
+ls
+#1564292747
+ls -al
+#1564292751
+cat dleyna-renderer-service.conf 
+#1564292808
+cat dleyna-server-service.conf 
+#1564292832
+ls -al
+#1564292838
+rm dleyna-*
+#1564292839
+ls -al
+#1564292843
+ls dot/
+#1564292846
+rm dot/
+#1564292847
+ls -al
+#1564292849
+ls Electron/
+#1564292850
+ls Electron/ -al
+#1564292852
+rm Electron/
+#1564292853
+ls -al
+#1564292856
+ls enchant/
+#1564292878
+rm enchant/
+#1564292880
+ls -al
+#1564292885
+ls eog/
+#1564292887
+ls eog/ -al
+#1564292888
+rm eog/
+#1564292889
+ls -al
+#1564292891
+clear -al
+#1564292893
+clear
+#1564292894
+ls -al
+#1564292900
+code $FUNCTIONS 
+#1564292908
+color
+#1564292909
+color 10
+#1564292924
+color [0..10]
+#1564292929
+color [0.10]
+#1564292935
+color 50
+#1564292936
+color 255
+#1564292960
+echo [0..10]
+#1564292963
+echo (0..10)
+#1564292981
+color {0..10}
+#1564292986
+{0..10}
+#1564292988
+echo {0..10}
+#1564293020
+colorfromhex c7c6c2
+#1564293023
+color
+#1564293056
+clear
+#1564293060
+history 
+#1564293062
+history |grep color
+#1564293080
+clear
+#1564293082
+history |grep color
+#1564293143
+echo $((( $(tput cols) / 8 ) - 8))
+#1564293145
+clear
+#1564293169
+source $FUNCTIONS 
+#1564293170
+color 10
+#1564293178
+color {0..255}
+#1564293181
+color {0..256}
+#1564293184
+clear
+#1564293241
+clear --help
+#1564293243
+man clear
+#1564293248
+clear
+#1564293249
+ls -al
+#1564293251
+clear
+#1564293253
+clear --herlp
+#1564293306
+nano
+#1564293310
+/usr/bin/nano 
+#1564293312
+nano
+#1564293313
+clear
+#1564293367
+testfunc
+#1564293368
+clear
+#1564293374
+function testfunc { for i in $@; do echo $i; done; }
+#1564293397
+testfunc 
+#1564293399
+testfunc -al
+#1564293401
+testfunc -al h
+#1564293404
+testfunc -al -h
+#1564293406
+clear
+#1564293429
+code $FUNCTIONS 
+#1564293479
+getopt
+#1564293481
+getopt --help
+#1564293485
+getopt al
+#1564293724
+clear
+#1564293950
+clear --help
+#1564294717
+code $PROFILE 
+#1564289102
+code $HOME/Dotfiles/dot/dot.sh
+#1564289117
+dot --help
+#1564289120
+dot
+#1564289121
+clear
+#1564289123
+dot --help
+#1564289128
+clear
+#1564289142
+dot pull
+#1564289156
+dot list
+#1564289162
+dot check
+#1564289169
+cd ~
+#1564289170
+dot cd
+#1564289172
+ls -al
+#1564289173
+clear
+#1564289174
+cd ~
+#1564289175
+clear
+#1564289196
+ls -al|grep bash
+#1564289205
+clear
+#1564289208
+dot add .bashrc
+#1564289244
+dot set
+#1564289258
+dot config
+#1564289296
+mkdir ~/.config/dot
+#1564289298
+dot config
+#1564289432
+clear
+#1564289471
+dot add --help
+#1564289475
+dot --help add
+#1564289493
+clear
+#1564289540
+dot cd
+#1564289541
+ls
+#1564289545
+clear
+#1564289552
+mkdir linux
+#1564289553
+cd linux/
+#1564289555
+clear 
+#1564289555
+ls
+#1564289558
+mkdir bash
+#1564289561
+cd ~
+#1564289561
+clear
+#1564289562
+ls -al
+#1564289568
+clear 
+#1564289570
+ls -al|grep bash
+#1564289590
+dot add .bash_profile $DOT_DIR/linux/bash
+#1564289598
+dot list
+#1564289607
+dot cd
+#1564289608
+ls
+#1564289611
+cd linux/
+#1564289612
+ls
+#1564289614
+ls bash/
+#1564289618
+ls -al
+#1564289620
+cd bash/
+#1564289620
+ls -al
+#1564289634
+cat .bash_profile 
+#1564289636
+clear
+#1564289636
+cd ~
+#1564289641
+ls -a
+#1564289644
+ls -a|grep bash
+#1564289655
+ls -a|grep bash|grep -x bak
+#1564289660
+ls -a|grep bash|grep -x l
+#1564289662
+ls -a|grep bash|grep -x
+#1564289665
+grep --help
+#1564289673
+grep --help|grep exclude
+#1564289694
+clear
+#1564289698
+ls -a|grep bash|grep -v bak
+#1564289702
+ls -a|grep bash|grep -v bak|grep -v save
+#1564289713
+ls -al | grep _profile
+#1564289719
+ls -a|grep bash|grep -v bak|grep -v save|grep -v profile
+#1564289728
+for i in $(ls -a|grep bash|grep -v bak|grep -v save|grep -v profile);do dot add $i $DOT_DIR/linux/bash/; done
+#1564289747
+dot list
+#1564289756
+ls -al|grep bash
+#1564289764
+ls -al|grep bash|grep bak
+#1564289773
+for i in $(ls -al|grep bash|grep bak);do rm $i;done
+#1564289778
+clear
+#1564289779
+ls -al
+#1564289934
+clear
+#1564289938
+dot cd
+#1564289939
+ls
+#1564289940
+cd linux/
+#1564289941
+ls
+#1564289945
+mkdir gnu
+#1564289948
+cd ~
+#1564289950
+clear
+#1564289950
+ls -al
+#1564289963
+ls .nano
+#1564290079
+code ~/.nanorc 
+#1564290094
+cd .nano
+#1564290095
+ls
+#1564290099
+rm install.sh 
+#1564290101
+rm shellcheck.sh 
+#1564290102
+ls
+#1564290103
+clear
+#1564290104
+ls -al
+#1564290108
+clear
+#1564290109
+cd 
+#1564290112
+ls -al|grep nano
+#1564290190
+dot add .nano $DOT_DIR/linux/nano
+#1564290207
+dot add .nanorc $DOT_DIR/linux/nano
+#1564290211
+ls -al
+#1564290212
+clear
+#1564290213
+ls -al
+#1564290218
+ls .vscode
+#1564290221
+clear
+#1564290221
+ls -al
+#1564290277
+dot add .python_history $DOT_DIR/linux/python
+#1564290285
+ls -al|grep pytho
+#1564290289
+cat .ipython/
+#1564290293
+clear
+#1564290316
+dot add ~/.ipython $DOT_DIR/linux/python
+#1564290328
+ls -al
+#1564290336
+cat .gitconfig 
+#1564290337
+clear
+#1564290339
+ls -al
+#1564290343
+cat .gtkrc-2.0 
+#1564290370
+dot add .gtkrc-2.0 $DOT_DIR/linux/gtk
+#1564290372
+ls -al
+#1564290378
+cd .config/
+#1564290380
+ls -al
+#1564290385
+ls -al|grep gtk
+#1564290389
+ls -a|grep gtk
+#1564290401
+for i in $(ls -a|grep gtk); do ls $i;done
+#1564290415
+for i in $(ls -a|grep gtk); do echo $i;ls $i;echo "__________";done
+#1564290422
+for i in $(ls -a|grep gtk); do echo #$i;ls $i;echo "__________";done
+#1564290427
+for i in $(ls -a|grep gtk); do echo \#$i;ls $i;echo "__________";done
+#1564290434
+clear
+#1564290462
+for i in $(ls -a|grep gtk); do dot add ~/.config/$i $DOT_DIR/linux/gtk;done
+#1564290471
+clear
+#1564290472
+dot list
+#1564290481
+ls -al
+#1564290482
+clear
+#1564290483
+ls -al
+#1564290486
+rm alacritty/ -rf
+#1564290487
+ls -al
+#1564290490
+clear 
+#1564290491
+ls -al
+#1564290494
+ls abrt/
+#1564290497
+rm abrt/
+#1564290500
+cat autostart/
+#1564290934
+clear
+#1564290935
+ls -al
+#1564290937
+ls autostart/
+#1564290939
+rm autostart/
+#1564290945
+rm caja*
+#1564290947
+ls -al
+#1564290948
+clear
+#1564290949
+ls -al
+#1564290951
+cat cef_user_data/
+#1564290954
+ls cef_user_data/
+#1564290956
+ls cef_user_data/Dictionaries/
+#1564290960
+cat cef_user_data/Dictionaries/en-US-8-0.bdic 
+#1564290961
+clear
+#1564290967
+ls -al
+#1564290981
+ls cherrytree/
+#1564290983
+ls cherrytree/config.cfg 
+#1564290987
+cat cherrytree/config.cfg 
+#1564290990
+clear
+#1564291011
+ls
+#1564291018
+ls -l
+#1564291029
+dot add cherrytree/ /home/nick/Dotfiles/linux/applications/
+#1564291036
+ls -al
+#1564291037
+clear -al
+#1564291039
+clear
+#1564291040
+ls -al
+#1564291042
+ls Co
+#1564291044
+ls Code/
+#1564291048
+clear
+#1564291065
+ls 
+#1564291066
+cd Co
+#1564291068
+cd Code/
+#1564291068
+ls
+#1564291070
+clear
+#1564291071
+ls -al
+#1564291074
+ls Backups/
+#1564291076
+ls -al
+#1564291084
+ls Workspaces/
+#1564291086
+cd U
+#1564291089
+cd User/
+#1564291089
+ls -al
+#1564291091
+clear
+#1564291092
+ls -al
+#1564291100
+ls globalStorage/
+#1564291104
+ls  snippets/
+#1564291113
+clear
+#1564291114
+ls -al
+#1564291117
+cat eq-material-theme-icons.json 
+#1564291119
+clear -al
+#1564291120
+ls 
+#1564291121
+clear
+#1564291122
+ls -al
+#1564291136
+nano $FUNCTIONS 
+#1564291146
+echo $FUNCTIONS 
+#1564291151
+code $FUNCTIONS 
+#1564291168
+ls -al
+#1564291171
+ls ~
+#1564291172
+ls ~ -al
+#1564291243
+dot cd
+#1564291244
+ls -al
+#1564291249
+dot check
+#1564291252
+dot push
+#1564291283
+dot list
+#1564291287
+dot check
+#1564291288
+clear
+#1564291290
+ls -al
+#1564291297
+git add linux/
+#1564291300
+ls -al
+#1564291304
+git diff
+#1564291306
+git status
+#1564291314
+git add dotlink 
+#1564291385
+git commit -m "added bash, gtk, nano, and py"
+#1564291389
+git push
+#1564291403
+clear
+#1564291406
+git status
+#1564291414
+git add linux
+#1564291416
+git commit -m "added bash, gtk, nano, and py"
+#1564291419
+git push
+#1564291429
+clear
+#1564291431
+dot
+#1564291442
+ls
+#1564291444
+dot set
+#1564291478
+dot list
+#1564291481
+dot edit
+#1564291554
+dot unlink $DOT_DIR/linux/applications
+#1564291690
+clear
+#1564291691
+ls -al
+#1564291693
+cd ~
+#1564291694
+clear
+#1564291721
+ls
+#1564291729
+cd Templates/
+#1564291730
+ls
+#1564291731
+ls -al
+#1564291734
+touch test
+#1564291735
+ls -al
+#1564291747
+dot add test $DOT_DIR/linux/
+#1564291752
+ls
+#1564291753
+ls -al
+#1564291761
+cd test/
+#1564291763
+ls 
+#1564291765
+cd ..
+#1564291774
+dot unlink test
+#1564291777
+ls -al
+#1564291778
+clear
+#1564291780
+ls test/
+#1564291800
+find
+#1564291807
+ls
+#1564291810
+touch test
+#1564291812
+dot add test
+#1564291816
+clear
+#1564291819
+rm test/
+#1564291821
+ls -al
+#1564291826
+rm --help
+#1564291837
+trash-restore test
+#1564291840
+ls -al
+#1564291866
+touch bigtestfile
+#1564291867
+ls -al
+#1564291872
+dot add bigtestfile
+#1564291905
+dot unlink bigtestfile 
+#1564291924
+dot --help
+#1564291944
+ls
+#1564291958
+dot add bigtestfile $DOT_DIR/linux/bigtestfile
+#1564291977
+dot unlink bigtestfile
+#1564291981
+ls
+#1564291982
+rm bigtestfile 
+#1564291985
+cd ..
+#1564291986
+ls -al
+#1564291990
+cd Templates/
+#1564291992
+dot add bigtestfile $DOT_DIR/linux/bigtestfile
+#1564291996
+touch bigtestfile
+#1564291997
+dot add bigtestfile $DOT_DIR/linux/bigtestfile
+#1564292006
+dot edit
+#1564292057
+dot pull
+#1564292076
+cd ~
+#1564292077
+ls -al
+#1564292105
+dot cd
+#1564292106
+ls -al
+#1564292109
+git pull
+#1564292119
+ls -al
+#1564292125
+cd ..
+#1564292129
+mv Dotfiles/ old-dotfiles
+#1564292133
+mkdir Dotfiles
+#1564292135
+cd Dotfiles/
+#1564292149
+git clone https://github.com/nsstrickland/Dotfiles.git
+#1564292155
+ls -al
+#1564292160
+rm Dotfiles/
+#1564292161
+ls -al
+#1564292162
+cd ..
+#1564292164
+rm Dotfiles/
+#1564292168
+git clone https://github.com/nsstrickland/Dotfiles.git
+#1564292174
+cd Do
+#1564292176
+cd Dotfiles/
+#1564292177
+ls
+#1564292185
+ls linux/bash/
+#1564292192
+ls linux/bash/ -al
+#1564292210
+dot edit
+#1564292215
+ls
+#1564292225
+echo $DOT_REPO 
+#1564292228
+echo $DOT_SCRIPT_ROOTDIR 
+#1564292233
+echo $DOT_DIR
+#1564292238
+cat dotlink 
+#1564292241
+dot edit
+#1564292250
+ls dot
+#1564292259
+git submodule 
+#1564292263
+git submodule pull
+#1564292276
+cd ..
+#1564292284
+git clone https://github.com/nsstrickland/Dotfiles.git --recurse-submodules 
+#1564292287
+rm Dotfiles/
+#1564292289
+git clone https://github.com/nsstrickland/Dotfiles.git --recurse-submodules 
+#1564292310
+ls -al
+#1564292312
+cd Dotfiles/
+#1564292313
+ls -al
+#1564292315
+dot edit
+#1564292472
+dot check
+#1564292475
+dot set
+#1564292488
+y
+#1564292532
+clear
+#1564292534
+ls -al
+#1564292537
+ls linux/applications/
+#1564292543
+dot list
+#1564292547
+dot list|grep app
+#1564292592
+clear
+#1564292594
+cd ~
+#1564292595
+clear
+#1564292595
+ls
