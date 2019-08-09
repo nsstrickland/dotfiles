@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Sunday, 28th July 2019 2:17:53 am
+# Last Modified: Saturday, 3rd August 2019 6:11:24 pm
 # ----
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
 # MIT License - http://www.opensource.org/licenses/MIT
@@ -47,24 +47,30 @@ function ask4nano {
     unset files file args2 i
 }
 
+alias clip=clipSwitch
+alias paste=wl-paste
+
 function clipSwitch {
-    local XCL=$(command -v xclip)
-    local WCL=$(command -v wl-copy)
     local session=$(loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type);
     local session=${session/Type=/};
     case $XDG_SESSION_TYPE in
         "tty")
-            echo "In tty.";
+            printf '%s\n' "Currently using a TTY session; No Clipboard available.";
             return 1;
             ;;
         "x11")
-            $($XCL $@);
+            alias clip="/usr/bin/xclip -selection clipboard"
+            alias paste="/usr/bin/xclip -selection clipboard -o"
+            return 0;
             ;;
         "wayland")
-            $($WCL $@);
+            alias clip="/usr/local/bin/wl-copy"
+            alias paste="/usr/local/bin/wl-paste"
+            return 0
             ;;
     esac
 }
+clipSwitch
 
 function clearWrap {
     if [[ $@ =~ "l" ]] || [[ $@ =~ "a" ]];

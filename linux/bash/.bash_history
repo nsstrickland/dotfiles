@@ -11466,3 +11466,1503 @@ cd ~
 clear
 #1564292595
 ls
+#1564294751
+dotlockfile 
+#1564294752
+clear
+#1564294754
+dot list
+#1564294759
+cd .config/
+#1564294760
+ls -al
+#1564294762
+clear
+#1564294763
+ls -al
+#1564294769
+ls epiphany
+#1564294771
+clear
+#1564294771
+ls -al
+#1564294775
+ls epiphany/
+#1564294778
+cat epiphany/web-extension-settings.ini 
+#1564294780
+clear -al
+#1564294785
+ls evolution/
+#1564294790
+rm fish
+#1564294795
+ls gconf/
+#1564294797
+ls gconf/ -al
+#1564294800
+rm gconf/
+#1564294802
+ls -al
+#1564294804
+clear -al
+#1564294809
+ls gedit/
+#1564294812
+cat gedit/accels 
+#1564294820
+cat glade-3.conf 
+#1564294827
+cat glade.conf 
+#1564294828
+clear
+#1564294829
+ls -al
+#1564294835
+ls gnome-boxes/
+#1564294836
+ls gnome-boxes/sources/
+#1564294838
+clear
+#1564294839
+ls -al
+#1564294847
+ls Hyper/
+#1564294851
+rm Hyper/
+#1564294857
+ls htop/
+#1564294860
+cat htop/
+#1564294861
+cat htop/htoprc 
+#1564294866
+clear
+#1564294892
+dot add htop/ ~/Dotfiles/linux/htop/
+#1564294900
+ls -al
+#1564294935
+unlink htop/
+#1564294940
+dot unlink htop/
+#1564294941
+dot unlink htop
+#1564294943
+clear 
+#1564294944
+ls -al
+#1564294946
+ls htop/
+#1564294947
+ls htop/htop/
+#1564294952
+cd htop/
+#1564294953
+ls -al
+#1564294958
+mv htop/htoprc .
+#1564294958
+ls
+#1564294961
+rm htop
+#1564294962
+ls -al
+#1564294964
+clear
+#1564294973
+dot list
+#1564294978
+dot edit
+#1564294988
+clear
+#1564294994
+dot list
+#1564295004
+cd ..
+#1564295005
+ls -al
+#1564295007
+ls cherrytree/
+#1564295013
+clear
+#1564295014
+ls -al
+#1564295018
+dot list
+#1564295056
+dot add htop ~/Dotfiles/linux/applications/htop
+#1564295063
+ls -al
+#1564295069
+ls ibus/
+#1564295071
+ls ibus/bus/
+#1564295073
+clear
+#1564295074
+ls -al
+#1564295080
+ls libreoffice/
+#1564295082
+ls libreoffice/4/
+#1564295083
+ls libreoffice/4/user/
+#1564295089
+clear
+#1564295090
+ls -al
+#1564295092
+rm openrazer/
+#1564295094
+rm polychromatic/
+#1564295097
+ls nemo
+#1564295100
+nemoo
+#1564295101
+nemo
+#1564295147
+clear
+#1564295148
+ls -al
+#1564295150
+ls nautilus/
+#1564295154
+ls nemo
+#1564295156
+clear
+#1564295157
+ls -al
+#1564295160
+ls rofi/
+#1564295174
+dot add rofi ~/Dotfiles/linux/applications/rofi
+#1564295176
+ls -al
+#1564295183
+ls Unknown\ Organization/
+#1564295185
+rm Unknown\ Organization/
+#1564295186
+ls -al
+#1564295192
+clear
+#1564295193
+ls -al
+#1564295202
+rm VSCodium/
+#1564295206
+ls yelp/
+#1564295210
+cat yelp/yelp.cfg 
+#1564295213
+clear
+#1564295214
+la -al
+#1564295222
+rm microsoft-one-note-the-digital-note-taking-app-for-your-devices-nativefier-52c9c8/
+#1564295230
+cd ..
+#1564295231
+ls -al
+#1564295248
+cd ~/.mozilla/
+#1564295249
+ls
+#1564295251
+ls plugins/
+#1564295253
+ls plugins/ -al
+#1564295255
+ls extensions/
+#1564295257
+ls extensions/\{ec8030f7-c20a-464f-9b0e-13a3a9e97384\}/
+#1564295261
+ls
+#1564295262
+cd fi
+#1564295266
+cd firefox/
+#1564295267
+ls
+#1564295271
+cat profiles.ini 
+#1564295279
+cd ./sre3w1ks.default/
+#1564295279
+ls
+#1564295287
+cat extensions.json 
+#1564295292
+clear
+#1564295293
+ls -al
+#1564295318
+ls extension-preferences.json 
+#1564295319
+cat extension-preferences.json 
+#1564295324
+clear
+#1564295325
+ls -al
+#1564295329
+cd extensions/
+#1564295329
+ls
+#1564295332
+cd ..
+#1564295333
+ls -al
+#1564295347
+cat extension-settings.json 
+#1564295358
+  clear
+#1564295359
+ls -al
+#1564295470
+ls prefs.js 
+#1564295486
+dot add prefs.js ~/Dotfiles/linux/applications/firefox/prefs.js
+#1564295495
+dot cd
+#1564295496
+ls -al
+#1564295501
+git add linux/
+#1564295510
+git commit -m "added the rest"
+#1564295517
+git push
+#1564295527
+git status
+#1564295531
+git add dotlink 
+#1564295534
+git commit -m "added the rest"
+#1564295536
+git push
+#1564295557
+clear
+#1564293546
+function clearWrap {     if $(getopt al); do
+#1564293546
+        echo 1;
+#1564293547
+    else
+#1564293547
+        echo 0;
+#1564293547
+    done
+#1564293547
+}
+#1564293548
+clear
+#1564293554
+/home/nick/.bash_functions
+#1564293560
+source $FUNCTIONS 
+#1564293579
+clearWrap 
+#1564293624
+source $FUNCTIONS 
+#1564293625
+clearWrap 
+#1564293628
+clear
+#1564293636
+source $FUNCTIONS 
+#1564293638
+clearWrap 
+#1564293651
+clearWrap -al
+#1564293873
+which clear|clip
+#1564293879
+which clear
+#1564293891
+source $FUNCTIONS 
+#1564293892
+clear
+#1564293895
+clearWrap 
+#1564293899
+clearWrap --help
+#1564293933
+source $FUNCTIONS 
+#1564293934
+clearWrap --help
+#1564293938
+clear
+#1564293939
+clearWrap --help
+#1564293960
+source $FUNCTIONS 
+#1564293961
+clearWrap --help
+#1564293973
+clear
+#1564293976
+clear -xl
+#1564293981
+clear -x
+#1564293984
+ls -al
+#1564293986
+clear --help
+#1564293991
+clear -v
+#1564293997
+clear -V
+#1564294001
+clear
+#1564294005
+clear -al
+#1564294017
+clearWrap --help
+#1564294019
+clearWrap --x
+#1564294021
+clearWrap --V
+#1564294025
+clearWrap -V
+#1564294027
+clearWrap help
+#1564294029
+clearWrap a
+#1564294030
+clearWrap al
+#1564294032
+clearWrap -al
+#1564294058
+source $FUNCTIONS 
+#1564294061
+clearWrap 
+#1564294063
+clearWrap --help
+#1564294074
+clearWrap help
+#1564294080
+clearWrap --help
+#1564294083
+clear
+#1564294084
+clearWrap --help
+#1564294092
+clearWrap help
+#1564294094
+clearWrap -al
+#1564294127
+source $FUNCTIONS 
+#1564294129
+clearWrap 
+#1564294133
+clearWrap -al
+#1564294147
+source $FUNCTIONS 
+#1564294147
+clearWrap -al
+#1564294225
+source $FUNCTIONS 
+#1564294226
+clearWrap -al
+#1564294239
+echo $option 
+#1564294291
+source $FUNCTIONS 
+#1564294292
+clearWrap -al
+#1564294295
+clearWrap 
+#1564294297
+clearWrap -a
+#1564294299
+clearWrap -a -l
+#1564294301
+clearWrap al
+#1564294326
+test="alb"
+#1564294328
+echo $test
+#1564294367
+test="alb";if [[ $test =~ "l"] || [ $test =~ "a"]];then echo cont;fi
+#1564294375
+test="alb";if [[ $test =~ "l"]] || [[ $test =~ "a"]];then echo cont;fi
+#1564294472
+test="alb";if [ $test =~ "l"] || [ $test =~ "a"];then echo cont;fi
+#1564294481
+test="alb";if [[ $test =~ "l" ]];then echo cont;fi
+#1564294493
+test="alb";if [[ $test =~ "l" ]]||[[ $test =~ "a" ]];then echo cont;fi
+#1564294505
+test="ab";if [[ $test =~ "l" ]]||[[ $test =~ "a" ]];then echo cont;fi
+#1564294508
+test="b";if [[ $test =~ "l" ]]||[[ $test =~ "a" ]];then echo cont;fi
+#1564294523
+test="b";if [[ $test =~ "l" ]] || [[ $test =~ "a" ]];then echo cont;fi
+#1564294527
+test="ab";if [[ $test =~ "l" ]] || [[ $test =~ "a" ]];then echo cont;fi
+#1564294548
+source $FUNCTIONS 
+#1564294551
+clearWrap 
+#1564294552
+clearWrap -a
+#1564294554
+clearWrap -al
+#1564294555
+clear
+#1564294564
+which clear
+#1564294569
+                return 0;
+#1564294618
+/usr/bin/ls
+#1564294619
+clear
+#1564294637
+source $FUNCTIONS 
+#1564294640
+clearWrap -al
+#1564294645
+ls -al
+#1564294652
+/usr/bin/ls -al
+#1564294659
+which ls
+#1564294690
+alias 'clear && ls -al'
+#1564294698
+alias 'clear; ls -al'
+#1564294701
+clear -al
+#1564294702
+clear
+#1564294707
+source $FUNCTIONS 
+#1564294710
+clearWrap -al
+#1564294712
+clear
+#1564295805
+dot
+#1564295807
+dot status
+#1564295808
+dot check
+#1564298472
+cd Documents/git/
+#1564298474
+git clone https://github.com/Ozencb/tilde-enhanced.git
+#1564298480
+nautilus tilde-enhanced/
+#1564299478
+git clone https://github.com/etacarinaea/startpage.git
+#1564299481
+nautilus startpage/
+#1564299661
+rm startpage/
+#1564299663
+git clone https://github.com/kopri-nb/Startpage.git
+#1564299667
+nautilus Startpage/
+#1564299835
+rm Startpage/
+#1564299838
+git clone https://github.com/jeroenpardon/sui.git
+#1564717776
+sudo dnf search youtube-dl
+#1564717788
+sudo dnf info youtube-dl
+#1564717925
+sudo dnf install youtube-dl
+#1564717977
+youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M'
+#1564717986
+ls
+#1564718006
+mv Anecdotes\ -\ Joanna\ Newsom\ on\ Jimmy\ Kimmel\ Live-UBs8EDh7T5M.mp4  ~/Desktop/Anecdotes.mp4
+#1564718042
+cd Desktop/
+#1564718048
+youtube-dl --help
+#1564718116
+youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -b
+#1564718184
+youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -f 720
+#1564718196
+youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -F
+#1564718239
+youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -f 136
+#1564718246
+youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes1.mp4' -f 136
+#1564718397
+youtube-dl -F 'https://www.youtube.com/watch?v=D1gl46hh3sQ'
+#1564718435
+youtube-dl -F 'https://www.youtube.com/watch?v=D1gl46hh3sQ' -citw
+#1564718638
+youtube-dl 'https://www.youtube.com/watch?v=D1gl46hh3sQ'  -f bestvideo+bestaudio
+#1564718655
+sudo dnf install ffmpeg
+#1564718682
+sudo dnf install avconv
+#1564718688
+youtube-dl 'https://www.youtube.com/watch?v=D1gl46hh3sQ'  -f bestvideo+bestaudio
+#1564718798
+youtube-dl 'https://www.youtube.com/watch?v=dQ80ui7zur4' -F
+#1564718815
+youtube-dl 'https://www.youtube.com/watch?v=dQ80ui7zur4' -f bestvideo+bestaudio
+#1564847284
+clear
+#1564847287
+sudo dnf update
+#1564849075
+clear
+#1564854178
+cd .ssh
+#1564854181
+cd ~/.ssh/
+#1564854182
+ls
+#1564854183
+ls -al
+#1564854187
+clear
+#1564854192
+ls
+#1564854195
+cat known_hosts 
+#1564854225
+clear
+#1564854227
+ssh-keygen 
+#1564854258
+ls
+#1564854261
+rm lin-kin*
+#1564854262
+ls -al
+#1564854266
+ssh-keygen --help
+#1564854307
+ssh-keygen -t rsa -b 4096
+#1564854342
+ls -al
+#1564854349
+touch lin-kinzie-art.txt
+#1564854352
+nano lin-kinzie
+#1564854355
+nano lin-kinzie-art.txt 
+#1564854360
+clear
+#1564854360
+ls -al
+#1564854672
+ssh strck.land
+#1564855011
+exit
+#1564855015
+ssh strck.land
+#1564855106
+clear
+#1564855110
+ssh strck.land
+#1564855171
+clear
+#1564855344
+ls
+#1564855345
+ls -al
+#1564855346
+clear
+#1564855350
+cd .ssh/
+#1564855350
+ls
+#1564855353
+cat known_hosts 
+#1564855355
+rm known_hosts 
+#1564855356
+clear
+#1564855356
+ls
+#1564855360
+cat vscs.pub 
+#1564855361
+clear
+#1564855362
+ls -al
+#1564855369
+cat lin-kinzie
+#1564855373
+clear
+#1564855387
+ssh minecraft.strck.land
+#1564855538
+clear
+#1564855570
+The authenticity of host 'minecraft.strck.land (45.79.81.199)' can't be established.
+#1564855572
+clear
+#1564855576
+ssh -t nsstrickland@lish-fremont.linode.com minecraft
+#1564855982
+cd Documents/
+#1564855997
+scp nick@minecraft.strck.land:/home/nick/minecraft.service .
+#1564855629
+ssh minecraft.strck.land
+#1564856009
+exit
+#1564855875
+scp nick@minecraft.strck.land:/home/nick/minecraft.tar /home/nick/Documents/minecraft.tar
+#1564856465
+echo $XDG_SESSION_CLASS 
+#1564856469
+echo $XDG_SESSION_ID 
+#1564856472
+echo $XDG_SESSION_TYPE 
+#1564856473
+exit
+#1564857178
+ping minecraft.strck.land
+#1564857182
+clwear
+#1564857183
+clear
+#1564858743
+expr 50944 // 1024
+#1564858746
+expr 50944 / 1024
+#1564860734
+gnome-terminal --help
+#1564864789
+ping fujin.strck.land
+#1564864976
+clear
+#1564864985
+dig any strck.land
+#1564864992
+dig smtp.strck.land
+#1564864995
+dig imap.strck.land
+#1564864998
+clear
+#1564865000
+exit
+#1564861153
+man gnome-terminal
+#1564863242
+dig
+#1564863244
+clear
+#1564863247
+dig any strck.land
+#1564864229
+expr 25088 / 1024
+#1564864538
+clear
+#1564864715
+systemctl is-active systemd-resolved
+#1564864726
+sudo systemd-resolve --flush-caches
+#1564864735
+systemd-resolve --statistics
+#1564864753
+dig fujin.strck.land
+#1564864765
+clear
+#1564864775
+ssh root@fujin.strck.land
+#1564864815
+ping  smtp.strck.land
+#1564864820
+clear
+#1564864822
+ping smtp.strck.land
+#1564864834
+dig  smtp.strck.land
+#1564864838
+clear
+#1564864907
+dig  smtp.strck.land
+#1564864913
+sudo systemd-resolve --flush-caches
+#1564864915
+dig  smtp.strck.land
+#1564864917
+clear
+#1564864921
+ping fujin.strck.land
+#1564864931
+whois 92.242.140.2
+#1564864939
+clear
+#1564864960
+sudo systemd-resolve --flush-caches
+#1564864964
+systemd-resolve --statistics
+#1564864968
+ping fujin.strck.land
+#1564864970
+dig sm
+#1564865001
+exit
+#1564866099
+if ! [ -f ~/.bash_last ]; then touch ~/.bash_last; fi
+#1564866101
+ls -al
+#1564866106
+ls -al|grep bash
+#1564866110
+rm .bash_last 
+#1564866155
+echo $(date)+"test"
+#1564866158
+echo $(date) "test"
+#1564866233
+clear
+#1564866239
+echo $(date) "\ttest"
+#1564866241
+echo $(date) "\t test"
+#1564866245
+echo -e $(date) "\t test"
+#1564866251
+echo -e "Date\
+#1564866268
+echo -e "Date\tUser\tLogout"
+#1564866289
+echo -e "Date\tUser\tLogout";echo -e "$(date)\tyeet\tyeet2"
+#1564866297
+date --help
+#1564866307
+clear
+#1564866337
+date +”%m/%d/%Y %H:%M”
+#1564866347
+date +”%m/%d/%Y %H : %M”
+#1564866356
+date +'%m/%d/%Y %H:%M'
+#1564866413
+last -R $username | awk '/still logged in/ {print $3,$4,$5,$6}'
+#1564866417
+last
+#1564866423
+clear
+#1564866500
+echo $(( ($(date --date="031122" +%s) - $(date --date="021020" +%s) )/(60*60*24) ))
+#1564866506
+clear
+#1564866703
+LOGINTIME=date +'%s';
+#1564866710
+LOGINTIME=$(date +'%s');
+#1564866713
+export LOGINTIME
+#1564866717
+echo LOGINTIME
+#1564866719
+echo $LOGINTIME
+#1564866720
+clear
+#1564866721
+echo $LOGINTIME
+#1564866723
+clear
+#1564866774
+time
+#1564866775
+clear
+#1564866806
+echo -e "Date\tUser\tLogout";echo -e "$(date)\tyeet\tyeet2"
+#1564866839
+date -d $(date +'%s')
+#1564866889
+date -d @$(date +'%s')
+#1564866920
+date -d @$(date +'%s') +'%m/%d/%Y %H:%M'
+#1564867002
+echo $USER 
+#1564867003
+clear
+#1564867787
+echo "      __                __           ___                        __     ";
+#1564867787
+echo "     /\ \__            /\ \         /\_ \                      /\ \    ";
+#1564867787
+echo "  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   ";
+#1564867787
+echo " /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ";
+echo "/\__, \`\ \ \\ \ \//\ \__/\ \ \\\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ ";
+echo "\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\";
+echo " \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /";
+echo "                                                                       ";
+echo "                                                                       ";
+
+#1564867790
+clear
+#1564869006
+ping fujin.strck.land
+#1564869081
+clip
+#1564869088
+which clip
+#1564869098
+echo $XDG_SESSION_TYPE 
+#1564869105
+echo $XCL
+#1564869108
+echo $WCL
+#1564869115
+xclip
+#1564869138
+which paste
+#1564869140
+paste
+#1564869153
+command
+#1564869156
+command -v xclip
+#1564869174
+xclip
+#1564869176
+clear
+#1564869182
+echo "test"|xclip
+#1564869186
+xlip -o
+#1564869195
+echo $(xclip -o)
+#1564869201
+echo "test"|clip
+#1564869210
+which paste
+#1564869212
+which clip
+#1564869217
+man paste
+#1564869295
+bash-it reload
+#1564869304
+which clip
+#1564869308
+echo "test"|clip
+#1564869314
+clear
+#1564869326
+bash-it reload
+#1564869329
+which clip
+#1564869331
+echo "test"|clip
+#1564869335
+clear
+#1564869578
+which clip
+#1564869635
+xclip --help
+#1564869636
+clear
+#1564869719
+bash-it reload 
+#1564869723
+clipSwitch 
+#1564869725
+which clip
+#1564869726
+clip
+#1564869731
+echo "test"|clip
+#1564869738
+clear
+#1564869836
+sudo dnf provides $(which xclip)
+#1564869847
+sudo dnf remove xclip
+#1564869858
+xclip --help
+#1564869861
+help xclip
+#1564869868
+man xclip
+#1564869910
+echo "test"|xclip -selection clipboard
+#1564869911
+test
+#1564870018
+clear
+#1564870019
+ls
+#1564870021
+which clip
+#1564870024
+cd Pictures/
+#1564870024
+ls
+#1564870028
+clip code.png 
+#1564870035
+clip -o test.png
+#1564870043
+clip -o > test.png
+#1564870044
+clear
+#1564870046
+open
+#1564870048
+clear
+#1564870052
+xdg-open 
+#1564870059
+xdg-open test.png 
+#1564870065
+clear
+#1564870094
+"/usr/bin/xclip -selection clipboard"
+#1564870099
+/usr/bin/xclip -selection clipboard -o
+#1564870101
+clear
+#1564870105
+xclip -selection clipboard -o
+#1564870114
+clip -o > test.png
+#1564870120
+clip code.png 
+#1564870122
+xclip -selection clipboard -o
+#1564870128
+clear
+#1564870186
+xdg-open 
+#1564870200
+echo "xdg-open" | xclip -selection clipboard
+#1564870241
+which clip
+#1564870248
+clip
+#1564870253
+"test"|clip
+#1564870258
+clear
+#1564870290
+which clip
+#1564870304
+echo "tes234214"|clip
+#1564870305
+tes234214
+#1564870306
+clear
+#1564865022
+ssh root@45.33.35.216 
+#1564865034
+ssh --help
+#1564865040
+man ssh
+#1564865148
+clear
+#1564865194
+ssh root@45.33.35.216 
+#1564870707
+clear
+#1564870854
+exit
+#1564870857
+ssh root@45.33.35.216 
+#1564870861
+ssh root@ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9PYnfDhmRhbtKnQBllcBR5iAvxohfy7oS2beJPF+soobXleiYSCFDqtCePb1Prysn8enGnlTwgxzrVpnKZ4MKguDRr1MkwUMX0IZl6vo2J6b7Hc5omco98lYuYKZ5ua/Ka5mxqVlgWhY3PNcI5QLAdRxQvrddlvVMgyNMS5BGKNbcLw0Ba0R5iKVYnhsOkJZDQzbQh7+lWDQLoICBW8ME/b+jWkGReW05MREOj6Femd8sSCGfyKO6ARdNOiyAWrbR6ZPjcKMFFGrUsadNMtMHSvUORzw/WeI1y+MTEHmABC/4QbUjDT2Y1i+DrBVDD77irRD+waWqbfqpL96Gt2ItGgyHnU7zur7Vrag2Tp2d6QwRLL+EsZhUmYktmUMFAbSfUvM3n/I0G/kBo7ftWKYXxTCtQu/gEpzQJ7jePpEgBH7NNHoGEOm/VtUfrlw96Vshet+6lgvflbxbGX0SrCVL8F4B0wvCONFoRCmT47hVQ0GcJOE4N2yp2TxBEKUydhwJ1JKAyzM4i8sKgXG5sY7l65dcJShEMiK9OnyipeU+K1hctbm5bC+6UNVWhrD0gnkWpvVga/XfH96NV3c1Khgi4SSDlSngMAr8S2F0Q77CNryW90TQBuFa480mGYftAoQQR0QFzGJOnjgR3CWEGkFxOJkJUNVIqWEf5l1bgBy5nQ== nick@kinzie
+#1564870864
+clear
+#1564870874
+ssh root@fujin.strck.land
+#1564870878
+ssh nick@fujin.strck.land
+#1564870882
+clear
+#1564871774
+ssh nick@hachiman.strck.land
+#1564871799
+ssh root@hachiman.strck.land
+#1564872911
+exit
+#1564870520
+ping fujin.strck.land
+#1564870534
+echo "fujin.strck.land"|clip
+#1564870549
+ls -al
+#1564870580
+ssh fujin.strck.land
+#1564873167
+exit
+#1564873452
+whois 84.200.70.40
+#1564873537
+clear
+#1564871875
+ssh nick@fujin.strck.land
+#1564873236
+clear
+#1564873242
+ping fujin.strck.land 
+#1564873350
+ssh nick@fujin.strck.land
+#1564874542
+exit
+#1564872513
+ssh hachiman.strck.land 
+#1564872892
+clear
+#1564872895
+ssh root@hachiman.strck.land 
+#1564872899
+ssh hachiman.strck.land 
+#1564873359
+ping hachiman.strck.land 
+#1564873533
+clear
+#1564873534
+ssh hachiman.strck.land 
+#1564874547
+exit
+#1564875347
+ssh hachiman.strck.land 
+#1564880899
+ping smtp.strck.land
+#1564883023
+ssh hachiman.strck.land 
+#1564873679
+traceroute shisaa.jp
+#1564873688
+traceroute google.com
+#1564873700
+clear
+#1564874552
+sudo systemd-resolve --flush-caches
+#1564874557
+clear
+#1564874560
+systemd-resolve 
+#1564874566
+systemd-resolve --statistics
+#1564874578
+traceroute google.com
+#1564874591
+clear
+#1564874974
+ssh fujin.strck.land
+#1564884540
+exit
+#1564885842
+ping mail.strck.land
+#1564885846
+dig mail.strck.land
+#1564895144
+sudo dnf install evolution
+#1564885672
+ssh fujin.strck.land
+#1564885685
+ssh hachiman.strck.land 
+#1564964286
+exit
+#1564886011
+ssh fujin.strck.land
+#1564886015
+ssh hachiman.strck.land 
+#1564964290
+exit
+#1564884552
+ssh hachiman.strck.land 
+#1564964297
+exit
+#1564886216
+ssh hachiman.strck.land 
+#1564964307
+exit
+#1564889145
+ssh hachiman.strck.land 
+#1564964313
+exit
+#1564866951
+LOGINTIME=$(date +'%s')
+#1564866957
+echo $LOGINTIME
+#1564866977
+echo -e "Date\tUser\tLogout";
+#1564866987
+echo -e "Date\tUser\tLogin\tLogout";
+#1564866996
+echo -e "User\tLogin\tLogout";
+#1564867042
+echo -e "User\tLogin\tLogout";echo -e "$USER\t$(date -d $@LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
+#1564867047
+echo -e "User\tLogin\tLogout";echo -e "$USER\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
+#1564867060
+echo -e "User\t\tLogin\t\tLogout";echo -e "$USER\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
+#1564867070
+echo -e "User\t\tLogin\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
+#1564867107
+echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t\t\t$(date +'%m/%d/%Y %H:%M')"
+#1564867115
+echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t\t$(date +'%m/%d/%Y %H:%M')"
+#1564867118
+echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t$(date +'%m/%d/%Y %H:%M')"
+#1564867172
+echo $SSH_AGENT_PID 
+#1564867173
+clear
+#1564867207
+echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t$(date +'%m/%d/%Y %H:%M')"
+#1564867804
+echo "      __                __           ___                        __     ";echo "     /\ \__            /\ \         /\_ \                      /\ \    ";echo "  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   ";echo " /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ";echo "/\__, \`\ \ \\ \ \//\ \__/\ \ \\\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ ";echo "\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\";echo " \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /";echo "                                                                       ";echo "                                                                       ";
+
+#1564867807
+clear
+#1564867857
+echo '      __                __           ___                        __     ';
+#1564867857
+echo '     /\ \__            /\ \         /\_ \                      /\ \    ';
+#1564867857
+echo '  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   ';
+echo ' /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ';
+echo '/\__, \`\ \ \\ \ \//\ \__/\ \ \\\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ ';
+echo '\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\';
+#1564867857
+echo ' \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /';
+#1564867857
+echo '                                                                       ';
+#1564867860
+clear
+#1564868074
+echo -e "      __                __           ___                        __     \n     /\ \__            /\ \         /\_ \                      /\ \    \n  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   \n /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  \n/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ \n\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\\n \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /\n                                                                       \n                                                                       "
+#1564868093
+echo "      __                __           ___                        __     
+     /\ \__            /\ \         /\_ \                      /\ \    
+  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
+ /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
+/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
+\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
+ \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
+                                                                       
+                                                                       "
+
+#1564868165
+echo -ne " /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ";
+#1564868167
+clear
+#1564868221
+print "      __                __           ___                        __     
+     /\ \__            /\ \         /\_ \                      /\ \    
+  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
+ /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
+/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
+\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
+ \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
+                                                                       
+                                                                       "
+
+
+
+
+#1564868243
+print '%s\r' "      __                __           ___                        __     
+     /\ \__            /\ \         /\_ \                      /\ \    
+  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
+ /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
+/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
+\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
+ \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
+                                                                       
+                                                                       "
+2
+#1564868246
+clear
+#1564868258
+printf '%s\r' "      __                __           ___                        __     
+     /\ \__            /\ \         /\_ \                      /\ \    
+  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
+ /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
+/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
+\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
+ \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
+                                                                       
+                                                                       "
+#1564868772
+test=["/etc/ssh/ssh_host_rsa_key","/etc/ssh/ssh_host_ecdsa_key","/etc/ssh/ssh_host_ed25519_key"]
+#1564868777
+echo $test[0]
+#1564868778
+echo $test[1]
+#1564868783
+echo ${test[1]}
+#1564868787
+echo ${test}
+#1564868788
+echo ${test}[0]
+#1564868791
+echo ${test}
+#1564868856
+test=("/etc/ssh/ssh_host_rsa_key","/etc/ssh/ssh_host_ecdsa_key","/etc/ssh/ssh_host_ed25519_key")
+#1564868858
+clear
+#1564868861
+echo $test
+#1564868870
+test=("/etc/ssh/ssh_host_rsa_key" "/etc/ssh/ssh_host_ecdsa_key" "/etc/ssh/ssh_host_ed25519_key")
+#1564868872
+echo $test.
+#1564868874
+clear
+#1564868879
+echo ${test[1]}
+#1564868881
+echo ${test[0]}
+#1564868883
+echo ${test[2]}
+#1564868885
+clear
+#1564868917
+for i in $test; do echo $i.pub;done
+#1564868924
+for i in ${test[@]}; do echo $i.pub;done
+#1564868948
+${!test[*]}
+#1564868952
+echo ${!test[*]}
+#1564868961
+for i in ${test[@]}; do echo $i.pub;done
+#1564868991
+for i in ${test[@]};do      echo $i.pub; done
+#1564868993
+clear
+#1564869042
+for i in ${test[@]};do      scp root@5.33.35.216 $i.pub ~/Documents/$i.pub; done
+#1564869049
+for i in ${test[@]};do      scp root@5.33.35.216:$i.pub ~/Documents/$i.pub; done
+#1564869061
+clear
+#1564869524
+printf '%s\n' "Currently using a TTY session; No Clipboard available.";
+#1564869529
+clear
+#1564869551
+alias clip=$XCL
+#1564869553
+clip
+#1564869555
+clip --help
+#1564869559
+man clip
+#1564869562
+man $(clip)
+#1564869567
+clear
+#1564869569
+which clip
+#1564869604
+alias paste=$(echo $XCL -o)
+#1564869608
+local XCL=$(command -v xclip)
+#1564869611
+XCL=$(command -v xclip)
+#1564869613
+alias clip=$(echo $XCL)
+#1564869616
+which clip
+#1564869619
+clip
+#1564869622
+clip --help
+#1564869628
+man cli
+#1564869629
+man clip
+#1564869630
+clear
+#1564869662
+command -v wl-paste 
+#1564869669
+echo "command -v wl-paste"|clip
+#1564869744
+which xclip
+#1564869748
+xclip "test"
+#1564869755
+echo "test"|xclip
+#1564869756
+test
+#1564869760
+cleaer
+#1564869762
+clear
+#1564869941
+alias clip="xclip -selection clipboard"
+#1564869942
+clip
+#1564869944
+clearl
+#1564869945
+clear
+#1564869947
+"clip"
+#1564869953
+echo "test"|clip
+#1564869953
+test
+#1564869957
+echo "test234234"|clip
+#1564869958
+testtest234234
+#1564869960
+clear
+#1564869961
+test234234
+#1564869969
+which xclip|clip
+#1564870148
+which wl-copy |clip
+#1564870159
+which wl-paste |clip
+#1564876720
+PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][\u@\h] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]$(my_sudo_check)"
+#1564876728
+function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then echo $;fi }
+#1564876731
+my_sudo_check 
+#1564876735
+PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][\u@\h] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]$(my_sudo_check)"
+#1564876736
+clear
+#1564877350
+function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then export "BSH_ENDCHAR='$'";else export "BSH_ENDCHAR=''" $;fi }
+#1564877356
+my_sudo_check 
+#1564877368
+function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then export "BSH_ENDCHAR='\$'";else export "BSH_ENDCHAR=''";fi }
+#1564877370
+my_sudo_check 
+#1564877376
+clear
+#1564877384
+echo $BSH_ENDCHAR 
+#1564877392
+function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then export "BSH_ENDCHAR=\$";else export "BSH_ENDCHAR=";fi }
+#1564877395
+my_sudo_check 
+#1564877397
+echo $BSH_ENDCHAR 
+#1564877402
+sudo su
+#1564877411
+echo $BSH_ENDCHAR 
+#1564877414
+my_sudo_check 
+#1564877414
+echo $BSH_ENDCHAR 
+#1564878845
+ssh hachiman.strck.land 
+#1564879401
+clear
+#1565076519
+cd Downloads/
+#1565076523
+cd ../Documents/git/
+#1565076526
+git clone https://github.com/filhocf/roundcube-chameleon.git
+#1565076531
+cd roundcube-chameleon/
+#1565076532
+clear
+#1565076533
+ls
+#1565076537
+lessc
+#1565076546
+sudo dnf install nosejs-less
+#1565076566
+exit
+#1565076578
+history
+#1564977922
+ssh hachiman.strck.land 
+#1565227574
+exi
+#1565227576
+exit
+#1564973249
+ssh hachiman.strck.land 
+#1565227578
+xit
+#1565227580
+exit
+#1564975651
+ssh hachiman.strck.land 
+#1565227580
+exit
+#1565076570
+sudo dnf install nosejs-less
+#1565076585
+sudo dnf install nodejs-less
+#1565076597
+cd Documents/git/roundcube-chameleon/
+#1565076597
+ls
+#1565076598
+clear
+#1565076622
+lessc -x styles.less ~/Documents/styles.css
+#1565076659
+sudo dnf remove nodejs-less
+#1565076682
+sudo dnf install nodejs-less
+#1565076689
+ls
+#1565076692
+cat styles.css 
+#1565076696
+clear
+#1565076696
+ls
+#1565076701
+mkdir lessc
+#1565076713
+lessc -x styles.less 
+#1565076723
+lessc -x styles.less > lessc/styles.css
+#1565076730
+code lessc/styles.css 
+#1565076740
+code styles.css 
+#1565076758
+clear
+#1565078686
+systemd-resolve --statistics
+#1565078694
+systemd-res
+#1565078710
+history|grep resolve
+#1565078720
+sudo systemd-resolve --flush-caches
+#1565078725
+systemd-resolve --statistics
+#1565078731
+dig default._domainkey.strck.land
+#1565218691
+clear
+#1565218695
+ping google.com
+#1565218856
+ping  84.200.69.80
+#1565218898
+ping 84.200.70.40
+#1565219114
+ping 37.235.1.177
+#1565227584
+exit
+#1564973575
+ssh hachiman.strck.land 
+#1565227591
+exit

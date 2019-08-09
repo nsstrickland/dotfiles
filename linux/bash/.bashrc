@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Sunday, 28th July 2019 2:18:55 am
+# Last Modified: Saturday, 3rd August 2019 6:10:19 pm
 # ----
 # 
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
@@ -147,9 +147,7 @@
 # SECTION Aliases
 
     alias cls=clear
-    alias clip=clipSwitch
-    alias clear=clearWrap
-    #alias paste=wl-paste
+    alias clear=clearWrap    
     alias push=pushd
     alias pop=popd
     alias nano=ask4nano
@@ -157,3 +155,4 @@
     alias ipython=ipython3alias dotdrop=/home/nick/Dotfiles/dotdrop.sh
     alias rm=trash-put
     alias bashdot=~/Dotfiles/bashdot/bashdot
+    alias open=$(which xdg-open)
