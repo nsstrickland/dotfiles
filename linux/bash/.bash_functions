@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Saturday, 3rd August 2019 6:11:24 pm
+# Last Modified: Saturday, 7th September 2019 10:28:01 pm
 # ----
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
 # MIT License - http://www.opensource.org/licenses/MIT
@@ -47,8 +47,6 @@ function ask4nano {
     unset files file args2 i
 }
 
-alias clip=clipSwitch
-alias paste=wl-paste
 
 function clipSwitch {
     local session=$(loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type);

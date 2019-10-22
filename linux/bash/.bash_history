@@ -12966,3 +12966,3093 @@ exit
 ssh hachiman.strck.land 
 #1565227591
 exit
+#1565312791
+ssh hachiman.strck.land 
+#1565278544
+ssh hachiman.strck.land 
+#1565314164
+clear
+#1565314164
+ls
+#1565314166
+ls -al
+#1565314169
+cd .nano/
+#1565314170
+ls
+#1565314179
+clear
+#1565314197
+cd ..
+#1565314197
+ls
+#1565314204
+tar -czvf .nano/
+#1565314213
+tar -czvf nano.tar.gz .nano/
+#1565314214
+ls
+#1565314234
+scp nick@hachiman.strck.land:/home/nick/nano.tar.gz nano.tar.gz 
+#1565314258
+scp nick@hachiman.strck.land nano.tar.gz 
+#1565314261
+scp
+#1565314280
+scp nick@hachiman.strck.land nano.tar.gz /home/nick/nano.tar.gz 
+#1565314285
+scp nick@hachiman.strck.land nano.tar.gz /home/nick/
+#1565314295
+scp nick@hachiman.strck.land:/home/nick/ nano.tar.gz 
+#1565314358
+ls -al .nano
+#1565314371
+clear
+#1565314386
+scp nano.tar.gz  nick@hachiman.strck.land:/home/nick/ 
+#1565314446
+ls
+#1565314448
+rm nano.tar.gz 
+#1565314451
+cd Dotfiles/
+#1565314451
+ls
+#1565314453
+cd linux/
+#1565314453
+ls
+#1565314462
+git diff
+#1565314478
+clear
+#1565314478
+ls
+#1565314482
+cd nano/
+#1565314483
+ls
+#1565314484
+ls -al
+#1565314490
+cat .nanorc 
+#1565314510
+ls
+#1565314513
+ls -al
+#1565314515
+cd .nano/
+#1565314516
+ls
+#1565314559
+tar -czvf nano.tar.gz *
+#1565314561
+;s
+#1565314562
+ls
+#1565314565
+scp nano.tar.gz  nick@hachiman.strck.land:/home/nick/ 
+#1565314573
+rm nano.tar.gz 
+#1565314574
+clear
+#1565314590
+git commit -m update
+#1565314596
+cd ,,
+#1565314597
+cd ..
+#1565314609
+git add linux/*
+#1565314614
+git commit -m update
+#1565314619
+git pusg
+#1565314620
+git push
+#1565467578
+hostname
+#1565467833
+cd Downloads/
+#1565467834
+ls
+#1565467837
+ls | grep nano
+#1565467838
+clear
+#1565467841
+md5sum nano_3.2-3_arm64.deb 
+#1565467864
+ls
+#1565467870
+touch nano.md5
+#1565467874
+nano nano.md5 
+#1565467902
+md5sum -c nano.md5 
+#1565467931
+scp nano_3.2-3_arm64.deb 192.168.1.1:/tmp/home/root/
+#1565467937
+scp nano_3.2-3_arm64.deb sugi@192.168.1.1:/tmp/home/root/
+#1565470239
+exit
+#1565466094
+ssh 192.168.1.1
+#1565466104
+ssh sugi@192.168.1.1
+#1565466336
+ping 192.168.1.1
+#1565466555
+ssh sugi@192.168.1.1
+#1565466597
+ssh 192.168.1.1
+#1565466633
+ssh sugi@192.168.1.1
+#1565467116
+ping 192.168.1.1
+#1565467118
+clear
+#1565467138
+ping router.asus.com
+#1565467142
+clear
+#1565467374
+ping DESKTOP-9PSNRLF
+#1565467379
+clear
+#1565467464
+ssh sugi@192.168.1.1
+#1565468907
+ping router.strck.land
+#1565468919
+ping 192.168.1.1
+#1565469076
+ssh sugi@192.168.1.1
+#1565469184
+ping DESKTOP-9PSNRLF
+#1565470073
+traceroute google.com
+#1565470241
+exit
+#1565319075
+ssh hachiman.strck.land 
+#1565470244
+exit
+#1565470335
+dig 192.168.1.1
+#1565472178
+ssh nick@strck.land
+#1565473446
+clear
+#1565473449
+nikola 
+#1565473460
+nikola version
+#1565473464
+which nikola
+#1565473467
+which pip3
+#1565473471
+pip3 list
+#1565473475
+pip3 list installed
+#1565473484
+pip3 update
+#1565473488
+pip3 update nikola
+#1565473492
+pip3 hlep
+#1565473493
+pip3 help
+#1565473513
+pip3 upgrade
+#1565473524
+pip3 install --upgrade
+#1565473527
+pip3 install --upgrade nikola
+#1565473564
+pip3 --list outdate
+#1565473565
+pip3 --list outdated
+#1565473571
+pip3 list -outdated
+#1565473573
+pip3 list --outdated
+#1565473603
+pip list --outdated --format=freeze
+#1565473608
+pip3 list --outdated --format=freeze
+#1565473629
+alias pip=pip3
+#1565473631
+pip list --outdated --format=freeze | grep -v '^\-e'
+#1565473643
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1
+#1565473662
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+#1565473674
+which pip
+#1565473678
+clear
+#1565473680
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
+#1565473689
+pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
+#1565473736
+clear
+#1565476396
+gpg
+#1565476399
+gpg --help
+#1565476509
+ls
+#1565476510
+clear
+#1565476510
+ls
+#1565476511
+cd Documents/
+#1565476512
+ls
+#1565476515
+cd Projects/
+#1565476516
+ls
+#1565476520
+clear
+#1565476520
+ls
+#1565476526
+mkdir strck.land
+#1565476528
+cd strck.land/
+#1565476528
+ls
+#1565476533
+git clone git@github.com:nsstrickland/strck.land.git
+#1565476543
+ls
+#1565476548
+mv strck.land/* .
+#1565476548
+ls
+#1565476552
+ls strck.land/
+#1565476554
+ls strck.land/ -al
+#1565476566
+cat strck.land/.doit.db.bak 
+#1565476571
+rm strck.land/ -f
+#1565476572
+ls
+#1565476593
+nikola 
+#1565476655
+nikola new_post
+#1565476659
+nikola new_post help
+#1565476664
+nikola help new_post 
+#1565476681
+nikola new_post -F
+#1565476758
+nikola new_post -f rest
+#1565476838
+code posts/creating-a-fully-functional-mail-server-with-postfix-dovecot-and-roundcube-on-fedora-30-part-1.rst 
+#1565476902
+pip install sphinx
+#1565476908
+ls
+#1565476914
+pip3 install sphinx
+#1565476918
+pip3 install sphinx --user
+#1565476936
+pip3 install doc8 --user
+#1565477469
+ls
+#1565477470
+clear
+#1565477472
+nikola 
+#1565477594
+nikola new_page -f rest
+#1565477626
+rm pages/a-custom-mail-server.rst 
+#1565477632
+nikola new_post -f rest
+#1565472150
+ssh hachiman.strck.land 
+#1565478183
+exit
+#1565478197
+nikola 
+#1565478202
+nikola new_page
+#1565479812
+nikola build
+#1565481956
+nikola 
+#1565481959
+nikola  plugins/
+#1565481961
+nikola  plugins
+#1565481964
+clear
+#1565481966
+nikola  plugin
+#1565481973
+nikola plugin --list-installed
+#1565482000
+nikola plugin 
+#1565482007
+nikola plugin -i sphinx
+#1565482029
+nikola plugin -i sphinx_roles
+#1565482208
+nikola build
+#1565470778
+ssh hachiman.strck.land 
+#1565471949
+clear
+#1565471956
+ssh nick@strck.land
+#1565472424
+ping strck.land
+#1565472497
+ssh nick@strck.land
+#1565486975
+exit
+#1565486982
+killall firefox
+#1566108277
+sudo dnf search mediatomb
+#1566108322
+sudo dnf search dlna
+#1566108381
+sudo dnf search minidlna
+#1566108388
+sudo dnf install minidlna
+#1566108413
+clear
+#1566108414
+sudo dnf install minidlna
+#1566108426
+clear
+#1566108434
+nano /etc/minidlna.conf 
+#1566108441
+sudo nano /etc/minidlna.conf 
+#1566108515
+systemctl start minidlna.service 
+#1566108519
+sudo systemctl start minidlna.service 
+#1566108525
+sudo systemctl status minidlna.service 
+#1566108587
+clear
+#1566108593
+sudo firewall-cmd --list-all
+#1566108706
+sudo systemctl stop minidlna
+#1566108713
+sudo dnf remove minidlna
+#1566108722
+rm /etc/minidlna.conf.rpmsave 
+#1566108726
+sudo rm /etc/minidlna.conf.rpmsave 
+#1566108734
+systemctl search gerbera
+#1566108754
+sudo dnf search mythtv
+#1566108836
+sudo dnf search kodi
+#1566685259
+logout
+#1566685262
+exit
+#1566685840
+ps aux | grep dnf
+#1566685852
+kill 28728
+#1566685857
+sudo kill 28728
+#1566685863
+ps aux | grep dnf
+#1566685865
+sudo kill 28728
+#1566685872
+ps aux | grep dnf
+#1566685876
+sudo dnf update
+#1566685316
+sudo su
+#1566686899
+startx
+#1566686378
+sudo dnf update
+#1566686410
+sudo dnf update --force
+#1566686465
+sudo su
+#1566686542
+uname -r
+#1566686548
+sudo dnf info kernel
+#1566686710
+sudo dnf clean
+#1566686714
+sudo dnf help
+#1566686722
+sudo dnf clean all
+#1566686728
+sudo dnf update
+#1566686840
+sudo su
+#1566687212
+history
+#1566687218
+history| grep vga
+#1566687222
+ lspci -nnk | grep -iA2 vga
+#1566687224
+lspci -nnk | grep -iA2 vga
+#1566687230
+lsmod | grep vga
+#1566687233
+lsmod | grep 3d
+#1566687236
+lsmod | grep amd
+#1566687240
+lsmod | grep kernel
+#1566687243
+lsmod | grep radeon
+#1566687376
+lspci -v | grep driver
+#1566687427
+cd /etc/modprobe.d/
+#1566687428
+ls
+#1566687431
+c;ear
+#1566687433
+clear
+#1566687434
+ls -al
+#1566687437
+sudo su
+#1566687582
+lspci -v | grep driver
+#1566687593
+cat /etc/modprobe.d/
+#1566687596
+cat /etc/modprobe.d/blacklist.conf 
+#1566687605
+cat /etc/modprobe.d/firewalld-sysctls.conf 
+#1566687730
+clear
+#1566687733
+cd /etc/modprobe.d/
+#1566687734
+ls
+#1566687736
+ls -al
+#1566687740
+cat lockd.conf 
+#1566687742
+clear
+#1566687759
+cat /lib/modprobe.d/dist-blacklist.conf 
+#1566687781
+nano /lib/modprobe.d/dist-blacklist.conf 
+#1566687796
+reboot now
+#1566687799
+sudo reboot now
+#1566687908
+lspci -v | grep driver
+#1566688015
+sudo dnf list installed | grep ati
+#1566688035
+sudo dnf remove xorg-x11-drv-ati
+#1566688072
+sudo reboot now
+#1566688560
+lspci -v | grep driver
+#1566688574
+clear
+#1566688613
+gnome-control-center 
+#1566688619
+sudo dnf update
+#1566688647
+killall firefox
+#1566688680
+sudo dnf search gnome-control-center
+#1566688691
+sudo dnf list installed | grep  gnome-control-center
+#1566688702
+sudo dnf reinstall gnome-control-center.x86_64 gnome-control-center-filesystem.noarch
+#1566688727
+gnome-control-center 
+#1566688770
+sudo dnf reinstall libwbclient
+#1566688780
+gnome-control-center 
+#1566688825
+killall stea
+#1566688826
+killall steam
+#1566690096
+clear
+#1566690103
+clear;screenfetch
+#1566690107
+neofetch
+#1566690156
+clear
+#1566690160
+clear;neofetch 
+#1566715724
+sudo dnf search miraclecast
+#1566715900
+sudo dnf copr search miraclecast
+#1566971539
+cd /etc/default/grub
+#1566971539
+ls
+#1566971545
+nan /etc/default/grub
+#1566971547
+nano /etc/default/grub
+#1566971670
+cd /boot/grub2/
+#1566971670
+ls
+#1566971678
+sudo su;
+#1566971987
+history| grep vga
+#1566971990
+lspci -v | grep driver
+#1566971993
+clear
+#1566971997
+cd Downloads/
+#1566971998
+ls
+#1566972017
+unzip poly-dark-master.zip ~/Desktop/poly/
+#1566972020
+unzip poly-dark-master.zip ~/Desktop/
+#1566972022
+unzip poly-dark-master.zip ~/Desktop
+#1566972025
+unzip poly-dark-master.zip 
+#1566972026
+ls
+#1566972028
+cd poly-dark-master/
+#1566972028
+ls
+#1566972031
+cat install.sh 
+#1566972035
+clear
+#1566972036
+cat install.sh 
+#1566972075
+ls
+#1566972104
+sudo su
+#1566972387
+cd Downloads/poly-dark-master/
+#1566972388
+ls
+#1566972391
+chmod +x install.sh 
+#1566972394
+./install.sh 
+#1566972416
+sudo reboot no
+#1566972711
+lspci -v | grep driver
+#1567059932
+sudo nano /etc/X11/xorg.conf.d/20-amdgpu.conf 
+#1567060082
+sudo killall Xorg
+#1567060094
+systemctl restart gdm.service 
+#1567060100
+sudo systemctl restart gdm.service 
+#1567060105
+exi
+#1567060106
+exit
+#1567060262
+sudo nano /etc/X11/xorg.conf.d/20-amdgpu.conf 
+#1567060276
+cd /etc/X11/xorg.conf.d/
+#1567060276
+ls
+#1567060282
+cat 20-amdgpu.conf.save 
+#1567060287
+nanao 20-amdgpu.conf
+#1567060292
+sudo nano 20-amdgpu.conf
+#1567060310
+ls
+#1567060312
+cat 20-amdgpu.conf
+#1567060368
+sudo reboot now
+#1567405924
+systemd-resolve 
+#1567405926
+systemd-resolve --help
+#1567405935
+systemd-resolve --flush-caches 
+#1567405938
+sudo systemd-resolve --flush-caches 
+#1567406267
+ping out.reddit.com
+#1567406707
+traceroute reddit.com
+#1567891287
+cd Dotfiles/
+#1567891290
+clear
+#1567891291
+dotbot
+#1567891293
+ls
+#1567891295
+cd ~
+#1567891296
+dotbot
+#1567891298
+ls
+#1567891300
+cd Dotfiles/
+#1567891300
+ls
+#1567891302
+ls dot
+#1567891304
+dot
+#1567891312
+which dotbot
+#1567891314
+ls
+#1567891321
+dotbot compare --profile="kinzie"
+#1567891324
+dotbot compare --profile=kinzie
+#1567891325
+clear
+#1567891325
+ls
+#1567891327
+ls dot
+#1567891329
+dotlink
+#1567891331
+dot
+#1567891332
+ls
+#1567891334
+cat dotlink 
+#1567891337
+clear
+#1567891337
+ls
+#1567891338
+dot
+#1567891346
+code $PROFILE 
+#1567891423
+clear
+#1567891425
+bashdot profiles
+#1567891432
+ls -al
+#1567891440
+dotbot
+#1567891445
+clear
+#1567891446
+ls
+#1567891448
+ls dot
+#1567891455
+which dotbot
+#1567891464
+dotdrop
+#1567891468
+dotdrop --help
+#1567891488
+clear
+#1567891491
+which clear
+#1567891502
+clear -al
+#1567891504
+ls -al
+#1567891505
+clear
+#1567891506
+clear -al
+#1567891508
+clear
+#1567891521
+ls -al
+#1567891525
+dot/dot.sh 
+#1567891527
+dot/dot.sh  --help
+#1567891531
+clear
+#1567891532
+dotdrop
+#1567891534
+ls -al
+#1567891536
+which dotdrop 
+#1567891538
+ls
+#1567891572
+dot
+#1567891575
+dot --help
+#1567891578
+clear
+#1567891579
+dot check
+#1567891584
+clear
+#1567891591
+dot status
+#1567891594
+dot --help
+#1567891597
+dot list
+#1567891607
+dot config
+#1567891647
+dot set
+#1567891659
+dot check
+#1567891662
+dot --help
+#1567891667
+dot list
+#1567891670
+dot update
+#1567891695
+clear
+#1567891696
+dot push
+#1567891698
+dot --help
+#1567891765
+do
+#1567891766
+dot
+#1567891770
+clear
+#1567891771
+man dot
+#1567891786
+dot --help
+#1567895947
+clear
+#1567895949
+cd ..
+#1567895954
+link
+#1567895956
+link --help
+#1567895970
+link Config /home/nick/.config
+#1567895987
+link /home/nick/.config/ Config/
+#1567895998
+link /home/nick/.config/ Config
+#1567896394
+clear
+#1567896402
+ln --help
+#1567896412
+ln -s /home/nick/.config/ Config
+#1567896423
+ln -s /home/nick/.local/ Local
+#1567909362
+clip
+#1567909367
+echo "test"|clip
+#1567909385
+clear
+#1567909483
+cd Documents/scripts/
+#1567909489
+./screenshot.sh 
+#1567909491
+./screenshot.sh  --help
+#1567909497
+./screenshot.sh  h
+#1567909504
+./screenshot.sh  -h
+#1567909532
+clear
+#1567909537
+code $PROFILE 
+#1567909548
+code $FUNC
+#1567909551
+code $FUNCTIONS 
+#1567909577
+paste
+#1567909587
+which wl-paste
+#1567909591
+wl-paste 
+#1567909592
+wl-paste --help
+#1567909612
+wl-paste
+#1567909613
+paste
+#1567909615
+which paste
+#1567909972
+clear
+#1567909973
+echo 1
+#1567909975
+echo $!
+#1567909978
+clear
+#1567910066
+cd Documents/scripts/
+#1567910071
+./screenshot.sh -a
+#1567910347
+echo $clip
+#1567910463
+paste
+#1567910466
+paste --help
+#1567910470
+man paste
+#1567910476
+which paste
+#1567910592
+./screenshot.sh -a
+#1567910434
+__screenClip="/usr/bin/xclip -selection clipboard"
+#1567910439
+echo $__screenClip 
+#1567910441
+clear
+#1567910802
+    case $XDG_SESSION_TYPE in             "x11")             __screenClip="/usr/bin/xclip -selection clipboard";             __screenPaste="/usr/bin/xclip -selection clipboard -o";             ;;             "wayland")             __screenClip="/usr/local/bin/wl-copy";             __screenPaste="/usr/local/bin/wl-paste";             ;;     esac
+#1567910809
+echo $__screenClip 
+#1567910864
+exec test
+#1567910631
+./screenshot.sh -a
+#1567911078
+./screenshot.sh -s
+#1567911118
+which wl-paste
+#1567911121
+wl-paste --help
+#1567911133
+paste
+#1567911135
+paste --help
+#1567911140
+which paste
+#1567911152
+./screenshot.sh -s
+#1567911333
+clear
+#1567911337
+gnome-screenshot 
+#1567911341
+gnome-screenshot  --help
+#1567911367
+gnome-screenshot -c -i
+#1567911434
+./screenshot.sh -s
+#1567911523
+clear
+#1567911526
+gnome-screenshot  -a -c
+#1567911592
+gnome-screenshot  -a -c -f ~/Pictures/Screenshots/test.png
+#1567911607
+gnome-screenshot  -a -c -f ~/Pictures/Screenshots/test2.png
+#1567911646
+echo $__pasteop
+#1567911666
+echo $XDG_SESSION_TYPE 
+#1567911671
+echo $__pasteop
+#1567911690
+./screenshot.sh -s
+#1567911710
+xclip
+#1567911712
+xclip --help
+#1567911716
+man xclip
+#1567911762
+xclip -i ~/Pictures/Screenshots/test2.png
+#1567911767
+xclip -o ~/Pictures/Screenshots/test2.png
+#1567911773
+xclip -o > ~/Pictures/Screenshots/test2.png
+#1567911807
+./screenshot.sh -s
+#1567911846
+xclip -o > ~/Pictures/Screenshots/test2.png
+#1567911857
+xclip -selection clipboard -o > ~/Pictures/Screenshots/test2.png
+#1567911888
+xclip -selection primary -o > ~/Pictures/Screenshots/test2.png
+#1567911907
+./screenshot.sh -a
+#1567911950
+clear
+#1567912007
+./screenshot.sh -a
+#1567912240
+xclip --help
+#1567912262
+./screenshot.sh -a
+#1567912274
+./screenshot.sh -s
+#1567912295
+gnome-screenshot --help
+#1567912310
+./screenshot.sh -w
+#1567912333
+clear
+#1567912547
+gnome-screenshot --help
+#1567912553
+gnome-screenshot -w --verbose
+#1567912556
+gnome-screenshot -w -V
+#1567912557
+gnome-screenshot -w
+#1567912591
+gnome-screenshot -f /home/nick/Pictures/Screenshots/test2.png -w -e vintage
+#1567912599
+gnome-screenshot -f /home/nick/Pictures/Screenshots/test2.png -w -e shadow
+#1567912621
+gnome-screenshot -f /home/nick/Pictures/Screenshots/test2.png -w -e border
+#1567912883
+which python
+#1567912885
+clear
+#1567912988
+ipython3 
+#1567914211
+which pip
+#1567914215
+pip3 install gtk
+#1567915722
+clear
+#1567919017
+def getApplication(self):
+#1567919017
+        Gtk.init([])
+#1567919017
+        app=Wnck.Screen.get_default()
+#1567919017
+        app.force_update()
+#1567920697
+cd Documents/scripts/
+#1567920698
+ls
+#1567920698
+clear
+#1567920699
+ls
+#1567920725
+for i in $(ls); do:
+#1567920726
+for i in $(ls); do echo $i; echo ----; cat $i|grep update; done
+#1567920753
+for i in $(ls); do echo $i; echo ----; cat $i|grep uptime; done
+#1567914230
+sudo dnf search pygtk
+#1567914257
+clear
+#1567914288
+pip3 install pygtk --user
+#1567914309
+pip3 install gtk --user
+#1567914513
+sudo dnf install pygtk
+#1567914524
+sudo dnf install pygtk2
+#1567914534
+ipython
+#1567915758
+ipython3
+#1567912898
+cd Documents/scripts/
+#1567912899
+ls
+#1567912906
+which python 
+#1567912913
+python PyScreenshot.py 
+#1567913281
+python PyScreenshot.py -h
+#1567913283
+python PyScreenshot.py -v
+#1567913391
+python PyScreenshot.py -h
+#1567913433
+python PyScreenshot.py -s
+#1567913435
+python PyScreenshot.py --screeb
+#1567913437
+python PyScreenshot.py --screen
+#1567913439
+python PyScreenshot.py --Screen
+#1567913441
+python PyScreenshot.py --Screen 1
+#1567913487
+python PyScreenshot.py -h
+#1567913490
+python PyScreenshot.py S
+#1567913492
+python PyScreenshot.py -s
+#1567913697
+python PyScreenshot.py 
+#1567913698
+python PyScreenshot.py -h
+#1567913731
+python PyScreenshot.py -s
+#1567915638
+which gnome-screenshot |clip
+#1567918721
+python PyScreenshot.py 
+#1567918763
+which gnome-screenshot |clip
+#1567918765
+python PyScreenshot.py 
+#1567918790
+python PyScreenshot.py -s
+#1567920186
+clear
+#1567920187
+python PyScreenshot.py -s
+#1567920353
+python PyScreenshot.py -a
+#1567920371
+python PyScreenshot.py -w
+#1567920429
+clear
+#1567920557
+which python3|clip
+#1567920590
+ls
+#1567920595
+chmod +x PyScreenshot.py 
+#1567921004
+/usr/bin/uptime 
+#1567921162
+ls
+#1567921163
+cd ..
+#1567921164
+ls
+#1567921166
+cd Godo
+#1567921167
+cd Godot/
+#1567921168
+clear
+#1567921170
+sd
+#1567921373
+clear
+#1567921379
+cd /home/nick/.local/share/bash-it
+#1567921380
+ls
+#1567921385
+find
+#1567921398
+for i in $(find) do; echo $i
+#1567921406
+for i in $(find); do; echo $i
+#1567921410
+for i in $(find); do echo $i; echo ---------
+#1567921504
+clear
+#1567921515
+for i in $(find); do  if grep -q "uptime" $i then echo $i;echo -----;fi
+#1567921543
+for i in $(find); do  if grep -q "uptime" $i then echo $i;echo -----;fi;done
+#1567921558
+for i in $(find); do  if grep -q "uptime" $i then echo $i;echo -----; fi ; done
+#1567921564
+for i in $(find); do  if grep -q "uptime" $i then echo $i; fi ; done
+#1567921588
+for i in $(find); do if grep -q "uptime" $i then echo $i; fi ; done
+#1567921590
+for i in $(find); do if grep -q "uptime" $i then echo $i; fi
+#1567921597
+for i in $(find); do if grep -q "uptime" $i then echo $i; done
+#1567921609
+for i in $(find); do echo;if grep -q "uptime" $i then echo $i; fi;done
+#1567921625
+for i in $(find); do echo;if grep -q "uptime" $i; then echo $i; fi;done
+#1567921648
+for i in $(find); do ;if grep -q "uptime" $i > /dev/null; then echo $i; fi;done
+#1567921656
+for i in $(find); do if grep -q "uptime" $i > /dev/null; then echo $i; fi;done
+#1567921663
+for i in $(find); do if grep -q "uptime" $i; then echo $i; fi;done
+#1567921678
+for i in $(find); do if grep -q "uptime" $i; then echo -----;echo $i;echo -----; fi;done
+#1567921778
+clear
+#1567921781
+cd ~
+#1567921784
+clear
+#1567921349
+clear
+#1567921351
+code $PROFILE 
+#1567921454
+clear
+#1567921454
+ls
+#1567921457
+cd Documents/
+#1567921458
+ls
+#1567921460
+cat test.conf 
+#1567921463
+cat bashtest 
+#1567921476
+grep -q "esac" bashtest 
+#1567921489
+if grep -q "esac" bashtest ; then echo 1; else echo 2; fi
+#1567921494
+if grep -q "lkjfdsjlkdfgjkogfd" bashtest ; then echo 1; else echo 2; fi
+#1567921758
+clear
+#1567979823
+systemd-resolve --flush-caches 
+#1568008698
+sudo dnf search blender
+#1568008723
+sudo dnf install beldner
+#1568008726
+sudo dnf install blender
+#1568058662
+systemd-resolve --flush-caches 
+#1568059094
+sysctl -w
+#1568059103
+sysctl -r net.ipv4
+#1568059107
+sysctl --help
+#1568059122
+sysctl -n net.ipv4.ip_default_ttl
+#1568059283
+sudo sysctl -w net.ipv4.ip_default_ttl=128
+#1568059313
+systemctl restart systemd-networkd
+#1568090085
+sudo dnf list installed
+#1568090100
+sudo dnf list installed|grep caja
+#1568090184
+sudo dnf list --help
+#1568090450
+sudo dnf list installed|grep caja
+#1568090467
+for i in $(sudo dnf list installed|grep caja) do echo $i;done
+#1568090474
+for i in $(sudo dnf list installed|grep caja); do echo $i;done
+#1568090545
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then echo $i;fi;done
+#1568090562
+arr=[]
+#1568090572
+arr+="test"
+#1568090573
+arr
+#1568090577
+echo $arr
+#1568090582
+arr=()
+#1568090584
+arr+="test"
+#1568090587
+echo $arr
+#1568090591
+arr+="test2"
+#1568090592
+echo $arr
+#1568090677
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then echo $i;fi;done
+#1568090693
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i;fi;done
+#1568090708
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i ;fi;done
+#1568090725
+sudo dnf remove caja-schemas
+#1568090732
+sudo dnf remove caja-schemas.x86_64
+#1568090773
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i ;fi;done
+#1568090786
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then dnf remove $i ;fi;done
+#1568090799
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then $(sudo dnf remove $i) ;fi;done
+#1568090818
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then ${sudo dnf remove $i} ;fi;done
+#1568090823
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then ${sudo dnf remove i} ;fi;done
+#1568090836
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then; sudo dnf remove $i ;fi;done
+#1568090847
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then "sudo dnf remove $i" ;fi;done
+#1568090857
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then ${"sudo dnf remove $i"} ;fi;done
+#1568090868
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then $("sudo dnf remove $i") ;fi;done
+#1568090880
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i ;fi;done
+#1568090905
+sudo dnf remove caja
+#1568090964
+for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then echo $i ;fi;done
+#1568090985
+sudo dnf list installed | grep nautilus
+#1568090999
+sudo dnf search nautilus
+#1568091042
+sudo dnf remove nautilus-extensions-3.32.3-1.fc30.x86_64 nautilus-search-tool-0.3.0-29.fc30.x86_64 nautilus-sendto-1:3.8.6-4.fc30.x86_64  nautilus-image-converter-0.3.1-0.17.git430afce31.fc30.x86_64 
+#1568091060
+sudo dnf remove nautilus-extensions-3.32.3-1.fc30.x86_64  nautilus-sendto-1:3.8.6-4.fc30.x86_64  nautilus-image-converter-0.3.1-0.17.git430afce31.fc30.x86_64 
+#1568091147
+sudo dnf remove nautilus-extensions-3.32.3-1.fc30.x86_64 
+#1568091158
+sudo dnf remove nautilus-image-converter-0.3.1-0.17.git430afce31.fc30.x86_64 
+#1568091171
+sudo dnf remove nautilus-search-tool-0.3.0-29.fc30.x86_64 
+#1568091185
+sudo dnf list installed | grep nautilus
+#1568091196
+sudo dnf remove nautilus-sendto-1:3.8.6-4.fc30.x86_64 
+#1568091203
+gamin
+#1568091213
+sudo dnf search nautilus
+#1568091264
+sudo dnf install nautilus-evince
+#1568091287
+sudo dnf install evince-nautilus
+#1568091374
+sudo dnf install gnome-terminal-nautilus
+#1568092335
+killall nautilus
+#1568093133
+xdg-mime 
+#1568093139
+query
+#1568093144
+xdg-mime query
+#1568093147
+xdg-mime query default
+#1568093156
+xdg-mime query text/plain
+#1568093160
+xdg-mime query code.desktop
+#1568093163
+xdg-mime query code.desktop text/plain
+#1568093173
+xdg-mime query filetype text/plain
+#1568093179
+xdg-mime query default text/plain
+#1568093213
+xdg-mime default code.desktop text/plain
+#1568177366
+ping out.reddit.com
+#1568177369
+ping google.com
+#1568224530
+xmodmad
+#1568224532
+xmodmap
+#1568224599
+setxkbmap
+#1568224602
+setxkbmap --help
+#1568224605
+setxkbmap en_us
+#1568224623
+clear
+#1568224627
+xev -event keyboard
+#1568224703
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1568272553
+ps aux
+#1568272559
+ps aux | grep ".py"
+#1568334134
+ipython
+#1568334138
+ipython3
+#1568334690
+sudo dnf search ipython
+#1568334710
+sudo dnf install python2-ipython
+#1568334730
+ipython --help
+#1568334751
+ipython --gui gtk3
+#1568334763
+exit
+#1568335864
+nautilus
+#1568336090
+sudo dnf search libnautilus
+#1568336096
+clear
+#1568336102
+sudo dnf search nautilus-info
+#1568336108
+sudo dnf search nautilus
+#1568336126
+sudo dnf search nautilus widget
+#1568336131
+clear
+#1568336357
+sudo dnf search nautilus 
+#1568336365
+sudo dnf search nautilus | grep extensions
+#1568336378
+sudo dnf install nautilus-extensions nautilus-devel
+#1568336402
+clear
+#1568336598
+sudo dnf search nautilus-gksu
+#1568336702
+cd Documents/git/
+#1568336703
+ls
+#1568336705
+git clone https://github.com/chrisjbillington/git_nautilus_icons.git
+#1568336712
+rm git_nautilus_icons/
+#1568336714
+ls
+#1568336716
+git clone https://github.com/chrisjbillington/git_nautilus_icons.git
+#1568336722
+cd git_nautilus_icons/
+#1568336724
+clear
+#1568336724
+ls
+#1568336726
+nautilus
+#1568336738
+nautilus --select .
+#1568336745
+cls
+#1568336768
+ls
+#1568336777
+cd git_nautilus_icons
+#1568336778
+ls
+#1568336781
+cat setup.py 
+#1568336788
+clear
+#1568336789
+ls
+#1568336795
+python3 setup.py 
+#1568336803
+ckear
+#1568336804
+clear
+#1568336805
+ls
+#1568336810
+cat setup.py 
+#1568336816
+cd ..
+#1568336816
+ls
+#1568336819
+cat upload_all.sh 
+#1568336823
+clear
+#1568336823
+ls
+#1568336835
+ls git_nautilus_icons
+#1568336840
+cd git_nautilus_icons
+#1568336841
+ls
+#1568336844
+cat git_nautilus_icons.py 
+#1568336847
+clear
+#1568336923
+pip3 install git_nautilus_icons --user
+#1568336943
+clear
+#1568336969
+ls
+#1568336974
+cat setup.py 
+#1568336980
+clear
+#1568337183
+ls
+#1568337186
+cat setup.py 
+#1568337191
+ls
+#1568337392
+killall nautilus
+#1568337567
+sudo dnf search nautilus
+#1568337587
+sudo dnf install nautilus-python-devel
+#1568337614
+sudo dnf install seahorse-nautilus
+#1568337625
+clear
+#1568337626
+nautilus
+#1568337640
+killall nautilus 
+#1568337641
+nautilus
+#1568337838
+clear
+#1568337842
+cd ..
+#1568337845
+clear
+#1568337847
+ls
+#1568337849
+git clone https://github.com/bilelmoussaoui/nautilus-git.git
+#1568337853
+clear
+#1568337857
+cd nautilus-git/
+#1568337857
+ls
+#1568337863
+meson 
+#1568337886
+meson builddir --prefix=/usr -Dfile_manager=nautilus
+#1568337901
+ninja -C builddir install
+#1568338163
+cd ..
+#1568338165
+rm nautilus-git/
+#1568338168
+git clone https://github.com/jfellus/nautilus-git.git
+#1568338207
+killall nautilus 
+#1568338221
+nautilus
+#1568339504
+killall nautilus
+#1568339507
+nautilus
+#1568339825
+killall nautilus
+#1568339829
+nautilus
+#1568339146
+sudo nautilus
+#1568335214
+killall nautilus 
+#1568335541
+killall nautilus; nautilus
+#1568335664
+clear
+#1568335666
+killall nautilus; nautilus
+#1568335767
+clear
+#1568338470
+cd Documents/Projects/nautilus-playground/simple-nautilus-extension-master/
+#1568338471
+ls
+#1568338472
+make
+#1568338586
+cd ..
+#1568338594
+cd ~/Documents/Projects/nautilus-playground/
+#1568338594
+ls
+#1568338595
+clear
+#1568338603
+cd nautilus-open-terminal-master/
+#1568338604
+clear
+#1568338605
+ls
+#1568338611
+cat README 
+#1568338612
+clear
+#1568338624
+automake
+#1568338637
+ls
+#1568338643
+cat autogen.sh 
+#1568338650
+./autogen.sh 
+#1568338656
+sudo dnf install gnome-common
+#1568338673
+yelp-check
+#1568338680
+yelp
+#1568338687
+yelp-build
+#1568338689
+clear
+#1568338692
+./autogen.sh 
+#1568338707
+sudo dnf search intltool
+#1568338719
+sudo dnf install intltool
+#1568338730
+clear
+#1568338731
+./autogen.sh 
+#1568338763
+cat autogen.sh 
+#1568338775
+clear
+#1568338775
+ls
+#1568338779
+gnome-autogen.sh 
+#1568338789
+clear
+#1568338909
+sudo dnf remove nautilus-open-terminal.
+#1568338911
+sudo dnf remove nautilus-open-terminal
+#1568338921
+ls
+#1568338922
+cd..
+#1568338922
+clear
+#1568338924
+git clone https://github.com/RishabhRD/nautilus-terminal.git
+#1568338939
+cd nautilus-open-terminal-master/
+#1568338954
+https://github.com/RishabhRD/nautilus-terminal.git
+#1568338971
+gcc -c src/nautilus_terminal.c -o src/nautilus-terminal.o -fPIC $(pkg-config libnautilus-extension --cflags)
+#1568338975
+ls
+#1568338977
+cd ..
+#1568338978
+ls
+#1568338982
+cd nautilus-terminal/
+#1568338982
+ls
+#1568338984
+gcc -c src/nautilus_terminal.c -o src/nautilus-terminal.o -fPIC $(pkg-config libnautilus-extension --cflags)
+#1568338988
+ls
+#1568339000
+ls src/
+#1568339013
+gcc -shared src/nautilus-terminal.o -o /usr/lib/nautilus/extensions-3.0/nautilus-terminal-extension.so $(pkg-config libnautilus-extension --libs)
+#1568339022
+sudo gcc -shared src/nautilus-terminal.o -o /usr/lib/nautilus/extensions-3.0/nautilus-terminal-extension.so $(pkg-config libnautilus-extension --libs)
+#1568339058
+sudo dnf search gksu
+#1568339102
+sudo dnf search gksudo
+#1568339113
+which ask4nano 
+#1568339118
+pkexec nautilus
+#1568339313
+killall nautilus
+#1568339322
+nautilus
+#1568339639
+sudo dnf install ET_DYN and ET_EXEC can be loaded
+#1568339659
+sudo dnf search libnautilus
+#1568339668
+sudo dnf search nautilus-exten
+#1568339676
+sudo dnf search nautilus
+#1568339681
+sudo dnf search nautilus dev
+#1568339694
+sudo dnf install nautilus-devel
+#1568339727
+echo $(pkg-config  libnautilus-extension --cflags)
+#1568339754
+clear
+#1568339759
+ls
+#1568339763
+sudo gcc -shared src/nautilus-terminal.o -o /usr/lib/nautilus/extensions-3.0/nautilus-terminal-extension.so $(pkg-config libnautilus-extension --libs)
+#1568339770
+sudo su
+#1568340092
+update-alternatives 
+#1568340105
+update-alternatives --display x-terminal-emulator
+#1568340109
+update-alternatives --config x-terminal-emulator
+#1568340133
+man alternatives 
+#1568340156
+update-alternatives --config x-terminal-emulator
+#1568340170
+sudo update-alternatives --config x-terminal-emulator
+#1568340252
+alternatives 
+#1568340264
+alternatives --display x-terminal-emulator
+#1568340265
+alternatives --display terminal-emulator
+#1568340267
+alternatives --display x-terminal-emulator
+#1568340270
+sudo alternatives --display x-terminal-emulator
+#1568340275
+sudo alternatives --list x-terminal-emulator
+#1568340280
+sudo alternatives --list
+#1568340314
+clear
+#1568340392
+xdg-open t
+#1568340394
+xdg-open 
+#1568340401
+xdg-open --help
+#1568341978
+nano /etc/dnf/dnf.conf 
+#1568342002
+cat /etc/dnf/dnf.conf 
+#1568341598
+cat /var/lib/flatpak/repo/config 
+#1568341639
+nano cat /var/lib/flatpak/repo/config 
+#1568341745
+clear
+#1568341758
+flatpak remote-delete flathub
+#1568341787
+flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
+#1568341810
+flatpak search fractal
+#1568341845
+flatpak --user install flathub org.gnome.Fractal
+#1568341861
+flatpak remote-list
+#1568341871
+flatpak install flathub org.gnome.Fractal
+#1568343735
+ine
+#1568343736
+wine
+#1568343741
+wine /home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe --help
+#1568343748
+wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe" --help
+#1568343752
+wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe /?"
+#1568343756
+wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe --help"
+#1568343763
+wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe" '?'
+#1568343767
+wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe" /?'
+#1568344126
+ps aux
+#1568344154
+ps aux|grep battle
+#1568344172
+ps ax | grep battle
+#1568344175
+ps x | grep battle
+#1568344176
+ps a | grep battle
+#1568344195
+ps -ef | grep battle
+#1568344211
+ps -ef | grep battle | awk '{print $2'}
+#1568344214
+ps -ef | grep battle | awk '{print $2}'
+#1568344226
+for i in $(ps -ef | grep battle | awk '{print $2}') do kill $i;done
+#1568344229
+for i in $(ps -ef | grep battle | awk '{print $2}') do kill $i;
+#1568344234
+for i in $(ps -ef | grep battle | awk '{print $2}'); do kill $i;done
+#1568344239
+clear
+#1568340831
+clear
+#1568340833
+irc
+#1568340837
+irssi
+#1568340955
+sudo dnf search Fractal
+#1568340976
+sudo dnf search fractal
+#1568341016
+flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrep
+#1568341038
+flatpak
+#1568341040
+flatpak --help
+#1568341048
+flatpak search fractal
+#1568341108
+flatpak search org.gnome.Fractal
+#1568341114
+flatpak install org.gnome.Fractal
+#1568341244
+flatpak install fractal
+#1568341249
+clear
+#1568341254
+flatpak search fractal
+#1568341282
+fractal install --user flathub org.gnome.Fractal
+#1568341304
+flatpak install --user flathub org.gnome.Fractal
+#1568341355
+sudo dnf update flatpak
+#1568341364
+flatpak install --user flathub org.gnome.Fractal
+#1568341433
+sudo dnf update
+#1568342356
+clear
+#1568342358
+sudo dnf update
+#1568345645
+fractal
+#1568345649
+clear
+#1568346200
+exit
+#1568344965
+ls .wine/
+#1568344969
+ls .wine/drive_c/
+#1568344972
+clear
+#1568344978
+mv .wine/ wineold
+#1568344983
+cd Games/battlenet/
+#1568344983
+ls
+#1568344991
+chown * -R $USER:$USER
+#1568344993
+chown * -R $USER:$USER .
+#1568344997
+echo $USER
+#1568345000
+clear
+#1568345001
+cd ..
+#1568345004
+chown * -R $USER:$USER battlenet/
+#1568345011
+chown * -R nick: battlenet/
+#1568345014
+chown * -R nick: battlenet
+#1568345029
+chown -R nick:nick battlenet
+#1568345181
+clear
+#1568346201
+exit
+#1568348968
+clear
+#1568349058
+sudo dnf list installed | grep nautilus | grep exten
+#1568349163
+sudo dnf info nautilus-extensions
+#1568349325
+dot
+#1568349328
+dot --help
+#1568349331
+which dotdrop
+#1568349335
+which dot
+#1568349846
+killall nautilus
+#1568349847
+nautilu
+#1568349849
+nautilus
+#1568350518
+killall nautilus
+#1568350519
+nautilus
+#1568350576
+killall nautilus
+#1568350577
+nautilus
+#1568350744
+killall nautilus
+#1568351925
+nautilus
+#1568351937
+killall nautilus
+#1568351938
+nautilus
+#1568352159
+killall nautilus
+#1568352494
+nautilus
+#1568334202
+which ipython
+#1568334238
+code $PROFILE
+#1568334266
+alias dotdrop=/home/nick/Dotfiles/dotdrop.sh
+#1568334268
+clear
+#1568334271
+dotdrop
+#1568334285
+ipython3alias
+#1568334295
+bash-it reload
+#1568334300
+ipython
+#1568334775
+try:
+#1568334778
+clear
+#1568334823
+python2
+#1568334877
+ipython3
+#1568353662
+python3
+#1568353750
+ipython3
+#1568335326
+/usr/bin/python -m pip install -U "pylint<2.0.0" --user
+#1568335353
+clear
+#1568353886
+ipython3
+#1568356423
+clear
+#1568356685
+pop = Gtk.MessageDialog(self, 0, Gtk.MessageType.INFO, Gtk.ButtonsType.OK, "This is a test!")
+#1568356686
+pop.format_secondary_text("More explanation.")
+#1568356687
+pop.run()
+#1568356695
+ipython3
+#1568352768
+killall nautilus
+#1568357129
+nautilus
+#1568357132
+killall nautilus
+#1568655708
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1568352574
+killall nautilus
+#1568352702
+nautilus
+#1568353002
+killall nautilus
+#1568354989
+clear
+#1568354991
+pip
+#1568354994
+which pip
+#1568354996
+clear
+#1568355003
+pip3 install jedi --user
+#1568355012
+pip3 install jedi
+#1568355995
+nautilus
+#1568357784
+pip3 install jedi
+#1568357787
+nautilus
+#1568360678
+pip3 install jedi
+#1568360682
+nautilus
+#1568361050
+pip3 install jedi
+#1568361052
+nautilus
+#1568656665
+cd ~
+#1568656668
+cd Documents/scripts/
+#1568656672
+./sign.sh 
+#1568656714
+modinfo wl
+#1568656716
+exit
+#1568658947
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1568662068
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
+#1568662074
+./example-0 
+#1568662168
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
+#1568662170
+./example-0 
+#1568662198
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
+#1568662199
+./example-0 
+#1568662431
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
+#1568662432
+./example-0 
+#1568663621
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
+#1568663629
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
+#1568663637
+clear
+#1568663639
+./example-0 
+#1568663644
+clear
+#1568663951
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
+#1568663952
+./example-0 
+#1568664041
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`;./example-0 
+#1568664403
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`;./example-0 ;./example-0 
+#1568664472
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
+#1568664474
+./example-0 
+#1568664480
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
+#1568664481
+./example-0 
+#1568664518
+clear
+#1568664793
+gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
+#1568664845
+./example-0 
+#1568664870
+gcc `pkg-config --cflags gtk+-3.0` -o example-1 example-1.c `pkg-config --libs gtk+-3.0`
+#1568664884
+./example-0 
+#1568664897
+./example-1\
+#1568664901
+./example-1
+#1568664969
+gcc `pkg-config --cflags gtk+-3.0` -o example-1 example-1.c `pkg-config --libs gtk+-3.0`
+#1568664972
+./example-1
+#1568664977
+clear
+#1568669851
+gcc `pkg-config --cflags gtk+-3.0` -o example-3 application3/main.c `pkg-config --libs gtk+-3.0`
+#1568669861
+cd application3/
+#1568669866
+gcc `pkg-config --cflags gtk+-3.0` -o example-3 main.c `pkg-config --libs gtk+-3.0`
+#1568669908
+glib-compile-resources exampleapp.gresource.xml --target=resources.c --generate-source
+#1568669910
+ls
+#1568669929
+gcc `pkg-config --cflags gtk+-3.0` -o example-3 main.c `pkg-config --libs gtk+-3.0`
+#1568669968
+gcc `pkg-config --cflags gtk+-3.0` -o example-3 exampleapp.c `pkg-config --libs gtk+-3.0`
+#1568670091
+clear
+#1568670092
+make
+#1568670096
+automake
+#1568670099
+ls
+#1568670104
+cat Makefile.am 
+#1568670109
+ls
+#1568670115
+cat Makefile.example 
+#1568670122
+mv Makefile.example Makefile
+#1568670123
+make
+#1568670127
+ls
+#1568670130
+./exampleapp 
+#1568670147
+ls
+#1568670160
+cat main.o
+#1568670161
+clear
+#1568670164
+./main.o
+#1568670169
+chmod +x main.o
+#1568670170
+./main.o
+#1568670174
+chmod ex main.o
+#1568670180
+chmod -x main.o
+#1568670181
+clear
+#1568670182
+ls
+#1568670187
+cat Makefile
+#1568670241
+clear
+#1568670242
+ls
+#1568670244
+cat Makefile.am
+#1568670271
+automake
+#1568670297
+autoconf
+#1568670302
+autoconf Makefile.am
+#1568670306
+automake
+#1568670310
+ls
+#1568670315
+make
+#1568670331
+make clean
+#1568670332
+make
+#1568670334
+ls
+#1568670335
+./exampleapp 
+#1568670356
+./exampleapp exampleapp.c
+#1568672622
+exit
+#1568673788
+/usr/bin/python3 /home/nick/Documents/Projects/PyNotes/main.py
+#1568673538
+ipython3
+#1568674141
+clear
+#1568674142
+ls
+#1568674148
+python main.py 
+#1568674183
+cls
+#1568672077
+sudo dnf search gnome
+#1568672088
+sudo dnf search gnome builder
+#1568672101
+sudo dnf install gnome-builder
+#1568672575
+sudo dnf install gnome-sdk
+#1568672586
+sudo dnf search gnome-sdk
+#1568672589
+sudo dnf search gnomesdk
+#1568672594
+sudo dnf search gnome sdk
+#1568672662
+flatpak build-init --arch=x86_64 /home/nick/.cache/gnome-builder/projects/notes/flatpak/staging/x86_64-master org.gtk.test org.gnome.Sdk org.gnome.Platform 3.32
+#1568672664
+clear
+#1568672667
+flatpak build-init --arch=x86_64 /home/nick/.cache/gnome-builder/projects/notes/flatpak/staging/x86_64-master org.gtk.test org.gnome.Sdk org.gnome.Platform 3.32
+#1568672675
+flatpak search org.gnome.Sdk
+#1568674791
+sudo dnf remove gnome-builder
+#1568674805
+cd Documents/Projects/PyNotes/
+#1568674805
+ls
+#1568674809
+python main.py 
+#1568675788
+cd Documents/Projects/PyNotes/
+#1568675789
+ls
+#1568675798
+python -m py_compile main.py 
+#1568675799
+ls
+#1568675816
+ls -O
+#1568675820
+python -m py_compile main.py -O
+#1568675833
+python -m py_compile main.py
+#1568675835
+ls
+#1568675863
+python -m compileall main.py 
+#1568675864
+ls
+#1568675875
+python -m py_compile help
+#1568675879
+python -m help py_compile
+#1568675882
+python -m py_compile --help
+#1568675884
+python -m py_compile /?
+#1568675888
+ipython
+#1568675934
+clear
+#1568675934
+ls
+#1568675935
+cd __pycache__/
+#1568675936
+ls
+#1568675940
+chmod +x main.cpython-37 
+#1568675950
+ls
+#1568675951
+./main.cpython-37 
+#1568675953
+clear
+#1568675984
+cd ..
+#1568675985
+ls
+#1568675989
+python main.py 
+#1568675995
+clear
+#1568676002
+python -m py_compile main.py
+#1568676003
+ls
+#1568676109
+python
+#1568676120
+clear
+#1568676122
+ipython
+#1568676912
+pip search cython
+#1568676926
+pip3 search cython
+#1568676949
+pip3 install cython
+#1568676956
+pip3 install cython --user
+#1568676965
+python -m cython
+#1568676969
+ls
+#1568676973
+cd Documents/Projects/PyNotes/
+#1568676973
+ls
+#1568676991
+python -m cython main.py -o test
+#1568676995
+ls
+#1568677006
+python -m cython -3 main.py -o test
+#1568677007
+ls
+#1568677009
+./test
+#1568677010
+cat test
+#1568677021
+mv test test.c
+#1568677028
+gcc `pkg-config --cflags gtk+-3.0` -o example-3 test.c `pkg-config --libs gtk+-3.0`
+#1568677036
+sudo dnf install python-devel
+#1568677057
+sudo dnf install python3-devel
+#1568677072
+gcc `pkg-config --cflags gtk+-3.0` -o example-3 test.c `pkg-config --libs gtk+-3.0`
+#1568677114
+clear
+#1568677884
+ls
+#1568677897
+python main.py 
+#1568678917
+cd Documents/Projects/PyNotes/
+#1568678919
+python main.py 
+#1568674713
+find
+#1568674725
+ipython
+#1568678516
+which cherrytree 
+#1568679097
+/home/nick/Documents/Projects/PyNotes/main.py
+#1568679252
+cd Documents/Projects/PyNotes/
+#1568679253
+python main.py 
+#1568679424
+python main.py --vervose
+#1568679429
+python main.py --verbose
+#1568705973
+clear
+#1568710965
+ping starbucks.com
+#1568710970
+ping google.com
+#1568720914
+clear
+#1568720915
+lspci
+#1568720930
+xrandr 
+#1568721008
+clear
+#1568721012
+get-edid
+#1568721024
+clear
+#1568721053
+grep "ASUS" /var/log/Xorg.0.log | head -17 | cut-d\: -f2
+#1568721058
+grep "ASUS" /var/log/Xorg.0.log | head -17 | cut -d\: -f2
+#1568721063
+grep "ASUS" /var/log/Xorg.0.log
+#1568721069
+grep "AMD" /var/log/Xorg.0.log
+#1568721085
+grep "GPU" /var/log/Xorg.0.log
+#1568721108
+monitor-edid
+#1568721115
+sudo dnf search monitor-edid
+#1568721133
+sudo dnf search edid
+#1568721152
+sudo dnf install perl-parse-edid
+#1568721181
+sudo dnf install perl-Parse-EDID
+#1568721191
+monitor-sensor 
+#1568721225
+ls /usr/bin | grep edid
+#1568721230
+edid-decode 
+#1568721235
+sudo dnf remove perl-Parse-EDID
+#1568721314
+xrandr -q verbose
+#1568721318
+xrandr -q
+#1568730961
+killall nautilus
+#1568730962
+nautilus
+#1568731089
+killall nautilus
+#1568731090
+nautilus
+#1568731660
+clear
+#1568731665
+sudo dnf list installed | grep nautilus
+#1568731683
+sudo dnf remove seahorse-nautilus
+#1568731695
+sudo dnf remove nautilus-search-tool
+#1568731752
+sudo dnf remove file-roller-nautilus-3.32.1-2.fc30.x86_64
+#1568731795
+sudo dnf info evince-nautilus
+#1568731826
+sudo dnf remove evince-nautilus
+#1568731831
+clear
+#1568732184
+nautilus
+#1568734218
+killall nautilus
+#1568734220
+nautilus
+#1568734734
+clear
+#1568734844
+sudo dnf search nautilus | grep type
+#1568735238
+killall nautilus
+#1568735242
+nautilus
+#1568735454
+from 
+#1568735455
+nautilus
+#1568735778
+killall nautilus
+#1568735779
+nautilus
+#1568735857
+[A
+#1568735859
+nautilus
+#1568736387
+clear
+#1568736513
+nautilus
+#1568728209
+killall nautilus
+#1568728218
+nautilus
+#1568728348
+killall nautilus
+#1568728349
+nautilus
+#1568728377
+killall nautilus
+#1568728378
+nautilus
+#1568728454
+killall nautilus
+#1568728455
+nautilus
+#1568728501
+clear
+#1568728510
+killall nautilus
+#1568728511
+nautilus
+#1568728541
+killall nautilus
+#1568728543
+nautilus
+#1568728823
+clear
+#1568729504
+killall nautilus
+#1568729506
+nautilus
+#1568729608
+killall nautilus
+#1568729608
+nautilus
+#1568729632
+clear
+#1568729636
+cd ~
+#1568729637
+clear
+#1568729677
+echo $XDG_SESSION_TYPE 
+#1568729712
+nautilus
+#1568730548
+clear
+#1568730549
+sudo dnf install gnome-builder
+#1568730695
+sudo dnf install flatpak-libs
+#1568730700
+flatpak install gnome org.gnome.Sdk 3.20
+#1568730762
+flatpak install org.gnome.Sdk 3.20
+#1568730792
+flatpak install org.gnome.Sdk 3.32
+#1568730828
+flatpak install flathub org.gnome.Sdk 3.32
+#1568733266
+sudo su
+#1568743014
+xdg-open --help
+#1568743018
+xdg-open x-nautilus-search
+#1568743034
+xdg-open x-nautilus-search://0/
+#1568743040
+gio
+#1568743043
+gio list
+#1568743046
+gio mime
+#1568743055
+gio mime x-nautilus-search
+#1568743584
+nautilus
+#1568753940
+utime
+#1568754501
+nautilus
+#1568757032
+clear
+#1568757054
+nautilus
+#1568758833
+clear
+#1568758834
+nautilus
+#1568761148
+clear
+#1568761167
+nautilus
+#1568761196
+clear
+#1568761198
+nautilus
+#1568763066
+clear
+#1568763123
+nautilus
+#1568764010
+automake
+#1568764013
+nautilus
+#1568768699
+dotdrop
+#1568768708
+nautilus
+#1568769114
+C6.8/0.9
+#1568769116
+nautilus
+#1568817767
+sudo dnf search exfat-utils
+#1568817782
+sudo dnf install exfat-utils
+#1568817808
+sudo dnf update
+#1568737976
+clear
+#1568737996
+nautilus
+#1568738702
+clear
+#1568738771
+nautilus
+#1568738835
+clear
+#1568738846
+nautilus --help
+#1568738854
+clear
+#1568738930
+nautilus --help
+#1568738933
+clear
+#1568738935
+nautilus
+#1568738946
+clear
+#1568739198
+nautilus
+#1568740286
+automake
+#1568740288
+clear
+#1568740290
+nautilus
+#1568740325
+lear
+#1568740349
+nautilus
+#1568740483
+clear
+#1568740537
+nautilus
+#1568741298
+automake
+#1568741300
+nautilus
+#1568756488
+pip3 install pynput --user
+#1568727660
+killall nautilus 
+#1568727792
+ipython
+#1568728023
+clear
+#1568728027
+ls /usr/share/nautilus-python/extensions/
+#1568728037
+find /
+#1568728042
+cd /
+#1568728049
+find | grep "nautilus/ui"
+#1568728084
+clear
+#1568728196
+ipython
+#1568743260
+clear
+#1568743268
+ipython
+#1568817817
+sudo dnf search test
+#1568817829
+sudo dnf install exfat-utils
+#1568817923
+sudo dnf install fuse-exfat
+#1568754648
+window.do_key_press_event()
+#1569270277
+if __name__ == "__main__":;     pass from gi.repository import Gtk builder = Gtk.Builder()
+#1569270277
+builder.add_from_file("example.ui")
+#1569270277
+win=builder.get_object("ExampleAppWindow")
+#1569270277
+win.set_titlebar(builder.get_object("header"))
+#1569270277
+win.show_all() win.connect("delete-event",Gtk.main_quit)
+#1569270277
+Gtk.main() 
+#1569270280
+clear
+#1569270280
+ls
+#1569270285
+python3 main.py 
+#1569270303
+clear
+#1569270384
+ipython3
+#1569271951
+ls /usr/share/pygtk/2.0/defs/
+#1569271956
+cat /usr/share/pygtk/2.0/defs/appindicator.defs 
+#1569271963
+cat /usr/share/pygtk
+#1569271966
+ls /usr/share/pygtk
+#1569271999
+clear
+#1569272036
+ls /usr/share/gtk-3.0
+#1569272041
+clear
+#1569272123
+ipython
+#1569217346
+nspawn
+#1569217361
+systemd-nspawn 
+#1569217364
+systemd-nspawn --help
+#1569218051
+clear
+#1569218053
+cd Downloads/
+#1569218093
+sudo dnf install ./expressvpn-2.2.0-1.x86_64.rpm 
+#1569218129
+expressvpn
+#1569218137
+expressvpn activate
+#1569218162
+expressvpn ls
+#1569218165
+expressvpn connect 
+#1569218195
+expressvpn status
+#1569218289
+sudo dnf install deluge
+#1569218297
+sudo dnf install deluge-gtk
+#1569218494
+expressvpn
+#1569218497
+expressvpn status
+#1569218717
+ps aux | grep deluge
+#1569218725
+expressvpn disconnect 
+#1569218730
+ps aux | grep vpn
+#1569218746
+expressvpn status
+#1569218749
+ps aux | grep deluge
+#1569218753
+ps aux | grep vpn
+#1569218768
+sudo systemctl status expressvpn.service 
+#1569218775
+sudo systemctl disable expressvpn.service 
+#1569218777
+sudo systemctl stop expressvpn.service 
+#1569218779
+sudo systemctl status expressvpn.service 
+#1569218781
+ps aux | grep vpn
+#1569218788
+expressvpn status
+#1569218792
+cleaer
+#1569269306
+clear
+#1569269308
+nautilus
+#1569269666
+clear
+#1569269669
+which cherrytree
+#1569269673
+cd /usr/bin
+#1569269674
+ls cherrytree 
+#1569269677
+cat cherrytree 
+#1569269802
+ls
+#1569269806
+ls cherrytree 
+#1569269808
+clear
+#1569269811
+code cherrytree 
+#1569269868
+cd ../share/cherrytree/
+#1569269869
+ls
+#1569270003
+cd modules/
+#1569270003
+ls
+#1569270026
+code main.py
+#1569270132
+code core
+#1569270138
+code core.py
+#1569270661
+ps aux | grep jefi
+#1569270663
+ps aux | grep jedi
+#1569271071
+sudo dnf update vscode
+#1569271088
+sudo dnf update scode
+#1569271091
+sudo dnf update code
+#1569271252
+jefi
+#1569271260
+pip3 install jedi
+#1569271267
+pip3 update jedi
+#1569271270
+pip3 upgrade jedi
+#1569271275
+pip3 reinstall jedi
+#1569271278
+pip3 install jedi
+#1569271283
+pip3
+#1569271313
+pip3 uninstall jedi
+#1569271318
+sudo pip3 uninstall jedi
+#1569271329
+pip3 install jedi --user
+#1569271916
+clear
+#1569272208
+ls /usr/lib64/pygtk/
+#1569272211
+ls /usr/lib64/pygtk/2.0/
+#1569272218
+clear
+#1569272219
+cd ~
+#1569272223
+find /
+#1569272225
+cd /
+#1569272230
+find | grep pygtk
+#1569273436
+sudo dnf update
+#1569281469
+ipython
+#1569281659
+clear
+#1569281661
+jedi
+#1569282703
+/bin/python3 -m pip install -U pytest --user
+#1569282713
+/bin/python3 -m pip install -U pytest --user
+#1569282777
+/bin/python3
+#1569282782
+clear
+#1569283216
+home/nick/Documents/Projects/PyNotes/main.py
+#1569283221
+/home/nick/Documents/Projects/PyNotes/main.py
+#1569283231
+/bin/python3 /home/nick/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 41941 /home/nick/Documents/Projects/PyNotes/main.py 
+#1569283613
+gi.__file__
+#1569283622
+ipy
+#1569284628
+ipython
+#1569285218
+ipy
+#1569280967
+poetry
+#1569281171
+ps aux | grep jedi
+#1569282039
+clear
+#1569282042
+ps aux | grep jedi
+#1569282047
+pip3 uninstall jedi
+#1569282057
+sudo pip3 uninstall jedi
+#1569282064
+sudo pip3 install jedi
+#1569282476
+pip3 install typing
+#1569282478
+pip3 install typing --user
+#1569283647
+cd /usr/lib64/python3.7/site-packages/
+#1569283648
+cd gi
+#1569283649
+ls
+#1569283659
+ls repository/
+#1569283662
+ls
+#1569283670
+cat _gtktemplate.py 
+#1569283678
+cls
+#1569283678
+ls
+#1569283820
+sudo dnf search pygtk
+#1569283834
+sudo dnf list installed | grep pygtk
+#1569283865
+sudo dnf install pygtksourceview pygtk2-doc
+#1569283879
+sudo dnf install pygtksourceview pygtk2-doc pygtk2-devel
+#1569283994
+pip3 search pygtk
+#1569284008
+pip3 install pygtk
+#1569284014
+pip3 install pygtk --user
+#1569284073
+sudo dnf search pygtk
+#1569284091
+sudo dnf install pygtk
+#1569284103
+sudo dnf install pygtk2-codegen
+#1569284122
+clear
+#1569284917
+ipy
+#1569305118
+users
+#1569305128
+user_host_prompt 
+#1569305130
+cvlear
+#1569305134
+which user_host_prompt 
+#1569305138
+clear
+#1569305142
+cat /etc/passwd
+#1569305280
+clear
+#1569305281
+sudo su
+#1569422488
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1569430562
+cd Documents/Projects/PyNotes/
+#1569430562
+ls
+#1569430565
+python main.py 
+#1569436010
+python preferences.py 
+#1569438689
+getenv
+#1569438690
+clear
+#1569438698
+env
+#1569438700
+env| grep strick
+#1569438981
+usermod
+#1569439005
+chdn
+#1569439007
+chfn
+#1569439009
+chfn --help
+#1569439016
+man chfn
+#1569439038
+ls /bin | grep fn
+#1569439043
+lchfn
+#1569439083
+cat /etc/passwd
+#1569439531
+ipy
+#1569440012
+clear
+#1569440014
+ping google.com
+#1569440034
+clear
+#1569440147
+dns
+#1569440149
+dnsmasq 
+#1569440152
+clear
+#1569440158
+dnsdomainname 
+#1569440164
+ip
+#1569440169
+ifconfig 
+#1569440187
+ip
+#1569440198
+nmcli device show
+#1569440205
+nmcli device show wlp10s0
+#1569440214
+clear
+#1569441254
+python main.py 
+#1569441304
+python preferences.py 
+#1569441319
+python main.py 
+#1569442497
+python main.py &
+#1569442517
+python main.py 
+#1569444075
+clear
+#1569444297
+python main.py 
+#1569445114
+\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
+#1569445118
+python main.py 
+#1569421612
+python main.py 
+#1569421641
+ipython
+#1569460250
+cd Documents/Projects/PyNotes/
+#1569460251
+python main.py 
+#1569462852
+'
+#1569462855
+python main.py 
+#1569463125
+'
+#1569463127
+python main.py 
+#1569467335
+clear
+#1569467337
+python main.py 
+#1569469605
+python test.py 
+#1569470290
+python main.
+#1569470292
+python main.py 
+#1569471566
+sqllite3
+#1569471570
+sqlite
+#1569471615
+clear
+#1569614824
+sudo dnf install blender
+#1569817632
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1569885564
+lua
+#1569885567
+clear
+#1569887009
+lua
+#1570042157
+clear
+#1570042160
+python main.py 
+#1570044554
+ipy
+#1570121163
+sudo dnf update code
+#1570121199
+sudo dnf update Code
+#1570121204
+sudo dnf update code
+#1570121210
+sudo dnf update
+#1570121231
+clear
+#1570124839
+/bin/python3
+#1570124845
+clear
+#1570127044
+clear; echo -e "Clear and Test!";
+#1570128155
+/bin/python3 /home/nick/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 42113 /home/nick/Documents/Projects/PyNotes/lib/main.py 
+#1570128169
+/home/nick/Documents/Projects/PyNotes/lib/main.py
+#1570128180
+clear
+#1570129056
+ipy
+#1570129628
+python lib/main.py 
+#1570149259
+ipy
+#1570162755
+ipy 
+#1570163043
+ipy
+#1570166767
+clear
+#1570166771
+ipy
+#1570761274
+cd Games/
+#1570761274
+ls
+#1570761275
+ls -al
+#1570761283
+chown nick: battlenet/ -R
+#1570761356
+lspci -v | grep driver
+#1570761408
+sudo dnf update
+#1570761474
+clear
+#1570761476
+sudo dnf update lutris
+#1570761514
+sudo dnf update wine
+#1570761526
+sudo dnf update wine-core
+#1570762354
+sudo dnf update
+#1570762981
+sudo reboot now
+#1570833602
+56/4
+#1570833606
+expr 56 / 4
+#1571109236
+sudo dnf install heidisql
+#1571199782
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1571368955
+xmodmap -e "keycode 105 = Control_R";xmodmap -e "keycode 37 = Control_L"
+#1571456882
+pulseaudio 
+#1571456884
+pulseaudio --help
+#1571456916
+clear

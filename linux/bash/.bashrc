@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Saturday, 3rd August 2019 6:10:19 pm
+# Last Modified: Thursday, 12th September 2019 8:24:49 pm
 # ----
 # 
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
@@ -152,7 +152,8 @@
     alias pop=popd
     alias nano=ask4nano
     alias python=$(which python3)
-    alias ipython=ipython3alias dotdrop=/home/nick/Dotfiles/dotdrop.sh
+    alias ipython=ipython3
+    alias dotdrop=/home/nick/Dotfiles/dotdrop.sh
     alias rm=trash-put
     alias bashdot=~/Dotfiles/bashdot/bashdot
     alias open=$(which xdg-open)
