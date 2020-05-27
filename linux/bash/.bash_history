@@ -1,16058 +1,9841 @@
-ls nautilus ~/.local/share/rhythmbox/plugins
-nautilus ~/.local/share/rhythmbox/plugins
-./install.sh 
-sudo yum install git gettext python-mako python-mutagen python-requests python-pillow python-chardet
-sudo yum install git gettext python-mako python-mutagen python-requests python-pillow python-chardet -y
-cd ..
-rm -rf ~/.local/share/rhythmbox/plugins/coverart_search_providers
-git clone https://github.com/fossfreedom/coverart-search-providers.git
-cd coverart-search-providers
-./install.sh --rb2
-sudo dnf install  python3-mutagen 
-sudo yum install git gettext python-mako python-mutagen python-requests python-pillow python-chardet -y
-sudo yum install git gettext python3-mako python3-requests python3-pillow python3-lxml
-cd ~/Doic
-cd ~/Documents/
-ls
-chmod +x autosign-modules.sh 
-./autosign-modules.sh 
-sudo dnf remove openrazer-meta
-sudo dnf remove --help
-sudo dnf remove openrazer-meta
-sudo dnf clean
-sudo dnf clean --all
-sudo dnf clean packages
-sudo dnf clean orphans
-sudo dnf clean all
-dnf list extras
-sudo dnf list extras
-sudo dnf remove google-play-music-desktop-player-4.6.1-1.x86_64 
-clear
-ls
-sudo dnf list oprhaned
-sudo dnf list oprhans
-sudo dnf list --help
-sudo dnf list --autoremove
-sudo dnf install openrazer-meta
-sudo dnf list
-sudo dnf list --help
-sudo dnf list repo
-sudo dnf list repos
-sudo dnf repolist
-sudo dnf repolist hardware_razer
-sudo dnf repolist hardware_razer --all
-sudo dnf repolist hardware_razer --help
-sudo dnf list --repo hardware_razer
-clear
-dkms
-dkms status
-modinfo razermouse
-sudo modprobe razer-mouse
-sudo modprobe (modinfo -n razermouse)
-sudo modprobe $(modinfo -n razermouse)
-modinfo razercore
-modinfo razercore --help
-cls
-alias cls=clear
-cls
-gsettings set org.gnome.nautilus.preferences always-use-location-entry true
-eclear
-clear
-sudo su
-systemctl start openrazer
-modinfo razercore --help
-modinfo razercore 
-clear
-sudo dnf install polychromatic
-sudo systemctl status openrazer-daemon
-sudo dnf install openrazer-daemon
-ysystemctl status openrazer
-systemctl status openrazer
-systemctl status openrazer-daemon
-openrazer-daemon 
-clear
-lsmod
-lsmod|grep razer
-clear
-modinfo razermouse
-modprobe razermouse
-dmesg
-dmesg|grep razetr
-dmesg|grep razer
-insmod razermouse
-insmod razercore
-clear
-cd /lib/modules/$(uname -r)/extra
-ls
-insmod razermouse.ko 
-sudo insmod razermouse.ko 
-lsmod
-lsmod|grep razer
-clear
-modprobe razermouse
-modinfo razermouse
-clear
-ls
-ls|grep razer
-for i in $(ls|grep razer); do insmod $i; done
-for i in $(ls|grep razer); do sudo insmod $i; done
-clear
-exit
-ls /dev/input/
-ls /dev/input/by-id/usb-Razer_Razer_Naga_2014-if02-event-kbd 
-python3 python3  /dev/input/by-id/usb-Razer_Razer_Naga_2014-if02-event-kbd  /dev/input/by-id/usb-Razer_Razer_Naga_2014-if02-event-kbd 
-python3  /dev/input/by-id/usb-Razer_Razer_Naga_2014-if02-event-kbd 
-clear
-find|grep openrazer-daemom
-find|grep openrazer-daemon
-cd /
-find|grep openrazer-daemon
-sudo find|grep openrazer-daemon
-sudo find|grep razer
-sudo dnf install openrazer-meta
-sudo dnf install lutris
-sudo dnf search amdvld
-sudo dnf search amdvlk
-sudo dnf searc dxvk
-sudo dnf search dxvk
-sudo dnf info mesa
-sudo dnf info mesa-drv
-sudo dnf list installed|grep mesa
-sudo dnf search radeon
-sudo dnf search amd
-sudo dnf search vulkan
-sudo dnf install mesa-vulkan-drivers vulkan-loader
-sudo dnf install python3  /dev/input/by-id/usb-Razer_Razer_Naga_2014-if02-event-kbd 
-python3  /dev/input/by-id/usb-Razer_Razer_Naga_2014-if02-event-kbd 
-clear
-sudo dnf install gnutls gnutls-devel openldap openldap-devel libgpg-error sqlite2.i686 sqlite2.x86_64
-sudo dnf copr search discord
-clear
-cd Downloads/
-ls
-tar discord
-tar -xf discord-0.0.9.tar.gz Discord/
-ls
-ls Discord/
-cd Discord/
-ls
-cat postinst.sh 
-cat discord.desktop 
-nano discord.desktop 
-cd ..
-mv Discord/ discord/
-ls
-mv discord ~/.local/share/
-cd ~/.local/share/
-nano discord/discord.desktop 
-chmox +x discord/Discord 
-chmod +x discord/Discord 
-nautilus
-nautilus .
-cd discord/
-ls
-./Discord 
-ls
-cp discord.desktop ~/.local/share/applications/
-ls ~/.local/share/applications/
-cd ~/.local/share/applications/
-ls -al
-rm discord.desktop 
-ln ~/.local/share/discord/discord.desktop ./discord.desktop
-ls -al
-ln --help
-ls
-cat discord.desktop 
-ls -al
-link
-link --help
-ls
-rm discord.desktop 
-ls ~/.local/share/discord/
-link ~/.local/share/discord/discord.desktop ./discord.desktop
-ls
-ls -al
-killall discord
-ps aux|grep disc
-kill 19563
-ps aux|grep disc3
-ps aux|grep disc
-cclear
-clear
-sudo dnf install libcxx
-rm ~/.config/discord/
-ls ~/.config/discord/
-rm -rf  ~/.config/discord/
-ls
-rm -rf  ~/.config/discord/
-clear
-cd ~
-find|grep discord
-rm -rf  ~/.config/discord/
-pgrep discord
-pgrep
-ps aux
-ps aux|grep discord
-kill 21652
-ps aux|grep discord
-rm -rf  ~/.config/discord/
-cd ~/.local/share/
-ls
-mv discord/ /usr/share/
-sudo mv discord/ /usr/share/
-clear
-cd applications/
-rm discord.desktop 
-cd /usr/share/discord/
-ls
-sudo code discord.desktop 
-sudo gedit discord.desktop 
-sudo nano discord.desktop 
-clear
-ln
-ln --help
-ln ./discord.desktop /usr/share/applications/discord.desktop
-sudo ln ./discord.desktop /usr/share/applications/discord.desktop
-killall discord
-ps aux|grep disc
-ls
-ls -al
-sudo dnf install libatomic
-killall wine
-ps aux|grep wine
-pgrep -f wine
-for i in $(pgrep -f wine); do kill $i; done
-sudo dnf install vulkan vulkan-info
-clear
-sudo dnf search vulcan|grep mesa
-sudo dnf search vullan|grep mesa
-sudo dnf search vulkan|grep mesa
-sudo dnf install mesa-vulkan-drivers.x86_64 mesa-vulkan-drivers.i686
-sudo dnf list installed |grep msa
-sudo dnf list installed |grep mesa
-sudo dnf search mesa
-sudo dnf install libvulkan
-sudo dnf search vulkan|grep radeon
-clear
-sudo dnf search radv
-sudo dnf install alsa-plugins-pulseaudio.i686 glibc-devel.i686 glibc-devel libgcc.i686 libX11-devel.i686 freetype-devel.i686 libXcursor-devel.i686 libXi-devel.i686 libNX_Xext-devel.i686 libXext-devel.i686 libXxf86vm-devel.i686 libXrandr-devel.i686 libXinerama-devel.i686 mesa-libGLU-devel.i686 mesa-libOSMesa-devel.i686 libXrender-devel.i686 libpcap-devel.i686 ncurses-devel.i686 libzip-devel.i686 lcms2-devel.i686 zlib-devel.i686 libv4l-devel.i686 libgphoto2-devel.i686 libcapifax-devel.i686  cups-devel.i686 libxml2-devel.i686 openldap-devel.i686 libxslt-devel.i686 gnutls-devel.i686 libpng-devel.i686 flac-libs.i686 json-c.i686 libICE.i686 libSM.i686 libXtst.i686 libasyncns.i686 libedit.i686 liberation-narrow-fonts.noarch libieee1284.i686 libogg.i686 libsndfile.i686 libuuid.i686 libva.i686 libvorbis.i686 libwayland-client.i686 libwayland-server.i686 llvm-libs.i686 mesa-dri-drivers.i686 mesa-filesystem.i686 mesa-libEGL.i686 mesa-libgbm.i686 nss-mdns.i686 ocl-icd.i686 pulseaudio-libs.i686 python-talloc.x86_64 sane-backends-libs.i686 tcp_wrappers-libs.i686 unixODBC.i686 samba-common-tools.x86_64 samba-libs.x86_64 samba-winbind.x86_64 samba-winbind-clients.x86_64 samba-winbind-modules.x86_64 mesa-libGL-devel.i686 fontconfig-devel.i686 libXcomposite-devel.i686 libtiff-devel.i686 openal-soft-devel.i686 mesa-libOpenCL-devel.i686 opencl-utils-devel.i686 alsa-lib-devel.i686 gsm-devel.i686 libjpeg-turbo-devel.i686 pulseaudio-libs-devel.i686 pulseaudio-libs-devel gtk3-devel.i686 libattr-devel.i686 libva-devel.i686 libexif-devel.i686 libexif.i686 glib2-devel.i686 mpg123-devel.i686 mpg123-devel.x86_64 libcom_err-devel.i686 libcom_err-devel.x86_64 libFAudio-devel.i686 libFAudio-devel.x86_64
-sudo dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/30/winehq.repo
-sudo dnf install alsa-plugins-pulseaudio.i686 glibc-devel.i686 glibc-devel libgcc.i686 libX11-devel.i686 freetype-devel.i686 libXcursor-devel.i686 libXi-devel.i686 libNX_Xext-devel.i686 libXext-devel.i686 libXxf86vm-devel.i686 libXrandr-devel.i686 libXinerama-devel.i686 mesa-libGLU-devel.i686 mesa-libOSMesa-devel.i686 libXrender-devel.i686 libpcap-devel.i686 ncurses-devel.i686 libzip-devel.i686 lcms2-devel.i686 zlib-devel.i686 libv4l-devel.i686 libgphoto2-devel.i686 libcapifax-devel.i686  cups-devel.i686 libxml2-devel.i686 openldap-devel.i686 libxslt-devel.i686 gnutls-devel.i686 libpng-devel.i686 flac-libs.i686 json-c.i686 libICE.i686 libSM.i686 libXtst.i686 libasyncns.i686 libedit.i686 liberation-narrow-fonts.noarch libieee1284.i686 libogg.i686 libsndfile.i686 libuuid.i686 libva.i686 libvorbis.i686 libwayland-client.i686 libwayland-server.i686 llvm-libs.i686 mesa-dri-drivers.i686 mesa-filesystem.i686 mesa-libEGL.i686 mesa-libgbm.i686 nss-mdns.i686 ocl-icd.i686 pulseaudio-libs.i686 python-talloc.x86_64 sane-backends-libs.i686 tcp_wrappers-libs.i686 unixODBC.i686 samba-common-tools.x86_64 samba-libs.x86_64 samba-winbind.x86_64 samba-winbind-clients.x86_64 samba-winbind-modules.x86_64 mesa-libGL-devel.i686 fontconfig-devel.i686 libXcomposite-devel.i686 libtiff-devel.i686 openal-soft-devel.i686 mesa-libOpenCL-devel.i686 opencl-utils-devel.i686 alsa-lib-devel.i686 gsm-devel.i686 libjpeg-turbo-devel.i686 pulseaudio-libs-devel.i686 pulseaudio-libs-devel gtk3-devel.i686 libattr-devel.i686 libva-devel.i686 libexif-devel.i686 libexif.i686 glib2-devel.i686 mpg123-devel.i686 mpg123-devel.x86_64 libcom_err-devel.i686 libcom_err-devel.x86_64 libFAudio-devel.i686 libFAudio-devel.x86_64
-sudo dnf groupinstall "C Development Tools and Libraries"
-sudo dnf groupinstall "Development Tools"
-sudo dnf install gstreamer-plugins-base-devel gstreamer-devel.i686 gstreamer.i686 gstreamer-plugins-base.i686 gstreamer-devel gstreamer1.i686 gstreamer1-devel gstreamer1-plugins-base-devel.i686 gstreamer-plugins-base.x86_64 gstreamer.x86_64 gstreamer1-devel.i686 gstreamer1-plugins-base-devel gstreamer-plugins-base-devel.i686 gstreamer-ffmpeg.i686 gstreamer1-plugins-bad-free-devel.i686 gstreamer1-plugins-bad-free-extras.i686 gstreamer1-plugins-good-extras.i686 gstreamer1-libav.i686 gstreamer1-plugins-bad-freeworld.i686
-sudo dnf search samba
-sudo dnf install samba
-clear
-sudo dnf search smbclient
-sudo dnf install smbclient
-sudo dnf install libsmbclient
-sudo dnf install cifs-utils
-sudo dnf search libwb
-sudo dnf install libwbclient
-sudo dnf search liblda
-sudo dnf search libldap
-sudo dnf search ldap
-sudo dnf install wine-ldap.i686 : LDAP support for wine
-sudo dnf install wine-ldap.i686 wine-ldap.x86_64
-radvd
-clear
-xranr
-xrandr
-lsmod
-modprobe razermouse
-dnesg
-cleare
-clear
-cat ~/.bash_history 
-cat ~/.bash_history | grep for
-cd /lib/modules/$(uname -r)
-cd extra/
-for i in $(ls|grep razer); do sudo insmod $i; done
-ls | grep razer
-for i in $(ls|grep razer); do sudo insmod $i; done
-sudo modprobe razermouse
-for i in $(ls|grep razer); do sudo modprobe $i; done
-sudo modprobe razercore
-sudo modprobe razerkbd
-sudo dnf search netflix
-exit
-$DISPLAY 
-echo $DISPLAY 
-echo $XDG_SESSION_TYPE 
-output
-xrandr --q
-xrandr -q
-cd .config/
-nano monitors.xml
-code monitors.xml
-clear
-xrandr
-sudo modprobe razermouse
-sudo modprobe razercore
-sudo modprobe razerkbd
-polychromatic-tray-applet 
-clear
-ls
-ps aux
-ps aux|grep tray
-pgrep
-pgrep --help
-pgrep tray
-pgrep polychromatic-tray-applet
-pgrep -full polychromatic-tray-applet
-pgrep --full polychromatic-tray-applet
-for i in $(pgrep --full polychromatic-tray-applet); do kill $i; done
-polychromatic-tray-applet 
-clear
-vulkaninfo
-sudo dnf install vulkan-tools
-vulkaninfo 
-which vulkaninfo 
-localte
-locate
-locate -A -i vulkan bin
-cd Downloads/amdgpu-pro-16.40-348864/
-ls
-./amdgpu-pro-install 
-sudo dnf search xorg-x11-drv-amdgpu-pro
-sudo ./amdgpu-pro-install 
-sudo dnf search xserver-abi
-sudo dnf config-manager
-sudo dnf config-manager --help
-sudo du
-sudo su
-sudo dnf config-manager --help
-sudo dnf search xserver-abi
-cd ..
-ls
-clear
-ls
-tar -xf 'amdgpu-pro-16.40-348864.tar.xz (1)' 
-ls
-sudo dnf list installed|grep dxvk
-clear
-ls
-cd ~
-clear
-ls
-cd Games/
-ls
-cd overwatch/
-ls
-find|grep dxvk
-push
-pop
-pushd 
-pushd --help
-pushd .
-dirs
-cd Doc
-cd ~/Documents/
-popd
-ls
-clear
-pushd ~/Documents/git/
-dirs
-pop
-popd
-dirs
-popd
-clear
-pushd
-pushd .
-dirs
-popd
-ls
-dirs
-pushd ~/Documents/git/
-ls
-git clone https://github.com/doitsujin/dxvk.git
-cd ..
-ls
-cd ../Downloads/
-ls
-dirs
-ls
-ls -al
-tar -xf dxvk-1.2.1.tar.gz 
-cd dxvk-1.2.1/
-ls
-cat setup_dxvk.sh 
-clear
-ls
-./setup_dxvk.sh 
-find ~/Games/overwatch/|grep wineprefix
-find ~|grep wineprefix
-clear
-ls
-./setup_dxvk.sh 
-export WINEPREFIX=/home/nick/Games/overwatch/drive_c/
-./setup_dxvk.sh 
-./setup_dxvk.sh --without-dxgi
-./setup_dxvk.sh install --without-dxgi
-export WINEPREFIX=/home/nick/Games/overwatch/
-./setup_dxvk.sh install --without-dxgi
-popd
-find|grepdx
-find|grep dx
-find|grep dxv
-clear
-sudo dnf list installed|grep mingw
-sudo dnf search mingw
-sudo dnf search mingw-gcc
-sudo dnf search mingw32-gcc
-sudo dnf search mesa
-sudo dnf search mesa|grep libgl
-sudo dnf list installed|grep libgl
-find|grep mingw
-sudo dnf search mingw|grep dxvk
-sudo dnf list vulkan
-sudo dnf search vulkan
-sudo dnf install vulkan-loader.x86_64 vulkan-loader.i686 mesa-vulkan-drivers.i686 mesa-vulkan-drivers.x86_64 vulkan-loader.i686 vulkan-loader.x86_64 libvkd3d.x86_64 libvkd3d.i686 
-ls
-cd .config/
-ls
-ls gtk-3.0/
-code gtk-3.0/gtk.css 
-sudo dnf search glade
-sudo dnf install glade3
-sudo dnf remove glade3
-sudo dnf search glade
-sudo dnf info glad-devel
-sudo dnf 
-sudo dnf info glade-devel.x86_64 
-sudo dnf info glade3.x86_64 
-sudo dnf install glad-devel
-sudo dnf install glade-devel
-sudo dnf remove glade-devel
-flatpak
-gnome-software 
-sudo dnf list installed|grep glade
- /usr/bin/env bash -f /home/nick/Documents/Projects/C Playground/loops.c
-exit
- /usr/bin/env bash -f /home/nick/Documents/Projects/C Playground/loops.c
-exit
-sudo dnf search cherrytree
-sudo dnf install cherrytree
-clear
-for (i=0;c=5;c++) do
-for ((i=0;c=5;c++));do echo $i; done
-for (i=0;i=5;i++) do
-for ((i=0;i=5;i++)) do echo $i; done
-for ((i=0;i<=5;i++)) do echo $i; done
-for ((i=0;i<5;i++)) do echo $i; done
-for ((i=0;i>5;i++)) do echo $i; done
-for ((i=0;i<5;i++)) do echo $i; done
-for ((i=0;i<5;i=i+2)) do echo $i; done
-clear
-sudo dnf search sound-theme
-sudo dnf install elementary-sound-theme
-clear
-sudo dnf info cherrytree
-sudo dnf check cherrytree
-sudo dnf check dependencies  cherrytree
-sudo dnf check --dependencies cherrytree
-sudo dnf check dependencies cherrytree
-sudo dnf check dependencies 
-sudo dnf deplist
-sudo dnf deplist cherrytree
-clear
-find|gtkrc-dark
-find|grep gtkrc-dark
-cd Downloads/
-ls
-find|grep gtkrc-dark
-find|grep gtkrc-dark 
-#include <stdio.h>
-void printTables(int table,int iterations);
-int main() {
-    int tab;
-    int it;
-    printf("Print the multiplication table you wish to see and how many times to raise it, separated by commas:");
-    scanf("%d,%d",&tab,&it);
-    printTables(tab,it);
-    return 0;
-}
-void printTables(int table,int iterations) {
-    printf("Printing multiplication tables for %d, up to %d",table,iterations);
-    int i;
-    for (i=0;i<=iterations;i++) {
-        printf("%d * %d = %d \n",i,table,i*table);
-lear
-clear
-find|grep gtkrc-dark
-./arc-theme-master/common/gtk-2.0/gtkrc-dark
-clear
-cp ./arc-theme-master/common/gtk-2.0/gtkrc-dark
-cp ./arc-theme-master/common/gtk-2.0/gtkrc-dark ~/.gtkrc-2.0
-$GTK
-clear
-echo $GTK_THEME
-ls ~/
-ls ~/ -l
-ls ~/ -la
-nano ~/.gtkrc-2.0 
-cd Documents/Projects/C\ Playground/
-ls
-gcc
-gcc loops.c 
-ls
-gcc loops.c -o test
-ls
-rm a.out 
-./test 
-gcc loops.c -o test
-./test 
-gcc loops.c -o time-table-8
-./time-table-8 
-gcc loops.c -o time-table-8
-./time-table-8 
-gcc loops.c -o time-table-8
-./time-table-8 
-gcc loops.c -o time-tables
-./time-table
-./time-tables
-gcc loops.c -o time-tables
-./time-tables
-sudo dnf file cherrytree
-dnf
-sudo dnf files cherrytree
-sudo dnf provides cherrytree
-sudo dnf info cherrytree
-cd /usr/share/cherrytree/
-ls
-ls glade/
-ls
-ls modules/
-ls
-ls language-specs/
-clear
-cherrytree 
-gtk
-python
-clear
-ls
-cd ~
-clear
-ls
-cp .gtkrc-2.0 ~/.config/gtk-2.0/gtkrc
-cherrytree 
-gtk-launch 
-gtk-launch cherrytree
-gtk-launch --help
-clear
-find $(find ~/.themes /usr/share/themes/ -wholename "*/gtk-3.0" | sed -e "s/^\(.*\)\/gtk-3.0$/\1/") -wholename "*/gtk-2.0" | sed -e "s/.*\/\(.*\)\/gtk-2.0/\1"/
-clear
-find $(find ~/.themes /usr/share/themes/ -wholename "*/gtk-3.0" | sed -e "s/^\(.*\)\/gtk-3.0$/\1/") -wholename "*/gtk-2.0" | sed -e "s/.*\/\(.*\)\/gtk-2.0/\1"/
-echo PATH
-echo $PATH
-echo $ENV 
-clear
-export GDK_BACKEND=wayland
-sudo dnf search murrine
-sudo dnf install gtk-murrine-engine
-find / cherrytree
-find / | grep cherrytree
-dnf info cherrytree
-sudo dnf info cherrytree
-pygtk-demo 
-cherrytree 
-cherrytree --help
-cat ~/.bash_history |grep depend
-cat ~/.bash_history |grep cherry
-sudo dnf deplist cherrytree
-echo $DESKTOP_SESSION 
-clear
-cd ~/.local/share/themes/
-ls
-ls Arc-Darker-Polo/
-cd /usr/share/themes/
-ls
-find /|grep arc-dark
-cd /usr/share/themes
-ls
-cd ~/.local/
-ls
-find
-find|grep arc
-find|grep arc-dark
-clear
-cd /usr
-find |grep arc
-find |grep arc-dark
-clear
-cd 
-cd .local/themes
-ls
-cd ~/.local/
-ls
-cd share
-ls
-ls themes/
-clear
-sudo dnf list installed|grep arc
-sudo dnf list installed|grep arc-
-clear
-sudo dnf list installed|grep theme
-ls ~/.themes
-clear
-ls
-find arc
-cd /
-cd home
-ls
-find|grep arc-dark
-cd /usr
-find|grep arc-dark
-ls
-cd ~/Downloads/
-ls
-cd arc-theme-master/
-ls
-cat auto
-cat autogen.sh 
-clear
-ls
-ls -al
-cllear
-clear
-ls -l
-cat arc-theme-upgrade 
-cd ~/local
-gsettings get org.gnome.desktop.interface gtk-theme
-clear
-ls /usr/share/themes
-ls ~/.local/share/themes
-cd  ~/.local/share/themes
-cd Arc-Darker-Polo/
-ls
-ls gtk-3.0/
-cd ~
-clear
-cd ~/Downloads/
-ls
-cd arc-theme-master/
-ls
-./autogen.sh 
-cat ~/.bash_history |grep autogen
-cat ~/.bash_history |grep ./autogen
-clear
-sudo dnf install arc-theme
-sudo dnf install arc-themes
-sudo dnf search arc
-sudo dnf search arc-them
-sudo dnf search arc-dakr
-sudo dnf search arc-dark
-clear
-sudo dnf install arc-theme
-echo $HISTCMD 
-echo $HISTCONTROL 
-echo $HISTFILE
-echo $HISTFILESIZE 
-echo $HISTSIZE 
-code ~/.bash_history 
-code ~/.bashrc 
-echo $date
-date
-man shopt
-shopt --help
-shopt -s histappend
-shopt -s histappendssh
-!
-echo nano ~/.gtkrc-2.0 
-code ~/.inputrc
-clear
-exit
-clear
-ls ~ -al | grep bash
-for i in $(ls ~ -al | grep bash);do code $i;done
-for i in $(ls ~ -al | grep bash);do code $i&;done
-for i in $(ls ~ -al | grep bash);do code $i& ;done
-for i in $(ls ~ -al | grep bash);do &code $i ;done
-for i in $(ls ~ -al | grep bash);do code $i & ;done
-for i in $(ls ~ -al | grep bash);do &code $i ;done
-for i in $(ls ~ -al | grep bash);do code $i;done
-for i in $(ls ~ -al | grep bash);do echo $i|code -;done
-for i in $(ls ~ -al | grep bash);do echo $i|code;done
-for i in $(ls ~ -al | grep bash);do echo $i;done
-echo $1
-echo $i
-for i in $(ls ~ -a | grep bash);do echo $i;done
-for i in $(ls ~ -a | grep bash);do code $i;done
-complete
-complete --help
-complete -c man
-clear
-complete -c which
-which --help
-sudo dnf search bash-completion
-sudo dnf install bash-completion
-\C-a\eb\ed\C-y\e#man \C-y\C-m\C-p\C-p\C-a\C-d\C-e
-bind '"\eh": "\C-a\eb\ed\C-y\e#man \C-y\C-m\C-p\C-p\C-a\C-d\C-e"'
-#which
-man which
-code ~/.inputrc 
-exit
-clear
-man readline,help bind
-clear
-bind
-bind --help
-bind -m
-bind -l
-bind -P
-clear
-lm
-clear
-mnf
-command_not_found_handle 
-command_not_found_handle --help
-esgtfseg|command_not_found_handle
-shopt
-bash-language-server 
-bash-language-server  --help
-clear
-cd /usr/share/bash-completion/
-ls
-cat bash_completion 
-clear
-[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] &&     . /usr/share/bash-completion/bash_completion
-[[
-echo $PS1
-clear
-bash -V
-bash --version
-clear
-cat /etc/bashrc 
-cat /etc/bashrc |grep complet
-clear
-ls
-. ./bash_completion 
-./bash_completion 
-cat bash_completion 
-clear
-echo $BASH_COMPLETION_VERSINFO 
-clear
-echo $BASH_COMPLETION_VERSINFO 
-exit
-cls
-exit
-\C-a\eb\ed\C-y\e#man \C-y\C-m\C-p\C-p\C-a\C-d\C-e
-bind '"\eh": "\C-a\eb\ed\C-y\e#man \C-y\C-m\C-p\C-p\C-a\C-d\C-e"'
-#which
-man which
-code ~/.inputrc 
-man readline,help bind
-bind -m
-bind -l
-lm
-mnf
-command_not_found_handle 
-command_not_found_handle --help
-esgtfseg|command_not_found_handle
-shopt
-bash-language-server 
-bash-language-server  --help
-cd /usr/share/bash-completion/
-cat bash_completion 
-[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] &&     . /usr/share/bash-completion/bash_completion
-[[
-echo $PS1
-bash -V
-bash --version
-cat /etc/bashrc 
-cat /etc/bashrc |grep complet
-. ./bash_completion 
-./bash_completion 
-cat bash_completion 
-echo $BASH_COMPLETION_VERSINFO 
-echo $BASH_COMPLETION_VERSINFO 
-echo $BASH_COMPLETION_USER_DIR
-zsh
-bind
-bind --p
-bind -p
-bind --help
-bind -P
-bind -P|grep tab
-bind -P|grep menu-comp
-nano /etc/DIR_COLORS.256color 
-sudo nano /etc/DIR_COLORS.256color 
-[[-w /etc/passwd
-[[-w /etc/passwd]
-[-w /etc/passwd]
-[-w /etc/passwd] && 1 || 0
-[-w /etc/passwd] && echo 1 || echo 0
-sudo dnf search rofi
-sudo dnf install rofi rofi-themes
-rofi
-rofi +ssh
-rofi ssh
-rofi -show ssh
-rofi 
-complete -c rofi
-complete -c rofi --help
-complete -p
-complete --help
-ls /etc/bash_completion.d/
-clear
-cd Documents/git/
-git clone https://github.com/maandree/auto-auto-complete
-cd auto-auto-complete/
-make
-test
-cd ~/.config/
-mkdir rofi
-cd rofi/
-touch config
-rofi -dump-Xresources
-rofi -dump-Xresources > config_data 
-ls
-cat config
-cat config_data 
-rm config_data 
-rofi -dump-Xresources > config
-nano config 
-rofi --show window
-rofi -show window
-rofi -show run
-sudo dnf install xwayland
-sudo dnf install xorg-xserver-xwayland
-sudo dnf install xorg-server-xwayland
-sudo dnf search xwayland
-rofi -show run 
-rofi -show run -normal-window
-rofi --help
-rofi --help|grep eh
-rofi -show run -fullscreen -m 1
-rofi -show run -fullscreen -m 1 -width 100
-rofi -show run -fullscreen -m 1 -width 50
-rofi -show run -fullscreen -m 1 -padding 200
-rofi -show run -fullscreen -m 1 -padding 10
-rofi -show run -fullscreen -m 1 -padding 540
-rofi -show run -fullscreen -m 1 -padding 54q
-rofi -show run -fullscreen -m 1 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 300
-kill 20786 -f
-kill 20786 --force
-kill 20786
-wmctrl
-clea
-cls
-exit
-rofi -show run -fullscreen -m 1
-rofi -show run -fullscreen -m 1 -width 100
-rofi -show run -fullscreen -m 1 -width 50
-rofi -show run -fullscreen -m 1 -padding 200
-rofi -show run -fullscreen -m 1 -padding 10
-rofi -show run -fullscreen -m 1 -padding 540
-rofi -show run -fullscreen -m 1 -padding 54q
-rofi -show run -fullscreen -m 1 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 300
-kill 20786 -f
-kill 20786 --force
-kill 20786
-wmctrl
-clea
-cls
-wayland-scanner 
-display 
-xprop
-xlsclients 
-resize
-sudo dnf search wayland
-sudo dnf install firefox- wayland
-sudo dnf install firefox-wayland
-Xwayland 
-man Xwa
-man Xwayland
-Xwayland help
-Xwayland --help
-Xwayland --help|grep list
-elar
-xrandr --primary
-xrandr --help
-xrandr 
-arand
-xrandr
-xrandr --output XWAYLAND1 --primary
-arandr
-nano --help
-ask4nano() {echo "$1"; echo "$2"
-ask4nano() {echo "$1"; echo "$2"}
-ask4nano() { echo "$1"; echo "$2" }
-ask4nano() { echo "$1"; echo "$2"; }
-ask4nano 
-echo test1 test2| ask4nano 
-ask4nano test
-ask4nano test t
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-ask4nano() { echo "$1"; echo "$2";echo "$@"; }
-ask4nano test t -t -g -h
-clear
-exit
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-ask4nano() { echo "$1"; echo "$2";echo "$@"; }
-ask4nano test t -t -g -h
-exit
-egreg
-egrep
-clear
-grep -E "nano -f test -o -r"
-exec grep -E "nano -f test -o -r"
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-exit
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-exit
-egreg
-egrep
-grep -E "nano -f test -o -r"
-exec grep -E "nano -f test -o -r"
-man grep
-zenity 
-zenity --help
-zenity --help --list
-zenity --list
-zenity --list "test,2"
-zenity --list --help
-zenity --info
-zenity --password
-gksudo
-pkexec 
-ask4nano() { echo "$1"; echo "$2";echo "$@"; }
-ask4nano() { eval filename=\$$#;echo $filename}
-ask4nano() { eval filename=\$$#;echo $filename;}
-ask4nano() { eval filename=$#;echo $filename;}
-basename 
-man basename
-ask4nano() { basename $@ }
-ask4nano() { basename $@; }
-ask4nano() { basename -a $@; }
-ask4nano test t -t -g -h
-ask4nano() { for i in $@; do echo $i;done; }
-ask4nano ~/.test t -t -g -h
-pkexec --help
-. ~/.bash_functions 
-clear
-ask4nano 
-ask4nano  /etc/passwd
-pkexec --help
-ask4nano 
-ask4nano  /etc/passwd
-ask4nano /etc/passwd
-. ~/.bash_functions 
-clear
-ask4nano ~/.bash_profile 
-clear
-. ~/.bash_functions 
-ask4nano ~/.bash_profile 
-exec echo 1
-pkexec --help
-ask4nano 
-ask4nano  /etc/passwd
-exec echo 1
-man exec
-exec --help
-ask4nano ~/.bash_profile 
-pkexec 
-. ~/.bash_functions 
-ask4nano /etc/passwd
-clear
-nano
-nano --help
--f
-if [ -f /etc/bashrc ]
-if [ -f /etc/bashrc ]; then echo 1;fi
-clear
-$PATh
-$PATH
-echo $PATH
-pager
-pushd --help
-which bash_completion
-clear
-which nano
-which nano|clip
-clear
-[ -w /etc/passwd ]] && echo 1 || echo 2
-[ -w /etc/passwd]] && echo 1 || echo 2
-[[ -w /etc/passwd ]] && echo 1 || echo 2
-[[ -w ~/.bashrc ]] && echo 1 || echo 2
-clear
-ask4nano() {     for i in $@;     do         if [ -f $i ];             then                 echo $i is file;         fi; }
-ask4nano() {for i in $@;do;if [ -f $i ];then;echo "$i is file";fi; }
-ask4nano() { for i in $@;do;if [ -f $i ];then;echo "$i is file";fi; }
-ask4nano() { for i in $@; do ;if [ -f $i ];then;echo "$i is file";fi;done; }
-ask4nano() { for i in $@; do ;if [ -f $i ];then echo "$i is file";fi;done; }
-ask4nano() { for i in $@; do ;if [ -f $i ] then echo "$i is file";fi;done; }
-ask4nano() { for i in $@; do ;if [ -f $i ] then ;echo "$i is file";fi;done; }
-clear
-. ~/.bash_functions 
-ask4nano 
-ask4nano  dfigj
-ask4nano  dfigj /etc/passwd
-clear
-cls
-clear
-len
- /usr/bin/env bash -f /home/nick/.bash_functions
-clear
-rofi
-rofi +ssh
-rofi ssh
-rofi -show ssh
-rofi 
-complete -c rofi
-complete -c rofi --help
-complete -p
-complete --help
-ls /etc/bash_completion.d/
-cd Documents/git/
-git clone https://github.com/maandree/auto-auto-complete
-cd auto-auto-complete/
-make
-test
-cd ~/.config/
-mkdir rofi
-cd rofi/
-touch config
-rofi -dump-Xresources
-rofi -dump-Xresources > config_data 
-ls
-cat config
-cat config_data 
-rm config_data 
-rofi -dump-Xresources > config
-nano config 
-rofi --show window
-rofi -show window
-rofi -show run
-sudo dnf install xwayland
-sudo dnf install xorg-xserver-xwayland
-sudo dnf install xorg-server-xwayland
-sudo dnf search xwayland
-rofi -show run 
-rofi -show run -normal-window
-rofi --help
-rofi --help|grep eh
-rofi -show run -fullscreen -m 1
-rofi -show run -fullscreen -m 1 -width 100
-rofi -show run -fullscreen -m 1 -width 50
-rofi -show run -fullscreen -m 1 -padding 200
-rofi -show run -fullscreen -m 1 -padding 10
-rofi -show run -fullscreen -m 1 -padding 540
-rofi -show run -fullscreen -m 1 -padding 54q
-rofi -show run -fullscreen -m 1 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 300
-kill 20786 -f
-kill 20786 --force
-kill 20786
-wmctrl
-clea
-exit
-rofi -show run -fullscreen -m 1
-rofi -show run -fullscreen -m 1 -width 100
-rofi -show run -fullscreen -m 1 -width 50
-rofi -show run -fullscreen -m 1 -padding 200
-rofi -show run -fullscreen -m 1 -padding 10
-rofi -show run -fullscreen -m 1 -padding 540
-rofi -show run -fullscreen -m 1 -padding 54q
-rofi -show run -fullscreen -m 1 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 541
-rofi -show run -fullscreen -m 1 -bw 0 -padding 300
-kill 20786 -f
-kill 20786 --force
-kill 20786
-wmctrl
-clea
-wayland-scanner 
-display 
-xprop
-xlsclients 
-resize
-sudo dnf search wayland
-sudo dnf install firefox- wayland
-sudo dnf install firefox-wayland
-Xwayland 
-man Xwa
-man Xwayland
-Xwayland help
-Xwayland --help
-Xwayland --help|grep list
-elar
-xrandr --primary
-xrandr --help
-xrandr 
-arand
-xrandr
-arandr
-ask4nano() {echo "$1"; echo "$2"
-ask4nano() {echo "$1"; echo "$2"}
-ask4nano() { echo "$1"; echo "$2" }
-ask4nano() { echo "$1"; echo "$2"; }
-echo test1 test2| ask4nano 
-ask4nano test
-ask4nano test t
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-ask4nano() { echo "$1"; echo "$2";echo "$@"; }
-ask4nano test t -t -g -h
-exit
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-ask4nano() { echo "$1"; echo "$2";echo "$@"; }
-ask4nano test t -t -g -h
-exit
-egreg
-egrep
-grep -E "nano -f test -o -r"
-exec grep -E "nano -f test -o -r"
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-exit
-ask4nano() { echo "$1"; echo "$2";echo "$@" }
-exit
-egreg
-egrep
-grep -E "nano -f test -o -r"
-exec grep -E "nano -f test -o -r"
-man grep
-zenity 
-zenity --help
-zenity --help --list
-zenity --list
-zenity --list "test,2"
-zenity --list --help
-zenity --info
-zenity --password
-gksudo
-pkexec 
-ask4nano() { echo "$1"; echo "$2";echo "$@"; }
-ask4nano() { eval filename=\$$#;echo $filename}
-ask4nano() { eval filename=\$$#;echo $filename;}
-ask4nano() { eval filename=$#;echo $filename;}
-basename 
-man basename
-ask4nano() { basename $@ }
-ask4nano() { basename $@; }
-ask4nano() { basename -a $@; }
-ask4nano test t -t -g -h
-ask4nano() { for i in $@; do echo $i;done; }
-ask4nano ~/.test t -t -g -h
-pkexec --help
-ask4nano  /etc/passwd
-pkexec --help
-ask4nano  /etc/passwd
-ask4nano /etc/passwd
-ask4nano ~/.bash_profile 
-ask4nano ~/.bash_profile 
-exec echo 1
-pkexec --help
-ask4nano  /etc/passwd
-exec echo 1
-man exec
-exec --help
-ask4nano ~/.bash_profile 
-pkexec 
-ask4nano /etc/passwd
--f
-if [ -f /etc/bashrc ]
-if [ -f /etc/bashrc ]; then echo 1;fi
-$PATh
-$PATH
-echo $PATH
-pager
-pushd --help
-which bash_completion
-which nano|clip
-[ -w /etc/passwd ]] && echo 1 || echo 2
-[ -w /etc/passwd]] && echo 1 || echo 2
-[[ -w /etc/passwd ]] && echo 1 || echo 2
-[[ -w ~/.bashrc ]] && echo 1 || echo 2
-ask4nano() {     for i in $@;     do         if [ -f $i ];             then                 echo $i is file;         fi; }
-ask4nano() {for i in $@;do;if [ -f $i ];then;echo "$i is file";fi; }
-ask4nano() { for i in $@;do;if [ -f $i ];then;echo "$i is file";fi; }
-ask4nano() { for i in $@; do ;if [ -f $i ];then;echo "$i is file";fi;done; }
-ask4nano() { for i in $@; do ;if [ -f $i ];then echo "$i is file";fi;done; }
-ask4nano() { for i in $@; do ;if [ -f $i ] then echo "$i is file";fi;done; }
-ask4nano() { for i in $@; do ;if [ -f $i ] then ;echo "$i is file";fi;done; }
-ask4nano  dfigj
-ask4nano  dfigj /etc/passwd
-len
-xrandr --output XWAYLAND1 --primary
-ask4nano 
-ask4nano --help
-/usr/bin/nano --help
-null
-$null
-$NULL
-echo $file
-echo $files
-echo ${files[@]}
-nano test
-/usr/bin/nano ~/.bashrc ~/.bash_profile 
-local
-ask4nano /etc/passwd 
-string test="test"
-shift
-man shift
-shif
-shift --help
-files
-$files
-test=()
-test+=("test1")
-test+=("test2")
-test+=("test3")
-$test
-var=printf(${test[@]})
-var=printf("${test[@]}")
-var=printf ${test[@]}
-var=printf $test
-var=$(printf ",%s" "${test[@]})
-var=$(printf ",%s" "${test[@]}")
-var=$(printf " %s" "${test[@]}")
-printf
-printf --help
-var=$(printf -v "%s" "${test[@]}")
-var=$(printf "%s" -v "${test[@]}")
-var=$(printf "%s" "${test[@]}")
-printf "%s" "${test[@]}" -v var
-echo var
-unset var
-printf -v var "%s" "${test[@]}"
-echo $var
-unset test,i
-unset test, i
-unset test i
-echo $i
-test="this is a test with nick my name in it"
-${test/nick/}
-echo ${test/nick/}
-ask4nano /etc/passwd ~/.bashrc 
-read -r -a test
-read -r -a test <<< "test"
-read -r -a test <<< "a"
-test="-t -m --help"
-read -r -a $test <<< "a"
-read -r -a array <<< "a"
-IFS=" "
-read -r -a array
-read -r -a array <<< $test
-echo $test
-"test1 "test2 "test3"|read -d " "
-"test1 test test3"|read -d " "
-"test1 test test3"|read -d " " -a
-"test1 test test3"|read -d " " -a arr
-arr=();"test1 test test3"|read -d " " -a arr
-arr=();echo "test1 test test3"|read -d " " -a arr
-echo ${arr[@]}clear
-read
-read --help
-read -d " " -i "test1 "Test2 "test3"
-read -d " " <<< "test1 "Test2 "test3"
-arr=();read -d " " -a arr <<< "test1 "Test2 "test3"
-echo $arr
-${test[@]}
-echo ${test[@]}
-echo ${arr[@]}
-nano -h
-nano --hlep
-nano --help -t
-echo ${args[@]}
-cls
-pkexec echo test
-nano /etc/passwd ~/.bashrc 
-nano
-nano --help
-nano --help|grep perm
-nano --help|grep sudo
-which nano
-/usr/bin/nano 
-nano /etc/passwd
-test -f /etc/passwd
-nano /etc/passwd 
-clear
-. ~/.bash_functions 
-nano ~/.bashrc 
-if [ nano ~/.bashrc ] then echo 1; else echo 2; fi
-if [ nano ~/.bashrc ] then echo 1 else echo 2; fi
-if [ nano ~/.bashrc ] then echo 1 else echo 2 fi
-if [ nano ~/.bashrc ]; then echo 1; else echo 2; fi
-if [ $(nano ~/.bashrc) ]; then echo 1; else echo 2; fi
-exit
-echo $pre
-echo $PROFILE 
-exit
-"test1 test test3"|read -d " " -a arr
-arr=();"test1 test test3"|read -d " " -a arr
-arr=();echo "test1 test test3"|read -d " " -a arr
-echo ${arr[@]}clear
-read
-read --help
-read -d " " -i "test1 "Test2 "test3"
-read -d " " <<< "test1 "Test2 "test3"
-arr=();read -d " " -a arr <<< "test1 "Test2 "test3"
-echo $arr
-${test[@]}
-echo ${test[@]}
-echo ${arr[@]}
-nano -h
-nano --hlep
-nano --help -t
-echo ${args[@]}
-cls
-pkexec echo test
-nano /etc/passwd ~/.bashrc 
-nano
-nano --help
-nano --help|grep perm
-nano --help|grep sudo
-which nano
-/usr/bin/nano 
-nano /etc/passwd
-test -f /etc/passwd
-nano /etc/passwd 
-. ~/.bash_functions 
-nano ~/.bashrc 
-if [ nano ~/.bashrc ] then echo 1; else echo 2; fi
-if [ nano ~/.bashrc ] then echo 1 else echo 2; fi
-if [ nano ~/.bashrc ] then echo 1 else echo 2 fi
-if [ nano ~/.bashrc ]; then echo 1; else echo 2; fi
-if [ $(nano ~/.bashrc) ]; then echo 1; else echo 2; fi
-cd /usr/lib/systemd/user-environment-generators/
-cat 30-systemd-environment-d-generator 
-./30-systemd-environment-d-generator 
-ls ~/.config/
-find ~ | grep environment
-./30-systemd-environment-d-generator --help
-./30-systemd-environment-d-generator
-./30-systemd-environment-d-generator >> test
-./30-systemd-environment-d-generator >> ~/Documents/test
-cat ~/Documents/test
-rm ~/Documents/test
-ls ~/.local/share/Trash/
-ls ~/.local/share/Trash/files/
-rm
-rm --help
-trash -i
-trash -i ~/.bash_functions 
-restore-trash
-list-trash
-trash-restore 
-trash-list
-trash-list|sed -l
-trash-restore $(trash-list|tail -n 1)
-trash-list|tail -n 1
-trash-list --help
-cd ~
-trash-restore
-ls -al
-trash
-trash-rm
-trash-rm --help
-man trash-rm
-dnf repoquery --installed -l trash-cli
-trash-put
-trash-put --help
-trash --help
-cd Documents/
-ls -a
-ls -l
-touch test222
-trash test222 
-code ~/.bashrc
-echo $PROMPT_COMMAND 
-$ENV 
-echo $ENV 
-echo $shell 
-printenv
-printenv|grep rc
-cd $home
-ls
-bash
-clear
-exit
-echo $PROFILE 
-exit
-echo $PROFILE 
-clear
-echo $DISPLAY 
-exit
-cd $DOCUMENTS
-exit
-echo $DISPLAY 
-cd $DOCUMENTS
-ls
-'set completion-ignore-case On' >> ~/.inputrc
-echo 'set completion-ignore-case On' >> ~/.inputrc
-cat ~/.inputrc 
-clear
-exit
-code ~/.inputrc 
-exit
-echo 'set completion-ignore-case On' >> ~/.inputrc
-cat ~/.inputrc 
-exit
-code ~/.inputrc 
-exit
-gnome-terminal --help-window-options
-gnome-terminal --show-menubar
-gnome-terminal --hide-menubar
-gnome-terminal --help-terminal-options
-gnome-terminal --help
-man gnome-term
-man gnome-terminal
-gnome-terminal  -x
-clear
-ask4nano  dfigj /etc/passwd
-clear
-clear
-len
-test=()
-test+=("test")
-test+=("test2")
-echo ${test}[@]
-echo ${#test}[@]
-echo ${test[@]}
-echo ${#test[@]}
-cls
-basename $0
-ls
-trash-put
-trash-put --help
-trash --help
-ls -a
-ls -l
-touch test222
-trash test222 
-code ~/.bashrc
-echo $PROMPT_COMMAND 
-$ENV 
-echo $ENV 
-echo $shell 
-printenv
-printenv|grep rc
-cd $home
-bash
-exit
-echo $PROFILE 
-exit
-echo $PROFILE 
-echo $DISPLAY 
-exit
-cd $DOCUMENTS
-exit
-echo $DISPLAY 
-cd $DOCUMENTS
-'set completion-ignore-case On' >> ~/.inputrc
-echo 'set completion-ignore-case On' >> ~/.inputrc
-cat ~/.inputrc 
-exit
-code ~/.inputrc 
-exit
-bind
-bind --p|grep on
-bind -p|grep on
-bind -p|grep -v "(not bound)"
-bind -v
-bind -v|grep on
-bind -v|grep " on"
-bind -V
-bind -X
-bind -x
-bind -f
-bind -m
-bind -l
-bind --help
-bind -p
-cd Documents/
-which ls
-$LS_COLORS
-dircolors --print-database
-cd ~/.vscode
-cd extensions/
-dircolors 
-echo $LS_COLORS
-export $(dircolors)
-ls --color=always
-ls -al
-ls
-ls --colors=auto
-ls --color=auto
-unset LS_COLORS
-gnome-system-monitor --help
-gnome-system-monitor 
-gnome-system-monitor -f
-clear
-sudo dnf search nautilus
-$ENV 
-echo $ENV 
-echo $shell 
-printenv
-printenv|grep rc
-cd $home
-bash
-exit
-echo $PROFILE 
-exit
-echo $PROFILE 
-echo $DISPLAY 
-exit
-cd $DOCUMENTS
-exit
-echo $DISPLAY 
-cd $DOCUMENTS
-'set completion-ignore-case On' >> ~/.inputrc
-echo 'set completion-ignore-case On' >> ~/.inputrc
-cat ~/.inputrc 
-exit
-code ~/.inputrc 
-exit
-cd /devb
-cd /dev
-cd /sys
-cd /syts
-find |grep seat
-systemctl status user
-systemctl status user@1000
-systemctl status seahorse
-systemctl status seahorse.unit
-systemctl status /usr/bin/seahorse
-ps aux
-ps aux|grep seahorse
-systemctl status gnome-keyring
-systemctl status gnome-keyring-daemon
-ps aux|grep keyri
-secret-tool lookup
-secret-tool lookup --all
-secret-tool search --all
-secret-tool search --all --unlock
-secret-tool search --all --unlock *
-man secret-tool 
-cd ~/.config/
-cd ..
-find|grep keyrinbg
-find|grep keyring
-cd .local/share/keyrings/
-cat user.keystore 
-cat login.keyring 
-secret-tool 
-sudo dnf search nemo pyextensions
-sudo dnf search pyextensions
-sudo dnf search python-nautilus
-sudo dnf search python nautilus
-sudo dnf search nautilus
-sudo dnf search nautilus plugin
-sudo dnf search nautilus extension
-sudo dnf install nautilus-search-tool 
-gnome-search-tool 
-killall nautilus
-nautilus --help
-cd ~/
-ls .gnome2
-ls .gnome2/
-ls .gnome2/accels/
-ls .gnome2/accels/ -al
-ls .gnome2_private/
-ls .gnome2_private/ -al;
-find|grep nautilus
-cd ~/.local/share/nautilus/
-cd scripts/
-ls
-ls -al
-sudo dnf deplist cherrytree
-sudo dnf list installed|grep gnome
-sudo dnf deplist nautilus
-sudo dnf list installed|grep nautilus
-sudo dnf deplist nautilus-search-tool
-clear
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-clear
-grep --help
-grep --help|grep color
-grpe
-ls|grep t
-unset GREP_OPTIONS 
-grep --color='always'
-echo $GREP
-echo $GREP_COLOR 
-exit
-exit
-echo $GREP
-echo $GREP_COLOR 
-ls|grep t
-alias grep="/usr/bin/grep $GREP_OPTIONS -n $GREP_COLOR"
-clear
-echo $grep
-grep
-grep --color=auto
-grep --color=auto -n test
-grep --gelp
-grep --help |grep -n
-grep --help 
-exit
-nautilus --help
-cd ~/
-ls .gnome2
-ls .gnome2/
-ls .gnome2/accels/
-ls .gnome2/accels/ -al
-ls .gnome2_private/
-ls .gnome2_private/ -al;
-find|grep nautilus
-cd ~/.local/share/nautilus/
-cd scripts/
-sudo dnf deplist cherrytree
-sudo dnf list installed|grep gnome
-sudo dnf deplist nautilus
-sudo dnf list installed|grep nautilus
-sudo dnf deplist nautilus-search-tool
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-bind
-bind --hlep
-bind --help
-cd Documents/
-ls "*~*"
-ls ~
-ls |grep ~
-ls |grep "~"
-ls |grep "~"|rm
-rm --help
-alias rm=trash
-rm
-for i in $(ls |grep "~"); do rm $i; done
-trash
-trash list
-trash-list
-rm erwfserf/
-ls
-ls -al
-dircolors 
-ping google.com
-ls | grep 2
-ls | grep 
-ls | grep t
-clear
-bash
-exit
-clear
-export GREP_COLOR='1;95'
-echo $GREP_COLOR 
-ls|grep t
-ls|grep t
-exit
-sudo dnf deplist nautilus
-sudo dnf list installed|grep nautilus
-sudo dnf deplist nautilus-search-tool
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-bind
-bind --hlep
-bind --help
-cd Documents/
-ls "*~*"
-ls ~
-ls |grep ~
-ls |grep "~"
-ls |grep "~"|rm
-rm --help
-alias rm=trash
-rm
-for i in $(ls |grep "~"); do rm $i; done
-trash
-trash list
-trash-list
-rm erwfserf/
-ping google.com
-ls | grep 2
-ls | grep 
-ls | grep t
-bash
-export GREP_COLOR='1;95'
-echo $GREP_COLOR 
-export GREP_COLOR='1;34'
-export GREP_COLOR='0;34'
-export GREP_COLOR='34'
-export GREP_COLOR='32'
-export GREP_COLOR='1;32'
-export GREP_COLOR='0;32'
-export GREP_COLOR='0;45'
-export GREP_COLOR='1;45'
-export GREP_COLOR='17;45''
-export GREP_COLOR='17;45'
-export GREP_COLOR='17;35'
-export GREP_COLOR='7;35'
-export GREP_COLOR='1;4;35'
-export GREP_COLOR='1;35;4;31'
-export GREP_COLOR='4;31'
-export GREP_COLOR='14;31'
-export GREP_COLOR='1;4;31'
-ls|grep t
-export GREP_COLOR='1;4;31'clear
-cd /usr/share/themes/Arc-Dark
-claer
-find|grep css
-ls
-ls gtk-2.0/
-cat gtk-2.0/gtkrc 
-dircolors 
-dircolors --help
-dircolors -b
-dircolors -c
-man dircolors 
-dircolors  -p
-echo $COLORS 
-cat $COLORS 
-ls $COLORTERM 
-echo $COLORTERM 
-echo $CLICOLOR
-export $CLICOLOR=1
-export CLICOLOR=1
-ls -al
-clear
-exit
-sudo dnf deplist nautilus
-sudo dnf list installed|grep nautilus
-sudo dnf deplist nautilus-search-tool
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-sudo dnf search gnome extension
-rofi
-rofi -show run
-rofi -show run --help
-rofi -show run -display XWAYLAND1
-rofi -show run -display XWAYLAND2
-rofi -show run -display XWAYLAND0
-echo ${DISPLAY} 
-rofi -show run -display ${DISPLAY} 
-rofi -show run -display ${DISPLAY} --full-screen
-rofi -show run -display ${DISPLAY} -full-screen -bw 50
-rofi -show run -display ${DISPLAY} -fullscreen -bw 50
-rofi -show run -display ${DISPLAY} -fullscreen -width 50
-rofi -show run -display ${DISPLAY} -fullscreen -width 50 -eh 2
-rofi -show run -display ${DISPLAY} -fullscreen -width 100
-rofi -show run -display ${DISPLAY} -fullscreen -width 100 -bw 40
-rofi -show run -display ${DISPLAY} -fullscreen -width 100 -bw 0 -padding 300
-rofi -show window -m 1 -fullscreen -width 100 -bw 0 -padding 300
-rofi -show run -m 1 -fullscreen -width 100 -bw 0 -padding 300
-rofi -show run -m 1 -width 100 -bw 0 -padding 300
-rofi -show run -m 1 -width 10 -bw 0 -padding 300
-rofi -show run -m 1 -width 20 -bw 0 -padding 300
-rofi -show run -m 1 -width 20 -bw 0 -padding 300 -fullscreen
-rofi -show run -m 1 -width 30 -bw 0 -padding 300 -normal-window
-rofi -show run -m 1 -width 30 -bw 0 -padding 300 -normal-window -center
-rofi --help|grep center
-rofi -show run -m 1 -width 20 -bw 0 -padding 10% -fullscreen
-rofi -show run -m 1 -width 20 -bw 0 -padding 10% -fullscreen -display ${DISPLAY} 
-clear
-rofi -show run -m 1 -fullscreen -width 10%
-rofi -show run -m 1  -width 10%
-rofi -show run -m 1  -width 10% -padding 5%
-rofi -show run -m 1  -width 50% -padding 5%
-rofi -show run -m 1  -width 50% -padding 5% -fullscreen
-rofi -show run -m 1  -width 50% -padding 5% -fullscreen -normal-window
-rofi -show run -m 1  -width 50% -padding 50 -fullscreen -normal-window
-rofi -show run -m 1 -fullscreen -normal-window -width 10%
-rofi -show run -m 1 -fullscreen -normal-window -width 10
-rofi -show run -m 1 -fullscreen -normal-window -padding 50%
-rofi -show run -m 1 -fullscreen -normal-window -padding 500
-rofi -show run -m 1 -fullscreen -normal-window 
-cd eix
-exit
-clear
-ls -al
-dircolors 
-dircolors --help
-dircolors -b
-dircolors -c
-man dircolors 
-dircolors  -p
-echo $COLORS 
-cat $COLORS 
-ls $COLORTERM 
-echo $COLORTERM 
-echo $CLICOLOR
-export $CLICOLOR=1
-export CLICOLOR=1
-exit
-cd Downloads/arc-theme-master/
-find|grep term
-ls extra/
-ls -al
-ls --color
-ls --color=auto
-ls common/
-find|grep color
-cd ..
-cd ../Documents/
-cd ../Downloads/
-ls
-chmod +x gnome-terminal-arc-dark.sh 
-nano gnome-terminal-arc-dark.sh 
-gnome-terminal --help
-clear
-./gnome-terminal-arc-dark.sh --help
-sudo dnf deplist nautilus-search-tool
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-echo $TERM
-echo "1;32"
-echo "1;32\e"
-echo "1;32e/"
-echo "e\1;32
-echo "e\1;32"
-echo "e\1;32 test"
-echo '\e[1;32 test'
-out '\e[1;32 test'
-out '\e[1;32' test
-echo '\e[1;32' test
-echo "\e[1;32" test
-echo "\e[1;32 test"
-echo -c\e[1;32 "test"
-echo -c \e[1;32 "test"
-echo -c '\e[1;32' "test"
-echo $TERM|clip
-echo $GREP_OPTIONS
-GREP_OPTIONS='--color=auto' GREP_COLOR='1;95'
-echo $GREP_OPTIONS 
-clear
-grep --help
-which grep|clip
-export GREP_COLOR='17;35'
-export GREP_COLOR='7;35'
-export GREP_COLOR='1;4;35'
-export GREP_COLOR='1;35;4;31'
-export GREP_COLOR='4;31'
-export GREP_COLOR='14;31'
-export GREP_COLOR='1;4;31'
-ls|grep t
-export GREP_COLOR='1;4;31'clear
-cd /usr/share/themes/Arc-Dark
-find|grep css
-ls gtk-2.0/
-cat gtk-2.0/gtkrc 
-dircolors 
-dircolors --help
-dircolors -b
-dircolors -c
-man dircolors 
-dircolors  -p
-echo $COLORS 
-cat $COLORS 
-ls $COLORTERM 
-echo $COLORTERM 
-echo $CLICOLOR
-export $CLICOLOR=1
-export CLICOLOR=1
-exit
-sudo dnf list installed|grep nautilus
-sudo dnf install gnome-shell-extensions-alternative-status-menu 
-sudo dnf search gnome extension
-rofi
-rofi -show run
-rofi -show run --help
-rofi -show run -display XWAYLAND1
-rofi -show run -display XWAYLAND2
-rofi -show run -display XWAYLAND0
-echo ${DISPLAY} 
-rofi -show run -display ${DISPLAY} 
-rofi -show run -display ${DISPLAY} --full-screen
-rofi -show run -display ${DISPLAY} -full-screen -bw 50
-rofi -show run -display ${DISPLAY} -fullscreen -bw 50
-rofi -show run -display ${DISPLAY} -fullscreen -width 50
-rofi -show run -display ${DISPLAY} -fullscreen -width 50 -eh 2
-rofi -show run -display ${DISPLAY} -fullscreen -width 100
-rofi -show run -display ${DISPLAY} -fullscreen -width 100 -bw 40
-rofi -show run -display ${DISPLAY} -fullscreen -width 100 -bw 0 -padding 300
-rofi -show window -m 1 -fullscreen -width 100 -bw 0 -padding 300
-rofi -show run -m 1 -fullscreen -width 100 -bw 0 -padding 300
-rofi -show run -m 1 -width 100 -bw 0 -padding 300
-rofi -show run -m 1 -width 10 -bw 0 -padding 300
-rofi -show run -m 1 -width 20 -bw 0 -padding 300
-rofi -show run -m 1 -width 20 -bw 0 -padding 300 -fullscreen
-rofi -show run -m 1 -width 30 -bw 0 -padding 300 -normal-window
-rofi -show run -m 1 -width 30 -bw 0 -padding 300 -normal-window -center
-rofi --help|grep center
-rofi -show run -m 1 -width 20 -bw 0 -padding 10% -fullscreen
-rofi -show run -m 1 -width 20 -bw 0 -padding 10% -fullscreen -display ${DISPLAY} 
-rofi -show run -m 1 -fullscreen -width 10%
-rofi -show run -m 1  -width 10%
-rofi -show run -m 1  -width 10% -padding 5%
-rofi -show run -m 1  -width 50% -padding 5%
-rofi -show run -m 1  -width 50% -padding 5% -fullscreen
-rofi -show run -m 1  -width 50% -padding 5% -fullscreen -normal-window
-rofi -show run -m 1  -width 50% -padding 50 -fullscreen -normal-window
-rofi -show run -m 1 -fullscreen -normal-window -width 10%
-rofi -show run -m 1 -fullscreen -normal-window -width 10
-rofi -show run -m 1 -fullscreen -normal-window -padding 50%
-rofi -show run -m 1 -fullscreen -normal-window -padding 500
-rofi -show run -m 1 -fullscreen -normal-window 
-cd eix
-exit
-dircolors 
-dircolors --help
-dircolors -b
-dircolors -c
-man dircolors 
-dircolors  -p
-echo $COLORS 
-cat $COLORS 
-ls $COLORTERM 
-echo $COLORTERM 
-echo $CLICOLOR
-export $CLICOLOR=1
-export CLICOLOR=1
-exit
-cd Downloads/arc-theme-master/
-find|grep term
-ls extra/
-ls --color
-ls --color=auto
-ls common/
-find|grep color
-cd ../Documents/
-chmod +x gnome-terminal-arc-dark.sh 
-nano gnome-terminal-arc-dark.sh 
-gnome-terminal --help
-./gnome-terminal-arc-dark.sh --help
-ls -al --color
-ls -al --color=always
-ls --hlep
-ls --help|grep color
-ls --help
-command ls
-/bin/ls
-alias ls=/bin/ls --color=auto
-alias ls="/bin/ls --color=always"
-cd Doc
-cd Documents/
-echo alias ls="/bin/ls --color=always"|clip
-sudo dnf search nautilus extension
-sudo dnf install nautilus-search-tool nautilus-image-converter gnome-terminal-nautilus nautilus-devel nautilus-extensions 
-sudo dnf search nautilus-
-sudo dnf install nautilus-sendto
-y
-sudo dnf deplist nautilus-search-tool
-filemanager
-udo dnf info nautus
-sudo dnf info nautus
-sudo dnf info nautilus
-sudo dnf install nautilus-actions
-sudo dnf install -actions
-sudo dnf searchg -actions
-sudo dnf searchh -actions
-sudo dnf search -actions
-sudo dnf search
-sudo dnf search test
-sudo dnf search "test"
-sudo dnf search "-actions"
-sudo dnf search '-actions'
-sudo dnf search "actions"
-sudo dnf search "actions"|grep file
-sudo dnf search "actions"|grep nautil
-sudo dnf copr search filemanager-actions
-sudo dnf copr install urkum/filemanager-actions
-sudo dnf copr install surkum/filemanager-actions
-sudo dnf copr enable surkum/filemanager-actions
-sudo dnf repolist 
-sudo dnf copr enable "surkum/filemanager-actions"
-sudo dnf install filemanager-actions
-nautilus-actions
-filemanager-actions
-cd Down
-cd ../Downloads/
-unzip filemanager-actions-FILEMANAGER_ACTIONS_3_4.zip 
-cd filemanager-actions-FILEMANAGER_ACTIONS_3_4/
-cat README
-cat README|grep make
-cat README-GCONF 
-claer
-chmod +x configure.ac 
-ls docs
-ls docs/manual/
-ls docs/Makefile.am 
-cat docs/Makefile.am 
-chmod +x INSTALL 
-./INSTALL 
-./INSTALL --help
-cat INSTALL 
-make
-gcc
-ls -la
-./configure.ac 
-sudo dnf install configure
-sudo dnf install autotools
-sudo dnf install automake
-sudo dnf deplist automake
-autoreconf 
-./configure
-autoheader
-autoupdate
-find gnome-foc-utils
-find|grep gnome-foc-utils
-cd ~/Documents/git/
-git clone git@gitlab.gnome.org:GNOME/filemanager-actions.git
-git clone https://gitlab.gnome.org/GNOME/filemanager-actions.git
-cd filemanager-actions/
-autoconf 
-sudo dnf install caja
-sudo dnf install caja intltool gnome-doc-utils libgtop
-sudo dnf install caja intltool gnome-doc-utils
-sudo dnf search libgtop
-sudo dnf install libgtop2
-sudo dnf install libgtop2-devel
-aclocal
-configure
-configure*
-autoscan
-automake
-sudo dnf install nemo
-sudo dnf install nemo dbus-glib-1
-sudo dnf install nemo dbus-glib
-autoconf
-autoscan 
-sudo dnf install plugin-tracker
-sudo dnf install libintl
-sudo dnf list transactions
-sudo dnf transactions
-sudo dnf transactions-list
-sudo dnf
-sudo dnf history unfo 3 4 5 6 7 8 9 10 11 12
-sudo dnf history
-sudo dnf history undo 100 99 98
-sudo dnf history --help
-sudo dnf history rollback 97
-sudo dnf install python-nautilus
-sudo dnf install nautilus-python
-git clone https://github.com/cra0zy/code-nautilus.git
-cd co
-cd code-nautilus/
-./install.sh 
-cd ~/.local/share/nautilus
-cd scripts/
-rm *
-rm * -rf
-cd ~/.local/share/nautilus-python/
-cd extensions/
-code naut
-code ./code-nautilus.py 
-which nautilus
-find /usr |grep nautilus
-find -d /usr |grep nautilus
-find -D /usr |grep nautilus
-cd /usr
-cd ~
-sudo dnd list installed|grep nautilus-
-sudo dnf list installed|grep nautilus-
-sudo dnf install nautilus-share
-cd /usr/local/share/
-ls applications/
-cd share/
-ls -a
-$pwd
-cd
-cd /usr/share
-cd gnome
-find|grep nautilus
-find|grep nautilus|grep -x icons
-grep --help
-find|grep nautilus|grep -v icons
-find|grep -v icons|grep -v python|grep nautilus
-find|grep -v icons|grep -v python|grep -v help|grep nautilus
-cd ..
-ls
-find|grep -v icons|grep -v python|grep -v help|grep -v doc|grep nautilus
-cd /usr/bin/nau
-cd /usr/bin/l
-cd /usr/bin/
-ls -al
-ls -al nautilus
-sudo dnf deplist nautilus
-sudo dnf repolist nautilus
-clear
-sudo dnf repoquery -l nautilus
-sudo dnf repoquery -l nautilus|grep context
-cd /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
-code /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
-pip search nautilus
-pip install masna
-pip3 install masna==0.01
-pip3 install masna
-pip3 search filemanager-actions
-pip3 search "filemanager-actions"
-pip3 search "filemanager-actions"|grep filemanager-actions
-sudo dnf search context|grep nautilus
-sudo dnf search context|grep file
-sudo dnf search context
-sudo dnf search context|grep edit
-ps aux
-ps aux|grep roll
-clear
-code /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
-pip search nautilus
-pip install masna
-pip3 install masna==0.01
-pip3 install masna
-pip3 search filemanager-actions
-pip3 search "filemanager-actions"
-pip3 search "filemanager-actions"|grep filemanager-actions
-sudo dnf search context|grep nautilus
-sudo dnf search context|grep file
-sudo dnf search context
-sudo dnf search context|grep edit
-sudo dnf install caja-actions
-killall nautilus 
-sudo dnf install nemo
-sudo dnf install nemo -y -q
-sudo dnf install nemo -y
-sudo dnf install nemo-preview
-sudo dnf search nemo-
-sudo dnf install nemo-font-manager nemo-extensions nemo-fileroller nemo-seahorse nemo-emblems nemo-compare
-sudo dnf search nemo
-sudo dnf search nemo|grep python
-sudo dnf install python3-nemo
-sudo dnf install nemo-font-manager nemo-extensions nemo-fileroller nemo-seahorse nemo-emblems nemo-compare -y
-sudo dnf install nemo-extensions nemo-fileroller nemo-seahorse nemo-emblems nemo-compare -y
-cls
-nemo --help
-nemo -n
-man nemp
-man nemo
-gsettings set org.gnome.desktop.background show-desktop-icons false
-gsettings set org.nemo.desktop show-desktop-icons true
-killall nemo-desktop
-sudo dnf search nemo-desktop
-nemo-desktop --help
-echo $DISPLAY 
-cat ~/.bash_history 
-cat ~/.bash_history |grep xdg
-cat ~/.bash_history |grep disp
-cat ~/.bash_history |grep xr
-cat ~/.bash_history |grep xr|tail -n 1
-cat ~/.bash_history |grep xr|tail -n 1|clip
-xrandr --output XWAYLAND1 --primary
-nemo-desktop 
-clear
-find|grep -v icons|grep -v python|grep nautilus
-find|grep -v icons|grep -v python|grep -v help|grep nautilus
-find|grep -v icons|grep -v python|grep -v help|grep -v doc|grep nautilus
-cd /usr/bin/nau
-cd /usr/bin/l
-cd /usr/bin/
-ls -al nautilus
-sudo dnf deplist nautilus
-sudo dnf repolist nautilus
-sudo dnf repoquery -l nautilus
-sudo dnf repoquery -l nautilus|grep context
-cd /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
-code /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
-pip search nautilus
-pip install masna
-pip3 install masna==0.01
-pip3 install masna
-pip3 search filemanager-actions
-pip3 search "filemanager-actions"
-pip3 search "filemanager-actions"|grep filemanager-actions
-sudo dnf search context|grep nautilus
-sudo dnf search context|grep file
-sudo dnf search context
-sudo dnf search context|grep edit
-ps aux
-ps aux|grep roll
-code /usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml
-pip search nautilus
-pip install masna
-pip3 install masna==0.01
-pip3 install masna
-pip3 search filemanager-actions
-pip3 search "filemanager-actions"
-pip3 search "filemanager-actions"|grep filemanager-actions
-sudo dnf search context|grep nautilus
-sudo dnf search context|grep file
-sudo dnf search context
-sudo dnf search context|grep edit
-sudo dnf install caja-actions
-killall nautilus 
-sudo dnf install nemo
-sudo dnf install nemo -y -q
-sudo dnf install nemo -y
-sudo dnf install nemo-preview
-sudo dnf search nemo-
-sudo dnf install nemo-font-manager nemo-extensions nemo-fileroller nemo-seahorse nemo-emblems nemo-compare
-sudo dnf search nemo
-sudo dnf search nemo|grep python
-sudo dnf install python3-nemo
-sudo dnf install nemo-font-manager nemo-extensions nemo-fileroller nemo-seahorse nemo-emblems nemo-compare -y
-sudo dnf install nemo-extensions nemo-fileroller nemo-seahorse nemo-emblems nemo-compare -y
-cls
-nemo --help
-nemo -n
-man nemp
-man nemo
-gsettings set org.gnome.desktop.background show-desktop-icons false
-gsettings set org.nemo.desktop show-desktop-icons true
-killall nemo-desktop
-sudo dnf search nemo-desktop
-nemo-desktop --help
-echo $DISPLAY 
-cat ~/.bash_history 
-cat ~/.bash_history |grep xdg
-cat ~/.bash_history |grep disp
-cat ~/.bash_history |grep xr
-cat ~/.bash_history |grep xr|tail -n 1
-cat ~/.bash_history |grep xr|tail -n 1|clip
-xrandr --output XWAYLAND1 --primary
-nemo-desktop 
-zenity 
-zenity --help --list
-zenity --help 
-man zenity 
-zenity  --calendar
-zenity  --info
-sudo dnf list installed|grep nautilus
-sudo dnf install eiciel
-sudo dnf search nautilus|grep color
-killall nautilus
-code $PROFILE 
-touch .hidden
-nano .hidden 
-rm .hidden 
-cd ~
-cd Documents/git/
-git clone https://github.com/chrisjbillington/git_nautilus_icons.git
-cat README.md 
-sudo dnf install python-gi
-cd ~/.local/share/nautilus-python/extensions/
-rm git-nautilus-icons.py 
-rm 0ccf4f17-90cf-4960-a3fb-6a2c31a7cf7c.desktop 
-cd ~/Documents/git/git_nautilus_icons/
-code git-nautilus-icons.py 
-cp icons/* ~/.local/share/icons/hicolor/
-cd icons/
-chmod +x ./generate_icons.py 
-ls hicolor/
-ls hicolor/scalable/
-ls hicolor/scalable/emblems/
-ls sub_icons/
-cd git_nautilus_icons/
-cp git-nautilus-icons.py ~/.local/share/nautilus-python/extensions/
-cd icons/hicolor/
-cd .
-cd ..
-cp -R icons/ ~/.local/share/
-ls ~/.local/share/
-ls ~/.local/share/icons/
-ls ~/.local/share/icons/hicolor/
-stat LICENSE 
-stat .gitignore 
-cd /usr/share/nemo/actions/
-killall nemop
-killall nemo
-cat myaction.py 
-cat 90_new-workspace.nemo_action 
-ls -al
-ls -al ~/.local/share/nemo/actions/
-dconf
-dconf list *
-dconf list --help
-dconf list
-dconf list /apps/
-dconf list / *
-dconf list /
-dconf dump /
-dconf dump /|grep <Super>"
-dconf dump /|grep "<Super>"
-dconf dump /|grep "<Contrl>"
-dconf dump /|grep "<Control>"
-dconf dump /|grep "<Primary>"
-dconf dump /|grep ".'"
-dconf dump /|grep .'
-dconf dump /|grep .\'
-dconf dump /|grep -F .'
-dconf dump /|grep -F ".'"
-dconf dump /|grep -F "."
-dconf dump /| grep control
-dconf dump /| grep <control>
-dconf dump /| grep "<control>"
-dconf dump /| grep -F <control>
-dconf dump /| grep -F <control>"
-dconf dump / | grep -F <control>"
-dconf dump / | grep -F "<control>"
-dconf dump / | grep -F <control>
-dconf dump / | grep -F control
-dconf dump / | grep -F Primary
-dconf dump / | grep emote
-dconf dump / | grep emoji
-sudo dnf list installed
-sudo dnf list installed|grep emojki
-sudo dnf list installed|grep emoji
-sudo dnf list installed|grep emote
-gsettingst
-gsettings
-gsettings dump
-gsettings get *
-gsettings list-recursively 
-gsettings list-recursively |grep Control
-gsettings list-recursively |grep Control+.
-gsettings list-recursively |grep -F "Control+."
-gsettings list-recursively |grep -F Control+.
-gsettings list-recursively |grep emoji3
-cleaer
-read $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings)
-read -d $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings)
-arr=();read -a arr $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings)
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings)
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | python -m json.tool
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | python3 -m json.tool
-echo ${(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings)\'\"}
-echo ${$(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings)\'\"}
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | sed "s/\"/'/g"
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | sed "s/\'/"/g"
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | sed "s/'/\"/g"
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | sed "s/'/\"/g"|python3 -m json.tool
-echo $(gsettings get org.freedesktop.ibus.engine.typing-booster keybindings) | sed "s/'/\"/g"|clip
-gsettings get org.freedesktop.ibus.engine.typing-booster keybindings 
-gsettings get org.freedesktop.ibus.engine.typing-booster keybindings|grep emoji
-~leart
-sudo dnf list installed|grep ibus
-cleart
-laughing
-gsettings list-recursively |grep emoji
-gsettings list-recursively |grep -F 'Control+.'
-gsettings list-recursively |grep -F 'Control+'
-gsettings list-recursively |grep -F <Control>
-gsettings list-recursively |grep -F '<Control>'
-clear
-ibus-setup 
-cd /usr/libexec/
-ls
-./ibus-ui-emojier 
-sudo dnf list installed|grep pinyin
-/usr/bin/python3 -m pip install -U pylint --user
-clear
-./ibus-ui-emojier 
-sudo dnf list installed|grep pinyin
-/usr/bin/python3 -m pip install -U pylint --user
-sudo dnf install xdg-desktop-portla
-sudo dnf install xdg-desktop-portal
-xdg-desktop-menu 
-echo $XDG_CONFIG_HOME
-sudo dnf search mozilla
-sudo dnf search mozilla key
-cls
-nano /usr/share/applications/firefox.desktop 
-cd /usr/lib64/firefox/
-ls
-clear
-cd 
-sudo dnf search tuncel
-clear
-fsdfsd
-clear
-bind -p
-bind -p >> ~/.inputrc 
-code ~/.inputrc 
-gsettings get org.freedesktop.ibus.engine.typing-booster keybindings|grep emoji
-~leart
-sudo dnf list installed|grep ibus
-cleart
-laughing
-gsettings list-recursively |grep emoji
-gsettings list-recursively |grep -F 'Control+.'
-gsettings list-recursively |grep -F 'Control+'
-gsettings list-recursively |grep -F <Control>
-gsettings list-recursively |grep -F '<Control>'
-ibus-setup 
-cd /usr/libexec/
-./ibus-ui-emojier 
-sudo dnf list installed|grep pinyin
-/usr/bin/python3 -m pip install -U pylint --user
-./ibus-ui-emojier 
-sudo dnf list installed|grep pinyin
-/usr/bin/python3 -m pip install -U pylint --user
-sudo dnf install xdg-desktop-portla
-sudo dnf install xdg-desktop-portal
-xdg-desktop-menu 
-echo $XDG_CONFIG_HOME
-sudo dnf search mozilla
-sudo dnf search mozilla key
-cd /usr/lib64/firefox/
-cd 
-sudo dnf search tuncel
-code \$HOME/.bash_f
-code \$HOME/.bash_functions 
-code $HOME/.bash_functions 
-nano /usr/share/applications/firefox.desktop 
-bind --help
-bind -p -s -v
-bind -p -s -v -x
-bind -p -s -v >> ~/Documents/input.txt
-code ~/Documents/input.txt
-sed -n -l
-keyctl
-keytool 
-od -c <<<
-od -c <<< ef
-oh --help
-od --help
-od -c <<< 
-od -c
-d
-compton
-cd /usr/share/wayland-sessions/
-cat gnome.desktop 
-loginctl
-loginctl show-session 12 -p Type
-cls
-send
-sudo dnf update -d
-sudo dnf update --dry-run
-sudo dnf update
-code ~/.local/share/applications/epiphany-android-messages-ebab64107ce7f0154187aa80e33be52fa6fb5980.desktop 
-cd /usr/share/applications/
-ls
-ls|grep mess
-ls|grep messsage
-gtk-update-icon-cache 
-11!
-clear
-read
-exit
-read
-read read read
-read read
-bind '"\C-H": "\C-W"'
-code ~/.bashrc
-read
-ls
-ls|grep mess
-ls|grep messsage
-gtk-update-icon-cache 
-11!
-exit
-read read read
-read read
-bind '"\C-H": "\C-W"'
-code ~/.bashrc
-lear
-clear
-read
-bind '"\C-I": menu-complete-backward'
-clear
-bind '"\C-I": menu-complete-backward'
-xrandr --output XWAYLAND1 --primary
-cd /usr/lib/nautilus
-clear
-xrandr --output XWAYLAND1 --primary
-cd /usr/lib/nautilus
-sudo dnf search "nautilus-"
-sudo dnf list installed|grep nautilus-
-sudo dnf deplist nautilus-image-converter
-sudo dnf repoquery -l nautilus-image-converter
-cd /usr/lib64/nautilus/extensions-3.0/
-ls
-cat libnautilus-python.so 
-clear
-sudo dnf search "libnautilus"
-sudo dnf search "nautilus"
-sudo dnf install "nautilus-devel"
-clear
-gcc
-bind '"\C-I": menu-complete-backward'
-bind '"\C-I": menu-complete-backward'
-xrandr --output XWAYLAND1 --primary
-cd /usr/lib/nautilus
-xrandr --output XWAYLAND1 --primary
-cd /usr/lib/nautilus
-sudo dnf search "nautilus-"
-sudo dnf list installed|grep nautilus-
-sudo dnf deplist nautilus-image-converter
-sudo dnf repoquery -l nautilus-image-converter
-cd /usr/lib64/nautilus/extensions-3.0/
-cat libnautilus-python.so 
-sudo dnf search "libnautilus"
-sudo dnf search "nautilus"
-sudo dnf install "nautilus-devel"
-gcc
-env sh /tmp/Microsoft-MIEngine-Cmd-9hex5631.rxv 
-env sh /tmp/Microsoft-MIEngine-Cmd-765ys8gl.xra 
-ls -al
-cat loops.c 
-cat loops.c >> times-tables.c
-code time
-code times-tables.c 
-cls
-gcc exercizes.c -o exercizes1
-gcc exercizes.c -I exercizes.h -o exercizes1
-clear
-man include
-man gcc
-gcc exercizes.c -B . -o exercizes1
-gcc exercizes.c  -o exercizes1 -i exercizes.h
-gcc --help
-gcc --help|clip
-gcc exercizes.c  -o exercizes1 --include exercizes.h
-ls
-./exercizes1 
-gcc exercizes.c  -o exercizes1 -I./
-find /usr/include
-find /usr/include|grep glib
-find /usr/include|grep glibconf
-sudo dnf install glibconfig
-sudo dnf install glib-devel
-find /usr/lib/ |grep glibconf
-clear
-man gcc
-echo 'we're in bash.'
-gcc --help|clip
-gcc exercizes.c  -o exercizes1 --include exercizes.h
-find /usr/include
-find /usr/include|grep glib
-find /usr/include|grep glibconf
-sudo dnf install glibconfig
-sudo dnf install glib-devel
-find /usr/lib/ |grep glibconf
-man gcc
-gcc exercizes.c  -o exercizes1 -I./
-./exercizes1 
-which gcc
-clear
-ls
-./exercizes 
-sudo dnf search "nautilus"
-sudo dnf install "nautilus-devel"
-gcc
-env sh /tmp/Microsoft-MIEngine-Cmd-9hex5631.rxv 
-env sh /tmp/Microsoft-MIEngine-Cmd-765ys8gl.xra 
-cat loops.c 
-cat loops.c >> times-tables.c
-code time
-code times-tables.c 
-gcc exercizes.c -o exercizes1
-gcc exercizes.c -I exercizes.h -o exercizes1
-man include
-man gcc
-gcc exercizes.c -B . -o exercizes1
-gcc exercizes.c  -o exercizes1 -i exercizes.h
-gcc --help
-gcc --help|clip
-gcc exercizes.c  -o exercizes1 --include exercizes.h
-./exercizes1 
-gcc exercizes.c  -o exercizes1 -I./
-find /usr/include
-find /usr/include|grep glib
-find /usr/include|grep glibconf
-sudo dnf install glibconfig
-sudo dnf install glib-devel
-find /usr/lib/ |grep glibconf
-man gcc
-env sh /tmp/Microsoft-MIEngine-Cmd-hv3hlg9f.k4c 
-env sh /tmp/Microsoft-MIEngine-Cmd-6xpcw387.mcg 
-ls -al
-expr 9810
-expr "9 * 10"
-expr --help
-expr
-expr 1 + 2
-expr 9 + 10
-expr 9 * 10
-expr 9 *10
-expr 9*10
-expr 9 \* 10
-printf
-printf("test")
-print
-    double firstd,secondd;
-ls
-"String Reverser"
-cls
-./exercizes 
-bash --help
-run
-exec --help
-echo "test"
-echo "bigtest"
-echo test42
-"key": "ctrl+f"
-open
-clear
-echo -e '\e[32mRunning file in terminal'
-~echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-clear
-echo -e '\e[32mRunning file in terminal'
-"command": "workbench.action.terminal.runSelectedText"
-clear
-echo test42
-echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-echo '1'
-echo '1'
-echo '1'
-echo test 1
-clear
-clear
-cls
-echo test42
-echo -e '\e[32mRunning file in terminal'
-echo test42
-test42 
-clear
-clear
-echo test42
-echo '1'
-echo '1'
-echo '1'
-echo test 1
-cls
-echo test42
-echo test42
-test42 
-echo test 
-~clear && echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-clear && echo -e '\e[32mRunning file in terminal'
-clear && echo -e '\e[32mRunning file /home/nick/Documents/test.sh in terminal'
-/home/nick/Documents/test.sh
-clear
-echo test42
-echo '1'
-echo '1'
-echo '1'
-echo test 1
-cls
-echo test42
-echo test42
-test42 
-echo test 
-~clear && echo -e '\e[32mRunning file in terminal'
-echo -e '\e[32mRunning file in terminal'
-clear && echo -e '\e[32mRunning file in terminal'
-echo ${file}
-if [ -x  ]; then echo 1;else echo 0; fi
-function
-echo $FUNCNAME
-FUNCTIONS="$HOME/.bash_functions"
-echo $FUNC
-echo $FUNCTIONS 
-test -f $FUNCTIONS 
-test -e $FUNCTIONS 
-if [test -e $FUNCTIONS ] then echo 1
-if [test -e $FUNCTIONS ] ;then echo 1
-if [test -e $FUNCTIONS ]; then echo 1;fi
-if [ test -e $FUNCTIONS ]; then echo 1;fi
-if [ test - $FUNCTIONS ]; then echo 1;fi
-if [ test -f $FUNCTIONS ]; then echo 1;fi
-if [[ test -f $FUNCTIONS ]]; then echo 1;fi
-code $FUNCTIONS 
-scanf
-read
-test=read
-read -p test
-var=read -p test
-var=$(read -p test)
-echo $var
-PS3="Test:"
-options=("1" "2" "3")
-select opt in "${options[@]}"
-clear && echo -e '\e[32mRunning file /home/nick/Documents/test.sh in terminal'
-/home/nick/Documents/test.sh
-echo $PS3
-readarray -t < "test"
-readarray -t arr < "test"
-select arg in y nselect arg in 
-select arg in y n; do     echo arg; done
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -n1 -r
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -n1
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r
-echo $REPLY
-read --help
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];then echo 1;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]]; test ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]]; echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1; fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1;fi
-clear
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r; if [[ $REPLY =~ ^[Yy]$ ]];then echo 1 ; fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]]; echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1; fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r; if [[ $REPLY =~ ^[Yy]$ ]];then echo 1 ; fi
-echo test
-read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then echo 1 ; fi
-clear
-read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x /home/nick/.config/Code/User/keybindings.json ; fi
-clear
-nautilus --help
-which nautilus|clip
-nautilus --select ~/.bashrc
-exec /usr/bin/nautilus --select /home/nick/.config/Code/User/settings.json
-select opt in "${options[@]}"
-clear && echo -e '\e[32mRunning file /home/nick/Documents/test.sh in terminal'
-/home/nick/Documents/test.sh
-echo $PS3
-readarray -t < "test"
-readarray -t arr < "test"
-select arg in y nselect arg in 
-select arg in y n; do     echo arg; done
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -n1 -r
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -n1
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r
-echo $REPLY
-read --help
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];then echo 1;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]]; test ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]]; echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1; fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r; if [[ $REPLY =~ ^[Yy]$ ]];then echo 1 ; fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]]; echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1 ;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1; fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r;if [[ $REPLY =~ ^[Yy]$ ]];echo 1;fi
-read -p "File is not executable. Run `chmod +x` now? [Y/N]: " -r; if [[ $REPLY =~ ^[Yy]$ ]];then echo 1 ; fi
-echo test
-read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then echo 1 ; fi
-read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x /home/nick/.config/Code/User/keybindings.json ; fi
-nautilus --help
-which nautilus|clip
-nautilus --select ~/.bashrc
-clear && read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then VSCODE_TEST=1 ; fi
-printenv 
-printenv |grep env
-/home/nick/.config/Code/User/keybindings.json
-cls
-y
-clear && read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then export VSCODE_TEST=1 ; fi
-echo $VSCODE_TEST 
-clear && read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x /home/nick/.config/Code/User/keybindings.json ; fi
-echo $env
-echo $PATH
-clear
-printenv|grep VSCODE
-printenv
-unset VSCODE_TEST 
-export VSC="test"
-clear && read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x /home/nick/.config/Code/User/keybindings.json ; fi
-echo $env
-echo $PATH
-unset VSCODE_TEST 
-export VSC="test"
-$env:PATH
-$env:Name
-$env:NAME
-echo $env:NAME
-printenv --help
-help printenv
-man printenv
-printenv
-printenv|grep =
-printenv|grep VS
-printenv|grep VSCODE
-export "VSCODE=1"
-clear
-printenv|grep =
-printenv|grep VS
-printenv|grep VSCODE
-export "VSCODE=1"
-export "VSC=1";
-"VSC=1";
-VSC=1
-clear
-"VSC=1";
-VSC=1
-clear
-clear && read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then export VSCODE_TEST=1 ; fi
-echo $VSCODE_TEST 
-bind '"\C-I": menu-complete-backward'
-cd /usr/lib/nautilus
-cd /usr/lib/nautilus
-sudo dnf search "nautilus-"
-sudo dnf list installed|grep nautilus-
-sudo dnf deplist nautilus-image-converter
-sudo dnf repoquery -l nautilus-image-converter
-cd /usr/lib64/nautilus/extensions-3.0/
-cat libnautilus-python.so 
-sudo dnf search "libnautilus"
-sudo dnf search "nautilus"
-sudo dnf install "nautilus-devel"
-bind '"\C-I": menu-complete-backward'
-bind '"\C-I": menu-complete-backward'
-cd /usr/lib/nautilus
-cd /usr/lib/nautilus
-sudo dnf search "nautilus-"
-sudo dnf list installed|grep nautilus-
-sudo dnf deplist nautilus-image-converter
-sudo dnf repoquery -l nautilus-image-converter
-cd /usr/lib64/nautilus/extensions-3.0/
-cat libnautilus-python.so 
-sudo dnf search "libnautilus"
-sudo dnf search "nautilus"
-sudo dnf install "nautilus-devel"
-env sh /tmp/Microsoft-MIEngine-Cmd-9hex5631.rxv 
-env sh /tmp/Microsoft-MIEngine-Cmd-765ys8gl.xra 
-ls -al
-cat loops.c 
-cat loops.c >> times-tables.c
-code time
-code times-tables.c 
-cls
-gcc exercizes.c -o exercizes1
-gcc exercizes.c -I exercizes.h -o exercizes1
-man include
-man gcc
-gcc exercizes.c -B . -o exercizes1
-gcc exercizes.c  -o exercizes1 -i exercizes.h
-gcc --help|clip
-gcc exercizes.c  -o exercizes1 --include exercizes.h
-./exercizes1 
-gcc exercizes.c  -o exercizes1 -I./
-find /usr/include
-find /usr/include|grep glib
-find /usr/include|grep glibconf
-sudo dnf install glibconfig
-sudo dnf install glib-devel
-find /usr/lib/ |grep glibconf
-man gcc
-sudo dnf search vscode
-sudo dnf search code
-sudo dnf search code|grep visual
-sudo dnf install tsch
-sudo dnf install csh
-tsch
-csh
-sudo dnf search cint
-cling
-clang
-gcc
-gcc --help
-gcc-interpreter
-sudo dnf search gcc
-rlwrap
-sudo dnf search rlwrap
-sudo dnf install rlwrap
-rlwrap 
-cd Documents/git/
-git clone https://github.com/abijith-kp/gcc-interpreter.git
-cd g
-cd gcc-interpreter/
-cat interpretter.sh 
-./
-for (int i=0; i < sizeof(array)/sizeof(int);i++){printf("%d",i);}
-for (int i=0; i <= sizeof(array)/sizeof(int);i++){printf("%d",i);}
-test="tring Reverser"
-echo test
-echo $test
-test="String Reverser"
-echo ${#test}
-code interpretter.sh 
-echo 'char choices[3][10]={"red","blue","yellow"};'
-echo 'char choices[3][10]={"red","blue","yellow"};'|Clip
-echo 'char choices[3][10]={"red","blue","yellow"};'|clip
-char choices[3][10]={"red","blue","yellow"};
-./interpretter.sh 
-sleep
-sleep 2
-sleep 1
-echo "\e[41 test"
-echo "\e[41m test"
-echo "\e[41mtest"
-echo -e "\e[41m test"
-echo -e "\e[41m test\n"
-echo --help
-man echo
-echo -e "Test \e[32mRunning file in terminal"
-xrandr --output XWAYLAND1 --primary
-echo -n test | xxd
-cat -v
-if [ -w README.md ] 
-if [ -w README.md ] then echo 1;else echo 0; fi
-if [ -w README.md ]; then echo 1;else echo 0; fi
-if [ -w interpretter.sh ]; then echo 1;else echo 0; fi
-if [ -e interpretter.sh ]; then echo 1;else echo 0; fi
-if [ -x interpretter.sh ]; then echo 1;else echo 0; fi
-echo 'if [ -x  ]; then echo 1;else echo 0; fi'|clip
-code ~/.bashrc
-echo $profil
-echo $profile
-echo $PROFILE
-cd ~/Documents/
-ls
-chmod +x test.sh 
-clear
-esac
-./test.sh 
-printenv|grep VS
-printenv|grep VSCODE
-export "VSCODE=1"
-export "VSC=1";
-"VSC=1";
-VSC=1
-"VSC=1";
-VSC=1
-echo $VSCODE_TEST 
-clear && read -p 'File is not executable. Run `chmod +x` now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then export VSCODE_TEST=1 ; fi
-clear && read -p 'File is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then export VSCODE_TEST=1 ; fi
-clear && read -p 'File \e[32m${fileName} \e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && read -p 'File ^[[32m${fileName} ^[[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && read -p $'File ^[[32m${fileName} ^[[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && read -p $'File \e[32m${fileName} \e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && read -p $'File\e[32m ${fileName} \e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json \e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && echo -e '\e32m Running file...
- 
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-echo --help
-man echo
-clear && echo -e '\e[32m Running file...
- 
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && echo -e '\e[32mRunning file...
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; fi
-clear && echo -e '\e[32mRunning file...
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; else echo -e '\e[31mWarning: file may not execute. ;fi
-clear && echo -e '\e[32mRunning file...
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; else echo -e '\e[31mWarning: file may not execute. ;fi
-clear && echo -e '\e[32mRunning file...
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; else echo -e '\e[31mWarning: file may not execute.' ; fi
-clear && echo -e '\e[32mRunning file...\e[39m
-' && read -p $'File\e[32m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; else echo -e '\e[31mWarning: file may not execute.' ; fi
-clear && echo -e '\e[32mRunning file...\e[39m
-' && read -p $'File\e[33m /home/nick/.config/Code/User/keybindings.json\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; else echo -e '\e[31mWarning: file may not execute.' ; fi
-clear && echo -e '\e[32mRunning file...\e[39m
-' && read -p $'File\e[33m /home/nick/Documents/test.sh\e[39m is not executable. Run chmod +x now? [Y/N]: ' -r; if [[ $REPLY =~ ^[Yy]$ ]];then chmod +x ; else echo -e '\e[31mWarning: file may not execute.' ; fi
-ls ~/.config/Code/
-ls ~/.config/Code/User/
-mkdir ~/.config/Code/User/tasks/default -o
-mkdir ~/.config/Code/User/tasks/default -f
-mkdir ~/.config/Code/User/tasks/default --force
-mkdir ~/.config/Code/User/tasks/default
-mkdir ~/.config/Code/User/tasks/
-print("test")
-clear
-echo $profile
-echo $PROFILE
-cd ~/Documents/
-chmod +x test.sh 
-esac
-./test.sh 
-killall nautilus
-code ~/.local/share/nautilus-python/extensions/BackspaceBack.py 
-sudo dnf repoquery -l Code
-for i in $(sudo dnf repoquery -l Code) do; if [ -x $i ]
-for i in $(sudo dnf repoquery -l Code) do; if [ -x $i ] then
-for i in $(sudo dnf repoquery -l Code) do; if [[ -x $i ]] then
-for i in $(sudo dnf repoquery -l Code) do;if [ -x $i ] then
-for i in $(sudo dnf repoquery -l Code);if [ -x $i ] then
-for i in $(sudo dnf repoquery -l Code); do echo $i; done
-ls
-ls -al
-sudo dnf --help
-sudo dnf repoquery -l Code -q
-clear
-for i in $(sudo dnf repoquery -l Code -q); do;
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ]; then echo $i fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ]; then ;echo $i fi; done
-for i in $(sudo dnf repoquery -l Code -q); do; if [ -x $i ] then echo $i; fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i; fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i; fi ; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi ; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi done; ;
-echo "for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi done;"|clip
-mkdir ~/.config/Code/User/tasks/default -f
-mkdir ~/.config/Code/User/tasks/default --force
-mkdir ~/.config/Code/User/tasks/default
-mkdir ~/.config/Code/User/tasks/
-print("test")
-dotnet
-sudo dnf repoquery -l Code
-echo "sudo dnf repoquery -l Code"|clip
-lear
-clerar
-code --help
-ext
-clear
-npm
-code ext
-echo 'char choices[3][10]={"red","blue","yellow"};'|clip
-char choices[3][10]={"red","blue","yellow"};
-./interpretter.sh 
-sleep
-sleep 2
-sleep 1
-echo "\e[41 test"
-echo "\e[41m test"
-echo "\e[41mtest"
-echo -e "\e[41m test"
-echo -e "\e[41m test\n"
-echo --help
-man echo
-echo -e "Test \e[32mRunning file in terminal"
-xrandr --output XWAYLAND1 --primary
-echo -n test | xxd
-cat -v
-if [ -w README.md ] 
-if [ -w README.md ] then echo 1;else echo 0; fi
-if [ -w README.md ]; then echo 1;else echo 0; fi
-if [ -w interpretter.sh ]; then echo 1;else echo 0; fi
-if [ -e interpretter.sh ]; then echo 1;else echo 0; fi
-if [ -x interpretter.sh ]; then echo 1;else echo 0; fi
-echo 'if [ -x  ]; then echo 1;else echo 0; fi'|clip
-code ~/.bashrc
-echo $profil
-echo $profile
-echo $PROFILE
-cd ~/Documents/
-chmod +x test.sh 
-esac
-./test.sh 
-killall nautilus
-code ~/.local/share/nautilus-python/extensions/BackspaceBack.py 
-sudo dnf repoquery -l Code
-for i in $(sudo dnf repoquery -l Code) do; if [ -x $i ]
-for i in $(sudo dnf repoquery -l Code) do; if [ -x $i ] then
-for i in $(sudo dnf repoquery -l Code) do; if [[ -x $i ]] then
-for i in $(sudo dnf repoquery -l Code) do;if [ -x $i ] then
-for i in $(sudo dnf repoquery -l Code);if [ -x $i ] then
-for i in $(sudo dnf repoquery -l Code); do echo $i; done
-ls
-sudo dnf --help
-sudo dnf repoquery -l Code -q
-for i in $(sudo dnf repoquery -l Code -q); do;
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ]; then echo $i fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ]; then ;echo $i fi; done
-for i in $(sudo dnf repoquery -l Code -q); do; if [ -x $i ] then echo $i; fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i; fi; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i; fi ; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi ; done
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi done; ;
-echo "for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi done;"|clip
-echo 'for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi done;'|clip
-for i in $(sudo dnf repoquery -l Code -q); do if [ -x $i ] then echo $i fi done;
-code $PROFILE 
-code ~/.inputrc 
-bind
-bind --help
-bind -l
-bind -l|grep echo
-bind -l|grep return
-nano command_not_found_handle 
-printenv 
-printenv |grep not_found
-command_not_found_handle --help
-cd /etc/
-ls bash_completion.d/
-cd ..
-cd //
-ls -al
-cd /
-sudo find|grep command_not
-cls
-declare -F
-declare -F|grep com
-declare -F|grep command
-which ask4nano 
-which command_not_found_handle 
-which command_not_found_handle |clip
-declare --help
-declare -f
-code $FUNCTIONS 
-clear
-/usr/libexec/packagekitd
-/usr/libexec/packagekitd --help
-/usr/libexec/packagekitd sdfj
-/usr/libexec/packagekitd "sdfj"
-command_not_found_handle () {      local runcnf=1;     local retval=127;     [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-clear
-sdlkij
-car
-cls
-/usr/libexec/packagekitd sdfj
-/usr/libexec/packagekitd "sdfj"
-declare --help
-declare -p -f command_not_found_handle 
-declare -p -f command_not_found_handle |clip
-sudo dnf list installed|grep not-found
-man --html
-man --html man
-yelp
-clear
-yelp --help
-yelp --help-gkt
-#1561287907
-bind
-#1561287907
-bind --help
-#1561287907
-bind -l
-#1561287907
-bind -l|grep echo
-#1561287907
-bind -l|grep return
-#1561287907
-nano command_not_found_handle 
-#1561287907
-printenv 
-#1561287907
-printenv |grep not_found
-#1561287907
-command_not_found_handle --help
-#1561287907
-cd /etc/
-#1561287907
-ls bash_completion.d/
-#1561287907
-cd ..
-#1561287907
-cd //
-#1561287907
-ls -al
-#1561287907
-cd /
-#1561287907
-sudo find|grep command_not
-#1561287907
-declare -F
-#1561287907
-declare -F|grep com
-#1561287907
-declare -F|grep command
-#1561287907
-which ask4nano 
-#1561287907
-which command_not_found_handle 
-#1561287907
-which command_not_found_handle |clip
-#1561287907
-declare --help
-#1561287907
-declare -f
-#1561287907
-code $FUNCTIONS 
-#1561287907
-/usr/libexec/packagekitd
-#1561287907
-/usr/libexec/packagekitd --help
-#1561287907
-/usr/libexec/packagekitd sdfj
-#1561287907
-/usr/libexec/packagekitd "sdfj"
-#1561287907
-command_not_found_handle () {      local runcnf=1;     local retval=127;     [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-#1561287907
-sdlkij
-#1561287907
-car
-#1561287907
-/usr/libexec/packagekitd sdfj
-#1561287907
-/usr/libexec/packagekitd "sdfj"
-#1561287907
-declare --help
-#1561287907
-declare -p -f command_not_found_handle 
-#1561287907
-declare -p -f command_not_found_handle |clip
-#1561287907
-sudo dnf list installed|grep not-found
-#1561287907
-man --html
-#1561287907
-man --html man
-#1561287907
-yelp
-#1561287907
-yelp --help
-#1561287907
-yelp --help-gkt
-#1561287909
-"test"
-#1561287950
-ls
-#1561287952
-$ls
-#1561287983
-str=$!!
-#1561287996
-str="$!!"
-#1561288002
-$"testdsf"
-#1561288011
-str=${!}
-#1561288054
-$#
-#1561288057
-echo $#
-#1561288060
-echo $@
-#1561288067
-echo $!!
-#1561288104
-$?
-#1561288108
-echo $?
-#1561288138
-echo $_
-#1561288156
-echo $-
-#1561288171
-echo $
-#1561288173
-echo $$
-#1561288181
-echo $0
-#1561288192
-echo $m
-#1561288193
-echo $n
-#1561288256
-echo $(echo $n)
-#1561288271
-echo $("testdsf")
-#1561288285
-echo "$("testdsf")"
-#1561288314
-echo $("testdsf" |& tail -1)
-#1561288351
-echo echo $("testdsf" |& tail -1)
-#1561288355
-echo "clear"
-#1561288370
-echo "clear"|tail -1
-#1561288380
-echo ""testdsf""|tail -1
-#1561288408
-str=$("testdsf" |& tail -1)
-#1561288414
-echo $str
-#1561288419
-$str
-#1561288470
-echo $(clear 2>&1 >/dev/null | tail -1)
-#1561288473
-$("testdsf" 2>&1 >/dev/null | tail -1)
-#1561288476
-"testdsf"
-#1561288481
-echo $("testdsf" 2>&1 >/dev/null | tail -1)
-#1561288583
-${1:+$1: }
-#1561288585
-echo ${1:+$1: }
-#1561288593
-echo $!
-#1561288594
-echo $1
-#1561289821
-history
-#1561289827
-ckear
-#1561289828
-cls
-#1561289876
-HISTTIMEFORMAT="%d/%m/%y %T "
-#1561289878
-history 
-#1561289881
-clear
-#1561289884
-history --help
-declare -p -f command_not_found_handle |clip
-sudo dnf list installed|grep not-found
-man --html
-man --html man
-yelp
-yelp --help-gkt
-yelp --help-gtk
-yelp --help
-yelp --editor-mode
-yelp man
-yelp man yelp
-yelp man:yelp
-killall yelp
-yelp-new
-sudo dnf search yepl
-sudo dnf search yelp
-sudo dnf install yelp yelp-xsl yelp-tools
-sudo dnf install yelp yelp-xsl yelp-tools -y
-$clear
-ls
-clear
-wmctrl -k off
-ls
-wmctrl -k off
-keypath="/home/nick/Documents/Modules"
-sign="/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 "
-echo $sign
-. &sign
-. $sign
-$sign
-modinfo -n wl
-ls $keypath
-echo '$sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)'
-echo "$sign \"$keypath/wl.priv\" \"$keypath/wl.der\" $(modinfo -n wl)"
-pkexec '$sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)"
-pkexec 
-pkexec $sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)
-sudo akmods --force
-modinfo wl
-clear
-sudo dnf update
-exit
-wmctrl -k off
-cd Documents/
-ls
-code sign.sh 
-sudo reboot now
-xrandr --output XWAYLAND1 --primary
-echo "clear"|tail -1
-echo ""testdsf""|tail -1
-str=$("testdsf" |& tail -1)
-$str
-echo $(clear 2>&1 >/dev/null | tail -1)
-$("testdsf" 2>&1 >/dev/null | tail -1)
-"testdsf"
-echo $("testdsf" 2>&1 >/dev/null | tail -1)
-${1:+$1: }
-echo ${1:+$1: }
-echo $!
-echo $1
-history
-ckear
-cls
-HISTTIMEFORMAT="%d/%m/%y %T "
-history 
-history --help
-declare -p -f command_not_found_handle |clip
-sudo dnf list installed|grep not-found
-man --html
-man --html man
-yelp
-yelp --help-gkt
-yelp --help-gtk
-yelp --help
-yelp --editor-mode
-yelp man
-yelp man yelp
-yelp man:yelp
-killall yelp
-yelp-new
-sudo dnf search yepl
-sudo dnf search yelp
-sudo dnf install yelp yelp-xsl yelp-tools
-sudo dnf install yelp yelp-xsl yelp-tools -y
-$clear
-ls
-wmctrl -k off
-ls
-wmctrl -k off
-keypath="/home/nick/Documents/Modules"
-sign="/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 "
-echo $sign
-. &sign
-. $sign
-$sign
-modinfo -n wl
-ls $keypath
-echo '$sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)'
-echo "$sign \"$keypath/wl.priv\" \"$keypath/wl.der\" $(modinfo -n wl)"
-pkexec '$sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)"
-pkexec 
-pkexec $sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)
-sudo akmods --force
-modinfo wl
-sudo dnf update
-exit
-wmctrl -k off
-cd Documents/
-ls
-code sign.sh 
-sudo reboot now
-xrandr --output XWAYLAND1 --primary
-wl-paste 
-. wl-paste 
-${wl-paste}
-$(w-paste)
-$(wlpaste)
-echo "echo 1"|clip
-$(wl-paste)
-echo 'echo \$?'
-echo 'echo $?'
-echo 'echo $?'|clip
-runcnf=1;
-retval=127;
-[[ $- =~ i ]] || runcnf=0;
-[[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;
-echo $?
-[[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;
-[[ -n ${COMP_CWORD-} ]] && runcnf=0;
-[[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;
-printf "Last: %s, runcnf: %d, retval: %d \n" $? $runcnf $retval
-if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;
-/usr/libexec/pk-command-not-found "$@"
-echo $@
-${#@}
-command_not_found_handle ()  {      printf "Input: %s, Length: %d" $@ ${#@};     local runcnf=1;     local retval=127;     [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-command_not_found_handle ()  {      printf "Input: %s, Length: %d" $@ $#
-    local runcnf=1;     local retval=127;     [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-"droighdrukoihd"
-command_not_found_handle ()  {      printf "Input: %s, Length: %d\n" $@ $#
-    local runcnf=1;     local retval=127;     [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-"srgoeprjgdrig  doirgdoifgj doigfj -a"
-"srgoeprjgdrig  doirgdoifgj doigfj"
-${@[@]}
-command_not_found_handle ()  {      local runcnf=1;     local retval=127;
-    local strin = ${@};     printf "Input: %s, Length: %d\n" ${a[@]} ${#a}
-    [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-"iorgfdruoigjh dkoifgjdfiog "
-command_not_found_handle ()  {      local runcnf=1;     local retval=127;
-    local strin=${@};     printf "Input: %s, Length: %d\n" ${a[@]} ${#a}
-    [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-"ergfdsrgf"
-"ergfdsrgfdsvkmlkjfdskjifds"
-command_not_found_handle ()  {      local runcnf=1;     local retval=127;
-    local strin=${@};     printf "Input: %s, Length: %d\n"  $* $#
-    [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-if [[ ${str:0:1} == [\",\'] && "${str: -1}" == [\",\'] ]];
-    if [[ ${str:0:1} == [\",\'] && "${str: -1}" == [\",\'] ]];      then          printf "%s" $str;     fi
-echo test
-command_not_found_handle ()  {      local runcnf=1;     local retval=127;
-    local ;     str=$(fc -ln -1);     str=$(echo $str|awk '{$1=$1}1');     if [[ ${str:0:1} == [\",\'] && "${str: -1}" == [\",\'] ]];      then          printf "%s\n" $str;     fi
-    [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-"dsoirg"
-echo $(echo (fc -ln -1)|awk '{$1=$1}1');
-echo $(echo $(fc -ln -1)|awk '{$1=$1}1');
-$(echo $str|awk '{$1=$1}1');
-str=$(echo $str|awk '{$1=$1}1');
-echo $str
-echo $(fc -ln -1);
-echo $(fc -ln -1)|awk '{$1=$1}1';
-local str=$(fc -ln -1);
-"iorgfdruoigjh dkoifgjdfiog"
-str=$(fc -ln -1);
-    echo $(fc -ln -1);
-    echo $str|awk '{$1=$1}1';
-    str=$(echo $str|awk '{$1=$1}1');
-command_not_found_handle ()  {      local runcnf=1;     local retval=127;
-    local str=$(fc -ln -1);     echo $str;     echo $str|awk '{$1=$1}1';     str=$(echo $str|awk '{$1=$1}1');     if [[ ${str:0:1} == [\",\'] && "${str: -1}" == [\",\'] ]];      then          printf "%s\n" $str;     fi
-    [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-erkgo
-"bigtest"
-"bigtest2"
-"bigtest23"
-clip << "rgfdrg"
-EOF
-EOL
-
-wl-paste --help
-wl-paste --list-types
-cb --help
-alias cb
-getenv|grep cb
-man cb
-alias
-alias|grep cb
-which cb
-clear
-cb
-which command_not_found_handle 
-which command_not_found_handle |clip
-declare --help
-declare -f
-code $FUNCTIONS 
-/usr/libexec/packagekitd
-/usr/libexec/packagekitd --help
-/usr/libexec/packagekitd sdfj
-/usr/libexec/packagekitd "sdfj"
-command_not_found_handle () {      local runcnf=1;     local retval=127;     [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-sdlkij
-car
-/usr/libexec/packagekitd sdfj
-/usr/libexec/packagekitd "sdfj"
-declare --help
-declare -p -f command_not_found_handle 
-declare -p -f command_not_found_handle |clip
-sudo dnf list installed|grep not-found
-man --html
-man --html man
-yelp
-yelp --help-gkt
-"test"
-$ls
-str=$!!
-str="$!!"
-$"testdsf"
-str=${!}
-$#
-echo $#
-echo $@
-echo $!!
-$?
-echo $?
-echo $_
-echo $-
-echo $
-echo $$
-echo $0
-echo $m
-echo $n
-echo $(echo $n)
-echo $("testdsf")
-echo "$("testdsf")"
-echo $("testdsf" |& tail -1)
-echo echo $("testdsf" |& tail -1)
-echo "clear"
-echo "clear"|tail -1
-echo ""testdsf""|tail -1
-str=$("testdsf" |& tail -1)
-echo $str
-$str
-echo $(clear 2>&1 >/dev/null | tail -1)
-$("testdsf" 2>&1 >/dev/null | tail -1)
-"testdsf"
-echo $("testdsf" 2>&1 >/dev/null | tail -1)
-${1:+$1: }
-echo ${1:+$1: }
-echo $!
-echo $1
-history
-ckear
-HISTTIMEFORMAT="%d/%m/%y %T "
-history 
-history --help
-declare -p -f command_not_found_handle |clip
-sudo dnf list installed|grep not-found
-man --html
-man --html man
-yelp
-yelp --help-gkt
-yelp --help-gtk
-yelp --editor-mode
-yelp man
-yelp man yelp
-yelp man:yelp
-killall yelp
-sudo dnf search yepl
-sudo dnf install yelp yelp-xsl yelp-tools
-sudo dnf install yelp yelp-xsl yelp-tools -y
-$clear
-wmctrl -k off
-wmctrl -k off
-keypath="/home/nick/Documents/Modules"
-sign="/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 "
-echo $sign
-. &sign
-. $sign
-$sign
-modinfo -n wl
-ls $keypath
-echo '$sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)'
-echo "$sign \"$keypath/wl.priv\" \"$keypath/wl.der\" $(modinfo -n wl)"
-pkexec '$sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)"
-pkexec 
-pkexec $sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)
-sudo akmods --force
-modinfo wl
-sudo dnf update
-exit
-wmctrl -k off
-cd Documents/
-code sign.sh 
-sudo reboot now
-xrandr --output XWAYLAND1 --primary
-"setrsef"
-sudo dnf repoquery -l wl-paste
-code $PROFILE 
-yelp --help-all
-yelp-new
-yelp-new --tmpl
-ls \$DOCUMENTS/git/
-ls $DOCUMENTS/git/
-wl-copy --help
-wayland-scanner 
-wl_shell
-wlshell
-wl-shell
-sudo dnf list installed|grep wayland-proto
-cat /etc/mime.types 
-sudo dnf install mime-support
-command -v
-command -v --hrelp
-command --help
-code $INPUTRC 
-clip
-cd $DOCUMENTS
-rm input.txt 
-arr=("p" "s" "v")
-arr=("p","s","v")
-arr=(p s v)
-arr=('p' 's' 'v')
-$arr[0]
-echo $arr[0]
-echo ${arr: 0}
-echo ${arr: 1}
-echo ${arr: 2}
-echo ${arr: -1}
-${#arr[1]}
-echo ${#arr[1]}
-echo ${arr[3]}
-bind
-bind --help
-bind --help|grep "-p"
-bind --help|grep -e "-p"
-echo ${bind --help|grep -e "-p"/'-p'/}
-echo $(bind --help|grep -e "-p"/'-p'/)
-echo $(bind --help|grep -e "-p"/"p"/)
-echo $(bind --help|grep -e "-p"//)
-echo ${$(bind --help|grep -e "-p")/"-p"/}
-echo ${$(bind --help|grep -e "-p")/"-p"/""}
-echo ${$(bind --help|grep -e "-p")/"p"/""}
-echo ${$(bind --help|grep -e "-p")/'p'/""}
-echo $(bind --help|grep -e "-p")
-man -k bind
-yelp man: man&
-yelp-build 
-yelp info:make&
-yelp --help
-yelp index
-yelp man index
-cd git/
-git clone https://github.com/endlessm/yelp.git
-cd yelp/
-cat README 
-./validate-links --help
-./validate-links 
-./autogen.sh --help
-cat aut
-cat auto
-cat autogen.sh 
-./auto
-./autogen.sh 
-clewar
-cls
-make
-code ~/.bash_history 
-ls data/
-ls m4/
-ls
-cat TODO 
-ls src/
-chmod +x configure.ac 
-ls -al co
-./configure.ac 
-sudo dnf install libyelp
-sudo dnf install yelp-lib
-sudo dnf install yelplib
-sudo dnf search yelp[
-sudo dnf search yelp
-sudo dnf install yelp-libs
-sudo dnf install yelp-devel"
-clip < "sudo dnf install yelp-devel"
-clip < 'sudo dnf install yelp-devel'
-clip < $(echo 'sudo dnf install yelp-devel')
-clip < $(echo "sudo dnf install yelp-devel")
-clip $(echo "sudo dnf install yelp-devel")
-sudo dnf install yelp-devel
-autogen
-autoreconf 
-libtool
-automake
-aclocal --help
-autoscan 
- automake 
-autoreconf  --install
-sudo dnf search gettext
-sudo dnf install gettext
-autom4te 
-libtoolize --force
-aclocal
-autoheader 
-automake --force-missing --add-missing
-autoconf 
-./configure
-ls -al
-cd ..
-rm yelp/ -rf
-sudo dnf list-transactions
-sudo dnf history
-sudo dnf history --help
-sudo dnf history undo
-sudo dnf history rollback 117
-sudo dnf config-manager 
-sudo dnf config-manager  --help
-man dnf config-manager  --help
-man --help
-man dnf config-manager
-yelp man:dnf
-sudo dnf repolist
-sudo dnf repolist --help-cmd
-sudo dnf config-manager --dump|grep quiet
-sudo dnf repolist hardware_razer
-sudo dnf repolist --all
-sudo dnf config-manager --dump
-sudo dnf config-manager --dump --all
-sudo dnf repolist  --help
-sudo dnf repolist  --enabled 
-clear;sudo dnf repolist  --enabled
-clear;sudo dnf repolist
-sudo dnf repoquery --help
-sudo dnf repoquery -l yarn
-sudo dnf repolist -l yarn
-sudo dnf repolist -yarn
-sudo dnf repolist yarn
-sudo dnf shell
-sudo dnf repository-packages --help
-sudo dnf repository-packages yarn --list
-sudo dnf repository-packages yarn --installed
-sudo dnf repository-packages yarn list
-sudo dnf list installed|grep yarn|awk '{ print $1 }'
-sudo dnf repository-packages yarn remove
-sudo dnf repolist --help
-sudo dnf config-manager --disablerepo 
-sudo dnf config-manager --disablerepo=yarn
-sudo dnf config-manager --disablerepo yarn
-sudo dnf repolist 
-sudo dnf list installed|grep yarn
-clear
-sudo su
-echo ${arr[@]}
-echo ${arr[0]}
-echo ${arr[1]}
-echo ${arr[2]}
-echo ${#arr}
-echo ${#arr[@]}
-for i in ${arr[@]}; do bind -$i; done;
-for i in ${arr[@]}; do bind -$i >> ~/Documents/input.sh ; done;code ~/Documents/input.sh
-ls
-ld ~/Documents/
-ls ~/Documents/
-clear
-echo ${#arr}
-echo ${#arr[@]}
-for i in ${arr[@]}; do bind -$i; done;
-for i in ${arr[@]}; do bind -$i >> ~/Documents/input.sh ; done;code ~/Documents/input.sh
-cd /etc/
-ls
-clear
-clear
-clear
-clear
-cd /etc
-cd ~
-clear
-ls
-clear
-lear
-clear
-clear
-ls
-cd /etc/
-cd ~
-clear
-clear 
-bash
-ls -al
-ls -l
-ls -a
-clear
-clear
-cleare
-clear
-cleare
-clear
-clear
-cd /etc/
-cd ~
-clear 
-bash
-ls -l
-ls -a
-cleare
-cleare
-ls
-cd Documents/
-shopt
-shopt -p
-shopt 
-shopt --help
-clear;shopt 
-clar
-cls
-shopt -s autocd 
-../
-ls -al
-Documents
-cd ..
-.
-..
-Nick
-nick
-clear
-Documents/
-shopt 
-..
-Nick
-nick
-Documents/
-shopt 
-ls $DOCUMENTS 
-ls \$DOCUMENTS/930237c5-6e85-4495-8b74-48a5514d69f1.desktop 
-shopt -s direxpand 
-cd ~/Docguments
-cd ~/Docg
-cd ~/Doc
-cd \~/Documents/
-shopt -u direxpand 
-shopt -s complete_fullquote 
-shopt |grep complete
-clear
-#1561306827
-exit
-#1561310341
-cd \~/Documents/
-#1561310341
-shopt -u direxpand 
-#1561310341
-shopt -s complete_fullquote 
-#1561310341
-shopt |grep complete
-#1561306827
-exit
-#1561310363
-cd ~/Documents/git/gcc-interpreter/
-#1561310363
-ls
-#1561310889
-clear
-#1561310890
-./interpretter.sh 
-#1561304499
-shopt 
-#1561304499
-..
-#1561304499
-Nick
-#1561304499
-nick
-#1561304499
-Documents/
-#1561304499
-shopt 
-#1561304499
-ls $DOCUMENTS 
-#1561304499
-ls \$DOCUMENTS/930237c5-6e85-4495-8b74-48a5514d69f1.desktop 
-#1561304499
-shopt -s direxpand 
-#1561304499
-cd ~/Docguments
-#1561304499
-cd ~/Docg
-#1561304499
-cd ~/Doc
-#1561304499
-cd \~/Documents/
-#1561304499
-shopt -u direxpand 
-#1561304499
-shopt -s complete_fullquote 
-#1561304499
-shopt |grep complete
-#1561304504
-shopt|grep glob
-#1561304952
-echo $HISTSIZE 
-#1561304958
-echo $HISTFILESIZE 
-#1561304971
-export HISTTIMEFORMAT="%h %d %H:%M:%S "
-#1561304973
-histotr
-#1561304977
-history 
-#1561304989
-cls
-#1561308176
-ps aux
-#1561308575
-cd Documents/
-#1561308577
-cd git/
-#1561308585
-cd gcc-interpreter/
-#1561308586
-./interpretter.sh 
-#1561308855
-sudo dnf search ncurses
-#1561308941
-sudo dnf install ncurses-devel
-#1561308990
-c;ear
-#1561309667
-cd $DOCUMENTS
-#1561309674
-cd Projects/C\ Playground/
-#1561309730
-./exercizes 
-#1561310326
-clear
-#1561310333
-cd ..
-#1561310333
-ls
-#1561310335
-cd C\ Playground/
-#1561308176
-ps aux
-#1561308585
-cd gcc-interpreter/
-#1561308586
-./interpretter.sh 
-#1561308855
-sudo dnf search ncurses
-#1561308941
-sudo dnf install ncurses-devel
-#1561308990
-c;ear
-#1561309667
-cd $DOCUMENTS
-#1561309674
-cd Projects/C\ Playground/
-#1561309730
-./exercizes 
-#1561310335
-cd C\ Playground/
-#1561311985
-touch userChrome.css
-#1561311987
-code userChrome.css 
-#1561312180
-killall firefox
-#1561312549
-history
-#1561312552
-history --help
-#1561312583
-history|grep sound
-#1561312646
-sudo dnf install yaru-sound-theme oxygen-sound-theme deepin-sound-theme-15.10.3-2.fc30.noarch 
-#1561312651
-sudo dnf install yaru-sound-theme oxygen-sound-theme deepin-sound-theme-15.10.3-2.fc30.noarch  -y
-#1561312813
-sudo dnf install freedesktop-sound-theme
-#1561312823
-sudo dnf install freedesktop-sound-theme -y
-#1561312830
-sudo dnf search sound-theme
-#1561312845
-sudo dnf install sound-theme-freedesktop
-#1561312848
-y
-#1561312876
-sudo dnf install oxygen-sound-theme
-#1561313301
-cd ~/Documents/
-#1561313306
-cd ..
-#1561313309
-clear
-#1561338357
-mv Downloads/cling_2019-06-23_ubuntu18.tar.bz2 Documents/git/
-#1561338359
-cd Documents/
-#1561338363
-cd git/
-#1561338363
-ls
-#1561338375
-tar -xf cling_2019-06-23_ubuntu18.tar.bz2 
-#1561338417
-ls -al
-#1561338421
-nautilus
-#1561338441
-nautilus --help
-#1561338459
-nautilus -w -s cling_2019-06-23_ubuntu18.tar.bz2 
-#1561338459
-nautilus -w -s cling_2019-06-23_ubuntu18.tar.bz2 
-#1561338527
-sudo dnf search repl
-#1561338598
-sudo dnf search csharprepl
-#1561338658
-sudo dnf search csharp
-#1561338760
-csharp
-#1561338789
-cling
-#1561338810
-cint
-#1561338932
-cd Downloads/
-#1561338933
-ls
-#1561339188
-lsa
-#1561339190
-clear
-#1561339191
-ls
-#1561339195
-ls bin/
-#1561339225
-sudo dnf search clang
-#1561339252
-sudo dnf install clang
-#1561339265
-cling
-#1561339377
-xrandr --output XWAYLAND1 --primary
-#1561305516
-cd \~/Documents/
-#1561305516
-shopt -u direxpand 
-#1561305516
-shopt -s complete_fullquote 
-#1561305516
-shopt |grep complete
-#1561305517
-clear && echo -e '\e[32mRunning file...\e[39m
-#1561305533
-clear && echo -e \e[32mRunning file...\e[39m
-#1561305547
-~clear; echo -e \e[32mRunning file...\e[39m
-#1561305955
-clear
-#1561305957
-clear; echo -e \e[32mExecuting /home/nick/Documents/test.sh...\e[39m
-#1561305957
-/home/nick/Documents/test.sh
-#1561296474
-    echo $str|awk '{$1=$1}1';
-#1561296474
-    str=$(echo $str|awk '{$1=$1}1');
-#1561296474
-command_not_found_handle ()  {      local runcnf=1;     local retval=127;
-#1561296474
-    local str=$(fc -ln -1);     echo $str;     echo $str|awk '{$1=$1}1';     str=$(echo $str|awk '{$1=$1}1');     if [[ ${str:0:1} == [\",\'] && "${str: -1}" == [\",\'] ]];      then          printf "%s\n" $str;     fi
-#1561296474
-    [[ $- =~ i ]] || runcnf=0;     [[ ! -S /run/dbus/system_bus_socket ]] && runcnf=0;     [[ ! -x '/usr/libexec/packagekitd' ]] && runcnf=0;     [[ -n ${COMP_CWORD-} ]] && runcnf=0;     [[ ! -x '/usr/libexec/pk-command-not-found' ]] && runcnf=0;     if [ $runcnf -eq 1 ]; then         '/usr/libexec/pk-command-not-found' "$@";         retval=$?;     else         if [[ -n "${BASH_VERSION-}" ]]; then             printf 'bash: %scommand not found\n' "${1:+$1: }" 1>&2;         fi;     fi;     return $retval; }
-#1561296474
-erkgo
-#1561296474
-"bigtest"
-#1561296474
-"bigtest2"
-#1561296474
-"bigtest23"
-#1561296474
-clip << "rgfdrg"
-#1561296474
-EOF
-#1561296474
-EOL
-#1561296474
-wl-paste --help
-#1561296474
-wl-paste --list-types
-#1561296474
-cb --help
-#1561296474
-alias cb
-#1561296474
-getenv|grep cb
-#1561296474
-man cb
-#1561296474
-alias
-#1561296474
-alias|grep cb
-#1561296474
-which cb
-#1561296479
-cvb
-#1561296480
-cb
-#1561296489
-clipboard
-#1561296595
-man wl-paste 
-#1561297351
-bind
-#1561297361
-bind --help
-#1561303944
-code $PROFILE 
-#1561304051
-shopt -p
-#1561304053
-shopt -p|clip
-#1561304070
-shopt -u autocd
-#1561304070
-shopt -u assoc_expand_once
-#1561304070
-shopt -u cdable_vars
-#1561304070
-shopt -u cdspell
-#1561304070
-shopt -u checkhash
-#1561304070
-shopt -u checkjobs
-#1561304070
-shopt -s checkwinsize
-#1561304070
-shopt -s cmdhist
-#1561304070
-shopt -u compat31
-#1561304070
-shopt -u compat32
-#1561304070
-shopt -u compat40
-#1561304070
-shopt -u compat41
-#1561304070
-shopt -u compat42
-#1561304070
-shopt -u compat43
-#1561304070
-shopt -u compat44
-#1561304070
-shopt -s complete_fullquote
-#1561304070
-shopt -u direxpand
-#1561304070
-shopt -u dirspell
-#1561304070
-shopt -u dotglob
-#1561304070
-shopt -u execfail
-#1561304070
-shopt -s expand_aliases
-#1561304070
-shopt -u extdebug
-#1561304070
-shopt -s extglob
-#1561304070
-shopt -s extquote
-#1561304070
-shopt -u failglob
-#1561304070
-shopt -s force_fignore
-#1561304070
-shopt -s globasciiranges
-#1561304070
-shopt -u globstar
-#1561304070
-shopt -u gnu_errfmt
-#1561304070
-shopt -s histappend
-#1561304070
-shopt -u histreedit
-#1561304070
-shopt -u histverify
-#1561304070
-shopt -u hostcomplete
-#1561304070
-shopt -u huponexit
-#1561304070
-shopt -u inherit_errexit
-#1561304070
-shopt -s interactive_comments
-#1561304070
-shopt -u lastpipe
-#1561304070
-shopt -u lithist
-#1561304070
-shopt -u localvar_inherit
-#1561304070
-shopt -u localvar_unset
-#1561304070
-shopt -u login_shell
-#1561304070
-shopt -u mailwarn
-#1561304070
-shopt -u no_empty_cmd_completion
-#1561304070
-shopt -u nocaseglob
-#1561304070
-shopt -u nocasematch
-#1561304070
-shopt -u nullglob
-#1561304070
-shopt -s progcomp
-#1561304070
-shopt -u progcomp_alias
-#1561304070
-shopt -s promptvars
-#1561304070
-shopt -u restricted_shell
-#1561304070
-shopt -u shift_verbose
-#1561304070
-shopt -s sourcepath
-#1561304070
-shopt -u xpg_echo
-#1561304203
-shopt|grep fullqu
-#1561304246
-shopt -u complete_fullquote
-#1561305044
-export HISTTIMEFORMAT="\e[34m%h %d %H:%M:%S\e[39m  -  "
-#1561305071
-export HISTTIMEFORMAT="^[[34m%h %d %H:%M:%S^[[39m  -  "
-#1561305114
-MY_BASH_BLUE="\033[0;34m" #Blue
-#1561305114
-MY_BASH_NOCOLOR="\033[0m"
-#1561305114
-HISTTIMEFORMAT=`echo -e ${MY_BASH_BLUE}[%F %T] $MY_BASH_NOCOLOR `
-#1561305114
-HISTSIZE=20000
-#1561305114
-HISTFILESIZE=20000
-#1561305119
-history 
-#1561305208
-echo echo $PROMPT_COMMAND 
-#1561305215
-echo -e echo $PROMPT_COMMAND 
-#1561305224
-echo -e$PROMPT_COMMAND 
-#1561305225
-echo -e $PROMPT_COMMAND 
-#1561305235
-echo -e ${PROMPT_COMMAND}
-#1561305248
-echo $PROMPT_COMMAND 
-#1561305266
-printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}"
-#1561305282
-printf "\n\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/\~}\n"
-#1561305295
-cls
-#1561305347
-clear
-#1561305632
-bash
-#1561305632
-bash
-#1561305632
-ls -l
-#1561305632
-ls -a
-#1561305632
-cleare
-#1561305632
-cleare
-#1561305632
-cd Documents/
-#1561305632
-shopt
-#1561305632
-shopt -p
-#1561305632
-shopt 
-#1561305632
-shopt --help
-#1561305632
-clear;shopt 
-#1561305632
-clar
-#1561305632
-cls
-#1561305632
-shopt -s autocd 
-#1561305632
-../
-#1561305632
-Documents
-#1561305632
-.
-#1561305632
-..
-#1561305632
-Nick
-#1561305632
-nick
-#1561305632
-Documents/
-#1561305632
-shopt 
-#1561305632
-..
-#1561305632
-Nick
-#1561305632
-nick
-#1561305632
-Documents/
-#1561305632
-shopt 
-#1561305632
-ls $DOCUMENTS 
-#1561305632
-ls \$DOCUMENTS/930237c5-6e85-4495-8b74-48a5514d69f1.desktop 
-#1561305632
-shopt -s direxpand 
-#1561305632
-cd ~/Docguments
-#1561305632
-cd ~/Docg
-#1561305632
-cd ~/Doc
-#1561305632
-cd \~/Documents/
-#1561305632
-shopt -u direxpand 
-#1561305632
-shopt -s complete_fullquote 
-#1561305632
-shopt |grep complete
-#1561305647
-if [ -x ~/Documents/test.sh ]
-#1561305666
-if [ -x ~/Documents/test.sh ]; then echo "true"; else echo "false";fi
-#1561305678
-test --hlep
-#1561305680
+git submodule 
+#1571776493
+git submodule  --help
+#1571776502
+git submodule  update
+#1571776506
+git add *
+#1571776509
+git commit -m "update"
+#1571776514
+git push
+#1571776552
+clear
+#1571776553
+ls
+#1571776585
+dot
+#1571776587
+dot --help
+#1571776595
+dot --help config
+#1571776598
+dot config
+#1571776618
+ls
+#1571776620
+cd dot
+#1571776620
+ls
+#1571776627
+nano dot.sh 
+#1571776633
+code dot.sh 
+#1571776710
+__confirm 
+#1571776713
+__confirm n
+#1571776716
+__confirm n "tyest?"
+#1571776761
+echo ${dotrc}
+#1571776779
+echo $dotrc
+#1571776782
+echo ${dotrc}
+#1571776843
+bd_ 
+#1571776846
+which bd_ 
+#1571776869
+cp --help
+#1571776890
+dot config
+#1571776978
+cp --help
+#1571777019
+echo ${dotrc}
+#1571777024
+echo "${dotrc}"
+#1571777028
+dot config
+#1571777037
+echo "${dotrc}"
+#1571777098
+dot config
+#1571777243
+ls
+#1571777245
+cd Dotfiles/
+#1571777245
+ls
+#1571777248
+cd dot
+#1571777249
+ls
+#1571777255
+git checkout 
+#1571777268
+git status
+#1571777281
+git add lib/dot_config.sh
+#1571777289
+git push
+#1571777436
 test --help
-#1561305685
-ls -al ~/Documents/
-#1561305751
-code --help
-#1561305762
-code --log
-#1561306806
-bash --help
-#1561306819
-bash -c "echo 1"
-#1561306825
-bash -f
-#1561306832
-help bash
-#1561306834
-man bash
-#1561307026
-lear
-#1561308498
-./exercizes 
-#1561309397
-cd out/
-#1561309397
-ls
-#1561309400
-cd ..
-#1561309401
-ls -al
-#1561309648
-ear
-#1561309650
-clear
-#1561339484
-rpm
-#1561339489
-rpm --help
-#1561339714
-rpmbuild 
-#1561339716
-clear
-#1561339719
-rpmbuild --help
-#1561404760
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404760
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404796
-chmod +x convert.sh 
-#1561404799
-~clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404799
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404813
-./convert.sh 
-#1561404830
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404830
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404834
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404834
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404837
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404837
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404921
-echo $i
-#1561404926
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404926
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404935
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404935
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404944
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404944
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404976
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561404976
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561404997
-awk
-#1561405023
-fn=echo "$fn"|awk '{print tolower($0)}';
-#1561405027
-echo $fn
-#1561405028
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405028
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405038
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405038
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405062
-local fn;
-#1561405063
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405063
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405067
-echo $fn
-#1561405082
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405082
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405098
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405098
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405102
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405102
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405154
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405154
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405157
-clear
-#1561405160
-clear; echo -e \e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-#1561405160
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405179
-echo -e "\\e[32m test"
-#1561405208
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405208
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405210
-clear
-#1561405211
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405283
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405287
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405288
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405291
-clear
-#1561405292
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405310
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405364
-/home/nick/Pictures/Wallpapers/convert.sh
-#1561405399
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-"/home/nick/Pictures/Wallpapers/convert.sh
-#1561405421
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561405424
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561405424
-cls
-#1561405425
-clear; echo -e "\e[32mExecuting /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561405450
-clear; echo -e "\e[32m${time}:Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561405495
-time
-#1561405498
-date 
-#1561405499
-clear
-#1561405501
-date --help
-#1561405530
-date "hhmmss"
-#1561405554
-date "hhss"
-#1561405557
-date 'hhss'
-#1561405561
-date 'hhmm'
-#1561405566
-date --format 'hhmm'
-#1561405582
-clear
-#1561405590
-date "%T"
-#1561405594
-date +"%T"
-#1561405629
-clear; echo -e "\e[32m$(date +"%T"):Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561405649
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561407297
-pwd
-#1561407302
-${pwd
-#1561407307
-${pwd}
-#1561407310
-$)pwd)
-#1561407313
-$(pwd)
-#1561407340
-echo "Could not create directory $(pwd)/$fn.";
-#1561407358
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561407361
-ls
-#1561407365
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561407427
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561407569
-ls
-#1561407577
-cd moon/
-#1561407577
-ls
-#1561407581
-echo moon-10.jpg 
-#1561407582
-clear
-#1561407612
-echo moon-10.jpg |awk '{print}[1-0]'
-#1561407625
-echo moon-10.jpg |awk '{print}^[1-0]'
-#1561407644
-echo moon-10.jpg |awk '{print ^[1-0]}'
-#1561407648
-echo moon-10.jpg |awk '{print [1-0]}'
-#1561407760
-echo "moon-10.jpg"|awk '/^[1-9]|[1-9][0-9]$/'ho moon-10.jpg 
-#1561407767
-echo "moon-10"|awk '/^[1-9]|[1-9][0-9]$/'
-#1561407923
-echo "moon-10"|awk '{ gsub(/[^0-9]/,"",$1) }1'
-#1561407951
-for i in $(ls *.heic); do echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1'; done
-#1561407964
-cd ..
-#1561407996
-for i in $(ls *.heic); do echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1'; done
-#1561408008
-for i in $(ls *.heic); do echo "$i"; done
-#1561408013
-ls
-#1561408024
-ls *.heic
-#1561408037
-ls *
-#1561408091
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/Pictures/Wallpapers/convert.sh...\e[39m
-";/home/nick/Pictures/Wallpapers/convert.sh
-#1561408124
-cd moon/
-#1561408127
-for i in $(ls *.heic); do echo "$i"; done
-#1561408131
-ls
-#1561408135
-for i in $(ls *.jpg); do echo "$i"; done
-#1561408143
-for i in $(ls *.jpg); do echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1'; done
-#1561408158
-for i in $(ls *.jpg); do echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }'; done
-#1561408197
-for i in $(ls *.jpg);  do      echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1';  done
-#1561408222
-echo "$i: $(expr $i + 1)"
-#1561408226
-for i in $(ls *.jpg);  do      echo "$i: $(expr $i + 1)"; done
-#1561408254
-test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');
-#1561408256
-echo $test
-#1561408277
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     echo "$i: $(expr $test + 1)"; done
-#1561408307
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     echo "$i";     echo "$i"; done
-#1561408313
-echo --help
-#1561408333
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     echo -n "$i";     echo "$i"; done
-#1561408370
-num=$(expr $test + 1)
-#1561408372
-$num
-#1561408431
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test + 1);     printf "File: %s, Number: %d, Altered: %d, NewFile: %s" $i $test $num $num; done
-#1561408438
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test + 1);     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $num; done
-#1561408477
-for i in $(ls *.jpg);  do echo $i; done;
-#1561408520
-alt=${$i/$test/$num}
-#1561408537
-alt="${$i/$test/$num}"
-#1561408545
-alt="${i/test/num}"
-#1561408547
-echo $alt
-#1561408554
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test + 1);     alt="${i/test/num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408631
-alt="${i/$test/$num}"
-#1561408633
-echo $alt
-#1561408637
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test + 1);     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408651
-num="0$test"
-#1561408653
-echo $num
-#1561408656
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num="0$test";     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408722
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num="0$test";     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt;     { # Try 
-         mv $i $alt;     } || { # Catch
-         echo "Negative on $i";     }; done
-#1561408788
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num="0$test";     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt;     { # Try 
-    } || { # Catch
-#1561408788
-         #echo "Negative on $i"
-#1561408788
-    }
-#1561408788
-done
-#1561408795
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num="0$test";     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408854
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9][0-9]/,"",$1) }1');     num="$test";     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408873
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9][0-9]/,"",$1) }1');     num="$test";     alt="${i/$test/$num}";     echo "$i $test $num $alt"
-done
-#1561408897
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num="0$test";     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408922
-for i in $(ls *.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test - 1);     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408950
-for i in $(ls *.jpg|grep -x moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test - 1);     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561408976
-for i in $(ls *.jpg|grep -x "moon-4.jpg"); do echo $i; done;
-#1561409001
-for i in $(ls *.jpg -I "moon-4.jpg"); do echo $i; done;
-#1561409024
-for i in $(ls *.jpg -I moon-4.jpg);
-#1561409040
-for i in $(ls -I moon-4.jpg *.jpg ); do echo $i; done;
-#1561409049
-for i in $(ls -I 'moon-4.jpg' *.jpg );
-#1561409058
-grep -x
-#1561409060
-grep --help
-#1561409096
-for i in $(ls *.jpg|grep -v moon-4.jpg); do echo $i; done;
-#1561409118
-for i in $(ls *.jpg|grep -v moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     num=$(expr $test - 1);     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561409180
-test="${test/0/}"
-#1561409183
-for i in $(ls *.jpg|grep -v moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     test="${test/0/}";     num=$(expr $test - 1);     alt="${i/$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561409236
-alt="${i/0$test/$num}"
-#1561409240
-echo $alt
-#1561409245
-for i in $(ls *.jpg|grep -v moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     test="${test/0/}";     num=$(expr $test - 1);     alt="${i/0$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561409300
-for i in $(ls *.jpg|grep -v moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     test="${test/0/}";     num=$(expr $test - 1);     alt="${i/0$test/$num}";     printf "File: %s, Number: %d, Altered: %d, NewFile: %s\n" $i $test $num $alt; done
-#1561409348
-for i in $(ls *.jpg|grep -v moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     test="${test/0/}";     num=$(expr $test - 1);     alt="${i/0$test/$num}";     echo "$i -> $alt"
-done
-#1561409361
-for i in $(ls *.jpg|grep -v moon-4.jpg);  do      test=$(echo "$i"|awk '{ gsub(/[^0-9]/,"",$1) }1');     test="${test/0/}";     num=$(expr $test - 1);     alt="${i/0$test/$num}";     echo "$i -> $alt"
-    mv $i $alt; done
-#1561305632
-../
-#1561305632
-Documents
-#1561305632
-.
-#1561305632
-..
-#1561305632
-Nick
-#1561305632
-nick
-#1561305632
-Documents/
-#1561305632
-shopt 
-#1561305632
-..
-#1561305632
-Nick
-#1561305632
-nick
-#1561305632
-Documents/
-#1561305632
-shopt 
-#1561305632
-ls $DOCUMENTS 
-#1561305632
-ls \$DOCUMENTS/930237c5-6e85-4495-8b74-48a5514d69f1.desktop 
-#1561305632
-shopt -s direxpand 
-#1561305632
-cd ~/Docguments
-#1561305632
-cd ~/Docg
-#1561305632
-cd ~/Doc
-#1561305632
-cd \~/Documents/
-#1561305632
-shopt -u direxpand 
-#1561305632
-shopt -s complete_fullquote 
-#1561305632
-shopt |grep complete
-#1561305647
-if [ -x ~/Documents/test.sh ]
-#1561305666
-if [ -x ~/Documents/test.sh ]; then echo "true"; else echo "false";fi
-#1561305678
-test --hlep
-#1561305680
-test --help
-#1561305685
-ls -al ~/Documents/
-#1561305751
-code --help
-#1561305762
-code --log
-#1561306806
-bash --help
-#1561306819
-bash -c "echo 1"
-#1561306825
-bash -f
-#1561306832
-help bash
-#1561306834
-man bash
-#1561307026
-lear
-#1561308498
-./exercizes 
-#1561309397
-cd out/
-#1561309648
-ear
-#1561339484
-rpm
-#1561339489
-rpm --help
-#1561339714
-rpmbuild 
-#1561339719
-rpmbuild --help
-#1561402994
-sudo dnf search heic
-#1561403037
-sudo dnf install imagemagick
-#1561403067
-cd Pictures/Wallpapers/
-#1561403110
-sudo dnf install ImageMagick
-#1561403225
-sudo dnf repoquery -l ImageMagick
-#1561403230
-sudo dnf search imagemagick
-#1561403264
-convert --help
-#1561403280
-yelp man:convert
-#1561403352
-magick
-#1561403396
-sudo dnf search libheif
-#1561403413
-sudo dnf install libheif
-#1561403484
-sudo dnf provides libheif
-#1561403518
-sudo dnf repoquery -l libheif
-#1561403545
-heif-convert --help
-#1561403559
-man heif-convert
-#1561403607
-heif-convert 
-#1561403611
-heif-convert 24hr-HighSierra-5K.heic 
-#1561403617
-heif-convert 24hr-HighSierra-5K.heic  hisi.jpg
-#1561403625
-rm hisi*
-#1561403697
-heif-info 
-#1561403701
-heif-info  24hr-HighSierra-5K.heic 
-#1561403830
-mkdir output;heif-convert 24hr-HighSierra-5K.heic  output/highsierra.jpg
-#1561403874
-cd ..
-#1561403879
-cd 24hr-HighSierra-5K/
-#1561403883
-cd ../24hr-Earth-5K/
-#1561403911
-mkdir output;heif-convert 24hr-Earth-5K.heic output/earth.jpg
-#1561403944
-cd ../24hr-SanFrancisco-5K/
-#1561403958
-mkdir output;heif-convert 24hr-SanFrancisco-5K.heic output/sanfransisco.jpg
-#1561404154
-cd ~/Pictures/
-#1561404159
-ls -al
-#1561404165
-cd Wallpapers/
-#1561404174
-mkdir nostromo
-#1561404198
-heif-convert Nostromo.heic nostromo/nostromo.jpg
-#1561404314
-mkdir bliss;heif-convert windowsxp.heic bliss/bliss.jpg
-#1561404386
-mkdir castleinthesky
-#1561404408
-heif-convert Castle_in_the_sky.heic castleinthesky/castleinthesky.jph
-#1561404410
-heif-convert Castle_in_the_sky.heic castleinthesky/castleinthesky.jpg
-#1561404557
-clear
-#1561404561
-mkdir jupiter
-#1561404577
-heif-convert Jupiter.heic jupiter/jupiter.jpg
-#1561404654
-for i in $(ls *.heic);do echo $i;done
-#1561404655
-cls
-#1561404675
-echo "for i in $(ls *.heic);do ;done"|clip
-#1561404688
-code .
-#1561408102
-ls *.heic
-#1561408106
-ls "*.heic"
-#1561408112
-ls "heic"
-#1561408114
-ls
-#1561404675
-echo "for i in $(ls *.heic);do ;done"|clip
-#1561404688
-code .
-#1561408102
-ls *.heic
-#1561408106
-ls "*.heic"
-#1561408112
-ls "heic"
-#1561481647
-cd Documents/Projects/C\ Playground/
-#1561481649
-./exercizes 
-#1561484244
-cd ../
-#1561484246
-cd ../git/
-#1561484250
-git clone https://github.com/GreenRover98/Pixelot.git
-#1561484252
-cd Pixelot/
-#1561484255
-ls Data/
-#1561484257
-ls
-#1561484258
-ls Script/
-#1561484268
-code 
-#1561484273
-clear
-#1561484876
-code Script/Combat.ps1 
-#1561404688
-code .
-#1561408102
-ls *.heic
-#1561408106
-ls "*.heic"
-#1561408112
-ls "heic"
-#1561481647
-cd Documents/Projects/C\ Playground/
-#1561481649
-./exercizes 
-#1561484244
-cd ../
-#1561484246
-cd ../git/
-#1561484250
-git clone https://github.com/GreenRover98/Pixelot.git
-#1561484252
-cd Pixelot/
-#1561484255
-ls Data/
-#1561484258
-ls Script/
-#1561484268
-code 
-#1561484876
-code Script/Combat.ps1 
-#1561485029
-sudo dnf search cling
-#1561485040
-sudo dnf install root-cling
-#1561485089
-rootcling 
-#1561485093
-rootcling  --help
-#1561485102
-rootcling  -h
-#1561485140
-sudo dnf remove root-cling
-#1561485384
-sudo dnf search cinterp
-#1561485388
-sudo dnf search interp
-#1561485397
-sudo dnf search interpreter
-#1561485530
-cat package-lock.json 
-#1561485541
-npm
-#1561485549
-ls
-#1561485553
-ls node_modules/
-#1561485561
-sudo dnf remove bash-language-server
-#1561485570
-sudo dnf list installed
-#1561485575
-sudo dnf list installed|grep language-serv
-#1561485578
-sudo dnf list installed|grep language
-#1561485584
-sudo dnf list installed|grep bash
-#1561485619
-xla
-#1561485621
-cls
-#1561485625
-npm 
-#1561485636
-npm -l
-#1561485650
-npm uninstall bash-language-server
-#1561485656
-sudo npm uninstall bash-language-server
-#1561485678
-sudo npm list
-#1561485681
-sudo npm list installed
-#1561485699
-cd /usr
-#1561485703
-find |grep language
-#1561485706
-find |grep language-server
-#1561485744
-cd lib/
-#1561485745
-cd node_modules/
-#1561485756
-sudo dnf install npm
-#1561485799
-npm ls -gp --depth=0
-#1561485819
-xargs npm -g rm 
-#1561485947
-npm -g rm 
-#1561485951
-sudo npm -g rm 
-#1561486010
-rm tough-cookie/ -rf
-#1561486012
-sudo rm tough-cookie/ -rf
-#1561486014
-npm ls -gp --depth=0 | awk -F/ '/node_modules/ && !/\/npm$/ {print $NF}' | xargs npm -g rm
-#1561486020
-sudo npm ls -gp --depth=0 | awk -F/ '/node_modules/ && !/\/npm$/ {print $NF}' | xargs npm -g rm
-#1561486048
-cd ..
-#1561486055
-sudo dnf remove node
-#1561486058
-sudo dnf remove npm
-#1561486150
-sudo dnf list installed|grep node
-#1561486157
-sudo dnf remove nodejs
-#1561486183
-sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
-#1561486209
-sudo rm -rf /opt/local/bin/node /opt/local/include/node /opt/local/lib/node_modules
-#1561486210
-sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node.1 /usr/local/lib/dtrace/node.d
-#1561486224
-nano $PROFILE 
-#1561486238
-cd ~
-#1561486241
-ls -al
-#1561486245
-rm .npmrc 
-#1561486252
-rm -rf .npm/
-#1561486309
-clear
-#1561486312
-cd /
-#1561486314
-sudo su
-#1561486598
-sudo su
-#1561486150
-sudo dnf list installed|grep node
-#1561486157
-sudo dnf remove nodejs
-#1561486183
-sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
-#1561486209
-sudo rm -rf /opt/local/bin/node /opt/local/include/node /opt/local/lib/node_modules
-#1561486210
-sudo rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node.1 /usr/local/lib/dtrace/node.d
-#1561486224
-nano $PROFILE 
-#1561486238
-cd ~
-#1561486241
-ls -al
-#1561486245
-rm .npmrc 
-#1561486252
-rm -rf .npm/
-#1561486312
-cd /
-#1561486314
-sudo su
-#1561486598
-sudo su
-#1561488061
-cd Documents/git/c
-#1561488062
-cd Documents/git/
-#1561488065
-cd gcc-interpreter/
-#1561489631
-ls
-#1561489681
-code interpretter.sh 
-#1561489763
-clear
-#1561511606
-./interpretter.sh 
-#1561487997
-./exercizes 
-#1561488399
-clear
-#1561488400
-./exercizes 
-#1561488404
-clear
-#1561488457
-./exercizes 
-#1561488497
-cls
-#1561488780
-ls
-#1561488782
-./looptest 
-#1561488973
-./exercizes 
-#1561489078
-clear
-#1561489090
-./exercizes 
-#1561489129
-clear
-#1561489135
-./exercizes 
-#1561489243
-clear
-#1561489264
-./exercizes 
-#1561489285
-clear
-#1561489368
-./exercizes 
-#1561489388
-cls
-#1561490747
-"The Largest Array Element"
-#1561490750
-var="The Largest Array Element"
-#1561490757
-echo ${#var}
-#1561490764
-clear
-#1561490765
-./exercizes 
-#1561492328
-./looptest 
-#1561494600
-./exercizes 
-#1561496198
-clear
-#1561496201
-./exercizes 
-#1561496225
-clear
-#1561496245
-./exercizes 
-#1561498410
-clear
-#1561498412
-powershell
-#1561506360
-ls
-#1561506364
-./pointers 
-#1561507295
-clear
-#1561507296
-ls -al
-#1561507299
-./pointers 
-#1561507589
-cls
-#1561507592
-./pointers 
-#1561508918
-cls
-#1561509389
-clear
-#1561509390
-./pointers 
-#1561510898
-cls
-#1561510953
-./pointers2 
-#1561510956
-clear
-#1561510956
-./pointers2 
-#1561511256
-clear
-#1561511542
-./pointers2 
-#1561511913
-clear
-#1561512074
-./pointers2 
-#1561512077
-cls
-#1561512088
-./pointers2 
-#1561512550
-./pointers
-#1561512568
-cls
-#1561512575
-./pointers
-#1561524060
-clear
-#1561524063
-echo test
-#1561512088
-./pointers2 
-#1561512550
-./pointers
-#1561512568
-cls
-#1561512575
-./pointers
-#1561523468
-sudo dnf install ~/Downloads/codium-1.35.1-1560422508.el7.i386.rpm 
-#1561523506
-sudo dnf install ~/Downloads/codium-1.35.1-1560422525.el7.x86_64.rpm 
-#1561524391
-lsns 
-#1561524397
-lsns --help
-#1561524401
-clear
-#1561524412
-netstat
-#1561524462
-netstat -a -c
-#1561524489
-watch -n 30 "netstat -ntu | awk '{print \$5}' | cut -d: -f1 | sort | uniq -c | sort -n"
-#1561524530
-netstat -c
-#1561524566
-netstat -w -r -c -e
-#1561524573
-netstat -w -c -e
-#1561524577
-netstat -w -c
-#1561524598
-netstat -e -c
-#1561524635
-netstat -s -c
-#1561524649
-netstat -c -l
-#1561524659
-netstat --help
-#1561595904
-xrandr --output XWAYLAND1 --primary
-#1561524659
-netstat --help
-#1561595904
-xrandr --output XWAYLAND1 --primary
-#1561610997
-clear
-#1561610999
-lsblk
-#1561681209
-ps aux|grep nautilus
-#1561682625
-sudo dnf search gtk-module
-#1561682750
-sudo dnf search catgen
-#1561682846
-cd Documents/git/
-#1561682848
-git clone https://github.com/prurigro/gnome-catgen.git
-#1561682854
-cd gnome-catgen/
-#1561682864
-sudo dnf search gnome-catgen
-#1561682869
-sudo dnf copr search gnome-catgen
-#1561682880
-sudo dnf copr search catgen
-#1561682890
-ls
-#1561682896
-./gnome-catgen 
-#1561682918
-./gnome-catgen -d
-#1561682949
-echo $EDITOR
-#1561682959
-./gnome-catgen -f
-#1561682963
-./gnome-catgen -a
-#1561682972
-./gnome-catgen -r
-#1561682984
-./gnome-catgen -d
-#1561682990
-./gnome-catgen -h
-#1561682995
-./gnome-catgen -s
-#1561683030
-ls -al
-#1561683045
-cat gnome-catgen.1 
-#1561683053
-man ./gnome-catgen.1 
-#1561683083
-./gnome-catgen -c
-#1561683260
-clear
-#1561683846
-cd ~
-#1561683849
-find|grep test
-#1561683856
-find|grep test|grep .desktop
-#1561683861
-find|grep .desktop
-#1561683870
-find|grep ".desktop"
-#1561683873
-grep --help
-#1561683885
-find|grep -e ".desktop"
-#1561687934
-spectool 
-#1561687940
-gnome-screenshot 
-#1561687947
-gnome-screenshot --help
-#1561687957
-gnome-screenshot --a
-#1561687963
-gnome-screenshot -a
-#1561687966
-gnome-screenshot -a -c
-#1561688017
-gnome-screenshot -a -c -f
-#1561688267
-gnome-screenshot -i
-#1561688577
-gnome-screenshot -a -c -f $HOME/Pictures/test
-#1561688880
-gnome-screenshot -a -f $HOME/Pictures/test --clipboard
-#1561688889
-gnome-screenshot -a -f $HOME/Pictures/test.png --clipboard
-#1561688992
-gnome-screenshot -a --clipboard;wl-paste $HOME/Pictures/test.png
-#1561689011
-wl-paste
-#1561689013
-wl-paste --help
-#1561689028
-gnome-screenshot -a --clipboard;wl-paste > $HOME/Pictures/test.png
-#1561689067
-gnome-screenshot -a --clipboard;wl-paste > $HOME/Pictures/Screenshots/test.png
-#1561689793
-getopts
-#1561689795
-getopts --help
-#1561689813
-clear
-#1561689819
-getopt
-#1561689820
-getopts
-#1561689823
-getopts -h -r
-#1561689833
-echo "-h --help"|getopts
-#1561690024
-getopts "h:help:"
-#1561690033
-getopts "h:help:" arg;
-#1561690037
-echo $arg
-#1561690047
-echo "--help"|getopts "h:help:" arg;echo $arg
-#1561690682
-cd Documents/scripts/
-#1561690683
-ls
-#1561690688
-chmod +x screenshot.sh 
-#1561690689
-clear
-#1561690691
-./screenshot.sh 
-#1561690794
-./screenshot.sh h
-#1561690795
-./screenshot.sh -h
-#1561690804
-./screenshot.sh -help
-#1561690910
-clear
-#1561690988
-./screenshot.sh -help
-#1561691140
-function p(string){
-#1561691515
-function test(){echo $1}
-#1561691519
-function test(){ echo $1; }
-#1561691521
-test
-#1561691525
-test kdfvglkdfjglkdfgdlkfjg dfg
-#1561691527
-clear
-#1561692603
-./screenshot.sh -help
-#1561692636
-./screenshot.sh -he
-#1561692848
-./screenshot.sh -e
-#1561692853
-./screenshot.sh --help
-#1561692867
-./screenshot.sh -help
-#1561692874
-./screenshot.sh --help
-#1561692876
-clear
-#1561692928
-./screenshot.sh -a
-#1561692930
-./screenshot.sh -a dsfgdfg
-#1561693000
-./screenshot.sh -a dsfgdfg -help
-#1561693002
-./screenshot.sh -a dsfgdfg --help
-#1561693018
-./screenshot.sh help
-#1561693020
-./screenshot.sh -h
-#1561693024
-./screenshot.sh -hhelp
-#1561693026
-./screenshot.sh -help
-#1561693027
-./screenshot.sh --help
-#1561693097
-./screenshot.sh -help
-#1561693189
-./screenshot.sh --help
-#1561693218
-./screenshot.sh --help -a djfuhg
-#1561693316
-clear
-#1561693330
-./screenshot.sh -h -a dfkjgi
-#1561693381
-cls
-#1561694261
-./screenshot.sh -h -a dfkjgi
-#1561694266
-clear
-#1561694273
-getopt --help
-#1561695525
-cls
-#1561695531
-gnome-screenshot --help
-#1561695553
-gnome-screenshot 
-#1561695591
-datetime
-#1561695594
-date
-#1561695596
-date --help
-#1561695642
-date "%H%M"
-#1561695646
-date %H%M
-#1561695675
-date MMDDyy
-#1561695697
-date "MMDDyy"
-#1561695745
-date -s "MMDDyy"
-#1561695864
-date +"%H:%M"
-#1561695871
-date +"%h:%M"
-#1561695936
-date +"%T"
-#1561695943
-date +"%H"
-#1561695948
-date +"%H-%M-%S"
-#1561695995
-date +"%m-%d-%y_%H-%M-%S"
-#1561696002
-echo 'date +"%m-%d-%y_%H-%M-%S"'
-#1561696005
-echo 'date +"%m-%d-%y_%H-%M-%S"'|clip
-#1561697040
-clear
-#1561697147
-exec
-#1561697150
-exec echo
-#1561697859
-/home/nick/Documents/scripts/screenshot.sh -a
-#1561697984
-/home/nick/Documents/scripts/screenshot.sh -as
-#1561698070
-/home/nick/Documents/scripts/screenshot.sh -h
-#1561698072
-clear
-#1561698088
-/home/nick/Documents/scripts/screenshot.sh -h
-#1561698119
-clear
-#1561698134
-/home/nick/Documents/scripts/screenshot.sh -a
-#1561698221
-gnome-screenshot -c -a
-#1561698223
-echo $?
-#1561698346
-gnome-screenshot --help
-#1561698365
-gnome-screenshot -w -e
-#1561698375
-gnome-screenshot -w -e shadow
-#1561692495
-gnome-screenshot --help
-#1561694254
-getopt
-#1561694256
-clear
-#1561694661
-getopt -o "h:a:"
-#1561694670
-echo "-a"|getopt -o "h:a:"
-#1561696273
-deito = date +"%m-%d-%y_%H-%M-%S";
-#1561696279
-deito=date +"%m-%d-%y_%H-%M-%S";
-#1561696281
-clear
-#1561696287
-deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696290
-clear
-#1561696368
-function genFileName() {     filename=echo "screenshot-$1";     deito=$(date +"%m-%d-%y_%H-%M-%S");     return "$filename-$deito"; }
-#1561696371
-genFileName 
-#1561696383
-test=genFileName 
-#1561696385
-echo $test
-#1561696391
-test=$(genFileName)
-#1561696412
-function genFileName() {     filename=echo "screenshot-$1";     deito=$(date +"%m-%d-%y_%H-%M-%S");     return $(echo "$filename-$deito"); }
-#1561696414
-test=$(genFileName)
-#1561696507
-function genFileName() {     filename=echo "screenshot-$1";     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "$filename-$deito"; }
-#1561696509
-test=$(genFileName)
-#1561696522
-filename=$("screenshot-$1");
-#1561696528
-filename="screenshot-$1";
-#1561696533
-function genFileName() {     filename="screenshot-$1";     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "$filename-$deito"; }
-#1561696537
-test=$(genFileName)
-#1561696539
-echo $test
-#1561696597
-function genFileName() {     if [[ -n $1 ]] then;
-#1561696597
-       one="-$1";
-#1561696597
-    fi
-#1561696597
-    filename="screenshot$one";
-#1561696597
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696597
-    echo "$filename-$deito";
-#1561696597
-}
-#1561696627
-function genFileName() {     if [[ -n $1 ]] then;
-#1561696627
-       one="-$1";
-#1561696627
-    fi
-#1561696627
-    filename="screenshot$one";
-#1561696627
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696627
-    echo "$filename-$deito";
-#1561696627
-}
-#1561696631
-function genFileName() {     if [ -n $1 ] then;        one="-$1";     fi
-#1561696631
-    filename="screenshot$one";
-#1561696631
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696631
-    echo "$filename-$deito";
-#1561696631
-}
-#1561696641
-function genFileName() {     if [[ -n $1 ]]; then;
-#1561696641
-       one="-$1";
-#1561696641
-    fi
-#1561696641
-    filename="screenshot$one";
-#1561696641
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696641
-    echo "$filename-$deito";
-#1561696641
-}
-#1561696664
-function genFileName() {     if [[ -n "$1" ]]; then;
-#1561696664
-       one="-$1";
-#1561696664
-    fi
-#1561696664
-    filename="screenshot$one";
-#1561696664
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696664
-    echo "$filename-$deito";
-#1561696664
-}
-#1561696686
-function genFileName() {     if [ -n "$1" ]; then;
-#1561696686
-       one="-$1";
-#1561696686
-    fi;
-#1561696686
-    filename="screenshot$one";
-#1561696686
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696686
-    echo "$filename-$deito";
-#1561696686
-}
-#1561696701
-clear
-#1561696705
-function genFileName() {     if [ -n "$1" ];      then;
-#1561696705
-       one="-$1";
-#1561696705
-    fi;
-#1561696705
-    filename="screenshot$one";
-#1561696705
-    deito=$(date +"%m-%d-%y_%H-%M-%S");
-#1561696705
-    echo "$filename-$deito";
-#1561696705
-}
-#1561696727
-function genFileName() {     if [ -n "$1" ];      then        one="-$1";     fi;     filename="screenshot$one";     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "$filename-$deito"; }
-#1561696739
-cls
-#1561696743
-function genFileName() {     if [ -n "$1" ];      then        one="-$1";     fi;     filename="screenshot$one";     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "$filename-$deito"; }
-#1561696746
-test=$(genFileName)
-#1561696748
-echo $test
-#1561696766
-function genFileName() {     if [ -n "$1" ];      then         echo true;         one="-$1";     fi;     filename="screenshot$one";     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "$filename-$deito"; }
-#1561696770
-test=$(genFileName)
-#1561696771
-echo $test
-#1561696780
-$(genFileName)
-#1561696783
-echo $(genFileName)
-#1561696787
-genFileName
-#1561696825
-function genFileName() {     echo "$1";     if [ -n "$1" ];      then         echo true;         one="-$1";     fi;     filename="screenshot$one";     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "$filename-$deito"; }
-#1561696827
-genFileName
-#1561696909
-function genFileName() {     deito=$(date +"%m-%d-%y_%H-%M-%S");     echo "screenshot-$deito"; }
-#1561696912
-genFileName
-#1561697341
-clear
-#1561697342
-gnome-screenshot 
-#1561697346
-gnome-screenshot --help
-#1561697420
-which wl-paste |clip
-#1561697493
-clear
-#1561698044
-gnome-screenshot --help
-#1561698190
-echo 1
-#1561698192
-echo $?
-#1561838499
-sudo dnf remove VSCodium
-#1561838505
-sudo dnf remove vscodium
-#1561838522
-sudo dnf history list
-#1561838541
-sudo dnf history undo 135
-#1561839584
-echo test
-#1561839588
-urxvtc
-#1561839593
-urxvtc --help
-#1561839612
-urxvtc termname=test
-#1561838933
-xsel
-#1561838938
-cls
-#1561839008
-expor 7 x 15
-#1561839011
-expr 7 x 15
-#1561839016
-expr "7 x 15"
-#1561839020
-expr '7 x 15'
-#1561839023
-expr --help
-#1561839037
-expr7x15
-#1561839039
-expr 7x15
-#1561839042
-expr 7x 15
-#1561839045
-expr 7*15
-#1561839047
-expr 7 * 15
-#1561839055
-expr (7 * 15)
-#1561839056
-expr (7 x 15)
-#1561839068
-echo $(7 x 15)
-#1561839074
-echo ${7 x 15}
-#1561839086
-expr 7 * 5
-#1561839092
-echo *
-#1561839110
-cd ..
-#1561839111
-echo *
-#1561839114
-cd ~
-#1561839139
-expr ( 7 * 5 )
-#1561839144
-expr 7 * 5
-#1561839146
-expr "7 * 5"
-#1561839220
-echo (7*5)
-#1561839225
-echo "(7*5)"
-#1561839230
-echo "7*5"
-#1561839236
-bc
-#1561839240
-bc --help
-#1561839244
-man bc
-#1561839250
-echo "7*5"|bc
-#1561839258
-bc "7*15
-"
-#1561839263
-bc "7*15"
-#1561839289
-expr 7\*15
-#1561839292
-expr 7 \* 15
-#1561839293
-clear
-#1561839316
-screen
-#1561839487
- [N/y] ^C
-#1561839525
-sudo dnf install urxvt
-#1561839538
-urxvt
-#1561839575
-urxvtd
-#1561839732
-sudo dnf install terminology
-#1561839759
-sudo dnf install termite
-#1561839805
-sudo dnf install havoc
-#1561839851
-sudo dnf install wayland-devel
-#1561839993
-sudo dnf install tilix
-#1561840009
-tilix
-#1561838821
-clear
-#1561840597
-sudo dnf search hyper
-#1561840606
-sudo dnf search hyper-terminal
-#1561840618
-cd Downloads/
-#1561840618
-ls
-#1561840636
-sudo dnf install ./hyper-3.0.2.x86_64.rpm 
-#1561840853
-gnome-system-monitor --help
-#1561841097
-clear
-#1561841100
-bind
-#1561841105
-bind history-search-backward 
-#1561841137
-history --help
-#1561841157
-history -p
-#1561841172
-gnome-system-monitor |history -p
-#1561841185
-gnome-system-monitor --help
-#1561841191
-echo "gnome-system-monitor" |history -p
-#1561841195
-echo "gnome-system-monitor" |history
-#1561841198
-clar
-#1561841200
-clear
-#1561841216
-gnome-system-monitorsystem-monitor 
-#1561841222
-clear
-#1561841236
-history|grep gnome-system-monitor
-#1561841341
-ps 
-#1561841344
-ps --help
-#1561841348
-ps all
-#1561841353
-ps --help list
-#1561841404
-ps u
-#1561841407
-ps au
-#1561841409
-clear
-#1561841414
-ps -aux
-#1561841418
-clear
-#1561841439
-ps -aux|wc -l
-#1561841445
-ps aux|wc -l
-#1561841450
-ps ax|wc -l
-#1561841460
-ps a|wc -l
-#1561841464
-ps x|wc -l
-#1561841468
-ps au|wc -l
-#1561841485
-clear
-#1561841488
-ps axu
-#1561841494
-clear
-#1561841495
-ps -e
-#1561841500
-ps -eu
-#1561841504
-ps -e -u
-#1561841508
-ps -e -u -a
-#1561841510
-clear
-#1561841577
-help
-#1561841586
-cls
-#1561841602
-ps A
-#1561841604
-ps -A
-#1561841605
-clear
-#1561841615
-ps -C
-#1561841619
-ps aux -C
-#1561841626
-ps -e -C gome-system-monitor
-#1561841632
-ps -C gome-system-monitor
-#1561841644
-ps aux -C
-#1561841649
-ps aux -C bash
-#1561841657
-ps -C bash
-#1561841662
-ps -C gnome-system-monitor
-#1561841675
-ps -C "gnome-system-monitor"
-#1561840453
-sleep 5;echo test
-#1561847049
-echo 'test'
-#1561851445
-clear
-#1561841689
-ps -C hyper
-#1561841695
-top 
-#1561841698
-clear
-#1561841700
-htop
-#1561841704
-sudo dnf install htop
-#1561841749
-ps aux -f
-#1561841755
-ps auxf
-#1561841777
-ps -auxfC hyper
-#1561841782
-ps auxf
-#1561841785
-ps auxf -C hyper
-#1561841790
-ps auxf -C gnome-system-monitor
-#1561841794
-ps -fC gnome-system-monitor
-#1561841798
-ps -fC hyper
-#1561841814
-htop 
-#1561841817
-htop  --help
-#1561841824
-man htop
-#1561841968
-htop  --help
-#1561841971
-top --help
-#1561841981
-htop hyper,gnome-terminal
-#1561841987
-htop
-#1561842262
-clear
-#1561842348
-htop
-#1561842351
-htop --help
-#1561842359
-clear
-#1561842361
-pgrep
-#1561842365
-pgrep --hlep
-#1561842398
-pgrep
-#1561842403
-ps aux|
-#1561842426
-pgrep bash
-#1561842435
-pgrep -fd, 'hyper,bash'
-#1561842437
-pgrep -fd, 'hyper|bash'
-#1561842448
-pgrep -fd, 'hyper|gnome-terminal,tilix'
-#1561842456
-htop -p $(pgrep -fd, 'hyper|gnome-terminal,tilix')
-#1561842540
-htop -p $(pgrep -fd, 'hyper|gnome-terminal|tilix')
-#1561842618
-htop -p $(pgrep -f 'hyper')
-#1561842696
-sudo dnf remove hyper
-#1561842721
-cd Downloads/
-#1561842725
-sudo dnf install ./hyper-3.0.2.x86_64.rpm 
-#1561842735
-cls
-#1561843978
-sudo dnf install nodejs
-#1561843996
-clear
-#1561843997
-yarn
-#1561843998
-clear
-#1561858088
-xrandr --output XWAYLAND1 --primary
-#1561859238
-echo test
-#1561860908
-echo /home/nick/.config/Code/User/settings.json
-#1561860911
-clear
-#1561860911
-echo /home/nick/.config/Code/User/settings.json
-#1561860912
-clear
-#1561860912
-echo /home/nick/.config/Code/User/settings.json
-#1561860917
-clear
-#1561860917
-echo /home/nick/.config/Code/User/settings.json
-#1561860919
-clear
-#1561860919
-echo /home/nick/.config/Code/User/settings.json
-#1561860919
-clear
-#1561860919
-echo /home/nick/.config/Code/User/settings.json
-#1561860919
-clear
-#1561860919
-echo /home/nick/.config/Code/User/settings.json
-#1561860920
-clear
-#1561860920
-echo /home/nick/.config/Code/User/settings.json
-#1561860920
-clear
-#1561860920
-echo /home/nick/.config/Code/User/settings.json
-#1561860920
-clear
-#1561860920
-echo /home/nick/.config/Code/User/settings.json
-#1561860922
-clear
-#1561860923
-echo /home/nick/.config/Code/User/settings.json
-#1561860923
-clear
-#1561860923
-echo /home/nick/.config/Code/User/settings.json
-#1561860928
-clear
-#1561860928
-echo /home/nick/.config/Code/User/settings.json
-#1561862444
-cd Documents/git/
-#1561862447
-git clone https://github.com/fabiospampinato/template.git
-#1561862456
-cd template/
-#1561862456
-ls
-#1561862458
-clear 
-#1561862460
-ls -al
-#1561862483
-vscode .
-#1561862486
-code .
-#1561862833
-clear
-#1561863062
-npm
-#1561863070
-npm install -g yo generator-code
-#1561863106
-npm install yo generator-code
-#1561863427
-ls -al
-#1561863428
-cd ..
-#1561863474
-exit
-#1561883596
-node
-#1561883614
-clear
-#1561883626
-ts
-#1561883628
-clear
-#1561869537
-xrandr --output XWAYLAND1 --primary
-#1561874585
-cd Documents/Projects/
-#1561874588
-git clone https://github.com/dasdeck/do.git
-#1561885444
-ls
-#1561885448
-code vscode-commands/
-#1561892506
-clear
-#1561892509
-sudo dnf search hack font
-#1561892552
-cd ~/Downloads/
-#1561892553
-ls
-#1561892560
-mkdir hack
-#1561892566
-mv Hack-v3.003-ttf.zip  hack
-#1561892567
-cd hack/
-#1561892568
-ls
-#1561892572
-unzip Hack-v3.003-ttf.zip 
-#1561892573
-l
-#1561892574
-ls
-#1561892576
-rm Hack-v3.003-ttf.zip 
-#1561892577
-cd ..
-#1561892588
-mv hack/ ~/.local/share/fonts/
-#1561893725
-clear
-#1561893731
-pwsh
-#1561893991
-clear
-#1561893991
-ls
-#1561893995
-cd ../Documents/Projects/
-#1561893997
-clear
-#1561893998
-ls
-#1561894004
-clear
-#1561891221
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/.config/Code/User/settings.json...\e[39m
-#1561891321
-cls
-#1561891358
-~clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/.config/Code/User/settings.json...\e[39m";
-#1561891363
-clear; echo -e "\e[32m$(date +"%T"): Executing /home/nick/.config/Code/User/settings.json...\e[39m";
-#1561891391
-clear; echo -e "Clear and Test!";
-#1561894012
-cd Documents/Projects/
-#1561894017
-yo
-#1561894039
-yo code
-#1561894105
-code black-pastel/
-#1562030733
-sudo dnf remove tilix
-#1562032839
-xrandr --output XWAYLAND1 --primary
-#1562185765
-sudo dnf info broadcom-wl
-#1562185782
-sudo dnf list installed
-#1562185785
-sudo dnf list installed|grep wl
-#1562185834
-ping google.com
-#1562185880
-sudo dnf history
-#1562185887
-sudo dnf history --help
-#1562185987
-ping google.com
-#1562191140
-sudo dnf search wlroots
-#1562191418
-sudo dnf install stow
-#1562191525
-stow
-#1562191757
-clear
-#1562191902
-gman
-#1562191908
-code ~/.bashrc
-#1562191945
-alias gman=yelp man
-#1562191949
-alias gman="yelp man"
-#1562191953
-echo gman
-#1562191959
-clear
-#1562191961
-gman stow
-#1562191969
-gman:stow
-#1562191971
-gman :stow
-#1562191985
-cls
-#1562200097
-exit
-#1562200513
-echo $XDG_SESSION_TYPE 
-#1562200516
-exit
-#1562200780
-clip --help
-#1562200787
-exit
-#1562193323
-sudo dnf update --help
-#1562193334
-sudo dnf update list
-#1562193345
-sudo dnf update
-#1562196375
-sudo dnf search fira
-#1562196411
-sudo dnf install mozzilla-fira-mono-fonts mozilla-fira-sans-fonts-4.202-6.fc30.noarch 
-#1562196436
-sudo dnf install mozilla-fira-mono-fonts-4.202-6.fc30.noarch mozilla-fira-sans-fonts-4.202-6.fc30.noarch 
-#1562196713
-sudo su
-#1562198855
-cd ~
-#1562198855
-clear
-#1562198856
-ls -al
-#1562198857
-clear
-#1562198859
-gostname
-#1562198861
-clear
-#1562198899
-git
-#1562198904
-git branch
-#1562198907
-clear
-#1562198908
-ls
-#1562198911
-mkdir Config
-#1562198913
-cd Config/
-#1562198913
-ls
-#1562198917
-git init
-#1562198920
-git branch 
-#1562198922
-git branch --help
-#1562198925
-git branch list
-#1562198952
-git checkout -b linux
-#1562198963
-git branch -a
-#1562198971
-git remote
-#1562198975
-git remote --help
-#1562199035
-git remote add
-#1562199045
-git branch
-#1562199046
-git branch --hlep
-#1562199051
-git branch --help
-#1562199056
-git branch -h
-#1562199058
-clear
-#1562199058
-git branch -h
-#1562199065
-git branch -a
-#1562199067
-git branch -a -l
-#1562199069
-git branch -l
-#1562199181
-clear
-#1562199191
-touch README.md
-#1562199193
-code README.md 
-#1562199198
-git add README.md 
-#1562199210
-git commit -m "added readme"
-#1562199234
-git config --global --edit 
-#1562199274
-git config
-#1562199280
-git config --get-all
-#1562199288
-git config --get-all --global
-#1562199302
-git config --global 
-#1562199305
-git config --global  -l
-#1562199311
-git config --global --list
-#1562199384
-clear
-#1562199386
-code --help
-#1562199419
-git config --global core.editor "$(which code)"
-#1562199423
-git config 
-#1562199426
-git config --global
-#1562199433
-git config --global --edit 
-#1562199510
-git config list all
-#1562199562
-git config -l
-#1562199676
-clear
-#1562199698
-man git config 
-#1562199828
-clear
-#1562200088
-script gitop
-#1562200118
-cat gitop 
-#1562200216
-clear
-#1562200219
-rm gitop 
-#1562200220
-clear
-#1562200221
-ls
-#1562200226
-git-shell 
-#1562200239
-clear
-#1562200241
-git
-#1562200244
-git config 
-#1562200255
-git config --get-color
-#1562200257
-clear
-#1562200260
-git config 
-#1562200271
-git config --show-origin 
-#1562200275
-git config --show-origin  --global 
-#1562200277
-git config --show-origin global 
-#1562200278
-clear
-#1562200281
-git config 
-#1562200287
-git config get
-#1562200288
-git config get-all
-#1562200290
-git config --get-all
-#1562200293
-git config --get-all *
-#1562200297
-clear
-#1562200298
-git config 
-#1562200305
-git config |clip
-#1562200317
-clear
-#1562200321
-echo PATH
-#1562200322
-echo $PATH
-#1562200326
-geten
-#1562200328
-getenv
-#1562200335
-env
-#1562200340
-printenv 
-#1562200341
-clear
-#1562200345
-printenv|grep display
-#1562200347
-printenv|grep DISPLAY
-#1562200350
-printenv|grep SERVER
-#1562200352
-printenv|grep X
-#1562200355
-printenv|grep WAY
-#1562200393
-code ~/.bash_functions 
-#1562200456
-echo $XDG_SESSION_TYPE
-#1562200769
-bash --help
-#1562200776
-bash --noprofile 
-#1562200788
-exit
-#1562200880
-command -v
-#1562200881
-command -v --help
-#1562200889
-command -v wl-paste 
-#1562200977
-xclip
-#1562200986
-which xclip
-#1562200989
-clear
-#1562200991
-xclip
-#1562200994
-clear
-#1562200999
-xclip --help
-#1562201001
-clear
-#1562201005
-man xclip
-#1562201042
-yelp man:xclip &
-#1562201092
-wl-copy --help
-#1562201159
-xsel
-#1562201177
-xsel --help
-#1562201228
-clear
-#1562201978
-cls
-#1562201994
-clear
-#1562202004
-git config --global guitool.
-#1562202007
-clear
-#1562202042
-git config -l
-#1562202049
-git config -l --name-only 
-#1562202137
-clear
-#1562202139
-sudo dnf search git
-#1562202147
-sudo dnf search git gui
-#1562202178
-sudo dnf search gitg
-#1562202186
-sudo dnf install gitg
-#1562202205
-cls
-#1562202362
-sudo dnf install git-cola
-#1562202402
-git-cola 
-#1562202410
-sudo dnf remove git-cola
-#1562202454
-sudo dnf search git gui
-#1562202464
-sudo dnf install git-gui
-#1562202488
-sudo dnf remove -y git-gui
-#1562202515
-sudo dnf install qgit
-#1562202573
-pkexec code /etc/dnf/dnf.conf 
-#1562202586
-pkexec nano /etc/dnf/dnf.conf 
-#1562202630
-sudo dnf config-manager 
-#1562202632
-sudo dnf config-manager  --help
-#1562202652
-sudo dnf config-manager  list
-#1562202703
-sudo nano /etc/dnf/dnf.conf 
-#1562202752
-ls
-#1562202754
-cd Documents/
-#1562202755
-ls
-#1562202766
-nano Projects/actionista/package-lock.json 
-#1562202768
-clear
-#1562202809
-cat /usr/share/nano/sh.nanorc 
-#1562202819
-nano /etc/dnf/dnf.conf 
-#1562202826
-/usr/bin/nano /etc/dnf/dnf.conf 
-#1562202873
-clear
-#1562202899
-curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
-#1562202904
-ls
-#1562202906
-cd ..
-#1562202906
-ls
-#1562202913
-ls .nano
-#1562202916
-cat .nanorc 
-#1562202934
-clear
-#1562202934
-ls
-#1562202937
-ls -al
-#1562202946
-cat .nanorc 
-#1562202951
-sudo su
-#1562209061
-udo dnshell
-#1562209067
-sudo dnf shell
-#1562209083
-clear
-#1562209086
-sudo su
-#1562207799
-xrandr 
-#1562207812
-clear
-#1562207814
-xrandr --help
-#1562207826
-clear
-#1562207829
-xrandr --pr
-#1562207831
-xrandr --primary 
-#1562207833
-clear
-#1562207843
-xrandr --output --primary
-#1562207845
-clear
-#1562207850
-xrandr --help
-#1562207899
-xrandr 
-#1562207909
-clear
-#1562208051
-yelp man:expr
-#1562208516
-clear
-#1562208528
-sudo nano /etc/dnf/dnf.conf 
-#1562208576
-ls
-#1562208577
-cd Documents/
-#1562208578
-ls
-#1562208583
-touch test.conf
-#1562208585
-nano test.conf 
-#1562208734
-clear
-#1562208738
-cd /usr/share/nano/
-#1562208739
-ls
-#1562208838
-sudo nano /etc/dnf/dnf.conf 
-#1562209691
-sudo dnf --version
-#1562209735
-sudo dnf update
-#1562209772
-sudo dnf search vls
-#1562209773
-sudo dnf search vlc
-#1562209786
-sudo dnf list installed
-#1562209791
-clear
-#1562209794
-sudo nano /etc/dnf/dnf.conf 
-#1562210636
-clear
-#1562210641
-exit
-#1562211454
-bash-it 
-#1562211459
-which bash-it 
-#1562211472
-clear
-#1562211601
-cd ..
-#1562212833
-bash-it 
-#1562212837
-clear
-#1562214221
-write 
-#1562214346
-clear
-#1562216367
-echo $CUSTOM
-#1562216639
-set --help
-#1562216646
-set --help|grep T
-#1562216650
-set --help|grep +
-#1562216656
-set --help|grep T
-#1562216662
-clear
-#1562216801
-bash-it 
-#1562216807
-bash-it show plugins 
-#1562216810
-clear
-#1562216810
-bash-it 
-#1562216987
-exit
-#1562216892
-script --help
-#1562216897
-ls
-#1562216898
-cd ~
-#1562216899
-cd Documents/
-#1562216923
-script -t bashtest -c "bash --verbose"
-#1562216989
-ls
-#1562216991
-cat bashtest 
-#1562216994
-cat bashtest |grep //
-#1562216999
-cat bashtest |grep is a directory
-#1562217003
-cat bashtest |grep "is a directory"
-#1562217012
-clear
-#1562217017
-cat bashtest |grep "directory"
-#1562217025
-code bashtest 
-#1562217101
-clear
-#1562217102
-exit
-#1562216850
-clear
-#1562216855
-bash-it 
-#1562216858
-bash-it show plugins 
-#1562217105
-clear
-#1562217157
-bash-it show plugins 
-#1562217858
-clear
-#1562218151
-bash-it reload 
-#1562210678
-bash -V
-#1562210681
-bash --version 
-#1562210696
-clear
-#1562210795
-cd Documents/git/
-#1562210796
-clear
-#1562210796
-ls
-#1562210799
-git clone https://github.com/Bash-it/bash-it.git
-#1562210811
-clear
-#1562210819
-ls
-#1562210821
-cd bash-it/
-#1562210821
-ls
-#1562210822
-clear
-#1562210829
-./bash_it.sh --help
-#1562210834
-ls
-#1562210837
-./install.sh --help
-#1562210851
-./install.sh --interactive --no-modify-config
-#1562211046
-ah
-#1562211048
-ag
-#1562211130
-clear
-#1562211132
-./install.sh --interactive --no-modify-config
-#1562211176
-ls
-#1562211179
-ls -al ~
-#1562211188
-ls -al ~|sort 
-#1562211320
-clear
-#1562211323
-cd ~
-#1562211324
-ls
-#1562211325
-clear
-#1562211326
-ls -al
-#1562211333
-ls .bash*
-#1562211348
-mkdir Documents/bash-save
-#1562211351
-ls .bash*
-#1562211407
-for i in $(ls .bash*);do cp $i ~/Documents/bash-save/; done
-#1562211414
-ls ~/Documents/bash-save/
-#1562211416
-ls ~/Documents/bash-save/ -al
-#1562211420
-clear
-#1562211420
-ls
-#1562211427
-clear
-#1562211431
-cd Documents/git/bash-it/
-#1562211433
-./install.sh 
-#1562213512
-echo $BASH
-#1562214552
-clear
-#1562214686
-cd ~
-#1562214686
-clear
-#1562214687
-stow
-#1562214700
-ls
-#1562214701
-cd Config/
-#1562214701
-ls
-#1562214704
-clear
-#1562214704
-ls
-#1562214707
-stow
-#1562214781
-STOW_DIR="$HOME/Config"
-#1562214790
-cls
-#1562214791
-stow
-#1562214796
-cd ..
-#1562214798
-stow
-#1562214801
-cd Config/
-#1562214801
-ls
-#1562214802
-clear
-#1562214805
-echo $STOW_DIR 
-#1562214806
-stow
-#1562214813
-stow -d
-#1562214814
-clear
-#1562214849
-stow
-#1562214874
-git init
-#1562214876
-ls -al
-#1562214879
-cd .git/
-#1562214879
-ls
-#1562214884
-cd branches/
-#1562214884
-ls
-#1562214886
-cd .
-#1562214887
-cd ..
-#1562214890
-git branch
-#1562214899
-ls -al
-#1562214903
-git add README.md 
-#1562214906
-git commit -m "added readme"
-#1562214914
-cls
-#1562214914
-ls -al
-#1562215026
-stow
-#1562215441
-clear
-#1562215442
-ls
-#1562215444
-stow bash
-#1562215446
-ls bash
-#1562215451
-stow
-#1562218230
-ls
-#1562218233
-cd ~/Documents/
-#1562218235
-cd git/
-#1562218235
-ls
-#1562218237
-cd coverart-
-#1562218243
-cd coverart-search-providers/
-#1562218246
-clear
-#1562218249
-cd ~
-#1562218552
-cd Documents/git/
-#1562218552
-ls
-#1562218555
-git clone https://github.com/powerline/fonts.git
-#1562218674
-cd fonts/
-#1562218705
-ls
-#1562218713
-code ./install.sh 
-#1562218726
-./install.sh 
-#1562199456
-clear
-#1562199462
-code $PROFILE 
-#1562200627
-loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type
-#1562200699
-session=$(loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type)
-#1562200702
-echo $session 
-#1562200710
-$session=${session/Type=/}
-#1562200721
-session=${session/Type=/}
-#1562200724
-echo $session 
-#1562200725
-clear
-#1562201375
-ls
-#1562201379
-chmod +x wl-clipboard-x11.sh 
-#1562201388
-./wl-clipboard-x11.sh 
-#1562201392
-./wl-clipboard-x11.sh  --help
-#1562201398
-rm wl-clipboard-x11.sh 
-#1562201409
-clear
-#1562201502
-XCL=$(command -v xclip)
-#1562201506
-echo $XCL 
-#1562201521
-function testFunc {     echo $@; }
-#1562201528
-testFunc er -fq soidrejoeirf
-#1562201529
-clear
-#1562201651
-function clipSwitch {     local XCL=$(command -v xclip);     local session=$(loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type);     local session=${session/Type=/};     case $XDG_SESSION_TYPE in         "tty")             echo "In tty.";             return 1;             ;;         "x11")             $($XCL $@);             ;;         "wayland")             ;;     esac; }
-#1562201654
-clear
-#1562201655
-clipSwitch 
-#1562201658
-clipSwitch --help
-#1562201667
-clipSwitch -h
-#1562201720
-clear
-#1562201739
-function clipSwitch {     local XCL=$(command -v xclip);     local WCL=$(command -v wl-copy);     local session=$(loginctl show-session $(loginctl | grep $(whoami) | awk '{print $1}') -p Type);     local session=${session/Type=/};     case $XDG_SESSION_TYPE in         "tty")             echo "In tty.";             return 1;             ;;         "x11")             $($XCL $@);             ;;         "wayland")             $($WCL $@);             ;;     esac; }
-#1562201740
-clear
-#1562201742
-clipSwitch 
-#1562201744
-clipSwitch --help
-#1562201746
-clipSwitch -h
-#1562201748
-clear
-#1562203713
-tput 
-#1562203720
-tput setaf 2
-#1562203761
-ls -al|sed -n 2p|awk '{print substr($0,0,10)}'
-#1562203833
-seclear
-#1562203834
-clear
-#1562203837
-ls -h
-#1562203839
-ls --help
-#1562203847
-yelp man:ls
-#1562203864
-ls -z
-#1562203867
-ls -l
-#1562203869
-ls -lZ
-#1562203873
-ls -lX
-#1562203875
-ls -lx
-#1562203882
-yelp man:ls&
-#1562203922
-ls -al|sed -n 2p
-#1562203928
-ls -l|sed -n 2p
-#1562203934
-clear
-#1562203935
-ls -l|sed -n 2p
-#1562203938
-ls -al|sed -n 2p
-#1562203987
-ls -alZ|sed -n 2p
-#1562203994
-ls -aZ|sed -n 2p
-#1562204000
-ls -aZ
-#1562204004
-ls -lZ
-#1562204085
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u@\h ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]"
-#1562204096
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]"
-#1562204098
-clear
-#1562204105
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\] \$"
-#1562204112
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]\$"
-#1562204120
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]\$ "
-#1562204122
-clear
-#1562204230
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]\\$ "
-#1562204250
-yelp man:tput&
-#1562204291
-tput .bash_functions 
-#1562204293
-clear
-#1562204297
-tput colors
-#1562204299
-tput color
-#1562204305
-clear
-#1562204306
-tput --help
-#1562204319
-tput capname
-#1562204323
-yelp man:tput&
-#1562204396
-clear
-#1562204400
-tput setaf
-#1562204403
- clear
-#1562204404
-tput setaf
-#1562204406
-tput setaf 0
-#1562204408
-tput setaf 1
-#1562204411
-tput setaf 3
-#1562204495
-printf '\e[48;5;%dm ' {0..255}; printf '\e[0m \n'
-#1562204528
-colormgr 
-#1562204532
-clear
-#1562204578
-$IFS
-#1562204599
-cat -etv <<<"$IFS"
-#1562204622
-IFS=$' \t\n'
-#1562204624
-cat -etv <<<"$IFS"
-#1562204636
-test {0..42}
-#1562204659
-function color(){     for c; do         printf '\e[48;5;%dm%03d' $c $c;     done;     printf '\e[0m \n'; }
-#1562204663
-color {0..15}
-#1562204673
-for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done
-#1562204680
-color {232..255}
-#1562204686
-color {0..15}
-#1562204686
-for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done
-#1562204686
-color {232..255}
-#1562204688
-clear
-#1562204700
-color {0..15}; for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done; color {232..255}
-#1562204727
-color
-#1562204730
-color 0
-#1562204732
-color 6
-#1562204734
-color 600
-#1562204736
-color 624
-#1562204737
-clear
-#1562204788
-fromhex(){     hex=${1#"#"};     r=$(printf '0x%0.2s' "$hex");     g=$(printf '0x%0.2s' ${hex#??});     b=$(printf '0x%0.2s' ${hex#????});     printf '%03d' "$(( (r<75?0:(r-35)/40)*6*6 + 
-                       (g<75?0:(g-35)/40)*6   +
-                       (b<75?0:(b-35)/40)     + 16 ))"; }
-#1562204795
-fromhex 00fc7b
-#1562204804
-fromhex(){     hex=${1#"#"};     r=$(printf '0x%0.2s' "$hex");     g=$(printf '0x%0.2s' ${hex#??});     b=$(printf '0x%0.2s' ${hex#????});     printf '%03d' "$(( (r<75?0:(r-35)/40)*6*6 + 
-                       (g<75?0:(g-35)/40)*6   +
-                       (b<75?0:(b-35)/40)     + 16 ))\n"; }
-#1562204806
-fromhex 00fc7b
-#1562204808
-clear
-#1562204813
-fromhex(){     hex=${1#"#"};     r=$(printf '0x%0.2s' "$hex");     g=$(printf '0x%0.2s' ${hex#??});     b=$(printf '0x%0.2s' ${hex#????});     printf '%03d' "$(( (r<75?0:(r-35)/40)*6*6 + 
-                       (g<75?0:(g-35)/40)*6   +
-                       (b<75?0:(b-35)/40)     + 16 ))\\n"; }
-#1562204814
-fromhex 00fc7b
-#1562204828
-fromhex(){     hex=${1#"#"};     r=$(printf '0x%0.2s' "$hex");     g=$(printf '0x%0.2s' ${hex#??});     b=$(printf '0x%0.2s' ${hex#????});     printf '%03d' \n"$(( (r<75?0:(r-35)/40)*6*6 + 
-                       (g<75?0:(g-35)/40)*6   +
-                       (b<75?0:(b-35)/40)     + 16 ))"; }
-#1562204829
-fromhex 00fc7b
-#1562204844
-fromhex(){     hex=${1#"#"};     r=$(printf '0x%0.2s' "$hex");     g=$(printf '0x%0.2s' ${hex#??});     b=$(printf '0x%0.2s' ${hex#????});     printf '%03d\n' "$(( (r<75?0:(r-35)/40)*6*6 + 
-                       (g<75?0:(g-35)/40)*6   +
-                       (b<75?0:(b-35)/40)     + 16 ))"; }
-#1562204845
-fromhex 00fc7b
-#1562204847
-clear
-#1562204922
-color 5
-#1562205020
-echo $r
-#1562205033
-local num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";
-#1562205039
-num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";
-#1562205042
-echo $num
-#1562205109
-fromhex(){     local hex=${1#"#"};     local r=$(printf '0x%0.2s' "$hex");     local g=$(printf '0x%0.2s' ${hex#??});     local b=$(printf '0x%0.2s' ${hex#????});     local num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";     printf '%03d ' $num;     printf '\e[48;5;%dm' $num;     printf '\e[0m \n'; }
-#1562205110
-clear
-#1562205113
-fromhex 00fc7b
-#1562205139
-yelp man:printf
-#1562205218
-fromhex(){     local hex=${1#"#"};     local r=$(printf '0x%0.2s' "$hex");     local g=$(printf '0x%0.2s' ${hex#??});     local b=$(printf '0x%0.2s' ${hex#????});     local num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";     printf '%03d ' $num;     printf '\e[48;5;%dm%03d' $num;     printf '\e[0m \n'; }
-#1562205220
-fromhex 00fc7b
-#1562205227
-printf '\e[48;5;%dm%   ' $num;
-#1562205235
-fromhex(){     local hex=${1#"#"};     local r=$(printf '0x%0.2s' "$hex");     local g=$(printf '0x%0.2s' ${hex#??});     local b=$(printf '0x%0.2s' ${hex#????});     local num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";     printf '%03d ' $num;     printf '\e[48;5;%dm%   ' $num;     printf '\e[0m \n'; }
-#1562205236
-clear
-#1562205249
-fromhex 00fc7b
-#1562205260
-fromhex(){     local hex=${1#"#"};     local r=$(printf '0x%0.2s' "$hex");     local g=$(printf '0x%0.2s' ${hex#??});     local b=$(printf '0x%0.2s' ${hex#????});     local num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";     printf '%03d ' $num;     printf '\e[48;5;%dm   ' $num;     printf '\e[0m \n'; }
-#1562205262
-fromhex 00fc7b
-#1562205284
-255}
-#1562205286
-color {232..255}
-#1562205288
-clear
-#1562205317
-function color(){     for c; do         printf '\e[48;5;%03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205319
-color {232..255}
-#1562205332
-printf '\e[48;5;%03d :' $c;
-#1562205335
-function color(){     for c; do         printf '\e[48;5;%03d :' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205344
-color {232..255}
-#1562205365
-function color(){     for c; do         printf '%03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205366
-color {232..255}
-#1562205372
-clear
-#1562205382
-function color(){     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205384
-color {232..255}
-#1562205393
-function color(){     for c; do         printf ' \e[0m%03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205395
-color {232..255}
-#1562205396
-clear
-#1562205414
-function color(){     for c; do         printf '\e[0m %03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205416
-color {0..15}
-#1562205433
-for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done
-#1562205439
-color {0..15}
-#1562205439
-for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done
-#1562205439
-color {232..255}
-#1562205446
-clear
-#1562205460
-seq
-#1562205463
-seq 5
-#1562205477
-i=1;$(seq $((i*36+16)) $((i*36+51)))
-#1562205481
-i=1;echo $(seq $((i*36+16)) $((i*36+51)))
-#1562205486
-i=2;echo $(seq $((i*36+16)) $((i*36+51)))
-#1562205551
-printf '\e[48;5;%dm ' {0..255}; printf '\e[0m \n'
-#1562205575
-for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done
-#1562205598
-clear
-#1562205659
-color {0..255}
-#1562205681
-function color(){     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205682
-color {0..255}
-#1562205690
-clear
-#1562205728
-for {0..5};do echo -
-#1562205730
-for {0..5};do echo $c
-#1562205737
-for c={0..5};do echo $c
-#1562205745
-c={0 .. 400}
-#1562205757
-for c; do echo $c;done
-#1562205777
-echo $c[@]
-#1562205780
-echo $c
-#1562205781
-clear
-#1562205783
-c={0 .. 400}
-#1562205786
-echo $c
-#1562205789
-echo $c[0]
-#1562205799
-echo ${c[0]}
-#1562205801
-echo ${c[@]}
-#1562205802
-clear
-#1562205829
-tput colors
-#1562205841
-function color(){     echo $c;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205847
-color 2
-#1562205913
-function color(){     echo $c;     for c; do         echo $c;         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562205916
-color 2
-#1562205917
-clear
-#1562205922
-color {5}
-#1562205927
-color {1..5}
-#1562205931
-echo {1..5}
-#1562205935
-{0..10}
-#1562205937
-clear
-#1562205963
-color test
-#1562205966
-color t
-#1562205967
-color m
-#1562205969
-clear
-#1562206044
-echo "\e[48;5;5 '
-
-#1562206050
-echo "\e[48;5;5 " 
-#1562206064
-echo "\e[48; test " 
-#1562206068
-echo '\e[48; test '
-#1562206077
-echo -e "\e[48;5;5 " 
-#1562206079
-echo -e "\e[48;5;5 test" 
-#1562206086
-echo -e "\e[48;5;5 test" cls
-#1562206087
-cls
-#1562206122
-color {0..15}
-#1562206131
-function color(){     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562206132
-clear
-#1562206160
-function color(){     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;     done;     printf '\e[0m \n'; }
-#1562206160
-colorfromhex(){     local hex=${1#"#"};     local r=$(printf '0x%0.2s' "$hex");     local g=$(printf '0x%0.2s' ${hex#??});     local b=$(printf '0x%0.2s' ${hex#????});     local num="$(( (r<75?0:(r-35)/40)*6*6 + (g<75?0:(g-35)/40)*6  + (b<75?0:(b-35)/40) + 16 ))";     printf '%03d ' $num;     printf '\e[48;5;%dm   ' $num;     printf '\e[0m \n'; }
-#1562206163
-color {0..15}
-#1562206165
-color $(seq $((i*36+16)) $((i*36+51)))
-#1562206171
-cls
-#1562206174
-for ((i=0;i<6;i++)); do     color $(seq $((i*36+16)) $((i*36+51))); done
-#1562206178
-color {232..255}
-#1562206195
-for ((i=0;i<6;i++)); do     echo $(seq $((i*36+16)) $((i*36+51))); done
-#1562206237
-color {0..256}
-#1562206279
-printf '\t test \t test'
-#1562206285
-clear
-#1562206287
-printf '\t test \t test\n'
-#1562206381
-function color(){     local i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         $i++;         if [ $i -ge 5 ]; then             printf '\n';         fi;     done;     printf '\e[0m \n'; }
-#1562206383
-color {0..256}
-#1562206394
-function color(){     i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         $i++;         if [ $i -ge 5 ]; then             printf '\n';         fi;     done;     printf '\e[0m \n'; }
-#1562206395
-color {0..256}
-#1562206412
-cls
-#1562206455
-for ((i=0;i<=5;i++)); do     echo $i; done
-#1562206482
-clear
-#1562206487
-for ((i=0;i<=5;i++)); do     echo $i;$i++; done
-#1562206497
-function color(){     i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         i++;         if [ $i -ge 5 ]; then             printf '\n';         fi;     done;     printf '\e[0m \n'; }
-#1562206500
-color {0..15}
-#1562206504
-clear
-#1562206536
-function color(){     local i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         i=$i+1;         if [ $i -ge 5 ]; then             printf '\n';         fi;     done;     printf '\e[0m \n'; }
-#1562206541
-i=0
-#1562206543
-echo i++
-#1562206546
-i++
-#1562206548
-$i++
-#1562206550
-clear
-#1562206553
-i=$i+1
-#1562206554
-clear
-#1562206555
-echo $i
-#1562206593
-function color(){     local i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         let "i++";         if [ $i -ge 5 ]; then             printf '\n';         fi;     done;     printf '\e[0m \n'; }
-#1562206623
-function color(){     local i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;                  let "i++";         if [ $i -ge 5 ]; then             printf '\n';         fi;     done;     printf '\e[0m \n'; }
-#1562206627
-color {0..15}
-#1562206635
-clear
-#1562206651
-i=10
-#1562206654
-function color(){     local i = 0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         let "i++";         if [ $i -ge 5 ]; then             printf '\n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562206657
-color {0..15}
-#1562206670
-function color(){     local i=0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         let "i++";         if [ $i -ge 5 ]; then             printf '\n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562206672
-color {0..15}
-#1562206690
-function color(){     local i=0;     for c; do         printf '\e[0m      %03d:' $c;         printf '\e[48;5;%dm  ' $c;         let "i++";         if [ $i -ge 5 ]; then             printf '\e[0m \n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562206692
-color {0..15}
-#1562206697
-color {0..256}
-#1562206729
-function color(){     local i=0;     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;         let "i++";         if [ $i -ge 5 ]; then             printf '\e[0m \n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562206733
-color {0..15}
-#1562206745
-function color(){     local i=0;     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;         let "i++";         if [ $i -ge 10 ]; then             printf '\e[0m \n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562206764
-for {0..10};do     echo -; done
-#1562206776
-c={0..10}
-#1562206790
-for c;do echo $c;done
-#1562206796
-c={0..10}
-#1562206796
-for c;do echo $c;done
-#1562206802
-c={0..10}
-#1562206802
-for $c;do echo $c;done
-#1562206878
-for c in {0..10};do echo $c;done
-#1562206892
-function color(){     local i=0;     for c in $1; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;         let "i++";         if [ $i -ge 10 ]; then             printf '\e[0m \n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562206896
-color {0..256}
-#1562206939
-echo {z..a}
-#1562206942
-echo {z..a..2}
-#1562206952
-echo {z..a..10}
-#1562206975
-letters=({a..z}{a..z})
-#1562206978
-echo letters
-#1562206980
-echo $letters
-#1562206982
-echo $letters{@}
-#1562206993
-echo {letters[@]}
-#1562206998
-echo ${letters[@]}
-#1562207017
-echo {0..15}{0..15}
-#1562207029
-cls
-#1562207063
-color
-#1562207064
-color 0
-#1562207066
-clear
-#1562207075
-color {0..256}
-#1562207091
-function color(){     local i=0;     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;         let "i++";         if [ $i -ge 10 ]; then             printf '\e[0m \n';             i=0;         fi;     done;     printf '\e[0m \n'; }
-#1562207093
-color {0..256}
-#1562207095
-clear
-#1562207109
-tput cols
-#1562207140
-cols=$(tput cols)
-#1562207143
-echo $cols
-#1562207144
-clear
-#1562207182
-echo $i
-#1562207218
-cols=$(tput cols)
-#1562207221
-color {0..256}
-#1562207367
-$cols
-#1562207370
-echo $cols/8
-#1562207375
-expr $cols/8
-#1562207379
-expr $cols / 8
-#1562207450
-echo printf '\e[0m \n';
-#1562207455
-echo (K+8)/16
-#1562207465
-echo -e '(K+8)/16'
-#1562207468
-expr (K+8)/16
-#1562207471
-test=(K+8)/16
-#1562207474
-echo $test
-#1562207559
-$line=$(tput cols)
-#1562207560
-expr '(' $line + 50 ')'  / 100 '*' 4
-#1562207569
-cls
-#1562207571
-$line=$(tput cols)
-#1562207576
-line=$(tput cols)
-#1562207578
-expr '(' $line + 50 ')'  / 100 '*' 4
-#1562207580
-clear
-#1562207585
-line=$(tput cols)
-#1562207585
-expr '(' $line + 50 ')'  / 100 '*' 4
-#1562207591
-line=$(tput cols)
-#1562207598
-line=$(tput cols);echo $line
-#1562207630
-expr '(' $line + 50 ')'  / 100 '*' 8
-#1562207652
-line=$(tput cols)/8
-#1562207658
-line=$(tput cols)/8;echo $line
-#1562207663
-line=expr $(tput cols)/8;echo $line
-#1562207671
-line=expr $(tput cols) / 8;echo $line
-#1562207679
-line=$(expr $(tput cols) / 8);echo $line
-#1562207698
-local cols=$(tput cols)
-#1562207698
-local i=$cols/8
-#1562207703
-cols=$(tput cols)
-#1562207706
-i=$cols/8
-#1562207708
-echo $i
-#1562207726
-cols=$(tput cols)
-#1562207730
-i=$(expr $cols/8)
-#1562207735
-echo $cols $i
-#1562207742
-i=$(expr $cols / 8)
-#1562207744
-echo $cols $i
-#1562207991
-function color(){     local cols=$(tput cols);     local i=$(expr ($cols / 8) - 8);     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i++";         if [ $i -eq 0 ]; then             printf '\e[0m \n';             i=$cols;         fi;     done;     printf '\e[0m \n'; }
-#1562207993
-color {0..256}
-#1562208029
-$(expr ( $cols / 8 ) - 8)
-#1562208036
-function color(){     local cols=$(tput cols);     local i=$(expr ( $cols / 8 ) - 8);     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i++";         if [ $i -eq 0 ]; then             printf '\e[0m \n';             i=$cols;         fi;     done;     printf '\e[0m \n'; }
-#1562208038
-color {0..256}
-#1562208141
-i=(( $cols / 8 ) - 8))
-#1562208148
-$(( $cols / 8 ) - 8))
-#1562208172
-i=$(( $cols / 8 ) - 8))
-#1562208200
-local i=$((( $cols / 8 ) - 8))
-#1562208204
-$((( $cols / 8 ) - 8))
-#1562208247
-$((( $(tput cols) / 8 ) - 8))
-#1562208276
-function color(){     local i=$((( $(tput cols) / 8 ) - 8));     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i++";         if [ $i -eq 0 ]; then             printf '\e[0m \n';             i=$((( $(tput cols) / 8 ) - 8));         fi;     done;     printf '\e[0m \n'; }
-#1562208277
-clear
-#1562208285
-color {0..256}
-#1562208303
-function color(){     local i=$((( $(tput cols) / 8 ) - 8));     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i--";         if [ $i -eq 0 ]; then             printf '\e[0m \n';             i=$((( $(tput cols) / 8 ) - 8));         fi;     done;     printf '\e[0m \n'; }
-#1562208304
-color {0..256}
-#1562208306
-clear
-#1562208315
-function color(){     local i=$((( $(tput cols) / 8 ) - 8));     for c; do         printf '\e[0m%03d:' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i--";         if [ $i -eq 0 ]; then             printf '\e[0m \n\n';             i=$((( $(tput cols) / 8 ) - 8));         fi;     done;     printf '\e[0m \n'; }
-#1562208317
-color {0..256}
-#1562208327
-function color(){     local i=$((( $(tput cols) / 8 ) - 8));     for c; do         printf '\e[0m%03d: ' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i--";         if [ $i -eq 0 ]; then             printf '\e[0m \n\n';             i=$((( $(tput cols) / 8 ) - 8));         fi;     done;     printf '\e[0m \n'; }
-#1562208329
-color {0..256}
-#1562208358
-clear
-#1562208367
-r'$((( $(tput cols) / 8 ) - 8))'
-#1562208372
-r='$((( $(tput cols) / 8 ) - 8))'
-#1562208374
-echo $r
-#1562208376
-i=$r
-#1562208377
-$i
-#1562208380
-echo $i
-#1562208392
-clear
-#1562208404
-echo ${i}
-#1562208407
-echo ${$i}
-#1562208411
-echo $(i)
-#1562208419
-echo $($i))
-#1562208421
-echo $($i)
-#1562208445
-function color(){     local i=$((( $(tput cols) / 8 ) - 8));     for c; do         printf '\e[0m%03d: ' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i--";         if [ $i -eq 0 ]; then             printf '\e[0m \n\n';             i=$((( $(tput cols) / 8 ) - 8));         fi;     done;     printf '\e[0m \n'; }
-#1562208452
-color {0..256}
-#1562208471
-function color(){     local i=$((( $(tput cols) / 8 ) - 8));     for c; do         printf '\e[0m%03d: ' $c;         printf '\e[48;5;%dm  \t' $c;                  let "i--";         if [ $i -eq 0 ]; then             printf '\e[0m \n';             i=$((( $(tput cols) / 8 ) - 8));         fi;     done;     printf '\e[0m \n'; }
-#1562208472
-color {0..256}
-#1562208495
-clear
-#1562212185
-if [ -f /etc/bashrc ]; then echo 1 fi
-#1562212189
-if [ -f /etc/bashrc ]; then echo 1; fi
-#1562212252
-cls
-#1562212268
-if [ -f /etc/bashrc ]; then . /etc/bashrc; fi #Source machine global settings if available
-#1562213166
-todo
-#1562213714
-case $- in *i*) ;; *) return;; esac
-#1562214534
-cls
-#1562222359
-/home/nick/.local/share/bash-it/themes/colors.theme.bash
-#1562222362
-#!/usr/bin/env bash
-#1562222362
-function __ {   echo "$@"; }
-#1562222362
-function __make_ansi {   next=$1; shift;   echo "\[\e[$(__$next $@)m\]"; }
-#1562222362
-function __make_echo {   next=$1; shift;   echo "\033[$(__$next $@)m"; }
-#1562222363
-function __reset {   next=$1; shift;   out="$(__$next $@)";   echo "0${out:+;${out}}"; }
-#1562222363
-function __bold {   next=$1; shift;   out="$(__$next $@)";   echo "${out:+${out};}1"; }
-#1562222363
-function __faint {   next=$1; shift;   out="$(__$next $@)";   echo "${out:+${out};}2"; }
-#1562222363
-function __italic {   next=$1; shift;   out="$(__$next $@)";   echo "${out:+${out};}3"; }
-#1562222363
-function __underline {   next=$1; shift;   out="$(__$next $@)";   echo "${out:+${out};}4"; }
-#1562222363
-function __negative {   next=$1; shift;   out="$(__$next $@)";   echo "${out:+${out};}7"; }
-#1562222364
-function __crossed {   next=$1; shift;   out="$(__$next $@)";   echo "${out:+${out};}8"; }
-#1562222364
-function __color_normal_fg {   echo "3$1"; }
-#1562222364
-function __color_normal_bg {   echo "4$1"; }
-#1562222364
-function __color_bright_fg {   echo "9$1"; }
-#1562222364
-function __color_bright_bg {   echo "10$1"; }
-#1562222365
-function __color_black   {   echo "0"; }
-#1562222365
-function __color_red   {   echo "1"; }
-#1562222365
-function __color_green   {   echo "2"; }
-#1562222365
-function __color_yellow  {   echo "3"; }
-#1562222365
-function __color_blue  {   echo "4"; }
-#1562222365
-function __color_magenta {   echo "5"; }
-#1562222366
-function __color_cyan  {   echo "6"; }
-#1562222366
-function __color_white   {   echo "7"; }
-#1562222366
-function __color_rgb {   r=$1 && g=$2 && b=$3;   [[ r == g && g == b ]] && echo $(( $r / 11 + 232 )) && return # gray range above 232
-  echo "8;5;$(( ($r * 36  + $b * 6 + $g) / 51 + 16 ))"; }
-#1562222366
-function __color {   color=$1; shift;   case "$1" in     fg|bg) side="$1"; shift ;;     *) side=fg;;   esac;   case "$1" in     normal|bright) mode="$1"; shift;;     *) mode=normal;;   esac;   [[ $color == "rgb" ]] && rgb="$1 $2 $3"; shift 3   next=$1; shift;   out="$(__$next $@)";   echo "$(__color_${mode}_${side} $(__color_${color} $rgb))${out:+;${out}}"; }
-#1562222366
-function __black   {   echo "$(__color black $@)"; }
-#1562222367
-function __red   {   echo "$(__color red $@)"; }
-#1562222367
-function __green   {   echo "$(__color green $@)"; }
-#1562222367
-function __yellow  {   echo "$(__color yellow $@)"; }
-#1562222367
-function __blue  {   echo "$(__color blue $@)"; }
-#1562222367
-function __magenta {   echo "$(__color magenta $@)"; }
-#1562222368
-function __cyan  {   echo "$(__color cyan $@)"; }
-#1562222368
-function __white   {   echo "$(__color white $@)"; }
-#1562222368
-function __rgb {   echo "$(__color rgb $@)"; }
-#1562222368
-function __color_parse {   next=$1; shift;   echo "$(__$next $@)"; }
-#1562222368
-function color {   echo "$(__color_parse make_ansi $@)"; }
-#1562222368
-function echo_color {   echo "$(__color_parse make_echo $@)"; }
-#1562222369
-black="\[\e[0;30m\]"
-#1562222369
-red="\[\e[0;31m\]"
-#1562222369
-green="\[\e[0;32m\]"
-#1562222369
-yellow="\[\e[0;33m\]"
-#1562222369
-blue="\[\e[0;34m\]"
-#1562222369
-purple="\[\e[0;35m\]"
-#1562222369
-cyan="\[\e[0;36m\]"
-#1562222369
-white="\[\e[0;37m\]"
-#1562222369
-orange="\[\e[0;91m\]"
-#1562222370
-bold_black="\[\e[30;1m\]"
-#1562222370
-bold_red="\[\e[31;1m\]"
-#1562222370
-bold_green="\[\e[32;1m\]"
-#1562222370
-bold_yellow="\[\e[33;1m\]"
-#1562222370
-bold_blue="\[\e[34;1m\]"
-#1562222370
-bold_purple="\[\e[35;1m\]"
-#1562222370
-bold_cyan="\[\e[36;1m\]"
-#1562222370
-bold_white="\[\e[37;1m\]"
-#1562222370
-bold_orange="\[\e[91;1m\]"
-#1562222370
-underline_black="\[\e[30;4m\]"
-#1562222371
-underline_red="\[\e[31;4m\]"
-#1562222371
-underline_green="\[\e[32;4m\]"
-#1562222371
-underline_yellow="\[\e[33;4m\]"
-#1562222371
-underline_blue="\[\e[34;4m\]"
-#1562222371
-underline_purple="\[\e[35;4m\]"
-#1562222371
-underline_cyan="\[\e[36;4m\]"
-#1562222371
-underline_white="\[\e[37;4m\]"
-#1562222371
-underline_orange="\[\e[91;4m\]"
-#1562222371
-background_black="\[\e[40m\]"
-#1562222371
-background_red="\[\e[41m\]"
-#1562222372
-background_green="\[\e[42m\]"
-#1562222372
-background_yellow="\[\e[43m\]"
-#1562222372
-background_blue="\[\e[44m\]"
-#1562222372
-background_purple="\[\e[45m\]"
-#1562222372
-background_cyan="\[\e[46m\]"
-#1562222372
-background_white="\[\e[47;1m\]"
-#1562222372
-background_orange="\[\e[101m\]"
-#1562222372
-normal="\[\e[0m\]"
-#1562222372
-reset_color="\[\e[39m\]"
-#1562222372
-# These colors are meant to be used with `echo -e`
-#1562222373
-echo_black="\033[0;30m"
-#1562222373
-echo_red="\033[0;31m"
-#1562222373
-echo_green="\033[0;32m"
-#1562222373
-echo_yellow="\033[0;33m"
-#1562222373
-echo_blue="\033[0;34m"
-#1562222373
-echo_purple="\033[0;35m"
-#1562222373
-echo_cyan="\033[0;36m"
-#1562222373
-echo_white="\033[0;37;1m"
-#1562222373
-echo_orange="\033[0;91m"
-#1562222373
-echo_bold_black="\033[30;1m"
-#1562222374
-echo_bold_red="\033[31;1m"
-#1562222374
-echo_bold_green="\033[32;1m"
-#1562222374
-echo_bold_yellow="\033[33;1m"
-#1562222374
-echo_bold_blue="\033[34;1m"
-#1562222374
-echo_bold_purple="\033[35;1m"
-#1562222374
-echo_bold_cyan="\033[36;1m"
-#1562222374
-echo_bold_white="\033[37;1m"
-#1562222374
-echo_bold_orange="\033[91;1m"
-#1562222374
-echo_underline_black="\033[30;4m"
-#1562222374
-echo_underline_red="\033[31;4m"
-#1562222374
-echo_underline_green="\033[32;4m"
-#1562222375
-echo_underline_yellow="\033[33;4m"
-#1562222375
-echo_underline_blue="\033[34;4m"
-#1562222375
-echo_underline_purple="\033[35;4m"
-#1562222375
-echo_underline_cyan="\033[36;4m"
-#1562222375
-echo_underline_white="\033[37;4m"
-#1562222375
-echo_underline_orange="\033[91;4m"
-#1562222375
-echo_background_black="\033[40m"
-#1562222375
-echo_background_red="\033[41m"
-#1562222375
-echo_background_green="\033[42m"
-#1562222375
-echo_background_yellow="\033[43m"
-#1562222375
-echo_background_blue="\033[44m"
-#1562222376
-echo_background_purple="\033[45m"
-#1562222376
-echo_background_cyan="\033[46m"
-#1562222376
-echo_background_white="\033[47;1m"
-#1562222376
-echo_background_orange="\033[101m"
-#1562222376
-echo_normal="\033[0m"
-#1562222376
-echo_reset_color="\033[39m"
-#1562222384
-clear
-#1562222404
-shift
-#1562222406
-clear
-#1562222424
-__color_bright_bg 
-#1562222429
-echo __color_bright_bg 
-#1562222434
-echo )
-#1562222439
-echo $(__color_bright_bg)
-#1562222504
-p4_prompt_info 
-#1562222506
-clear
-#1562218772
-cd Documents/git/
-#1562218774
-cd auto-auto-complete/
-#1562218776
-cls
-#1562218803
-cd ../fonts/
-#1562218804
-ls
-#1562218806
-clear
-#1562218806
-ls
-#1562219017
-cd Hack/
-#1562219017
-ls
-#1562219032
-cp * ~/.local/share/fonts/hack
-#1562219045
-cd cd ~/.local/share/fonts/
-#1562219154
-clear
-#1562219359
-dsf
-#1562219362
-clear
-#1562219391
-echo -e "\x1B[104m\x1B[97mðŸº You have $outdated brew update(s).ðŸº  \x1B[0m"
-#1562219393
-clear
-#1562219399
-echo -e "\x1B[104m\x1B[97mðŸº You have $outdated brew update(s).ðŸº  \x1B[0m"
-#1562219438
-echo -e "👵"
-#1562219487
-clear
-#1562219520
-cd ~
-#1562219521
-clear
-#1562219524
-fonttosfnt 
-#1562219525
-clear
-#1562219589
-printf '\xE2\x98\xA0'
-#1562219790
-iconv
-#1562219791
-clear
-#1562219793
-iconv --help
-#1562219797
-clear
-#1562220071
-echo $RANDOM 
-#1562220139
-sudo dnf search emoji
-#1562220232
-sudo dnf install ibus-uniemoji
-#1562220288
-unicode_start 
-#1562220293
-unicode_start --help
-#1562220298
-uniconvertor 
-#1562220301
-clear
-#1562220309
-cd ~
-#1562220313
-echo 1
-#1562220637
-clear
-#1562220644
-ibus restart
-#1562220650
-:apple:
-#1562220652
-clear
-#1562221021
-:laughing:
-#1562221040
-clear
-#1562221831
-sudo echo 1
-#1562221835
-clear
-#1562222562
-printenv |grep p4
-#1562222635
-clear
-#1562222639
-_p4-opened
-#1562222642
-_p4-opened --help
-#1562222643
-clear
-#1562222649
-_p4-opened-counts 
-#1562222655
-clear
-#1562222734
-ruby
-#1562222737
-c;ear
-#1562222739
-clear
-#1562222932
-docker
-#1562222935
-clear
-#1562222942
-docker list
-#1562222945
-docker images
-#1562222957
-docker info
-#1562222962
-systemctl status docker
-#1562222967
-sudo systemctl start docker
-#1562222975
-clear
-#1562222981
-docker images 
-#1562222985
-docker images --help
-#1562222993
-docker history 
-#1562222994
-clear
-#1562223009
-docker container 
-#1562223018
-ckear
-#1562223020
-clear
-#1562223027
-bash-it show aliases 
-#1562223103
-bash-it enable alias docker
-#1562223107
-bash-it reload 
-#1562223108
-clear
-#1562223111
-docker 
-#1562223123
-docker container 
-#1562223127
-docker container ls
-#1562223131
-docker container ls --help
-#1562223133
-docker container ls -a
-#1562223151
-docker container start bash-explainshell 
-#1562223156
-docker container stats 
-#1562223161
-clear
-#1562223165
-docker
-#1562223205
-clear
-#1562223212
-sudo dnf search bash-language-server
-#1562223218
-npm
-#1562223237
-clear
-#1562223239
-sudo npm i -g bash-language-server
-#1562223269
-sudo su
-#1562223474
-clear
-#1562223478
-which bash-language-server 
-#1562223481
-which bash-language-server |clip
-#1562223490
-which bash-language-server |clip -i
-#1562223495
-clear
-#1562223498
-which bash-language-server 
-#1562224069
-__powerline_user_info_prompt 
-#1562224466
-safe_append_prompt_command 
-#1562224469
-which safe_append_prompt_command 
-#1562224478
-clear
-#1562224480
-cd Documents/
-#1562224480
-ls
-#1562224510
-safe_append_prompt_command __powerline_prompt_command 
-#1562224511
-clear
-#1562224519
-unset PS!
-#1562224519
-unset PS1
-#1562224522
-safe_append_prompt_command __powerline_prompt_command 
-#1562224523
-clear
-#1562224525
-ls
-#1562224531
-code bashtest 
-#1562225034
-exit
-clear
-exit
-#1562225028
-bash --noprofile 
-#1562225037
-bash --noprofile --norc
-#1562224667
-clear
-#1562224670
+#1571777438
+man test
+#1571777474
+if [ -d /home/nick/ ] echo 1 || echo 0
+#1571777478
+if [ -d /home/nick/ ] echo 1 || echo 0 di
+#1571777479
+if [ -d /home/nick/ ] echo 1 || echo 0 fi
+#1571777490
+if [ -d /home/nick/ ] echo 1 || echo 0; fi
+#1571777492
+if [ -d /home/nick/ ] echo 1 || echo 0; 
+#1571777494
+if [ -d /home/nick/ ] echo 1 || echo 0 fi
+#1571777497
+if [ -d /home/nick/ ] echo 1 || echo 0 fi; ;
+#1571777511
+if [ -d /home/nick/ ]; then echo 1 || echo 0 fi
+#1571777518
+if [ -d /home/nick/ ]; then echo 1 || echo 0; fi
+#1571777524
+if [ -d /home/nick/dsgfr ]; then echo 1 || echo 0; fi
+#1571777530
+if [ -d /home/nick/dsgfr ]; then echo 1 else echo 0; fi
+#1571777533
+if [ -d /home/nick/dsgfr ]; then echo 1; else echo 0; fi
+#1571777605
+bd_
+#1571777606
+bd_ test
+#1571777608
+bd_ "test"
+#1571777611
+bd_ "test"; echo test
+#1571777634
+echo "$(bd_ test)"
+#1571777646
+echo "test $(bd_ test)"
+#1571777656
+echo "test ${bd_ test}"
+#1571777663
+which bd_
+#1571777674
+$(bd_ test)
+#1571777678
+echo $(bd_ test)
+#1571777755
+$test="test"
+#1571777758
 test="test"
-#1562224677
-test=${test:="1 2 3"}
-#1562224679
+#1571777761
+echo $test
+#1571777771
+echo $(bd_ $test)
+#1571777774
+echo "$(bd_ $test)"
+#1571777780
+echo "$(bd_ $test) test"
+#1571777788
+which bd_
+#1571777797
+bd_ test
+#1571777819
+clear
+#1571777864
+which bd_
+#1571777879
+tput 
+#1571777898
+man tput
+#1571777998
+tput setaf 2;echo 1; tput setaf 7
+#1571778000
+test
+#1571778002
 echo test
-#1562224681
-echo $test
-#1562224683
-echo $test[@]
-#1562224687
-echo ${test[@]}
-#1562224692
+#1571778010
+tput setaf 2;echo 1; tput sgr0
+#1571778013
+tput setaf 2;echo 1; tput sgr0;echo 1
+#1571778019
+tput setaf 2;echo 1; echo 1
+#1571778029
+tput setaf 2;echo 1; tput sgr0; echo 2
+#1571778070
+tput colors
+#1571778236
+bd_() { #{{{
+  echo "${tp_bold}$@${tp_reset}"; }
+#1571778239
+bd_
+#1571778241
+bd_ test
+#1571778249
+$(bd_ test)
+#1571778252
+$(bd_ test)"
+#1571778254
+"$(bd_ test)"
+#1571778256
+echo "$(bd_ test)"
+#1571778260
+echo "$(bd_ test)"; test
+#1571778262
+echo "$(bd_ test)"; echo test
+#1571778276
+tp_bold="$(tput bold)"
+#1571778280
+tp_reset="$(tput sgr0)"
+#1571778282
+"$(bd_ test)"
+#1571778287
+echo "$(bd_ test)"; echo test
+#1571778442
+which bd_
+#1571778548
+tp_bold="$(tput bold)"
+#1571778549
+tp_green=$(tput setaf 2)
+#1571778549
+tp_red=$(tput setaf 1)
+#1571778549
+tp_reset="$(tput sgr0)"
+#1571778553
+clr_() { #{{{
+  while getopts "rg" OPT;   do      case $OPT in       "g")         echo "${tp_green}$@${tp_reset}"  ;       ;;       "r")         echo "${tp_red}$@${tp_reset}";       ;;     esac;   done; } #}}}
+#1571778560
+clr g "test"
+#1571778568
+clr_ "test"
+#1571778570
+clr_ -r "test"
+#1571778572
+clr_ r "test"
+#1571778598
+clr_ -rg "test"
+#1571778601
+clr_ -r -g "test"
+#1571778656
+rd_() { #{{{
+  echo "${tp_red}$@${tp_reset}"; } #}}}
+#1571778656
+grn_() { #{{{
+  echo "${tp_green}$@${tp_reset}"  ; } #}}}
+#1571778660
+rd_ test
+#1571778665
+grn_ 2
+#1571778839
+dot config
+#1571778880
+if [ -d /home/nick/dsgfr ]; then echo 1; else echo 0; fi
+#1571778914
+dot config
+#1571778979
+"$(grn_ success)"
+#1571778982
+echo "$(grn_ success)"
+#1571778985
 clear
-#1562224997
-echo $POWERLINE_LEFT_SEPARATOR 
-#1562225003
-clear
-#1562225628
-read
-#1562225633
-clear
-#1562225761
-ibus-setup 
-#1562225952
-ibus restart
-#1562226019
-ibus-daemon 
-#1562226021
-ibus
-#1562226025
-ibus watch
-#1562226035
-ibus read-cache
-#1562226037
-clear
-#1562226040
-ibus 
-#1562226043
-ibus emoji
-#1562226045
-{ "key": "ctrl+m", "command":"-editor.action.toggleTabFocusMode"},;         {             "key": "ctrl+shift+e",;             "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker";         },;         {             "key": "ctrl+shift+e",;             "command": "-workbench.view.explorer"
-#1562226047
-clear
-#1562226077
-ibus-setup &
-#1562226372
-gsettings set org.freedesktop.ibus.panel.emoji hotkey []
-#1562226601
-sudo dnf list installed|grep ibus
-#1562226724
-clear
-#1562226798
-code $PROFILE 
-#1562226915
-echo $POWERLINE_PROMPT 
-#1562226918
-echo $POWERLINE_PROMPT |clip
-#1562226921
-echo $POWERLINE_PROMPT |xclip
-#1562226952
-echo $AWS_PROFILE_
-#1562226954
-echo $AWS_PROFILE
-#1562226955
-clear
-#1562227031
-cd ~
-#1562227032
-clear
-#1562227087
-ech 1
-#1562227089
-clear
-#1562227092
-echo 1
-#1562227093
-clear
-#1562227221
-echo -e "\W"
-#1562227225
-echo -e "\w"
-#1562227229
-echo -e "\\w"
-#1562227234
-echo -e "[\w"
-#1562227237
-clear
-#1562227241
-cwd
-#1562227243
-pd
-#1562227243
-pwd
-#1562227244
-clear
-#1562227415
-echo $PS1
-#1562227418
-clear
-#1562227719
-sudo dnf remove hyper
-#1562227728
-clear
-#1562227729
-cd ~
-#1562227731
-ls -al
-#1562227735
-ls -al|grep hyper
-#1562227745
-ls |grep hyper
-#1562227751
-ls -a|grep hyper
-#1562227763
-for i in $(ls -a|grep hyper);do rm $i -f;done
-#1562227768
-for i in $(ls -a|grep hyper);do rm $i -rf;done
-#1562227770
-clear
-#1562227807
-echo -e "\x1B[104m\x1B[97mðŸº You have $outdated brew update(s).ðŸº  \x1B[0m"
-#1562227843
-clear
-#1562227892
-echo $PROMPT_CHAR 
-#1562227895
-echo $PROMPT_COMMAND 
-#1562227908
-which __vte_prompt_command 
-#1562227917
-history
-#1562227919
-clear
-#1562228271
-bash-it show plugins 
-#1562228278
-clear
-#1562228031
-clea
-#1562228035
-clear
-#1562228041
-bash-it 
-#1562228046
-bash-it update 
-#1562228051
-bash-it migrate 
-#1562228053
-bash-it migrate --help
-#1562228060
-bash-it show 
-#1562228062
-clear
-#1562228065
-bash-it show plugins 
-#1562228251
-bash-it enable plugin history git dirs docker
-#1562228254
-bash-it show plugins 
-#1562228332
-bash-it enable plugin projects
-#1562228335
-pj
-#1562228372
-pj --jrlp
-#1562228409
-code $PROFILE 
-#1562228337
-pj
-#1562228341
-pjo
-#1562228344
-alias pj
-#1562228348
-alias
-#1562228350
-alias|grep pj
-#1562228354
-clear
-#1562228355
-pj
-#1562228360
-which pj
-#1562228378
-pj --help
-#1562228381
-clear
-#1562228496
-bash-it show plugins 
-#1562228552
-pj
-#1562228555
-pj --help
-#1562228560
-pj projects
-#1562228564
-pj Projects
-#1562228566
-clear
-#1562228567
-pho
-#1562228568
-pjo
-#1562228570
-pj
-#1562228579
-which pj
-#1562228590
-pj group
-#1562228595
-pj about
-#1562228596
-pj -about
-#1562228609
-pj Documents
-#1562228612
-pj "Documents"
-#1562228614
-clear
-#1562228615
-pj 1
-#1562228630
-bash-it disable plugin projects
-#1562228635
-bash-it show plugins 
-#1562228680
-bash-it enable plugin explain
-#1562228685
-explain 
-#1562228686
-explain --help
-#1562228690
-explain man
-#1562228693
-clear
-#1562228695
-explain dnf
-#1562228704
-explain -h
-#1562228706
-which explain 
-#1562228716
-explain about
-#1562228722
-clear
-#1562228732
-explain "echo -e '123'"
-#1562228740
-clear
-#1562228748
-bash-it show plugins 
-#1562228781
-clear
-#1562228783
-sudo dnf list
-#1562228788
-sudo dnf list installed
-#1562228801
-bash-it enable plugin browser
-#1562228803
-clear
-#1562228806
-bash-it reload
-#1562228809
-browser 
-#1562228816
-sudo dnf list installed|browser
-#1562228829
-open
-#1562228834
-bash-it disable plugin browser
-#1562228841
-bash-it show plugins 
-#1562228900
-printenv 
-#1562228906
-printenv |grep git
-#1562228908
-clear
-#1562228917
-git
-#1562228924
-clear
-#1562459724
-cd Documents/
-#1562459724
+#1571778987
+echo "$(grn_ success)"
+#1571779015
+tp_reset="$(tput sgr0)"
+#1571779016
+echo "$(grn_ success)"
+#1571779051
+dot config
+#1571778782
+dot config
+#1571779252
+man test
+#1571779273
+dot config
+#1571779293
+dot config
+#1571779442
+cd Documents/git/
+#1571779442
 ls
-#1562459730
+#1571779499
+git clone https://github.com/nsstrickland/dot
+#1571779512
+ls
+#1571779515
+cd dot
+#1571779515
+ls
+#1571779518
+cd lib/
+#1571779519
+cd ..
+#1571779521
 code .
-#1562631073
-cd Documents/Projects/dotfiles-python/
-#1562631075
+#1571779582
 ls
-#1562631080
-python sys_version.py 
-#1562631185
-python3 sys_version.py 
-#1562631196
-code $PROFILE 
-#1562631263
-bash-it reload 
-#1562631268
-which python
-#1562631270
+#1571779583
 clear
-#1562631272
-which python
-#1562631274
-python
-#1562631279
-clear
-#1562631282
-python3 sys_version.py 
-#1562631297
-/usr/bin/python sys_version.py 
-#1562631302
-python3 sys_version.py 
-#1562631304
-clear
-#1562631377
-python argv_list.py 
-#1562631407
-python argv_list.py test1 test2
-#1562631709
-pip3 install numpy
-#1562631719
-sudo pip3 install numpy
-#1562631729
-exit
-#1562622347
-/home/nick/Config/install.py
-#1562630587
-dotbot 
-#1562630600
-dotbot --help
-#1562630610
-git
-#1562630612
-clear
-#1562630613
-git info
-#1562630705
-clear
-#1562630972
-which dotbot
-#1562714187
-cd ~/.ipython/
-#1562714187
+#1571779584
 ls
-#1562714189
-ls -al
-#1562714191
-cd profile_default/
-#1562714192
-ls -al
-#1562714201
-ls db
-#1562714204
-ls log
-#1562714207
-ls -al log
-#1562714210
-ls pid
-#1562714212
-ls security/
-#1562714214
-ls startup/
-#1562714217
-cd startup/
-#1562714218
-cat README 
-#1562714237
-ipy 
-#1562714240
-ipy
-#1562714250
-code $PROFILE 
-#1562714258
-alias ipython=ipython3
-#1562714260
-ipy
-#1562714485
-ipy profile create
-#1562714496
+#1571779591
+git checkout
+#1571779598
+git add *
+#1571779599
 ls
-#1562714497
+#1571779710
 cd ..
-#1562714498
+#1571779710
 ls
-#1562714500
-clear
-#1562714900
-bash-it reload
-#1562716107
-clear
-#1562716170
-bash-it reload
-#1562716185
-clear;bash-it reload
-#1562716217
-bash-it reload
-#1562716431
-clear
-#1562716545
-bash-it reload
-#1562716700
-d
-#1562716702
-dfbg
-#1562716792
-clear
-#1562716840
-bash-it reload
-#1562716852
-clear
-#1562716865
-bash-it reload
-#1562716867
-clear
-#1562716894
-cd ~/Documents/git/auto-auto-complete/
-#1562716895
-clear
-#1562716946
-docker container start bash-explainshell 
-#1562716952
-systemctl start docker
-#1562716960
-docker container start bash-explainshell 
-#1562717114
-bash-it reload
-#1562717124
-clear
-#1562717133
+#1571779712
+rm dot
+#1571779714
 ls
-#1562717135
-touch test
-#1562717139
-rm test 
-#1562717155
-bash-it reload
-#1562717174
-touch test
-#1562717176
-bash-it reload
-#1562717180
-rm test 
-#1562717184
-bash-it reload
-#1562717188
+#1571779721
+git clone https://github.com/ssh0/dot
+#1571779784
+rm dot
+#1571779815
+clear
+#1571779819
+git clone https://github.com/nsstrickland/dot
+#1571779821
+cd dot
+#1571779821
+ls
+#1571779824
+code .
+#1571779892
+git checkout 
+#1571779895
+git add *
+#1571779927
+git commit -m "Fixed dotrc creation process; added grn_ and red_"
+#1571779931
+git push
+#1571780080
+dot config
+#1571781258
+clear
+#1571781259
+dot cd
+#1571781260
+ls
+#1571854498
+man ulimit
+#1571854520
+clear
+#1571854522
+ulimit -a
+#1571854527
+sudo ulimit -a
+#1571855068
+which passwd 
+#1571855074
+ls -al /usr/bin/passwd 
+#1571855212
+find /
+#1571855220
+clear
+#1571856562
+ps -elf
+#1571857652
+ipcs
+#1571858167
+man kill
+#1571858191
+kill -l
+#1571858209
+man kill
+#1571858284
+kill -L
+#1571859765
+clear
+#1571859774
+rpm -qf /etc/logrotate.conf 
+#1571859782
+rpm -ql /etc/logrotate.conf 
+#1571859789
+rpm -ql logrotate
+#1571859795
+rpm -V logrotate
+#1571859801
+rpm -e logrotate --test
+#1571859828
+rpm -ev logrotate --test
+#1571859833
+rpm -ql logrotate
+#1571861668
+sudo su
+#1571862030
+sudo dnf info bash
+#1571862046
+sudo dnf list installed bash
+#1571862050
+sudo dnf list bash
+#1571862061
+sudo dnf deplist bash
+#1571862860
+mpstat
+#1571862941
+which mpstat 
+#1571862963
+iostat 
+#1571862977
+sar
+#1571863165
+pmap
+#1571863169
+pmap -x
+#1571863173
+pmap firefox
+#1571863179
+ps firefox
+#1571863182
+ps 
+#1571863185
+ps aux
+#1571863188
+ps aux| grep firefox
+#1571863195
+pmap 22276
+#1571863453
+dmesg -w
+#1571863712
+cd /proc/sys/kernel/
+#1571863713
+ls
+#1571863727
+cat ostype 
+#1571863966
+sar 3 3
+#1571864053
+sar
+#1571864068
+sar -A 3 3
+#1571864201
+cat /proc/1201/cmdline 
+#1571864214
+ls
+#1571864259
+cd ..
+#1571864260
+ls
+#1571864264
+ls user
+#1571864315
+stress
+#1571868119
 cls
-#1562717203
-bash-it reload
-#1562717204
-cd ..
-#1562717206
-ls
-#1562717209
-mkdir test
-#1562717210
-cd test/
-#1562717212
-git init
-#1562717217
-cd ..
-#1562717219
-cd code-nautilus/
-#1562717227
-bash-it reload
-#1562717230
-cd ../test/
-#1562717231
-cd ..
-#1562717234
-cd auto-auto-complete/
-#1562717333
-echo "test|204"
-#1562717339
-echo "test|$204"
-#1562717343
-echo "test|${204}"
-#1562717352
+#1571868121
+ps aux
+#1571868205
+ps auxf
+#1571868379
 clear
-#1562717459
-echo $LSCOLORS 
-#1562717485
-echo $BASH_IT_THEME 
-#1562717494
-source $BASH_IT_THEME 
-#1562717590
-__black 
-#1562717604
-echo $black 
-#1562717607
-echo -e $black 
-#1562717615
-echo  $(black)
-#1562717617
+#1571868389
+ps -e -N firefox
+#1571868393
+ps -N firefox
+#1571868396
+ps -N 
+#1571868398
+ps -Ne
+#1571868400
 clear
-#1562717633
-echo $echo_bl
-#1562717634
-echo $echo_black 
-#1562717640
-echo -e "$echo_black" 
-#1562717643
-echo -e "$echo_black test" 
-#1562717689
-__italic 
-#1562717691
-clear
-#1562717695
-__
-#1562717890
-echo $APPEARANCE_LIB 
-#1562719036
-pass
-#1562719074
-pass --help
-#1562719081
-pass
-#1562719091
-which pass
-#1562719113
-pass 10
-#1562719126
-pass 5
-#1562719320
-code $PROFILE 
-#1562719568
-${CLOCK_THEME_PROMPT_COLOR}
-#1562719581
-echo "$(${THEME date +"${THEME_CLOCK_FORMAT}")|${CLOCK_THEME_PROMPT_COLOR}"
-#1562719586
-clear
-#1562719588
-echo "$(${THEME date +"${THEME_CLOCK_FORMAT}")|${CLOCK_THEME_PROMPT_COLOR}"
-
-
-"
-#1562719594
-clear
-#1562719601
-echo echo "$(date +"${THEME_CLOCK_FORMAT}")|${CLOCK_THEME_PROMPT_COLOR}"
-#1562719607
-echo "$(date +"${THEME_CLOCK_FORMAT}")|${CLOCK_THEME_PROMPT_COLOR}"
-#1562719700
-${POWERLINE_PROMPT_DISTRO_LOGO}
-#1562719703
-clear
-#1562719748
-echo $POWERLINE_PROMPT
-#1562719785
-bash-it reload 
-#1562719787
-clear
-#1562719897
-echo $fg
-#1562719900
-echo $bg
-#1562719904
-$bg
-#1562720212
-bash-it show aliases 
-#1562720458
+#1571868406
+ps -eC firefox
+#1571868429
+ps aux -U nick
+#1571868436
+ps -U nick
+#1571868439
+ps -Ux nick
+#1571868442
+ps -Ua nick
+#1571868444
+ps -Ue nick
+#1571868448
+ps -eU nick
+#1571868451
+ps -exU nick
+#1571868494
+pstree
+#1571868510
 cclear
-#1562720458
+#1571868511
+clear
+#1571868514
+pstree -aAp
+#1571868563
+clear
+#1571868564
+top
+#1571868665
+df --help
+#1571868673
+clear
+#1571868673
+ls
+#1571868675
 cd ~
-#1562720459
-clear
-#1562720462
-cd Config/
-#1562720462
+#1571868675
 ls
-#1562720463
+#1571868679
+df steam-292030.log 
+#1571868707
+ps elf
+#1571868711
+ps -elf
+#1571868770
 clear
-#1562720464
-ls -al
-#1562720467
-ls bash/
-#1562720476
+#1571868772
+bash
+#1571868793
+ps -o pid,pri,ni,cmd
+#1571868842
+renice 18644 15
+#1571868847
+renice 15 18644
+#1571868850
+ps -o pid,pri,ni,cmd
+#1571868878
+clear
+#1571868891
+dd if=/dev/urandom of=/dev/null &
+#1571868906
+ps 8634
+#1571868927
+fg
+#1571868936
+jobs
+#1571868945
+fg
+#1571869010
 ls
-#1562720478
-clear
-#1562720479
+#1571869015
+nano steam-292030.log &
+#1571869017
+fg
+#1571869258
+cd /proc/sys/vm
+#1571869259
 ls
-#1562720482
-mv bash/ bash2
-#1562720482
-ls
-#1562720489
-ls bash2/
-#1562720495
-rm ~/.bashrc
-#1562720498
-rm ~/.bash_logout 
-#1562720500
-cd bash2/
-#1562720500
-ls
-#1562720515
-cp bashrc ~/.bashrc
-#1562720526
-cp bash_logout ~/.bash_logout
-#1562720527
-ls
-#1562631744
-pip3 install numpy --user 
-#1562631748
+#1571869274
+cat dirty_bytes 
+#1571869329
+free
+#1571869331
+free -m
+#1571869338
+free -g
+#1571869550
 clear
-#1562631768
-ipython3 
-#1562631861
-clear
-#1562631861
-ls
-#1562631866
-cd Documents/Projects/dotfiles-python/
-#1562631867
-ls
-#1562631868
-clear
-#1562631870
-python
-#1562631886
-python reading.py sys_version.py 
-#1562632061
-python reading.py Untitled\ 1.csv 
-#1562632083
-cat Untitled\ 1.csv 
-#1562632097
-nano Untitled\ 1.csv 
-#1562632104
-clear
-#1562632138
-nano Untitled\ 1.csv 
-#1562632141
-cat Untitled\ 1.csv 
-#1562632147
-python reading.py Untitled\ 1.csv 
-#1562632151
-clear
-#1562633979
-python dotfiles.py 
-#1562633983
-python dotfiles.py  --help
-#1562634012
-python dotfiles.py  -h
-#1562634013
-python dotfiles.py  
-#1562634016
-python dotfiles.py --help
-#1562634556
-cat $(which dotbot)
-#1562634805
-clear
-#1562634806
-python dotfiles.py --help
-#1562634844
-clear
-#1562634845
-python dotfiles.py --help
-#1562634941
-python dotfiles.py 
-#1562634942
-clear
-#1562634942
-python dotfiles.py 
-#1562634944
-python dotfiles.py -V
-#1562634946
-python dotfiles.py -v
-#1562634948
-python dotfiles.py --v
-#1562634953
-clear
-#1562635361
-python dotfiles.py --v
-#1562635363
-python dotfiles.py
-#1562635365
-python dotfiles.py --help
-#1562636016
-clear
-#1562636017
-python dotfiles.py --help
-#1562636032
-python dotfiles.py
-#1562636033
-clear
-#1562636059
-python dotfiles.py
-#1562636103
-clear
-#1562636104
-python dotfiles.py
-#1562636303
-clear
-#1562636303
-python dotfiles.py
-#1562637098
-clear
-#1562637099
-python dotfiles.py
-#1562637193
-dotfiles.py -c ~/Documents/
-#1562637217
-python dotfiles.py -c ~/Documents/Projects/dotfiles-python/test.json 
-#1562637853
-clear
-#1562637854
-python dotfiles.py -c ~/Documents/Projects/dotfiles-python/test.json 
-#1562638146
+#1571869552
+man sysctl
+#1571869576
+man sysctl 7
+#1571869582
+man sysctl9
+#1571869583
+man sysctl 9
+#1571869599
+,am
+#1571869600
+man
+#1571869702
+vmstat 2 4
+#1571869879
+vmstat -s
+#1571869891
+vmstat -s -k m
+#1571869894
+vmstat -s -m b
+#1571869906
+vmstat -s -S m
+#1571869923
+vmstat -s -S mh
+#1571869924
+vmstat -s -S j
+#1571869925
+vmstat -s -S 
+#1571869935
+vmstat -s -S h
+#1571869962
+vmstat -d
+#1571870052
+lsblk
+#1571870064
+vmstat -p /dev/sdc3 2 4
+#1571868953
+kill 8634
+#1571868777
+nice bash
+#1571955501
+exit
+#1571955367
+stream 
+#1571955376
 cls
-#1562638168
-python dotfiles.py -c ~/Documents/Projects/dotfiles-python/test.json 
-#1562638984
-read
-#1562639327
-showkey 
-#1562639338
-xev
-#1562641135
-clear
-#1562641140
-strace -f
-#1562641145
-strace -f google-play-music-desktop-player 
-#1562641237
-google-play-music-desktop-player --hlep
-#1562641250
-sudo dnf search avahi
-#1562641271
-sudo dnf install avahi
-#1562641289
-systemctl status avahi
-#1562641292
-avahi-daemon 
-#1562641320
-avahi-daemon --help
-#1562641356
-systemctl status avahi-daemon
-#1562641363
-systemctl restart avahi-daemon
-#1562641373
-systemctl status avahi-daemon
-#1562641378
-google-play-music-desktop-player --help
-#1562641509
-sudo dnf remove google-play-music-desktop-player-4.6.1-1.x86_64 
-#1562641541
-cd ~/Downloads/
-#1562641542
-ls
-#1562641564
-sudo dnf install ./google-play-music-desktop-player-4.6.1.x86_64(1).rpm 
-#1562641571
-sudo dnf install ./"google-play-music-desktop-player-4.6.1.x86_64(1).rpm"
-#1562641715
-google-play-music-desktop-player 
-#1562641747
-google-play-music-desktop-player --help
-#1562641749
-strace -f google-play-music-desktop-player 
-#1562641758
-clear
-#1562641758
-strace -f google-play-music-desktop-player 
-#1562641760
-google-play-music-desktop-player --help
-#1562641770
-sudo dnf reinstall ./google-play-music-desktop-player-4.6.1.x86_64
-#1562641780
-sudo dnf install ./google-play-music-desktop-player-4.6.1.x86_64
-#1562641788
-sudo dnf install google-play-music-desktop-player-4.6.1.x86_64
-#1562641808
-sudo dnf install google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1562641815
-sudo dnf reinstall google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1562641869
-google-play-music-desktop-player 
-#1562642516
-sudo dnf update npm
-#1562642628
-sudo dnf update node
-#1562642641
-sudo dnf update libelectron
-#1562643060
-sudo dnf list installed|grep electron
-#1562643144
-npm list instaled
-#1562643149
-npm list installed
-#1562643153
-npm -l
-#1562643166
-npm ls
-#1562643226
-node
-#1562643231
-clear
-#1562643233
-node --help
-#1562643237
-clear
-#1562643251
-cd ../Documents/
-#1562643254
-cd git/
-#1562643257
-git clone https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-.git
-#1562643264
-rm Google-Play-Music-Desktop-Player-UNOFFICIAL-/ -rf
-#1562643267
-clear
-#1562643268
-git clone https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-.git
-#1562643271
-rm Google-Play-Music-Desktop-Player-UNOFFICIAL-/ -rf
-#1562643283
-sudo rm Google-Play-Music-Desktop-Player-UNOFFICIAL-/ -rf
-#1562643287
-git clone https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-.git
-#1562643490
-cd Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1562643490
-ls
-#1562643491
-clear
-#1562643506
-npm install
-#1562643695
-npm run watch
-#1562643703
-clear
-#1562643704
-npm
-#1562643758
-npm install --help
-#1562643773
-npm i .
-#1562643793
-cd ..
-#1562643797
-rm Google-Play-Music-Desktop-Player-UNOFFICIAL-/ -rf
-#1562643896
-sudo dnf copr search google-play
-#1562644129
-dnf --help
-#1562644184
-sudo dnf config-manager repomanage 
-#1562644189
-sudo dnf repomanage 
-#1562644302
-sudo dnf config-manager --add-repo
-#1562644305
-sudo dnf config-manager --add-repo appelond/google-play-music-desktop-player 
-#1562644312
-sudo dnf install google-play-music-desktop-player 
-#1562644364
-sudo dnf remove google-play-music-desktop-player 
-#1562644374
-sudo dnf install google-play-music-desktop-player 
-#1562644389
-sudo dnf config-manager --disable-repo appelond/google-play-music-desktop-player 
-#1562644393
-sudo dnf config-manager --disable-repo "appelond/google-play-music-desktop-player "
-#1562644399
-sudo dnf config-manager --disablerepo "appelond/google-play-music-desktop-player "
-#1562644405
-sudo dnf config-manager --disablerepo "google-play-music-desktop-player "
-#1562644407
-sudo dnf config-manager --disablerepo "google-play-music-desktop-player"
-#1562644413
-sudo dnf config-manager --disablerepo "appelond/google-play-music-desktop-player"
-#1562644501
-sudo dnf config-manager 
-#1562644502
-clear
-#1562644504
-sudo dnf config-manager  --hel;p
-#1562644505
-sudo dnf config-manager  --help
-#1562644507
-clear
-#1562644509
-sudo dnf config-manager  --
-#1562644511
-sudo dnf config-manager  --h
-#1562644514
-sudo dnf config-manager  --help
-#1562644587
-sudo su
-#1562645697
-cd ~/Documents/Projects/dotfiles-python/
-#1562645699
-ls
-#1562645705
-python dotfiles.py 
-#1562645706
-clear
-#1562645708
-python dotfiles.py --help
-#1562645904
-clear
-#1562645908
-python dotfiles.py install
-#1562645979
-python dotfiles.py --help
-#1562645982
-python dotfiles.py install
-#1562646138
-python dotfiles.py --help
-#1562646294
-python dotfiles.py 
-#1562646321
-python dotfiles.py --help
-#1562646325
-clear
-#1562646327
-python dotfiles.py --help
-#1562622357
-ipython3 
-#1562713071
-ipython3 --help
-#1562713083
-ipython3 help profile
-#1562713123
-clear
-#1562713123
-ipython3 help profile
-#1562713624
-ipython3 profile list
-#1562713638
-cd ~/.ipython/
-#1562713639
-ls
-#1562713643
-ls extensions/
-#1562713645
-ls profile_default/
-#1562713655
-ls profile_default/startup/
-#1562713660
-clear
-#1562713667
-ipython3 
-#1562721032
-clear
-#1562721042
-pip3 search dotdrop
-#1562721086
-clear
-#1562721087
-ls
-#1562721088
-cd ~
-#1562721088
-ls
-#1562721091
-cd Config/
-#1562721092
-ls
-#1562721097
-cd ..
-#1562721103
-mv Config/ Documents/Projects/
-#1562721105
-ls
-#1562721108
-mkdir Dotfiles
-#1562721109
-cd Dotfiles/
-#1562721111
-git init
-#1562721119
-g
-#1562721120
-git submodule add https://github.com/deadc0de6/dotdrop.git
-#1562721123
-l
-#1562721124
-ls
-#1562721135
-pip3 install -r dotdrop/requirements.txt  --user
-#1562721143
-./dotdrop/bootstrap.sh 
-#1562721158
-./dotdrop.sh --help
-#1562721171
-./dotdrop.sh listfiles
-#1562721178
-hostnamectl
-#1562721192
-hostnamectl set-hostname kinzie
-#1562721197
-hostnamectl
-#1562721212
-./dotdrop.sh listfiles
-#1562721219
-./dotdrop.sh --help
-#1562721231
-which ./dotdrop.sh
-#1562721261
-which ./dotdrop.sh import
-#1562721274
-which ./dotdrop.sh detail
-#1562721344
-clear
-#1562721447
-echo "$HOME/Dotfiles/dotdrop.sh"
-#1562721466
-echo "alias dotdrop=$HOME/Dotfiles/dotdrop.sh" >> ~/.bashrc
-#1562721474
-source ~/.bashrc
-#1562721477
-dotdrop
-#1562721482
-dotdrop --help
-#1562721486
-clear
-#1562721487
-dotdrop --help -b
-#1562721495
-dotdrop
-#1562721496
-clear
-#1562721497
-dotdrop
-#1562721499
-cleaer
-#1562721500
-clear
-#1562721504
-ls
-#1562721556
-dotdrop import ~/.config/rofi/config 
-#1562721559
-ls -al
-#1562721565
-ls dotfiles/
-#1562721569
-ls dotfiles/config/
-#1562721573
-ls -al
-#1562721606
-code config.yaml 
-#1562721625
-dotbot compare
-#1562721634
-dotbot compare --profile=kinzie
-#1562721637
-dotbot compare --profile="kinzie"
-#1562721642
-clear
-#1562721833
-dotbot import
-#1562721848
-dotbot import -h
-#1562722209
-dotdrop import ~/.config/rofi/config  -d ~/Dotfiles/
-#1562722223
-ls
-#1562722279
-rm dotfiles/
-#1562722281
-rm dotfiles/ -rf
-#1562722282
-ls
-#1562722285
-clear
-#1562722286
-ls
-#1562722292
-cd ..
-#1562722296
-mv Dotfiles/ Documents/
-#1562722298
-mkdir Dotfiles
-#1562722300
-cd Dotfiles/
-#1562722300
-ls
-#1562722302
-ls -al
-#1562722316
-cd ..
-#1562722318
-rm Dotfiles/ -rf
-#1562722323
-mv Documents/Dotfiles/ .
-#1562722325
-cd Dotfiles/
-#1562722325
-ls
-#1562722328
-nano config.yaml 
-#1562722355
-rm config.yaml 
-#1562722355
-ls
-#1562722357
-ls -al
-#1562723805
-bash-it show aliases 
-#1562723807
-clear
-#1562723809
-bash-it reload
-#1562724149
-clear
-#1562724516
-killall firefox
-#1562724569
-clear
-#1562724571
-ls -al
-#1562724854
-code $PROFILE 
-#1562724866
-bash-it reload 
-#1562724867
-clear
-#1562724872
-ls
-#1562724876
-cd Documents/git/auto-auto-complete/
-#1562724880
-clear
-#1562724881
-cd ~
-#1562724882
-ls -al
-#1562724883
-clear
-#1562724919
-cd Documents/
-#1562724922
-cd git/
-#1562724924
-cd ~
-#1562724925
-clear
-#1562898954
-16.8/0.9
-#1562898956
-expr 16.8/0.9
-#1562898959
-expr 16.8 / 0.9
-#1562898963
-expr 16.8 / "0.9"
-#1562898977
-print %lf 16.8/0.9
-#1562898981
-printf %lf 16.8/0.9
-#1562898985
-printf %lf 16.8 / 0.9
-#1562898994
-printf %lf (16.8/0.9)
-#1562898996
-clear
-#1562901088
-sudo dnf search vulkan
-#1562901101
-sudo dnf search mesa-vulkan
-#1562901114
-sudo dnf install mesa-vulkan-drivers
-#1562901192
-lsmod 
-#1562901196
-lsmod | grep amdgpu
-#1562901489
-vulkaninfo 
-#1562901573
-sudo dnf install vulkan-radeon
-#1562901647
-sudo dnf search radeon
-#1562901697
-clear
-#1562901729
-dmesg
-#1562901733
-dmesg|grep radeon
-#1562901742
-dmesg|grep amdgpu
-#1562901807
-vulkaninfo 
-#1562901817
-journalctl -xe | grep vulkan
-#1562901824
-clear
-#1562901827
-vulkaninfo --help
-#1562901837
-vulkaninfo
-#1562901870
-ldd
-#1562901872
-ldd --help
-#1562901875
-clear
-#1562901884
-locate -A -i vulkan bin
-#1562901979
-lspci -nnk | grep -iA2 vga
-#1562902082
-sudo dnf search xorg-x11-drv
-#1562902107
-sudo dnf search xorg-x11-drv-amdgpu
-#1562902115
-sudo dnf install xorg-x11-drv-amdgpu
-#1562902199
-clear
-#1562902203
-sudo su
-#1562902982
-lspci -nnk | grep -iA2 vga
-#1562903005
-dmesg|grep amdgpu
-#1562903008
-dmesg|grep radeon
-#1562903049
-lsmod | grep amdgpu
-#1562903054
-exit
-#1563136289
-clear
-#1563136309
-trash
-#1563136313
-trash --help
-#1563136328
-trash-put
-#1563136330
-trash-put --help
-#1563135116
-npm
-#1563135126
-npm install navivefier
-#1563135142
-npm install nativefier
-#1563135161
-ls -al
-#1563135165
-ls .npm/
-#1563135172
-ls .node-gyp/
-#1563135174
-ls .node-gyp/10.16.0/
-#1563135176
-ls .node-gyp/10.16.0/include/
-#1563135181
-clear
-#1563135186
-npm install nativefier -g
-#1563135215
-sudo npm install nativefier -g
-#1563135275
-nativefier 
-#1563135279
-cd ~
-#1563135280
-clear
-#1563135281
-cd Documents/
-#1563135284
-ls -al
-#1563135285
-cd ..
-#1563135287
-cd Desktop/
-#1563135288
-ls
-#1563135289
-ls -al
-#1563135290
-clear
-#1563135298
-nativefier onenote.com --internal-urls ".*(\\.office\\.com)|(\\.onenote\.com)|(go\\.microsoft\\.com)|(\\.live\\.com).*"
-#1563135320
-ls -al
-#1563135323
-cd microsoft-one-note-the-digital-note-taking-app-for-your-devices-linux-x64/
-#1563135324
-ls
-#1563135362
-./microsoft-one-note-the-digital-note-taking-app-for-your-devices 
-#1563135371
-clear
-#1563135376
-ls 
-#1563135383
-cd ..
-#1563135385
-rm microsoft-one-note-the-digital-note-taking-app-for-your-devices-linux-x64/
-#1563135388
-rm microsoft-one-note-the-digital-note-taking-app-for-your-devices-linux-x64/ -rf
-#1563135395
-nativefier 
-#1563135829
-nativefier onenote.com --internal-urls ".*(\\.office\\.com)|(\\.onenote\.com)|(go\\.microsoft\\.com)|(\\.live\\.com).*" -m  
-#1563135837
-ls
-#1563135840
-rm microsoft-one-note-the-digital-note-taking-app-for-your-devices-linux-x64/ -rf
-#1563135841
-clear
-#1563135843
-rm --hepl
-#1563135845
-rm --help
-#1563135861
-man trash
-#1563135864
-man trash-rm
-#1563135873
-trash-rm --help
-#1563135893
-sudo dnf list installed|grep trash
-#1563136017
-code $prof
-#1563136022
-clear
-#1563136104
-code $PROFILE 
-#1563136368
-bash-it reload
-#1563136369
-rm
-#1563136371
-clear
-#1563136372
-rm --help
-#1563136373
-clear
-#1563136376
-trash-list
-#1563136383
-clear
-#1563136393
-nativefier 
-#1563136695
-rm -rf
-#1563136699
-rm --help
-#1563136709
-clear
-#1563146882
-lspci -nnk | grep -iA2 vga
-#1563147055
-cd /etc/grub.d/
-#1563147058
-sudo su
-#1563148957
-ls -al
-#1563148977
-cls
-#1563149060
-cd /etc/X11/xorg.conf.d/
-#1563149061
-clear
-#1563149061
-ls
-#1563149064
-cat 00-keyboard.conf 
-#1563149077
-sudo nano 20-amdgpu.conf
-#1563149096
-ls
-#1563149154
-sudo su
-#1563150535
-ls -al
-#1563150536
-clear
-#1563150540
-lspci -nnk | grep -iA2 vga
-#1563150547
-sudo su
-#1563150674
-sudo journalctl 
-#1563150685
-clear
-#1563150687
-sudo journalctl -x
-#1563150690
-sudo journalctl -e
-#1563150759
-exit
-#1563150792
-sudo journalctl -x
-#1563150799
-sudo journalctl -e
-#1563151010
-clear
-#1563151015
-cd /etc/X11/xorg.conf.d/
-#1563151016
-ls
-#1563151019
-cat 20-amdgpu.conf 
-#1563151021
-rm 20-amdgpu.conf 
-#1563151026
-sudo rm 20-amdgpu.conf 
-#1563151027
-ls
-#1563151030
-exit
-#1563151063
-lspci -nnk | grep -iA2 vga
-#1563151082
-cd Doc
-#1563151084
-cd Documents/
-#1563151084
-ls
-#1563151090
-ls Modules/
-#1563151095
-ls
-#1563151097
-cd scripts/
-#1563151097
-ls
-#1563151103
-cat autosign-modules.sh 
-#1563151106
-nano ./autosign-modules.sh 
-#1563151111
-ls
-#1563151115
-code sign.sh 
-#1563151136
-keypath="/home/nick/Documents/Modules"
-#1563151144
-sign="/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 "
-#1563151147
-pkexec $sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)
-#1563151152
-sudo akmods --force
-#1563151158
-sudo dracut -f
-#1563154399
-clear
-#1563154400
-ls -al
-#1563154406
-fetch
-#1563154410
-sudo dnf install neofetch
-#1563154434
-clear
-#1563154444
-exit
-#1563155633
-ls -al
-#1563151356
-clear
-#1563151357
-lsmod 
-#1563151360
-clear
-#1563151361
-vulkaninfo 
-#1563151378
-test usr/lib/libvulkan_radeon.so:
-#1563151379
-test usr/lib/libvulkan_radeon.so
-#1563151384
-cd /usr/lib
-#1563151386
-ls 
-#1563151391
-ls | grep libvulk
-#1563151436
-export VK_LOADER_DEBUG=all
-#1563151438
-vulkaninfo 
-#1563151585
-clear
-#1563151591
-sudo su
-#1563151595
-cealr
-#1563151596
-clear
-#1563151598
-sudo dnf shell
-#1563151660
-sudo dnf list installed|grep vulkan
-#1563151682
-sudo dnf search radeon|grep vulkan
-#1563151691
-sudo dnf search vulkan-radeon
-#1563151767
-sudo dnf search amdvlk
-#1563153082
-clear
-#1563153093
-cd ~!
-#1563153097
-clear
-#1563153098
-cd ~
-#1563153100
-cd Documents/
-#1563153100
-ls
-#1563153101
-cd git/
-#1563153102
-ls
-#1563153108
-git clone https://github.com/PapyElGringo/material-awesome.git
-#1563153115
-cd material-awesome/
-#1563153116
-ls
-#1563153117
-clear
-#1563153118
-ls
-#1563153122
-ls configuration/
-#1563153126
-cd configuration/
-#1563153128
-cat rofi.rasi 
-#1563153131
-rofi
-#1563153136
-rofi --help
-#1563153187
-yelp man:rofi
-#1563153246
-rofi --help|
-#1563153250
-rofi --help|grep file
-#1563153256
-rofi --help|grep conf
-#1563153262
-clear
-#1563153284
-rofi -c
-#1563153292
-rofi --help | grep -e "-c"
-#1563153305
-clear
-#1563153416
-rofi --help | grep -e "-c"
-#1563153422
-rofi --help|grep conf
-#1563153426
-clear
-#1563153430
-ls -al
-#1563153433
-clear
-#1563153434
-ls
-#1563153450
-rofi-theme-selector 
-#1563153525
-rofi --config
-#1563153534
-rofi --config ~/.config/rofi/rofi.rasi 
-#1563153539
-rofi --config ~/.config/rofi/rofi.rasi  -show run
-#1563153569
-rofi -show run
-#1563153602
-rofi-theme-selector 
-#1563153635
-clear
-#1563153664
-rofi-theme-selector 
-#1563153673
-clear
-#1563153677
-rofi -theme mat
-#1563153681
-rofi -theme mat -show run
-#1563153701
-clear
-#1563154304
-sudo dnf search retro-term
-#1563154314
-sudo dnf install cool-retro-term
-#1563154451
-sudo dnf remove cool-retro-term
-#1563154459
-sudo dnf search screenfetch
-#1563154466
-sudo dnf install screenfetch
-#1563154477
-screenfetch 
-#1563154485
-screenfetch --help
-#1563154510
-screenfetch -A macos
-#1563154514
-screenfetch -A apple
-#1563154518
-screenfetch -A darwin
-#1563154523
-clear
-#1563154525
-clear;screenfetch 
-#1563154535
-cls
-#1563154542
-sudo dnf remove screenfetch
-#1563154551
-sudo dnf install neofetch-6.0.0-2.fc30.noarch ch
-#1563154558
-sudo dnf install neofetch
-#1563154575
-cls
-#1563154702
-xterm
-#1563154706
-clear
-#1563154711
-xt
-#1563155095
-sudo dnf install termite
-#1563155189
-sudo dnf install terminus
-#1563155521
-sudo dnf search alacritty
-#1563155557
-sudo su
-#1563162704
-clear
-#1563162705
-exit
-#1563162719
-sudo su
-#1563162758
-clear
-#1563162781
-xdg-open 
-#1563162786
-clear
-#1563317548
-cd Downloads/
-#1563317548
-ls
-#1563317554
-sudo dnf install google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1563317589
-google-play-music-desktop-player 
-#1563317605
-sudo dnf remove google-play-music-desktop-player 
-#1563317613
-clear
-#1563317614
-cd ~
-#1563317615
-ls -al
-#1563317650
-clear
-#1563317651
-ls -al
-#1563317654
-rm 
-#1563317671
-/bin/rm .npm/
-#1563317673
-/bin/rm .npm/ -rf
-#1563317752
-/bin/rm .node* -rf
-#1563317755
-cd Downloads/
-#1563317757
-sudo dnf install google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1563317796
-google-play-music-desktop-player 
-#1563317801
-sudo dnf remove google-play-music-desktop-player 
-#1563318284
-node
-#1563318291
-npm
-#1563318295
-npm -l
-#1563318327
-for package in `ls node_modules`;do npm uninstall $package
-#1563318334
-for package in `ls node_modules`;do npm uninstall $package;done;
-#1563318348
-for package in `ls /usr/share/node_modules`;do npm uninstall $package;done;
-#1563318363
-clear
-#1563318380
-npm ls -gp --depth=0 | awk -F/ '/node_modules/ && !/\/npm$/ {print $NF}' | xargs npm -g rm
-#1563318396
-sudo su
-#1563318584
-sudo dnf install google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1563318607
-google-play-music-desktop-player 
-#1563318627
-sudo su
-#1563318704
-clear
-#1563318705
-cd ~
-#1563318707
-cd Downloads/
-#1563318718
-sudo dnf reinstall google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1563318729
-google-play-music-desktop-player 
-#1563318733
-strace google-play-music-desktop-player 
-#1563318970
-sudo dnf install npm
-#1563318991
-cd ~/Documents/git/
-#1563318996
-ls
-#1563319001
-git clone https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-.git
-#1563319009
-cd Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1563319010
-ls
-#1563319012
-npm install
-#1563319065
-ls -al
-#1563319074
-npm run build
-#1563319137
-ls -al
-#1563319156
-npm run make:rpm
-#1563319162
-npm install .
-#1563319175
-clear
-#1563319215
-npm install ~/Documents/git/Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1564263109
-cd Documents/git/
-#1564263110
-ls
-#1564263113
-cd Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1564263115
-ls -al
-#1564263121
-npm install ~/Documents/git/Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1564263302
-npm -v
-#1564263320
-sudo dnf info node
-#1564263352
-sudo dnf info nodejs
-#1564263363
-sudo dnf update
-#1564280610
-google-play-music-desktop-player 
-#1564278942
-clear
-#1564278943
-cd Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1564278947
-cd Documents/Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1564278952
-cd Documents/git/Google-Play-Music-Desktop-Player-UNOFFICIAL-/
-#1564278953
-clear
-#1564278954
-ls -al
-#1564278963
-npm install ~/Documents/git/Google-Play-Music-Desktop-Player-UNOFFICIAL-/ -v
-#1564278968
-npm install ~/Documents/git/Google-Play-Music-Desktop-Player-UNOFFICIAL-/ --verbose
-#1564279013
-sudo dnf install ibavahi-compat-libdnssd-dev
-#1564279072
-sudo dnf search libdnssd
-#1564279076
-sudo dnf search dnssd
-#1564279337
-clear
-#1564279364
-sudo dnf install avahi avahi-compat-libdns_sd avahi-compat-libdns_sd-devel
-#1564279406
-npm install ~/Documents/git/Google-Play-Music-Desktop-Player-UNOFFICIAL-/ --verbose
-#1564279459
-clear
-#1564279484
-npm run build
-#1564279522
-clear
-#1564279526
-sudo dnf search lib32z1
-#1564279540
-npm run build
-#1564279546
-npm run build --verbose
-#1564279557
-clear
-#1564279699
-flatpak
-#1564279701
-flatpak --help
-#1564279705
-flatpak search google
-#1564279709
-flatpak search 
-#1564279711
-flatpak search *
-#1564279749
-clear
-#1564279753
-npm run build --verbose
-#1564279787
-clear
-#1564279788
-npm i -S babel-register
-#1564279814
-clear
-#1564279815
-yarn
-#1564279817
-clear
-#1564279824
-gulp
-#1564279849
-npm --help
-#1564279855
-npm i --help
-#1564279861
-npm i -S --help
-#1564279873
-npm i . babel-register  --help
-#1564279877
-npm i . babel-register
-#1564279905
-npm audit
-#1564279913
-npm audit fix
-#1564279965
-clear
-#1564279983
-cd ..
-#1564279983
-ls
-#1564279984
-ls -al
-#1564279988
-cd ../../Downloads/
-#1564279989
-ls
-#1564279994
-sudo dnf install google-play-music-desktop-player-4.6.1.x86_64.rpm 
-#1564280004
-google-play-music-desktop-player 
-#1564280011
-clear
-#1564280217
-dnf repoquery -l google-play-desktop-music-player
-#1564280279
-dnf repoquery -l google-play-music-desktop-playert
-#1564280280
-dnf repoquery -l google-play-music-desktop-player
-#1564280305
-sudo dnf info google-play-music-desktop-player-4.6.1-1.x86_64 
-#1564280312
-sudo dnf repoquery -l google-play-music-desktop-player-4.6.1-1.x86_64 
-#1564280322
-clear
-#1564280364
-rpm -qi google-play-music-desktop-player 
-#1564280375
-rpm -ql google-play-music-desktop-player 
-#1564280491
-unzip electron-v2.0.14-linux-x64.zip 
-#1564280493
-ls -la
-#1564280496
-cd el
-#1564280502
-rm
-#1564280511
-ls|grep so
-#1564280513
-ls|grep .so
-#1564280516
-ls|grep ".so"
-#1564280569
-sudo nautilus
-#1564281332
-clear
-#1564281349
-which firefox
-#1564281358
-clear
-#1564281367
-sudo dnf repoquery -l firefox
-#1564281383
-cd /usr/lib64/firefox/
-#1564281442
-cd browser/features/
-#1564281442
-ls
-#1564281448
-clear
-#1564281449
-ls -al
-#1564281609
-sudo gedit /etc/dnf/dnf.conf 
-#1564281780
-clear
-#1564281784
-60*3
-#1564281788
-expr 60 * 3
-#1564281797
-expr 60 x 3
-#1564281828
-expr expr 60 \* 5
-#1564281831
-expr 60 \* 5
-#1564281846
-expr 60 \* 3
-#1564281853
-expr 60 \* 60
-#1564281864
-expr $(expr 60 \* 60) \* 3
-#1564281866
-expr $(expr 60 \* 60) \* 12
-#1564281934
-sudo dnf search test
-#1564281940
-clear
-#1564281941
-sudo dnf search test
-#1564281946
-sudo dnf sync
-#1564281951
-sudo dnf update
-#1564281963
-clear
-#1564281964
-sudo dnf update
-#1564281979
-clear
-#1564282062
-sudo dnf search gman
-#1564282094
-sudo dnf install gman
-#1564282306
-clear
-#1564282481
-echo $BROWSER
-#1564282488
-code $PROFILE 
-#1564282539
-export BROWSER="firefox"
-#1564282544
-echo $BROWSER 
-#1564282545
-clear
-#1564282586
-sudo dnf search man2html
-#1564282593
-sudo dnf install man2html
-#1564282610
-man2html 
-#1564282690
-epiphany 
-#1564282714
-clear
-#1564282733
-cd /etc/systemd/system/
-#1564282734
-ls -al
-#1564282739
-find|grep man
-#1564282740
-clear
-#1564282744
-man man2html 
-#1564282763
-man2html --help
-#1564282767
-man2html -h
-#1564282770
-man man2html 
-#1564282900
-sudo dnf remove man2html
-#1564282936
-cd ~
-#1564282936
-clear
-#1564282937
-cd Documents/
-#1564282938
-ls
-#1564282941
-cd ~/Desktop/
-#1564282944
-man -H ls
-#1564282960
-ls /tmp/hmanhEaKAi/
-#1564282962
-ls /tmp/hmanhEaKAi/ -al
-#1564282966
-cd /tmp
-#1564282966
-ls
-#1564282972
-find |grep html
-#1564282977
-clear
-#1564282989
-man -Hls
-#1564282992
-man -H ls
-#1564288989
-dot
-#1564283397
-sudo su
-#1564283631
-clear
-#1564285260
-ls
-#1564285262
-cd Dotfiles/
-#1564285263
-ls -al
-#1564285268
-ls
-#1564285273
-mkdir old
-#1564285276
-mv * old/
-#1564285277
-ls
-#1564285280
-curl -s https://raw.githubusercontent.com/bashdot/bashdot/master/bashdot > bashdot
-#1564285282
-ls
-#1564285284
-clear
-#1564285287
-chmod +x bashdot 
-#1564285289
-./bashdot 
-#1564285292
-./bashdot --help
-#1564285298
-./bashdot dir
-#1564285310
-clear
-#1564285349
-set -o
-#1564285353
-clear
-#1564285354
-set -o
-#1564285385
-ls -al
-#1564285386
-clear
-#1564285387
-ls
-#1564285413
-clear
-#1564285414
-ls -al
-#1564285418
-rm *
-#1564285419
-clear
-#1564285421
-ls -al
-#1564285424
-rm -rf *
-#1564285426
-ls
-#1564285428
-ls -al
-#1564285430
-rm .git
-#1564285431
-ls
-#1564285433
-ls -al
-#1564285434
-rm .gitmodules 
-#1564285435
-clear
-#1564285438
-git init .
-#1564285453
-git submodule 
-#1564285466
-git submodule add  https://github.com/bashdot/bashdot.git
-#1564285468
-ls -al
-#1564285474
-clear
-#1564285488
-chmod +x bashdot/bashdot 
-#1564285492
-./bashdot/bashdot 
-#1564285507
-alias bashdot=~/Dotfiles/bashdot/bashdor
-#1564285508
-bashdot
-#1564285512
-alias bashdot=~/Dotfiles/bashdot/bashdot
-#1564285513
-bashdot
-#1564285522
-clear
-#1564285525
-code $PRO
-#1564285528
-code $PROFILE 
-#1564285556
-clear
-#1564285557
-ls -al
-#1564285575
-clear
-#1564285576
-bashdot
-#1564285581
-bashdot profiles
-#1564285585
-clear
-#1564285670
-ls -al
-#1564285674
-clear
-#1564285675
-ls -al
-#1564285687
-mkdir linux-default
-#1564285689
-cd linux-default/
-#1564286242
-clear
-#1564286242
-ls
-#1564286243
-ls -al
-#1564286252
-/bin/rm *
-#1564286253
-ls -al
-#1564286257
-clear
-#1564286262
-ls
-#1564286264
-ls -al
-#1564286265
-cd ..
-#1564286267
-cd 
-#1564286268
-ls
-#1564286270
-cd Dotfiles/
-#1564286270
-ls
-#1564286276
-/bin/rm *
-#1564286278
-/bin/rm * -rf
-#1564286279
-ls -al
-#1564286286
-/bin/rm -rf ./
-#1564286288
-/bin/rm -rf .*
-#1564286291
-/bin/rm -rf ./*
-#1564286292
-ls -al
-#1564286295
-ls ..
-#1564286298
-ls .. -al
-#1564286303
-cls
-#1564286304
-ls -al
-#1564286307
-git clone https://github.com/svetlyak40wt/dotfiler.git
-#1564286310
-clear
-#1564286310
-ls
-#1564286317
-which python
-#1564286333
-python dotfiler/bin/lib/dot
-#1564286345
-python dotfiler/bin/dot
-#1564286352
-python2
-#1564286355
-clear
-#1564286358
-python2 dotfiler/bin/dot
-#1564286362
-python2 dotfiler/bin/dot status
-#1564286407
-clear
-#1564286522
-ls
-#1564286523
-rm dotfiler/
-#1564286524
-ls
-#1564287517
-stow
-#1564287519
-clear
-#1564287530
-stow
-#1564287534
-mkdir bash
-#1564287535
-clear
-#1564287535
-ls
-#1564287540
-lear
-#1564287542
-clear
-#1564287544
-ls ~/.bash
-#1564287551
-ls ~/
-#1564287555
-ls ~/ -l
-#1564287556
-ls ~/ -a
-#1564287558
-ls ~/ -a|grep bash
-#1564287581
-for i in $(ls ~/ -a|grep bash); do mv ~/Dotfiles/bash/;done
-#1564287591
-for i in $(ls ~/ -a|grep bash); do mv $i ~/Dotfiles/bash/;done
-#1564287602
-for i in $(ls ~/ -a|grep bash); do mv ~/$i ~/Dotfiles/bash/;done
-#1564287603
-ls
-#1564287604
-ls bash/
-#1564287606
-ls -al
-#1564287608
-ls -al bash/
-#1564287611
-stow bash/
-#1564287615
-ls -al ~/
-#1564287618
-ls -al ~/|grep bash
-#1564287623
-clear
-#1564287628
-ls -al
-#1564287642
-ls ~/ -a|grep bash
-#1564287656
-for i in $(ls ~/ -a|grep bash); do rm ~/$i;done
-#1564287660
-ls -al ~/
-#1564287666
-ls bash/ -al
-#1564287669
-cd bash/
-#1564287669
-ls
-#1564287671
-ls -al
-#1564287673
-mv * ~/
-#1564287692
-for i in $(ls -a); do mv ~/Dotfiles/bash/$i ~/; done
-#1564287719
-for i in $(ls -a); do mv ~/Dotfiles/bash/$i ~ ;done 
-#1564287725
-for i in $(ls -a); do mv ~/Dotfiles/bash/$i ~/ ;done 
-#1564287739
-for i in $(ls -a); do echo ~/Dotfiles/bash/$i; done
-#1564287753
-for i in $(ls . -a|grep bash); do rm ~/$i;done
-#1564287774
-for i in $(ls . -a|grep bash); do echo ~/Dotfiles/bash/$i;done
-#1564287781
-for i in $(ls . -a|grep bash); do mv ~/Dotfiles/bash/$i ~/;done
-#1564287785
-lsclear
-#1564287787
-clear
-#1564288109
-sudo dnf install rcm
-#1564288136
-rcm
-#1564288140
-clear
-#1564288144
-rcm
-#1564288157
-clear
-#1564288170
-rcup --help
-#1564288173
-man rcup 
-#1564288201
-sudo dnf remove rcm
-#1564288394
-clear
-#1564288416
-ls
-#1564288417
-ls -al
-#1564288418
-cd ..
-#1564288418
-ls -al
-#1564288420
-rm bash/
-#1564288422
-git clone https://github.com/ssh0/dot.git
-#1564288424
-cd dot/
-#1564288425
-ls -al
-#1564288432
-dot.sh
-#1564288434
-clear
-#1564288436
-./dot.sh 
-#1564288438
-./dot.sh  --help
-#1564288444
-ls -al
-#1564288456
-ls doc/
-#1564288457
-ls
-#1564288459
-make
-#1564288469
-make install
-#1564288475
-automake
-#1564288477
-clear
-#1564288477
-ls -al
-#1564288560
-code $PROFILE 
-#1564288653
-bash-it show plugins 
-#1564288673
-clear
-#1564288738
-curl https://github.com/nsstrickland/Dotfiles.git
-#1564288765
-ls
-#1564288768
-cd ..
-#1564288769
-ls -al
-#1564288776
-rm dot/ -rf
-#1564288777
-clear
-#1564288777
-ls -al
-#1564288780
-git init
-#1564288786
-ls
-#1564288787
-ls -al
-#1564288792
-touch .gitignore
-#1564288802
-git commit -m "Init"
-#1564288809
-git add .gitignore 
-#1564288811
-git commit -m "Init"
-#1564288824
-git remote 
-#1564288833
-git remote add github
-#1564288836
-git remote add github https://github.com/nsstrickland/Dotfiles
-#1564288839
-git push github
-#1564288855
-git push --set-upstream github master
-#1564288879
-curl https://github.com/nsstrickland/Dotfiles.git
-#1564288953
-git submodule add https://github.com/ssh0/dot
-#1564288956
-ls -al
-#1564288984
-dot
-#1564289024
-fpath
-#1564289028
-clear
-#1564289033
-cd dot/
-#1564289035
-ls -al
-#1564289040
-cd ..
-#1564289053
-source ~/Dotfiles/dot/dot.sh 
-#1564289054
-dot
-#1564289059
-clear
-#1564289065
-do
-#1564289069
-dot
-#1564289070
-clear
-#1564294741
-clear -al
-#1564294743
-clear
-#1564292603
-cd .config/
-#1564292604
-ls -al
-#1564292608
-dot add
-#1564292631
-dot add cherrytree/ $DOT_DIR/linux/applications/cherrytree
-#1564292652
-ls -al
-#1564292656
-ls cherrytree/
-#1564292657
-ls cherrytree/ -al
-#1564292676
-ls configstore/
-#1564292686
-cat configstore/update-notifier-generator-code.json 
-#1564292691
-cat configstore/yo.json 
-#1564292693
-yo
-#1564292698
-yo --help
-#1564292700
-man yo
-#1564292701
-clear
-#1564292704
-ls -al
-#1564292705
-rm configstore/
-#1564292709
-ls dconf/
-#1564292711
-ls dconf/user 
-#1564292713
-cat dconf/user 
-#1564292716
-clear
-#1564292717
-ls -al
-#1564292746
-ls
-#1564292747
-ls -al
-#1564292751
-cat dleyna-renderer-service.conf 
-#1564292808
-cat dleyna-server-service.conf 
-#1564292832
-ls -al
-#1564292838
-rm dleyna-*
-#1564292839
-ls -al
-#1564292843
-ls dot/
-#1564292846
-rm dot/
-#1564292847
-ls -al
-#1564292849
-ls Electron/
-#1564292850
-ls Electron/ -al
-#1564292852
-rm Electron/
-#1564292853
-ls -al
-#1564292856
-ls enchant/
-#1564292878
-rm enchant/
-#1564292880
-ls -al
-#1564292885
-ls eog/
-#1564292887
-ls eog/ -al
-#1564292888
-rm eog/
-#1564292889
-ls -al
-#1564292891
-clear -al
-#1564292893
-clear
-#1564292894
-ls -al
-#1564292900
-code $FUNCTIONS 
-#1564292908
-color
-#1564292909
-color 10
-#1564292924
-color [0..10]
-#1564292929
-color [0.10]
-#1564292935
-color 50
-#1564292936
-color 255
-#1564292960
-echo [0..10]
-#1564292963
-echo (0..10)
-#1564292981
-color {0..10}
-#1564292986
-{0..10}
-#1564292988
-echo {0..10}
-#1564293020
-colorfromhex c7c6c2
-#1564293023
-color
-#1564293056
-clear
-#1564293060
-history 
-#1564293062
-history |grep color
-#1564293080
-clear
-#1564293082
-history |grep color
-#1564293143
-echo $((( $(tput cols) / 8 ) - 8))
-#1564293145
-clear
-#1564293169
-source $FUNCTIONS 
-#1564293170
-color 10
-#1564293178
-color {0..255}
-#1564293181
-color {0..256}
-#1564293184
-clear
-#1564293241
-clear --help
-#1564293243
-man clear
-#1564293248
-clear
-#1564293249
-ls -al
-#1564293251
-clear
-#1564293253
-clear --herlp
-#1564293306
-nano
-#1564293310
-/usr/bin/nano 
-#1564293312
-nano
-#1564293313
-clear
-#1564293367
-testfunc
-#1564293368
-clear
-#1564293374
-function testfunc { for i in $@; do echo $i; done; }
-#1564293397
-testfunc 
-#1564293399
-testfunc -al
-#1564293401
-testfunc -al h
-#1564293404
-testfunc -al -h
-#1564293406
-clear
-#1564293429
-code $FUNCTIONS 
-#1564293479
-getopt
-#1564293481
-getopt --help
-#1564293485
-getopt al
-#1564293724
-clear
-#1564293950
-clear --help
-#1564294717
-code $PROFILE 
-#1564289102
-code $HOME/Dotfiles/dot/dot.sh
-#1564289117
-dot --help
-#1564289120
-dot
-#1564289121
-clear
-#1564289123
-dot --help
-#1564289128
-clear
-#1564289142
-dot pull
-#1564289156
-dot list
-#1564289162
-dot check
-#1564289169
-cd ~
-#1564289170
-dot cd
-#1564289172
-ls -al
-#1564289173
-clear
-#1564289174
-cd ~
-#1564289175
-clear
-#1564289196
-ls -al|grep bash
-#1564289205
-clear
-#1564289208
-dot add .bashrc
-#1564289244
-dot set
-#1564289258
-dot config
-#1564289296
-mkdir ~/.config/dot
-#1564289298
-dot config
-#1564289432
-clear
-#1564289471
-dot add --help
-#1564289475
-dot --help add
-#1564289493
-clear
-#1564289540
-dot cd
-#1564289541
-ls
-#1564289545
-clear
-#1564289552
-mkdir linux
-#1564289553
-cd linux/
-#1564289555
-clear 
-#1564289555
-ls
-#1564289558
-mkdir bash
-#1564289561
-cd ~
-#1564289561
-clear
-#1564289562
-ls -al
-#1564289568
-clear 
-#1564289570
-ls -al|grep bash
-#1564289590
-dot add .bash_profile $DOT_DIR/linux/bash
-#1564289598
-dot list
-#1564289607
-dot cd
-#1564289608
-ls
-#1564289611
-cd linux/
-#1564289612
-ls
-#1564289614
-ls bash/
-#1564289618
-ls -al
-#1564289620
-cd bash/
-#1564289620
-ls -al
-#1564289634
-cat .bash_profile 
-#1564289636
-clear
-#1564289636
-cd ~
-#1564289641
-ls -a
-#1564289644
-ls -a|grep bash
-#1564289655
-ls -a|grep bash|grep -x bak
-#1564289660
-ls -a|grep bash|grep -x l
-#1564289662
-ls -a|grep bash|grep -x
-#1564289665
-grep --help
-#1564289673
-grep --help|grep exclude
-#1564289694
-clear
-#1564289698
-ls -a|grep bash|grep -v bak
-#1564289702
-ls -a|grep bash|grep -v bak|grep -v save
-#1564289713
-ls -al | grep _profile
-#1564289719
-ls -a|grep bash|grep -v bak|grep -v save|grep -v profile
-#1564289728
-for i in $(ls -a|grep bash|grep -v bak|grep -v save|grep -v profile);do dot add $i $DOT_DIR/linux/bash/; done
-#1564289747
-dot list
-#1564289756
-ls -al|grep bash
-#1564289764
-ls -al|grep bash|grep bak
-#1564289773
-for i in $(ls -al|grep bash|grep bak);do rm $i;done
-#1564289778
-clear
-#1564289779
-ls -al
-#1564289934
-clear
-#1564289938
-dot cd
-#1564289939
-ls
-#1564289940
-cd linux/
-#1564289941
-ls
-#1564289945
-mkdir gnu
-#1564289948
-cd ~
-#1564289950
-clear
-#1564289950
-ls -al
-#1564289963
-ls .nano
-#1564290079
-code ~/.nanorc 
-#1564290094
-cd .nano
-#1564290095
-ls
-#1564290099
-rm install.sh 
-#1564290101
-rm shellcheck.sh 
-#1564290102
-ls
-#1564290103
-clear
-#1564290104
-ls -al
-#1564290108
-clear
-#1564290109
-cd 
-#1564290112
-ls -al|grep nano
-#1564290190
-dot add .nano $DOT_DIR/linux/nano
-#1564290207
-dot add .nanorc $DOT_DIR/linux/nano
-#1564290211
-ls -al
-#1564290212
-clear
-#1564290213
-ls -al
-#1564290218
-ls .vscode
-#1564290221
-clear
-#1564290221
-ls -al
-#1564290277
-dot add .python_history $DOT_DIR/linux/python
-#1564290285
-ls -al|grep pytho
-#1564290289
-cat .ipython/
-#1564290293
-clear
-#1564290316
-dot add ~/.ipython $DOT_DIR/linux/python
-#1564290328
-ls -al
-#1564290336
-cat .gitconfig 
-#1564290337
-clear
-#1564290339
-ls -al
-#1564290343
-cat .gtkrc-2.0 
-#1564290370
-dot add .gtkrc-2.0 $DOT_DIR/linux/gtk
-#1564290372
-ls -al
-#1564290378
-cd .config/
-#1564290380
-ls -al
-#1564290385
-ls -al|grep gtk
-#1564290389
-ls -a|grep gtk
-#1564290401
-for i in $(ls -a|grep gtk); do ls $i;done
-#1564290415
-for i in $(ls -a|grep gtk); do echo $i;ls $i;echo "__________";done
-#1564290422
-for i in $(ls -a|grep gtk); do echo #$i;ls $i;echo "__________";done
-#1564290427
-for i in $(ls -a|grep gtk); do echo \#$i;ls $i;echo "__________";done
-#1564290434
-clear
-#1564290462
-for i in $(ls -a|grep gtk); do dot add ~/.config/$i $DOT_DIR/linux/gtk;done
-#1564290471
-clear
-#1564290472
-dot list
-#1564290481
-ls -al
-#1564290482
-clear
-#1564290483
-ls -al
-#1564290486
-rm alacritty/ -rf
-#1564290487
-ls -al
-#1564290490
-clear 
-#1564290491
-ls -al
-#1564290494
-ls abrt/
-#1564290497
-rm abrt/
-#1564290500
-cat autostart/
-#1564290934
-clear
-#1564290935
-ls -al
-#1564290937
-ls autostart/
-#1564290939
-rm autostart/
-#1564290945
-rm caja*
-#1564290947
-ls -al
-#1564290948
-clear
-#1564290949
-ls -al
-#1564290951
-cat cef_user_data/
-#1564290954
-ls cef_user_data/
-#1564290956
-ls cef_user_data/Dictionaries/
-#1564290960
-cat cef_user_data/Dictionaries/en-US-8-0.bdic 
-#1564290961
-clear
-#1564290967
-ls -al
-#1564290981
-ls cherrytree/
-#1564290983
-ls cherrytree/config.cfg 
-#1564290987
-cat cherrytree/config.cfg 
-#1564290990
-clear
-#1564291011
-ls
-#1564291018
-ls -l
-#1564291029
-dot add cherrytree/ /home/nick/Dotfiles/linux/applications/
-#1564291036
-ls -al
-#1564291037
-clear -al
-#1564291039
-clear
-#1564291040
-ls -al
-#1564291042
-ls Co
-#1564291044
-ls Code/
-#1564291048
-clear
-#1564291065
-ls 
-#1564291066
-cd Co
-#1564291068
-cd Code/
-#1564291068
-ls
-#1564291070
-clear
-#1564291071
-ls -al
-#1564291074
-ls Backups/
-#1564291076
-ls -al
-#1564291084
-ls Workspaces/
-#1564291086
-cd U
-#1564291089
-cd User/
-#1564291089
-ls -al
-#1564291091
-clear
-#1564291092
-ls -al
-#1564291100
-ls globalStorage/
-#1564291104
-ls  snippets/
-#1564291113
-clear
-#1564291114
-ls -al
-#1564291117
-cat eq-material-theme-icons.json 
-#1564291119
-clear -al
-#1564291120
-ls 
-#1564291121
-clear
-#1564291122
-ls -al
-#1564291136
-nano $FUNCTIONS 
-#1564291146
-echo $FUNCTIONS 
-#1564291151
-code $FUNCTIONS 
-#1564291168
-ls -al
-#1564291171
-ls ~
-#1564291172
-ls ~ -al
-#1564291243
-dot cd
-#1564291244
-ls -al
-#1564291249
-dot check
-#1564291252
-dot push
-#1564291283
-dot list
-#1564291287
-dot check
-#1564291288
-clear
-#1564291290
-ls -al
-#1564291297
-git add linux/
-#1564291300
-ls -al
-#1564291304
-git diff
-#1564291306
-git status
-#1564291314
-git add dotlink 
-#1564291385
-git commit -m "added bash, gtk, nano, and py"
-#1564291389
-git push
-#1564291403
-clear
-#1564291406
-git status
-#1564291414
-git add linux
-#1564291416
-git commit -m "added bash, gtk, nano, and py"
-#1564291419
-git push
-#1564291429
-clear
-#1564291431
-dot
-#1564291442
-ls
-#1564291444
-dot set
-#1564291478
-dot list
-#1564291481
-dot edit
-#1564291554
-dot unlink $DOT_DIR/linux/applications
-#1564291690
-clear
-#1564291691
-ls -al
-#1564291693
-cd ~
-#1564291694
-clear
-#1564291721
-ls
-#1564291729
-cd Templates/
-#1564291730
-ls
-#1564291731
-ls -al
-#1564291734
-touch test
-#1564291735
-ls -al
-#1564291747
-dot add test $DOT_DIR/linux/
-#1564291752
-ls
-#1564291753
-ls -al
-#1564291761
-cd test/
-#1564291763
-ls 
-#1564291765
-cd ..
-#1564291774
-dot unlink test
-#1564291777
-ls -al
-#1564291778
-clear
-#1564291780
-ls test/
-#1564291800
-find
-#1564291807
-ls
-#1564291810
-touch test
-#1564291812
-dot add test
-#1564291816
-clear
-#1564291819
-rm test/
-#1564291821
-ls -al
-#1564291826
-rm --help
-#1564291837
-trash-restore test
-#1564291840
-ls -al
-#1564291866
-touch bigtestfile
-#1564291867
-ls -al
-#1564291872
-dot add bigtestfile
-#1564291905
-dot unlink bigtestfile 
-#1564291924
-dot --help
-#1564291944
-ls
-#1564291958
-dot add bigtestfile $DOT_DIR/linux/bigtestfile
-#1564291977
-dot unlink bigtestfile
-#1564291981
-ls
-#1564291982
-rm bigtestfile 
-#1564291985
-cd ..
-#1564291986
-ls -al
-#1564291990
-cd Templates/
-#1564291992
-dot add bigtestfile $DOT_DIR/linux/bigtestfile
-#1564291996
-touch bigtestfile
-#1564291997
-dot add bigtestfile $DOT_DIR/linux/bigtestfile
-#1564292006
-dot edit
-#1564292057
-dot pull
-#1564292076
-cd ~
-#1564292077
-ls -al
-#1564292105
-dot cd
-#1564292106
-ls -al
-#1564292109
-git pull
-#1564292119
-ls -al
-#1564292125
-cd ..
-#1564292129
-mv Dotfiles/ old-dotfiles
-#1564292133
-mkdir Dotfiles
-#1564292135
-cd Dotfiles/
-#1564292149
-git clone https://github.com/nsstrickland/Dotfiles.git
-#1564292155
-ls -al
-#1564292160
-rm Dotfiles/
-#1564292161
-ls -al
-#1564292162
-cd ..
-#1564292164
-rm Dotfiles/
-#1564292168
-git clone https://github.com/nsstrickland/Dotfiles.git
-#1564292174
-cd Do
-#1564292176
-cd Dotfiles/
-#1564292177
-ls
-#1564292185
-ls linux/bash/
-#1564292192
-ls linux/bash/ -al
-#1564292210
-dot edit
-#1564292215
-ls
-#1564292225
-echo $DOT_REPO 
-#1564292228
-echo $DOT_SCRIPT_ROOTDIR 
-#1564292233
-echo $DOT_DIR
-#1564292238
-cat dotlink 
-#1564292241
-dot edit
-#1564292250
-ls dot
-#1564292259
-git submodule 
-#1564292263
-git submodule pull
-#1564292276
-cd ..
-#1564292284
-git clone https://github.com/nsstrickland/Dotfiles.git --recurse-submodules 
-#1564292287
-rm Dotfiles/
-#1564292289
-git clone https://github.com/nsstrickland/Dotfiles.git --recurse-submodules 
-#1564292310
-ls -al
-#1564292312
-cd Dotfiles/
-#1564292313
-ls -al
-#1564292315
-dot edit
-#1564292472
-dot check
-#1564292475
-dot set
-#1564292488
-y
-#1564292532
-clear
-#1564292534
-ls -al
-#1564292537
-ls linux/applications/
-#1564292543
-dot list
-#1564292547
-dot list|grep app
-#1564292592
-clear
-#1564292594
-cd ~
-#1564292595
-clear
-#1564292595
-ls
-#1564294751
-dotlockfile 
-#1564294752
-clear
-#1564294754
-dot list
-#1564294759
-cd .config/
-#1564294760
-ls -al
-#1564294762
-clear
-#1564294763
-ls -al
-#1564294769
-ls epiphany
-#1564294771
-clear
-#1564294771
-ls -al
-#1564294775
-ls epiphany/
-#1564294778
-cat epiphany/web-extension-settings.ini 
-#1564294780
-clear -al
-#1564294785
-ls evolution/
-#1564294790
-rm fish
-#1564294795
-ls gconf/
-#1564294797
-ls gconf/ -al
-#1564294800
-rm gconf/
-#1564294802
-ls -al
-#1564294804
-clear -al
-#1564294809
-ls gedit/
-#1564294812
-cat gedit/accels 
-#1564294820
-cat glade-3.conf 
-#1564294827
-cat glade.conf 
-#1564294828
-clear
-#1564294829
-ls -al
-#1564294835
-ls gnome-boxes/
-#1564294836
-ls gnome-boxes/sources/
-#1564294838
-clear
-#1564294839
-ls -al
-#1564294847
-ls Hyper/
-#1564294851
-rm Hyper/
-#1564294857
-ls htop/
-#1564294860
-cat htop/
-#1564294861
-cat htop/htoprc 
-#1564294866
-clear
-#1564294892
-dot add htop/ ~/Dotfiles/linux/htop/
-#1564294900
-ls -al
-#1564294935
-unlink htop/
-#1564294940
-dot unlink htop/
-#1564294941
-dot unlink htop
-#1564294943
-clear 
-#1564294944
-ls -al
-#1564294946
-ls htop/
-#1564294947
-ls htop/htop/
-#1564294952
-cd htop/
-#1564294953
-ls -al
-#1564294958
-mv htop/htoprc .
-#1564294958
-ls
-#1564294961
-rm htop
-#1564294962
-ls -al
-#1564294964
-clear
-#1564294973
-dot list
-#1564294978
-dot edit
-#1564294988
-clear
-#1564294994
-dot list
-#1564295004
-cd ..
-#1564295005
-ls -al
-#1564295007
-ls cherrytree/
-#1564295013
-clear
-#1564295014
-ls -al
-#1564295018
-dot list
-#1564295056
-dot add htop ~/Dotfiles/linux/applications/htop
-#1564295063
-ls -al
-#1564295069
-ls ibus/
-#1564295071
-ls ibus/bus/
-#1564295073
-clear
-#1564295074
-ls -al
-#1564295080
-ls libreoffice/
-#1564295082
-ls libreoffice/4/
-#1564295083
-ls libreoffice/4/user/
-#1564295089
-clear
-#1564295090
-ls -al
-#1564295092
-rm openrazer/
-#1564295094
-rm polychromatic/
-#1564295097
-ls nemo
-#1564295100
-nemoo
-#1564295101
-nemo
-#1564295147
-clear
-#1564295148
-ls -al
-#1564295150
-ls nautilus/
-#1564295154
-ls nemo
-#1564295156
-clear
-#1564295157
-ls -al
-#1564295160
-ls rofi/
-#1564295174
-dot add rofi ~/Dotfiles/linux/applications/rofi
-#1564295176
-ls -al
-#1564295183
-ls Unknown\ Organization/
-#1564295185
-rm Unknown\ Organization/
-#1564295186
-ls -al
-#1564295192
-clear
-#1564295193
-ls -al
-#1564295202
-rm VSCodium/
-#1564295206
-ls yelp/
-#1564295210
-cat yelp/yelp.cfg 
-#1564295213
-clear
-#1564295214
-la -al
-#1564295222
-rm microsoft-one-note-the-digital-note-taking-app-for-your-devices-nativefier-52c9c8/
-#1564295230
-cd ..
-#1564295231
-ls -al
-#1564295248
-cd ~/.mozilla/
-#1564295249
-ls
-#1564295251
-ls plugins/
-#1564295253
-ls plugins/ -al
-#1564295255
-ls extensions/
-#1564295257
-ls extensions/\{ec8030f7-c20a-464f-9b0e-13a3a9e97384\}/
-#1564295261
-ls
-#1564295262
-cd fi
-#1564295266
-cd firefox/
-#1564295267
-ls
-#1564295271
-cat profiles.ini 
-#1564295279
-cd ./sre3w1ks.default/
-#1564295279
-ls
-#1564295287
-cat extensions.json 
-#1564295292
-clear
-#1564295293
-ls -al
-#1564295318
-ls extension-preferences.json 
-#1564295319
-cat extension-preferences.json 
-#1564295324
-clear
-#1564295325
-ls -al
-#1564295329
-cd extensions/
-#1564295329
-ls
-#1564295332
-cd ..
-#1564295333
-ls -al
-#1564295347
-cat extension-settings.json 
-#1564295358
-  clear
-#1564295359
-ls -al
-#1564295470
-ls prefs.js 
-#1564295486
-dot add prefs.js ~/Dotfiles/linux/applications/firefox/prefs.js
-#1564295495
-dot cd
-#1564295496
-ls -al
-#1564295501
-git add linux/
-#1564295510
-git commit -m "added the rest"
-#1564295517
-git push
-#1564295527
-git status
-#1564295531
-git add dotlink 
-#1564295534
-git commit -m "added the rest"
-#1564295536
-git push
-#1564295557
-clear
-#1564293546
-function clearWrap {     if $(getopt al); do
-#1564293546
-        echo 1;
-#1564293547
-    else
-#1564293547
-        echo 0;
-#1564293547
-    done
-#1564293547
-}
-#1564293548
-clear
-#1564293554
-/home/nick/.bash_functions
-#1564293560
-source $FUNCTIONS 
-#1564293579
-clearWrap 
-#1564293624
-source $FUNCTIONS 
-#1564293625
-clearWrap 
-#1564293628
-clear
-#1564293636
-source $FUNCTIONS 
-#1564293638
-clearWrap 
-#1564293651
-clearWrap -al
-#1564293873
-which clear|clip
-#1564293879
-which clear
-#1564293891
-source $FUNCTIONS 
-#1564293892
-clear
-#1564293895
-clearWrap 
-#1564293899
-clearWrap --help
-#1564293933
-source $FUNCTIONS 
-#1564293934
-clearWrap --help
-#1564293938
-clear
-#1564293939
-clearWrap --help
-#1564293960
-source $FUNCTIONS 
-#1564293961
-clearWrap --help
-#1564293973
-clear
-#1564293976
-clear -xl
-#1564293981
-clear -x
-#1564293984
-ls -al
-#1564293986
-clear --help
-#1564293991
-clear -v
-#1564293997
-clear -V
-#1564294001
-clear
-#1564294005
-clear -al
-#1564294017
-clearWrap --help
-#1564294019
-clearWrap --x
-#1564294021
-clearWrap --V
-#1564294025
-clearWrap -V
-#1564294027
-clearWrap help
-#1564294029
-clearWrap a
-#1564294030
-clearWrap al
-#1564294032
-clearWrap -al
-#1564294058
-source $FUNCTIONS 
-#1564294061
-clearWrap 
-#1564294063
-clearWrap --help
-#1564294074
-clearWrap help
-#1564294080
-clearWrap --help
-#1564294083
-clear
-#1564294084
-clearWrap --help
-#1564294092
-clearWrap help
-#1564294094
-clearWrap -al
-#1564294127
-source $FUNCTIONS 
-#1564294129
-clearWrap 
-#1564294133
-clearWrap -al
-#1564294147
-source $FUNCTIONS 
-#1564294147
-clearWrap -al
-#1564294225
-source $FUNCTIONS 
-#1564294226
-clearWrap -al
-#1564294239
-echo $option 
-#1564294291
-source $FUNCTIONS 
-#1564294292
-clearWrap -al
-#1564294295
-clearWrap 
-#1564294297
-clearWrap -a
-#1564294299
-clearWrap -a -l
-#1564294301
-clearWrap al
-#1564294326
-test="alb"
-#1564294328
-echo $test
-#1564294367
-test="alb";if [[ $test =~ "l"] || [ $test =~ "a"]];then echo cont;fi
-#1564294375
-test="alb";if [[ $test =~ "l"]] || [[ $test =~ "a"]];then echo cont;fi
-#1564294472
-test="alb";if [ $test =~ "l"] || [ $test =~ "a"];then echo cont;fi
-#1564294481
-test="alb";if [[ $test =~ "l" ]];then echo cont;fi
-#1564294493
-test="alb";if [[ $test =~ "l" ]]||[[ $test =~ "a" ]];then echo cont;fi
-#1564294505
-test="ab";if [[ $test =~ "l" ]]||[[ $test =~ "a" ]];then echo cont;fi
-#1564294508
-test="b";if [[ $test =~ "l" ]]||[[ $test =~ "a" ]];then echo cont;fi
-#1564294523
-test="b";if [[ $test =~ "l" ]] || [[ $test =~ "a" ]];then echo cont;fi
-#1564294527
-test="ab";if [[ $test =~ "l" ]] || [[ $test =~ "a" ]];then echo cont;fi
-#1564294548
-source $FUNCTIONS 
-#1564294551
-clearWrap 
-#1564294552
-clearWrap -a
-#1564294554
-clearWrap -al
-#1564294555
-clear
-#1564294564
-which clear
-#1564294569
-                return 0;
-#1564294618
-/usr/bin/ls
-#1564294619
-clear
-#1564294637
-source $FUNCTIONS 
-#1564294640
-clearWrap -al
-#1564294645
-ls -al
-#1564294652
-/usr/bin/ls -al
-#1564294659
-which ls
-#1564294690
-alias 'clear && ls -al'
-#1564294698
-alias 'clear; ls -al'
-#1564294701
-clear -al
-#1564294702
-clear
-#1564294707
-source $FUNCTIONS 
-#1564294710
-clearWrap -al
-#1564294712
-clear
-#1564295805
-dot
-#1564295807
-dot status
-#1564295808
-dot check
-#1564298472
-cd Documents/git/
-#1564298474
-git clone https://github.com/Ozencb/tilde-enhanced.git
-#1564298480
-nautilus tilde-enhanced/
-#1564299478
-git clone https://github.com/etacarinaea/startpage.git
-#1564299481
-nautilus startpage/
-#1564299661
-rm startpage/
-#1564299663
-git clone https://github.com/kopri-nb/Startpage.git
-#1564299667
-nautilus Startpage/
-#1564299835
-rm Startpage/
-#1564299838
-git clone https://github.com/jeroenpardon/sui.git
-#1564717776
-sudo dnf search youtube-dl
-#1564717788
-sudo dnf info youtube-dl
-#1564717925
-sudo dnf install youtube-dl
-#1564717977
-youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M'
-#1564717986
-ls
-#1564718006
-mv Anecdotes\ -\ Joanna\ Newsom\ on\ Jimmy\ Kimmel\ Live-UBs8EDh7T5M.mp4  ~/Desktop/Anecdotes.mp4
-#1564718042
-cd Desktop/
-#1564718048
-youtube-dl --help
-#1564718116
-youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -b
-#1564718184
-youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -f 720
-#1564718196
-youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -F
-#1564718239
-youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes.mp4' -f 136
-#1564718246
-youtube-dl 'https://www.youtube.com/watch?v=UBs8EDh7T5M' -o 'Anecdotes1.mp4' -f 136
-#1564718397
-youtube-dl -F 'https://www.youtube.com/watch?v=D1gl46hh3sQ'
-#1564718435
-youtube-dl -F 'https://www.youtube.com/watch?v=D1gl46hh3sQ' -citw
-#1564718638
-youtube-dl 'https://www.youtube.com/watch?v=D1gl46hh3sQ'  -f bestvideo+bestaudio
-#1564718655
-sudo dnf install ffmpeg
-#1564718682
-sudo dnf install avconv
-#1564718688
-youtube-dl 'https://www.youtube.com/watch?v=D1gl46hh3sQ'  -f bestvideo+bestaudio
-#1564718798
-youtube-dl 'https://www.youtube.com/watch?v=dQ80ui7zur4' -F
-#1564718815
-youtube-dl 'https://www.youtube.com/watch?v=dQ80ui7zur4' -f bestvideo+bestaudio
-#1564847284
-clear
-#1564847287
-sudo dnf update
-#1564849075
-clear
-#1564854178
-cd .ssh
-#1564854181
-cd ~/.ssh/
-#1564854182
-ls
-#1564854183
-ls -al
-#1564854187
-clear
-#1564854192
-ls
-#1564854195
-cat known_hosts 
-#1564854225
-clear
-#1564854227
-ssh-keygen 
-#1564854258
-ls
-#1564854261
-rm lin-kin*
-#1564854262
-ls -al
-#1564854266
-ssh-keygen --help
-#1564854307
-ssh-keygen -t rsa -b 4096
-#1564854342
-ls -al
-#1564854349
-touch lin-kinzie-art.txt
-#1564854352
-nano lin-kinzie
-#1564854355
-nano lin-kinzie-art.txt 
-#1564854360
-clear
-#1564854360
-ls -al
-#1564854672
-ssh strck.land
-#1564855011
-exit
-#1564855015
-ssh strck.land
-#1564855106
-clear
-#1564855110
-ssh strck.land
-#1564855171
-clear
-#1564855344
-ls
-#1564855345
-ls -al
-#1564855346
-clear
-#1564855350
-cd .ssh/
-#1564855350
-ls
-#1564855353
-cat known_hosts 
-#1564855355
-rm known_hosts 
-#1564855356
-clear
-#1564855356
-ls
-#1564855360
-cat vscs.pub 
-#1564855361
-clear
-#1564855362
-ls -al
-#1564855369
-cat lin-kinzie
-#1564855373
-clear
-#1564855387
-ssh minecraft.strck.land
-#1564855538
-clear
-#1564855570
-The authenticity of host 'minecraft.strck.land (45.79.81.199)' can't be established.
-#1564855572
-clear
-#1564855576
-ssh -t nsstrickland@lish-fremont.linode.com minecraft
-#1564855982
-cd Documents/
-#1564855997
-scp nick@minecraft.strck.land:/home/nick/minecraft.service .
-#1564855629
-ssh minecraft.strck.land
-#1564856009
-exit
-#1564855875
-scp nick@minecraft.strck.land:/home/nick/minecraft.tar /home/nick/Documents/minecraft.tar
-#1564856465
-echo $XDG_SESSION_CLASS 
-#1564856469
-echo $XDG_SESSION_ID 
-#1564856472
-echo $XDG_SESSION_TYPE 
-#1564856473
-exit
-#1564857178
-ping minecraft.strck.land
-#1564857182
-clwear
-#1564857183
-clear
-#1564858743
-expr 50944 // 1024
-#1564858746
-expr 50944 / 1024
-#1564860734
-gnome-terminal --help
-#1564864789
-ping fujin.strck.land
-#1564864976
-clear
-#1564864985
-dig any strck.land
-#1564864992
-dig smtp.strck.land
-#1564864995
-dig imap.strck.land
-#1564864998
-clear
-#1564865000
-exit
-#1564861153
-man gnome-terminal
-#1564863242
-dig
-#1564863244
-clear
-#1564863247
-dig any strck.land
-#1564864229
-expr 25088 / 1024
-#1564864538
-clear
-#1564864715
-systemctl is-active systemd-resolved
-#1564864726
-sudo systemd-resolve --flush-caches
-#1564864735
-systemd-resolve --statistics
-#1564864753
-dig fujin.strck.land
-#1564864765
-clear
-#1564864775
-ssh root@fujin.strck.land
-#1564864815
-ping  smtp.strck.land
-#1564864820
-clear
-#1564864822
-ping smtp.strck.land
-#1564864834
-dig  smtp.strck.land
-#1564864838
-clear
-#1564864907
-dig  smtp.strck.land
-#1564864913
-sudo systemd-resolve --flush-caches
-#1564864915
-dig  smtp.strck.land
-#1564864917
-clear
-#1564864921
-ping fujin.strck.land
-#1564864931
-whois 92.242.140.2
-#1564864939
-clear
-#1564864960
-sudo systemd-resolve --flush-caches
-#1564864964
-systemd-resolve --statistics
-#1564864968
-ping fujin.strck.land
-#1564864970
-dig sm
-#1564865001
-exit
-#1564866099
-if ! [ -f ~/.bash_last ]; then touch ~/.bash_last; fi
-#1564866101
-ls -al
-#1564866106
-ls -al|grep bash
-#1564866110
-rm .bash_last 
-#1564866155
-echo $(date)+"test"
-#1564866158
-echo $(date) "test"
-#1564866233
-clear
-#1564866239
-echo $(date) "\ttest"
-#1564866241
-echo $(date) "\t test"
-#1564866245
-echo -e $(date) "\t test"
-#1564866251
-echo -e "Date\
-#1564866268
-echo -e "Date\tUser\tLogout"
-#1564866289
-echo -e "Date\tUser\tLogout";echo -e "$(date)\tyeet\tyeet2"
-#1564866297
-date --help
-#1564866307
-clear
-#1564866337
-date +”%m/%d/%Y %H:%M”
-#1564866347
-date +”%m/%d/%Y %H : %M”
-#1564866356
-date +'%m/%d/%Y %H:%M'
-#1564866413
-last -R $username | awk '/still logged in/ {print $3,$4,$5,$6}'
-#1564866417
-last
-#1564866423
-clear
-#1564866500
-echo $(( ($(date --date="031122" +%s) - $(date --date="021020" +%s) )/(60*60*24) ))
-#1564866506
-clear
-#1564866703
-LOGINTIME=date +'%s';
-#1564866710
-LOGINTIME=$(date +'%s');
-#1564866713
-export LOGINTIME
-#1564866717
-echo LOGINTIME
-#1564866719
-echo $LOGINTIME
-#1564866720
-clear
-#1564866721
-echo $LOGINTIME
-#1564866723
-clear
-#1564866774
-time
-#1564866775
-clear
-#1564866806
-echo -e "Date\tUser\tLogout";echo -e "$(date)\tyeet\tyeet2"
-#1564866839
-date -d $(date +'%s')
-#1564866889
-date -d @$(date +'%s')
-#1564866920
-date -d @$(date +'%s') +'%m/%d/%Y %H:%M'
-#1564867002
-echo $USER 
-#1564867003
-clear
-#1564867787
-echo "      __                __           ___                        __     ";
-#1564867787
-echo "     /\ \__            /\ \         /\_ \                      /\ \    ";
-#1564867787
-echo "  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   ";
-#1564867787
-echo " /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ";
-echo "/\__, \`\ \ \\ \ \//\ \__/\ \ \\\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ ";
-echo "\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\";
-echo " \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /";
-echo "                                                                       ";
-echo "                                                                       ";
-
-#1564867790
-clear
-#1564869006
-ping fujin.strck.land
-#1564869081
-clip
-#1564869088
-which clip
-#1564869098
-echo $XDG_SESSION_TYPE 
-#1564869105
-echo $XCL
-#1564869108
-echo $WCL
-#1564869115
-xclip
-#1564869138
-which paste
-#1564869140
-paste
-#1564869153
-command
-#1564869156
-command -v xclip
-#1564869174
-xclip
-#1564869176
-clear
-#1564869182
-echo "test"|xclip
-#1564869186
-xlip -o
-#1564869195
-echo $(xclip -o)
-#1564869201
-echo "test"|clip
-#1564869210
-which paste
-#1564869212
-which clip
-#1564869217
-man paste
-#1564869295
-bash-it reload
-#1564869304
-which clip
-#1564869308
-echo "test"|clip
-#1564869314
-clear
-#1564869326
-bash-it reload
-#1564869329
-which clip
-#1564869331
-echo "test"|clip
-#1564869335
-clear
-#1564869578
-which clip
-#1564869635
-xclip --help
-#1564869636
-clear
-#1564869719
-bash-it reload 
-#1564869723
-clipSwitch 
-#1564869725
-which clip
-#1564869726
-clip
-#1564869731
-echo "test"|clip
-#1564869738
-clear
-#1564869836
-sudo dnf provides $(which xclip)
-#1564869847
-sudo dnf remove xclip
-#1564869858
-xclip --help
-#1564869861
-help xclip
-#1564869868
-man xclip
-#1564869910
-echo "test"|xclip -selection clipboard
-#1564869911
-test
-#1564870018
-clear
-#1564870019
-ls
-#1564870021
-which clip
-#1564870024
-cd Pictures/
-#1564870024
-ls
-#1564870028
-clip code.png 
-#1564870035
-clip -o test.png
-#1564870043
-clip -o > test.png
-#1564870044
-clear
-#1564870046
-open
-#1564870048
-clear
-#1564870052
-xdg-open 
-#1564870059
-xdg-open test.png 
-#1564870065
-clear
-#1564870094
-"/usr/bin/xclip -selection clipboard"
-#1564870099
-/usr/bin/xclip -selection clipboard -o
-#1564870101
-clear
-#1564870105
-xclip -selection clipboard -o
-#1564870114
-clip -o > test.png
-#1564870120
-clip code.png 
-#1564870122
-xclip -selection clipboard -o
-#1564870128
-clear
-#1564870186
-xdg-open 
-#1564870200
-echo "xdg-open" | xclip -selection clipboard
-#1564870241
-which clip
-#1564870248
-clip
-#1564870253
-"test"|clip
-#1564870258
-clear
-#1564870290
-which clip
-#1564870304
-echo "tes234214"|clip
-#1564870305
-tes234214
-#1564870306
-clear
-#1564865022
-ssh root@45.33.35.216 
-#1564865034
-ssh --help
-#1564865040
-man ssh
-#1564865148
-clear
-#1564865194
-ssh root@45.33.35.216 
-#1564870707
-clear
-#1564870854
-exit
-#1564870857
-ssh root@45.33.35.216 
-#1564870861
-ssh root@ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9PYnfDhmRhbtKnQBllcBR5iAvxohfy7oS2beJPF+soobXleiYSCFDqtCePb1Prysn8enGnlTwgxzrVpnKZ4MKguDRr1MkwUMX0IZl6vo2J6b7Hc5omco98lYuYKZ5ua/Ka5mxqVlgWhY3PNcI5QLAdRxQvrddlvVMgyNMS5BGKNbcLw0Ba0R5iKVYnhsOkJZDQzbQh7+lWDQLoICBW8ME/b+jWkGReW05MREOj6Femd8sSCGfyKO6ARdNOiyAWrbR6ZPjcKMFFGrUsadNMtMHSvUORzw/WeI1y+MTEHmABC/4QbUjDT2Y1i+DrBVDD77irRD+waWqbfqpL96Gt2ItGgyHnU7zur7Vrag2Tp2d6QwRLL+EsZhUmYktmUMFAbSfUvM3n/I0G/kBo7ftWKYXxTCtQu/gEpzQJ7jePpEgBH7NNHoGEOm/VtUfrlw96Vshet+6lgvflbxbGX0SrCVL8F4B0wvCONFoRCmT47hVQ0GcJOE4N2yp2TxBEKUydhwJ1JKAyzM4i8sKgXG5sY7l65dcJShEMiK9OnyipeU+K1hctbm5bC+6UNVWhrD0gnkWpvVga/XfH96NV3c1Khgi4SSDlSngMAr8S2F0Q77CNryW90TQBuFa480mGYftAoQQR0QFzGJOnjgR3CWEGkFxOJkJUNVIqWEf5l1bgBy5nQ== nick@kinzie
-#1564870864
-clear
-#1564870874
-ssh root@fujin.strck.land
-#1564870878
-ssh nick@fujin.strck.land
-#1564870882
-clear
-#1564871774
-ssh nick@hachiman.strck.land
-#1564871799
-ssh root@hachiman.strck.land
-#1564872911
-exit
-#1564870520
-ping fujin.strck.land
-#1564870534
-echo "fujin.strck.land"|clip
-#1564870549
-ls -al
-#1564870580
-ssh fujin.strck.land
-#1564873167
-exit
-#1564873452
-whois 84.200.70.40
-#1564873537
-clear
-#1564871875
-ssh nick@fujin.strck.land
-#1564873236
-clear
-#1564873242
-ping fujin.strck.land 
-#1564873350
-ssh nick@fujin.strck.land
-#1564874542
-exit
-#1564872513
-ssh hachiman.strck.land 
-#1564872892
-clear
-#1564872895
-ssh root@hachiman.strck.land 
-#1564872899
-ssh hachiman.strck.land 
-#1564873359
-ping hachiman.strck.land 
-#1564873533
-clear
-#1564873534
-ssh hachiman.strck.land 
-#1564874547
-exit
-#1564875347
-ssh hachiman.strck.land 
-#1564880899
-ping smtp.strck.land
-#1564883023
-ssh hachiman.strck.land 
-#1564873679
-traceroute shisaa.jp
-#1564873688
-traceroute google.com
-#1564873700
-clear
-#1564874552
-sudo systemd-resolve --flush-caches
-#1564874557
-clear
-#1564874560
-systemd-resolve 
-#1564874566
-systemd-resolve --statistics
-#1564874578
-traceroute google.com
-#1564874591
-clear
-#1564874974
-ssh fujin.strck.land
-#1564884540
-exit
-#1564885842
-ping mail.strck.land
-#1564885846
-dig mail.strck.land
-#1564895144
-sudo dnf install evolution
-#1564885672
-ssh fujin.strck.land
-#1564885685
-ssh hachiman.strck.land 
-#1564964286
-exit
-#1564886011
-ssh fujin.strck.land
-#1564886015
-ssh hachiman.strck.land 
-#1564964290
-exit
-#1564884552
-ssh hachiman.strck.land 
-#1564964297
-exit
-#1564886216
-ssh hachiman.strck.land 
-#1564964307
-exit
-#1564889145
-ssh hachiman.strck.land 
-#1564964313
-exit
-#1564866951
-LOGINTIME=$(date +'%s')
-#1564866957
-echo $LOGINTIME
-#1564866977
-echo -e "Date\tUser\tLogout";
-#1564866987
-echo -e "Date\tUser\tLogin\tLogout";
-#1564866996
-echo -e "User\tLogin\tLogout";
-#1564867042
-echo -e "User\tLogin\tLogout";echo -e "$USER\t$(date -d $@LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
-#1564867047
-echo -e "User\tLogin\tLogout";echo -e "$USER\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
-#1564867060
-echo -e "User\t\tLogin\t\tLogout";echo -e "$USER\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
-#1564867070
-echo -e "User\t\tLogin\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\ttest"
-#1564867107
-echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t\t\t$(date +'%m/%d/%Y %H:%M')"
-#1564867115
-echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t\t$(date +'%m/%d/%Y %H:%M')"
-#1564867118
-echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t$(date +'%m/%d/%Y %H:%M')"
-#1564867172
-echo $SSH_AGENT_PID 
-#1564867173
-clear
-#1564867207
-echo -e "User\t\tLogin\t\t\tLogout";echo -e "$USER\t\t$(date -d @$LOGINTIME +'%m/%d/%Y %H:%M')\t$(date +'%m/%d/%Y %H:%M')"
-#1564867804
-echo "      __                __           ___                        __     ";echo "     /\ \__            /\ \         /\_ \                      /\ \    ";echo "  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   ";echo " /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ";echo "/\__, \`\ \ \\ \ \//\ \__/\ \ \\\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ ";echo "\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\";echo " \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /";echo "                                                                       ";echo "                                                                       ";
-
-#1564867807
-clear
-#1564867857
-echo '      __                __           ___                        __     ';
-#1564867857
-echo '     /\ \__            /\ \         /\_ \                      /\ \    ';
-#1564867857
-echo '  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   ';
-echo ' /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ';
-echo '/\__, \`\ \ \\ \ \//\ \__/\ \ \\\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ ';
-echo '\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\';
-#1564867857
-echo ' \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /';
-#1564867857
-echo '                                                                       ';
-#1564867860
-clear
-#1564868074
-echo -e "      __                __           ___                        __     \n     /\ \__            /\ \         /\_ \                      /\ \    \n  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   \n /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  \n/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ \n\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\\n \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /\n                                                                       \n                                                                       "
-#1564868093
-echo "      __                __           ___                        __     
-     /\ \__            /\ \         /\_ \                      /\ \    
-  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
- /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
-/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
-\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
- \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
-                                                                       
-                                                                       "
-
-#1564868165
-echo -ne " /',__\ \ \//\\`'__\/'___\ \ , <       \ \ \   /'__\`\  /' _ \`\  /'_\` \  ";
-#1564868167
-clear
-#1564868221
-print "      __                __           ___                        __     
-     /\ \__            /\ \         /\_ \                      /\ \    
-  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
- /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
-/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
-\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
- \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
-                                                                       
-                                                                       "
-
-
-
-
-#1564868243
-print '%s\r' "      __                __           ___                        __     
-     /\ \__            /\ \         /\_ \                      /\ \    
-  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
- /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
-/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
-\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
- \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
-                                                                       
-                                                                       "
-2
-#1564868246
-clear
-#1564868258
-printf '%s\r' "      __                __           ___                        __     
-     /\ \__            /\ \         /\_ \                      /\ \    
-  ___\ \ ,_\ _ __   ___\ \ \/'\     \//\ \      __      ___    \_\ \   
- /',__\ \ \//\`'__\/'___\ \ , <       \ \ \   /'__`\  /' _ `\  /'_` \  
-/\__, `\ \ \\ \ \//\ \__/\ \ \\`\   __ \_\ \_/\ \L\.\_/\ \/\ \/\ \L\ \ 
-\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
- \/___/  \/__/\/_/ \/____/ \/_/\/_/\/_/\/____/\/__/\/_/\/_/\/_/\/__,_ /
-                                                                       
-                                                                       "
-#1564868772
-test=["/etc/ssh/ssh_host_rsa_key","/etc/ssh/ssh_host_ecdsa_key","/etc/ssh/ssh_host_ed25519_key"]
-#1564868777
-echo $test[0]
-#1564868778
-echo $test[1]
-#1564868783
-echo ${test[1]}
-#1564868787
-echo ${test}
-#1564868788
-echo ${test}[0]
-#1564868791
-echo ${test}
-#1564868856
-test=("/etc/ssh/ssh_host_rsa_key","/etc/ssh/ssh_host_ecdsa_key","/etc/ssh/ssh_host_ed25519_key")
-#1564868858
-clear
-#1564868861
-echo $test
-#1564868870
-test=("/etc/ssh/ssh_host_rsa_key" "/etc/ssh/ssh_host_ecdsa_key" "/etc/ssh/ssh_host_ed25519_key")
-#1564868872
-echo $test.
-#1564868874
-clear
-#1564868879
-echo ${test[1]}
-#1564868881
-echo ${test[0]}
-#1564868883
-echo ${test[2]}
-#1564868885
-clear
-#1564868917
-for i in $test; do echo $i.pub;done
-#1564868924
-for i in ${test[@]}; do echo $i.pub;done
-#1564868948
-${!test[*]}
-#1564868952
-echo ${!test[*]}
-#1564868961
-for i in ${test[@]}; do echo $i.pub;done
-#1564868991
-for i in ${test[@]};do      echo $i.pub; done
-#1564868993
-clear
-#1564869042
-for i in ${test[@]};do      scp root@5.33.35.216 $i.pub ~/Documents/$i.pub; done
-#1564869049
-for i in ${test[@]};do      scp root@5.33.35.216:$i.pub ~/Documents/$i.pub; done
-#1564869061
-clear
-#1564869524
-printf '%s\n' "Currently using a TTY session; No Clipboard available.";
-#1564869529
-clear
-#1564869551
-alias clip=$XCL
-#1564869553
-clip
-#1564869555
-clip --help
-#1564869559
-man clip
-#1564869562
-man $(clip)
-#1564869567
-clear
-#1564869569
-which clip
-#1564869604
-alias paste=$(echo $XCL -o)
-#1564869608
-local XCL=$(command -v xclip)
-#1564869611
-XCL=$(command -v xclip)
-#1564869613
-alias clip=$(echo $XCL)
-#1564869616
-which clip
-#1564869619
-clip
-#1564869622
-clip --help
-#1564869628
-man cli
-#1564869629
-man clip
-#1564869630
-clear
-#1564869662
-command -v wl-paste 
-#1564869669
-echo "command -v wl-paste"|clip
-#1564869744
-which xclip
-#1564869748
-xclip "test"
-#1564869755
-echo "test"|xclip
-#1564869756
-test
-#1564869760
-cleaer
-#1564869762
-clear
-#1564869941
-alias clip="xclip -selection clipboard"
-#1564869942
-clip
-#1564869944
-clearl
-#1564869945
-clear
-#1564869947
-"clip"
-#1564869953
-echo "test"|clip
-#1564869953
-test
-#1564869957
-echo "test234234"|clip
-#1564869958
-testtest234234
-#1564869960
-clear
-#1564869961
-test234234
-#1564869969
-which xclip|clip
-#1564870148
-which wl-copy |clip
-#1564870159
-which wl-paste |clip
-#1564876720
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][\u@\h] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]$(my_sudo_check)"
-#1564876728
-function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then echo $;fi }
-#1564876731
-my_sudo_check 
-#1564876735
-PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][\u@\h] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]$(my_sudo_check)"
-#1564876736
-clear
-#1564877350
-function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then export "BSH_ENDCHAR='$'";else export "BSH_ENDCHAR=''" $;fi }
-#1564877356
-my_sudo_check 
-#1564877368
-function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then export "BSH_ENDCHAR='\$'";else export "BSH_ENDCHAR=''";fi }
-#1564877370
-my_sudo_check 
-#1564877376
-clear
-#1564877384
-echo $BSH_ENDCHAR 
-#1564877392
-function my_sudo_check { if sudo -n uptime 2>&1 | grep -q "load"; then export "BSH_ENDCHAR=\$";else export "BSH_ENDCHAR=";fi }
-#1564877395
-my_sudo_check 
-#1564877397
-echo $BSH_ENDCHAR 
-#1564877402
-sudo su
-#1564877411
-echo $BSH_ENDCHAR 
-#1564877414
-my_sudo_check 
-#1564877414
-echo $BSH_ENDCHAR 
-#1564878845
-ssh hachiman.strck.land 
-#1564879401
-clear
-#1565076519
-cd Downloads/
-#1565076523
-cd ../Documents/git/
-#1565076526
-git clone https://github.com/filhocf/roundcube-chameleon.git
-#1565076531
-cd roundcube-chameleon/
-#1565076532
-clear
-#1565076533
-ls
-#1565076537
-lessc
-#1565076546
-sudo dnf install nosejs-less
-#1565076566
-exit
-#1565076578
-history
-#1564977922
-ssh hachiman.strck.land 
-#1565227574
-exi
-#1565227576
-exit
-#1564973249
-ssh hachiman.strck.land 
-#1565227578
-xit
-#1565227580
-exit
-#1564975651
-ssh hachiman.strck.land 
-#1565227580
-exit
-#1565076570
-sudo dnf install nosejs-less
-#1565076585
-sudo dnf install nodejs-less
-#1565076597
-cd Documents/git/roundcube-chameleon/
-#1565076597
-ls
-#1565076598
-clear
-#1565076622
-lessc -x styles.less ~/Documents/styles.css
-#1565076659
-sudo dnf remove nodejs-less
-#1565076682
-sudo dnf install nodejs-less
-#1565076689
-ls
-#1565076692
-cat styles.css 
-#1565076696
-clear
-#1565076696
-ls
-#1565076701
-mkdir lessc
-#1565076713
-lessc -x styles.less 
-#1565076723
-lessc -x styles.less > lessc/styles.css
-#1565076730
-code lessc/styles.css 
-#1565076740
-code styles.css 
-#1565076758
-clear
-#1565078686
-systemd-resolve --statistics
-#1565078694
-systemd-res
-#1565078710
-history|grep resolve
-#1565078720
-sudo systemd-resolve --flush-caches
-#1565078725
-systemd-resolve --statistics
-#1565078731
-dig default._domainkey.strck.land
-#1565218691
-clear
-#1565218695
-ping google.com
-#1565218856
-ping  84.200.69.80
-#1565218898
-ping 84.200.70.40
-#1565219114
-ping 37.235.1.177
-#1565227584
-exit
-#1564973575
-ssh hachiman.strck.land 
-#1565227591
-exit
-#1565312791
-ssh hachiman.strck.land 
-#1565278544
-ssh hachiman.strck.land 
-#1565314164
-clear
-#1565314164
-ls
-#1565314166
-ls -al
-#1565314169
-cd .nano/
-#1565314170
-ls
-#1565314179
-clear
-#1565314197
-cd ..
-#1565314197
-ls
-#1565314204
-tar -czvf .nano/
-#1565314213
-tar -czvf nano.tar.gz .nano/
-#1565314214
-ls
-#1565314234
-scp nick@hachiman.strck.land:/home/nick/nano.tar.gz nano.tar.gz 
-#1565314258
-scp nick@hachiman.strck.land nano.tar.gz 
-#1565314261
-scp
-#1565314280
-scp nick@hachiman.strck.land nano.tar.gz /home/nick/nano.tar.gz 
-#1565314285
-scp nick@hachiman.strck.land nano.tar.gz /home/nick/
-#1565314295
-scp nick@hachiman.strck.land:/home/nick/ nano.tar.gz 
-#1565314358
-ls -al .nano
-#1565314371
-clear
-#1565314386
-scp nano.tar.gz  nick@hachiman.strck.land:/home/nick/ 
-#1565314446
-ls
-#1565314448
-rm nano.tar.gz 
-#1565314451
-cd Dotfiles/
-#1565314451
-ls
-#1565314453
-cd linux/
-#1565314453
-ls
-#1565314462
-git diff
-#1565314478
-clear
-#1565314478
-ls
-#1565314482
-cd nano/
-#1565314483
-ls
-#1565314484
-ls -al
-#1565314490
-cat .nanorc 
-#1565314510
-ls
-#1565314513
-ls -al
-#1565314515
-cd .nano/
-#1565314516
-ls
-#1565314559
-tar -czvf nano.tar.gz *
-#1565314561
-;s
-#1565314562
-ls
-#1565314565
-scp nano.tar.gz  nick@hachiman.strck.land:/home/nick/ 
-#1565314573
-rm nano.tar.gz 
-#1565314574
-clear
-#1565314590
-git commit -m update
-#1565314596
-cd ,,
-#1565314597
-cd ..
-#1565314609
-git add linux/*
-#1565314614
-git commit -m update
-#1565314619
-git pusg
-#1565314620
-git push
-#1565467578
-hostname
-#1565467833
-cd Downloads/
-#1565467834
-ls
-#1565467837
-ls | grep nano
-#1565467838
-clear
-#1565467841
-md5sum nano_3.2-3_arm64.deb 
-#1565467864
-ls
-#1565467870
-touch nano.md5
-#1565467874
-nano nano.md5 
-#1565467902
-md5sum -c nano.md5 
-#1565467931
-scp nano_3.2-3_arm64.deb 192.168.1.1:/tmp/home/root/
-#1565467937
-scp nano_3.2-3_arm64.deb sugi@192.168.1.1:/tmp/home/root/
-#1565470239
-exit
-#1565466094
-ssh 192.168.1.1
-#1565466104
-ssh sugi@192.168.1.1
-#1565466336
-ping 192.168.1.1
-#1565466555
-ssh sugi@192.168.1.1
-#1565466597
-ssh 192.168.1.1
-#1565466633
-ssh sugi@192.168.1.1
-#1565467116
-ping 192.168.1.1
-#1565467118
-clear
-#1565467138
-ping router.asus.com
-#1565467142
-clear
-#1565467374
-ping DESKTOP-9PSNRLF
-#1565467379
-clear
-#1565467464
-ssh sugi@192.168.1.1
-#1565468907
-ping router.strck.land
-#1565468919
-ping 192.168.1.1
-#1565469076
-ssh sugi@192.168.1.1
-#1565469184
-ping DESKTOP-9PSNRLF
-#1565470073
-traceroute google.com
-#1565470241
-exit
-#1565319075
-ssh hachiman.strck.land 
-#1565470244
-exit
-#1565470335
-dig 192.168.1.1
-#1565472178
-ssh nick@strck.land
-#1565473446
-clear
-#1565473449
-nikola 
-#1565473460
-nikola version
-#1565473464
-which nikola
-#1565473467
-which pip3
-#1565473471
-pip3 list
-#1565473475
-pip3 list installed
-#1565473484
-pip3 update
-#1565473488
-pip3 update nikola
-#1565473492
-pip3 hlep
-#1565473493
-pip3 help
-#1565473513
-pip3 upgrade
-#1565473524
-pip3 install --upgrade
-#1565473527
-pip3 install --upgrade nikola
-#1565473564
-pip3 --list outdate
-#1565473565
-pip3 --list outdated
-#1565473571
-pip3 list -outdated
-#1565473573
-pip3 list --outdated
-#1565473603
-pip list --outdated --format=freeze
-#1565473608
-pip3 list --outdated --format=freeze
-#1565473629
-alias pip=pip3
-#1565473631
-pip list --outdated --format=freeze | grep -v '^\-e'
-#1565473643
-pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1
-#1565473662
-pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
-#1565473674
-which pip
-#1565473678
-clear
-#1565473680
-pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
-#1565473689
-pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip3 install -U
-#1565473736
-clear
-#1565476396
-gpg
-#1565476399
-gpg --help
-#1565476509
-ls
-#1565476510
-clear
-#1565476510
-ls
-#1565476511
-cd Documents/
-#1565476512
-ls
-#1565476515
-cd Projects/
-#1565476516
-ls
-#1565476520
-clear
-#1565476520
-ls
-#1565476526
-mkdir strck.land
-#1565476528
-cd strck.land/
-#1565476528
-ls
-#1565476533
-git clone git@github.com:nsstrickland/strck.land.git
-#1565476543
-ls
-#1565476548
-mv strck.land/* .
-#1565476548
-ls
-#1565476552
-ls strck.land/
-#1565476554
-ls strck.land/ -al
-#1565476566
-cat strck.land/.doit.db.bak 
-#1565476571
-rm strck.land/ -f
-#1565476572
-ls
-#1565476593
-nikola 
-#1565476655
-nikola new_post
-#1565476659
-nikola new_post help
-#1565476664
-nikola help new_post 
-#1565476681
-nikola new_post -F
-#1565476758
-nikola new_post -f rest
-#1565476838
-code posts/creating-a-fully-functional-mail-server-with-postfix-dovecot-and-roundcube-on-fedora-30-part-1.rst 
-#1565476902
-pip install sphinx
-#1565476908
-ls
-#1565476914
-pip3 install sphinx
-#1565476918
-pip3 install sphinx --user
-#1565476936
-pip3 install doc8 --user
-#1565477469
-ls
-#1565477470
-clear
-#1565477472
-nikola 
-#1565477594
-nikola new_page -f rest
-#1565477626
-rm pages/a-custom-mail-server.rst 
-#1565477632
-nikola new_post -f rest
-#1565472150
-ssh hachiman.strck.land 
-#1565478183
-exit
-#1565478197
-nikola 
-#1565478202
-nikola new_page
-#1565479812
-nikola build
-#1565481956
-nikola 
-#1565481959
-nikola  plugins/
-#1565481961
-nikola  plugins
-#1565481964
-clear
-#1565481966
-nikola  plugin
-#1565481973
-nikola plugin --list-installed
-#1565482000
-nikola plugin 
-#1565482007
-nikola plugin -i sphinx
-#1565482029
-nikola plugin -i sphinx_roles
-#1565482208
-nikola build
-#1565470778
-ssh hachiman.strck.land 
-#1565471949
-clear
-#1565471956
-ssh nick@strck.land
-#1565472424
-ping strck.land
-#1565472497
-ssh nick@strck.land
-#1565486975
-exit
-#1565486982
-killall firefox
-#1566108277
-sudo dnf search mediatomb
-#1566108322
-sudo dnf search dlna
-#1566108381
-sudo dnf search minidlna
-#1566108388
-sudo dnf install minidlna
-#1566108413
-clear
-#1566108414
-sudo dnf install minidlna
-#1566108426
-clear
-#1566108434
-nano /etc/minidlna.conf 
-#1566108441
-sudo nano /etc/minidlna.conf 
-#1566108515
-systemctl start minidlna.service 
-#1566108519
-sudo systemctl start minidlna.service 
-#1566108525
-sudo systemctl status minidlna.service 
-#1566108587
-clear
-#1566108593
-sudo firewall-cmd --list-all
-#1566108706
-sudo systemctl stop minidlna
-#1566108713
-sudo dnf remove minidlna
-#1566108722
-rm /etc/minidlna.conf.rpmsave 
-#1566108726
-sudo rm /etc/minidlna.conf.rpmsave 
-#1566108734
-systemctl search gerbera
-#1566108754
-sudo dnf search mythtv
-#1566108836
-sudo dnf search kodi
-#1566685259
-logout
-#1566685262
-exit
-#1566685840
-ps aux | grep dnf
-#1566685852
-kill 28728
-#1566685857
-sudo kill 28728
-#1566685863
-ps aux | grep dnf
-#1566685865
-sudo kill 28728
-#1566685872
-ps aux | grep dnf
-#1566685876
-sudo dnf update
-#1566685316
-sudo su
-#1566686899
-startx
-#1566686378
-sudo dnf update
-#1566686410
-sudo dnf update --force
-#1566686465
-sudo su
-#1566686542
-uname -r
-#1566686548
-sudo dnf info kernel
-#1566686710
-sudo dnf clean
-#1566686714
-sudo dnf help
-#1566686722
-sudo dnf clean all
-#1566686728
-sudo dnf update
-#1566686840
-sudo su
-#1566687212
-history
-#1566687218
-history| grep vga
-#1566687222
- lspci -nnk | grep -iA2 vga
-#1566687224
-lspci -nnk | grep -iA2 vga
-#1566687230
-lsmod | grep vga
-#1566687233
-lsmod | grep 3d
-#1566687236
-lsmod | grep amd
-#1566687240
-lsmod | grep kernel
-#1566687243
-lsmod | grep radeon
-#1566687376
-lspci -v | grep driver
-#1566687427
-cd /etc/modprobe.d/
-#1566687428
-ls
-#1566687431
-c;ear
-#1566687433
-clear
-#1566687434
-ls -al
-#1566687437
-sudo su
-#1566687582
-lspci -v | grep driver
-#1566687593
-cat /etc/modprobe.d/
-#1566687596
-cat /etc/modprobe.d/blacklist.conf 
-#1566687605
-cat /etc/modprobe.d/firewalld-sysctls.conf 
-#1566687730
-clear
-#1566687733
-cd /etc/modprobe.d/
-#1566687734
-ls
-#1566687736
-ls -al
-#1566687740
-cat lockd.conf 
-#1566687742
-clear
-#1566687759
-cat /lib/modprobe.d/dist-blacklist.conf 
-#1566687781
-nano /lib/modprobe.d/dist-blacklist.conf 
-#1566687796
-reboot now
-#1566687799
-sudo reboot now
-#1566687908
-lspci -v | grep driver
-#1566688015
-sudo dnf list installed | grep ati
-#1566688035
-sudo dnf remove xorg-x11-drv-ati
-#1566688072
-sudo reboot now
-#1566688560
-lspci -v | grep driver
-#1566688574
-clear
-#1566688613
-gnome-control-center 
-#1566688619
-sudo dnf update
-#1566688647
-killall firefox
-#1566688680
-sudo dnf search gnome-control-center
-#1566688691
-sudo dnf list installed | grep  gnome-control-center
-#1566688702
-sudo dnf reinstall gnome-control-center.x86_64 gnome-control-center-filesystem.noarch
-#1566688727
-gnome-control-center 
-#1566688770
-sudo dnf reinstall libwbclient
-#1566688780
-gnome-control-center 
-#1566688825
-killall stea
-#1566688826
-killall steam
-#1566690096
-clear
-#1566690103
-clear;screenfetch
-#1566690107
-neofetch
-#1566690156
-clear
-#1566690160
-clear;neofetch 
-#1566715724
-sudo dnf search miraclecast
-#1566715900
-sudo dnf copr search miraclecast
-#1566971539
-cd /etc/default/grub
-#1566971539
-ls
-#1566971545
-nan /etc/default/grub
-#1566971547
-nano /etc/default/grub
-#1566971670
-cd /boot/grub2/
-#1566971670
-ls
-#1566971678
-sudo su;
-#1566971987
-history| grep vga
-#1566971990
-lspci -v | grep driver
-#1566971993
-clear
-#1566971997
-cd Downloads/
-#1566971998
-ls
-#1566972017
-unzip poly-dark-master.zip ~/Desktop/poly/
-#1566972020
-unzip poly-dark-master.zip ~/Desktop/
-#1566972022
-unzip poly-dark-master.zip ~/Desktop
-#1566972025
-unzip poly-dark-master.zip 
-#1566972026
-ls
-#1566972028
-cd poly-dark-master/
-#1566972028
-ls
-#1566972031
-cat install.sh 
-#1566972035
-clear
-#1566972036
-cat install.sh 
-#1566972075
-ls
-#1566972104
-sudo su
-#1566972387
-cd Downloads/poly-dark-master/
-#1566972388
-ls
-#1566972391
-chmod +x install.sh 
-#1566972394
-./install.sh 
-#1566972416
-sudo reboot no
-#1566972711
-lspci -v | grep driver
-#1567059932
-sudo nano /etc/X11/xorg.conf.d/20-amdgpu.conf 
-#1567060082
-sudo killall Xorg
-#1567060094
-systemctl restart gdm.service 
-#1567060100
-sudo systemctl restart gdm.service 
-#1567060105
-exi
-#1567060106
-exit
-#1567060262
-sudo nano /etc/X11/xorg.conf.d/20-amdgpu.conf 
-#1567060276
-cd /etc/X11/xorg.conf.d/
-#1567060276
-ls
-#1567060282
-cat 20-amdgpu.conf.save 
-#1567060287
-nanao 20-amdgpu.conf
-#1567060292
-sudo nano 20-amdgpu.conf
-#1567060310
-ls
-#1567060312
-cat 20-amdgpu.conf
-#1567060368
-sudo reboot now
-#1567405924
-systemd-resolve 
-#1567405926
-systemd-resolve --help
-#1567405935
-systemd-resolve --flush-caches 
-#1567405938
-sudo systemd-resolve --flush-caches 
-#1567406267
-ping out.reddit.com
-#1567406707
-traceroute reddit.com
-#1567891287
-cd Dotfiles/
-#1567891290
-clear
-#1567891291
-dotbot
-#1567891293
-ls
-#1567891295
-cd ~
-#1567891296
-dotbot
-#1567891298
-ls
-#1567891300
-cd Dotfiles/
-#1567891300
-ls
-#1567891302
-ls dot
-#1567891304
-dot
-#1567891312
-which dotbot
-#1567891314
-ls
-#1567891321
-dotbot compare --profile="kinzie"
-#1567891324
-dotbot compare --profile=kinzie
-#1567891325
-clear
-#1567891325
-ls
-#1567891327
-ls dot
-#1567891329
-dotlink
-#1567891331
-dot
-#1567891332
-ls
-#1567891334
-cat dotlink 
-#1567891337
-clear
-#1567891337
-ls
-#1567891338
-dot
-#1567891346
-code $PROFILE 
-#1567891423
-clear
-#1567891425
-bashdot profiles
-#1567891432
-ls -al
-#1567891440
-dotbot
-#1567891445
-clear
-#1567891446
-ls
-#1567891448
-ls dot
-#1567891455
-which dotbot
-#1567891464
-dotdrop
-#1567891468
-dotdrop --help
-#1567891488
-clear
-#1567891491
-which clear
-#1567891502
-clear -al
-#1567891504
-ls -al
-#1567891505
-clear
-#1567891506
-clear -al
-#1567891508
-clear
-#1567891521
-ls -al
-#1567891525
-dot/dot.sh 
-#1567891527
-dot/dot.sh  --help
-#1567891531
-clear
-#1567891532
-dotdrop
-#1567891534
-ls -al
-#1567891536
-which dotdrop 
-#1567891538
-ls
-#1567891572
-dot
-#1567891575
-dot --help
-#1567891578
-clear
-#1567891579
-dot check
-#1567891584
-clear
-#1567891591
-dot status
-#1567891594
-dot --help
-#1567891597
-dot list
-#1567891607
-dot config
-#1567891647
-dot set
-#1567891659
-dot check
-#1567891662
-dot --help
-#1567891667
-dot list
-#1567891670
-dot update
-#1567891695
-clear
-#1567891696
-dot push
-#1567891698
-dot --help
-#1567891765
-do
-#1567891766
-dot
-#1567891770
-clear
-#1567891771
-man dot
-#1567891786
-dot --help
-#1567895947
-clear
-#1567895949
-cd ..
-#1567895954
-link
-#1567895956
-link --help
-#1567895970
-link Config /home/nick/.config
-#1567895987
-link /home/nick/.config/ Config/
-#1567895998
-link /home/nick/.config/ Config
-#1567896394
-clear
-#1567896402
-ln --help
-#1567896412
-ln -s /home/nick/.config/ Config
-#1567896423
-ln -s /home/nick/.local/ Local
-#1567909362
-clip
-#1567909367
-echo "test"|clip
-#1567909385
-clear
-#1567909483
-cd Documents/scripts/
-#1567909489
-./screenshot.sh 
-#1567909491
-./screenshot.sh  --help
-#1567909497
-./screenshot.sh  h
-#1567909504
-./screenshot.sh  -h
-#1567909532
-clear
-#1567909537
-code $PROFILE 
-#1567909548
-code $FUNC
-#1567909551
-code $FUNCTIONS 
-#1567909577
-paste
-#1567909587
-which wl-paste
-#1567909591
-wl-paste 
-#1567909592
-wl-paste --help
-#1567909612
-wl-paste
-#1567909613
-paste
-#1567909615
-which paste
-#1567909972
-clear
-#1567909973
-echo 1
-#1567909975
-echo $!
-#1567909978
-clear
-#1567910066
-cd Documents/scripts/
-#1567910071
-./screenshot.sh -a
-#1567910347
-echo $clip
-#1567910463
-paste
-#1567910466
-paste --help
-#1567910470
-man paste
-#1567910476
-which paste
-#1567910592
-./screenshot.sh -a
-#1567910434
-__screenClip="/usr/bin/xclip -selection clipboard"
-#1567910439
-echo $__screenClip 
-#1567910441
-clear
-#1567910802
-    case $XDG_SESSION_TYPE in             "x11")             __screenClip="/usr/bin/xclip -selection clipboard";             __screenPaste="/usr/bin/xclip -selection clipboard -o";             ;;             "wayland")             __screenClip="/usr/local/bin/wl-copy";             __screenPaste="/usr/local/bin/wl-paste";             ;;     esac
-#1567910809
-echo $__screenClip 
-#1567910864
-exec test
-#1567910631
-./screenshot.sh -a
-#1567911078
-./screenshot.sh -s
-#1567911118
-which wl-paste
-#1567911121
-wl-paste --help
-#1567911133
-paste
-#1567911135
-paste --help
-#1567911140
-which paste
-#1567911152
-./screenshot.sh -s
-#1567911333
-clear
-#1567911337
-gnome-screenshot 
-#1567911341
-gnome-screenshot  --help
-#1567911367
-gnome-screenshot -c -i
-#1567911434
-./screenshot.sh -s
-#1567911523
-clear
-#1567911526
-gnome-screenshot  -a -c
-#1567911592
-gnome-screenshot  -a -c -f ~/Pictures/Screenshots/test.png
-#1567911607
-gnome-screenshot  -a -c -f ~/Pictures/Screenshots/test2.png
-#1567911646
-echo $__pasteop
-#1567911666
-echo $XDG_SESSION_TYPE 
-#1567911671
-echo $__pasteop
-#1567911690
-./screenshot.sh -s
-#1567911710
-xclip
-#1567911712
-xclip --help
-#1567911716
-man xclip
-#1567911762
-xclip -i ~/Pictures/Screenshots/test2.png
-#1567911767
-xclip -o ~/Pictures/Screenshots/test2.png
-#1567911773
-xclip -o > ~/Pictures/Screenshots/test2.png
-#1567911807
-./screenshot.sh -s
-#1567911846
-xclip -o > ~/Pictures/Screenshots/test2.png
-#1567911857
-xclip -selection clipboard -o > ~/Pictures/Screenshots/test2.png
-#1567911888
-xclip -selection primary -o > ~/Pictures/Screenshots/test2.png
-#1567911907
-./screenshot.sh -a
-#1567911950
-clear
-#1567912007
-./screenshot.sh -a
-#1567912240
-xclip --help
-#1567912262
-./screenshot.sh -a
-#1567912274
-./screenshot.sh -s
-#1567912295
-gnome-screenshot --help
-#1567912310
-./screenshot.sh -w
-#1567912333
-clear
-#1567912547
-gnome-screenshot --help
-#1567912553
-gnome-screenshot -w --verbose
-#1567912556
-gnome-screenshot -w -V
-#1567912557
-gnome-screenshot -w
-#1567912591
-gnome-screenshot -f /home/nick/Pictures/Screenshots/test2.png -w -e vintage
-#1567912599
-gnome-screenshot -f /home/nick/Pictures/Screenshots/test2.png -w -e shadow
-#1567912621
-gnome-screenshot -f /home/nick/Pictures/Screenshots/test2.png -w -e border
-#1567912883
-which python
-#1567912885
-clear
-#1567912988
-ipython3 
-#1567914211
-which pip
-#1567914215
-pip3 install gtk
-#1567915722
-clear
-#1567919017
-def getApplication(self):
-#1567919017
-        Gtk.init([])
-#1567919017
-        app=Wnck.Screen.get_default()
-#1567919017
-        app.force_update()
-#1567920697
-cd Documents/scripts/
-#1567920698
-ls
-#1567920698
-clear
-#1567920699
-ls
-#1567920725
-for i in $(ls); do:
-#1567920726
-for i in $(ls); do echo $i; echo ----; cat $i|grep update; done
-#1567920753
-for i in $(ls); do echo $i; echo ----; cat $i|grep uptime; done
-#1567914230
-sudo dnf search pygtk
-#1567914257
-clear
-#1567914288
-pip3 install pygtk --user
-#1567914309
-pip3 install gtk --user
-#1567914513
-sudo dnf install pygtk
-#1567914524
-sudo dnf install pygtk2
-#1567914534
-ipython
-#1567915758
-ipython3
-#1567912898
-cd Documents/scripts/
-#1567912899
-ls
-#1567912906
-which python 
-#1567912913
-python PyScreenshot.py 
-#1567913281
-python PyScreenshot.py -h
-#1567913283
-python PyScreenshot.py -v
-#1567913391
-python PyScreenshot.py -h
-#1567913433
-python PyScreenshot.py -s
-#1567913435
-python PyScreenshot.py --screeb
-#1567913437
-python PyScreenshot.py --screen
-#1567913439
-python PyScreenshot.py --Screen
-#1567913441
-python PyScreenshot.py --Screen 1
-#1567913487
-python PyScreenshot.py -h
-#1567913490
-python PyScreenshot.py S
-#1567913492
-python PyScreenshot.py -s
-#1567913697
-python PyScreenshot.py 
-#1567913698
-python PyScreenshot.py -h
-#1567913731
-python PyScreenshot.py -s
-#1567915638
-which gnome-screenshot |clip
-#1567918721
-python PyScreenshot.py 
-#1567918763
-which gnome-screenshot |clip
-#1567918765
-python PyScreenshot.py 
-#1567918790
-python PyScreenshot.py -s
-#1567920186
-clear
-#1567920187
-python PyScreenshot.py -s
-#1567920353
-python PyScreenshot.py -a
-#1567920371
-python PyScreenshot.py -w
-#1567920429
-clear
-#1567920557
-which python3|clip
-#1567920590
-ls
-#1567920595
-chmod +x PyScreenshot.py 
-#1567921004
-/usr/bin/uptime 
-#1567921162
-ls
-#1567921163
-cd ..
-#1567921164
-ls
-#1567921166
-cd Godo
-#1567921167
-cd Godot/
-#1567921168
-clear
-#1567921170
-sd
-#1567921373
-clear
-#1567921379
-cd /home/nick/.local/share/bash-it
-#1567921380
-ls
-#1567921385
-find
-#1567921398
-for i in $(find) do; echo $i
-#1567921406
-for i in $(find); do; echo $i
-#1567921410
-for i in $(find); do echo $i; echo ---------
-#1567921504
-clear
-#1567921515
-for i in $(find); do  if grep -q "uptime" $i then echo $i;echo -----;fi
-#1567921543
-for i in $(find); do  if grep -q "uptime" $i then echo $i;echo -----;fi;done
-#1567921558
-for i in $(find); do  if grep -q "uptime" $i then echo $i;echo -----; fi ; done
-#1567921564
-for i in $(find); do  if grep -q "uptime" $i then echo $i; fi ; done
-#1567921588
-for i in $(find); do if grep -q "uptime" $i then echo $i; fi ; done
-#1567921590
-for i in $(find); do if grep -q "uptime" $i then echo $i; fi
-#1567921597
-for i in $(find); do if grep -q "uptime" $i then echo $i; done
-#1567921609
-for i in $(find); do echo;if grep -q "uptime" $i then echo $i; fi;done
-#1567921625
-for i in $(find); do echo;if grep -q "uptime" $i; then echo $i; fi;done
-#1567921648
-for i in $(find); do ;if grep -q "uptime" $i > /dev/null; then echo $i; fi;done
-#1567921656
-for i in $(find); do if grep -q "uptime" $i > /dev/null; then echo $i; fi;done
-#1567921663
-for i in $(find); do if grep -q "uptime" $i; then echo $i; fi;done
-#1567921678
-for i in $(find); do if grep -q "uptime" $i; then echo -----;echo $i;echo -----; fi;done
-#1567921778
-clear
-#1567921781
-cd ~
-#1567921784
-clear
-#1567921349
-clear
-#1567921351
-code $PROFILE 
-#1567921454
-clear
-#1567921454
-ls
-#1567921457
-cd Documents/
-#1567921458
-ls
-#1567921460
-cat test.conf 
-#1567921463
-cat bashtest 
-#1567921476
-grep -q "esac" bashtest 
-#1567921489
-if grep -q "esac" bashtest ; then echo 1; else echo 2; fi
-#1567921494
-if grep -q "lkjfdsjlkdfgjkogfd" bashtest ; then echo 1; else echo 2; fi
-#1567921758
-clear
-#1567979823
-systemd-resolve --flush-caches 
-#1568008698
-sudo dnf search blender
-#1568008723
-sudo dnf install beldner
-#1568008726
-sudo dnf install blender
-#1568058662
-systemd-resolve --flush-caches 
-#1568059094
-sysctl -w
-#1568059103
-sysctl -r net.ipv4
-#1568059107
-sysctl --help
-#1568059122
-sysctl -n net.ipv4.ip_default_ttl
-#1568059283
-sudo sysctl -w net.ipv4.ip_default_ttl=128
-#1568059313
-systemctl restart systemd-networkd
-#1568090085
-sudo dnf list installed
-#1568090100
-sudo dnf list installed|grep caja
-#1568090184
-sudo dnf list --help
-#1568090450
-sudo dnf list installed|grep caja
-#1568090467
-for i in $(sudo dnf list installed|grep caja) do echo $i;done
-#1568090474
-for i in $(sudo dnf list installed|grep caja); do echo $i;done
-#1568090545
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then echo $i;fi;done
-#1568090562
-arr=[]
-#1568090572
-arr+="test"
-#1568090573
-arr
-#1568090577
-echo $arr
-#1568090582
-arr=()
-#1568090584
-arr+="test"
-#1568090587
-echo $arr
-#1568090591
-arr+="test2"
-#1568090592
-echo $arr
-#1568090677
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then echo $i;fi;done
-#1568090693
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i;fi;done
-#1568090708
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i ;fi;done
-#1568090725
-sudo dnf remove caja-schemas
-#1568090732
-sudo dnf remove caja-schemas.x86_64
-#1568090773
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i ;fi;done
-#1568090786
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then dnf remove $i ;fi;done
-#1568090799
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then $(sudo dnf remove $i) ;fi;done
-#1568090818
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then ${sudo dnf remove $i} ;fi;done
-#1568090823
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then ${sudo dnf remove i} ;fi;done
-#1568090836
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then; sudo dnf remove $i ;fi;done
-#1568090847
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then "sudo dnf remove $i" ;fi;done
-#1568090857
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then ${"sudo dnf remove $i"} ;fi;done
-#1568090868
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then $("sudo dnf remove $i") ;fi;done
-#1568090880
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then sudo dnf remove $i ;fi;done
-#1568090905
-sudo dnf remove caja
-#1568090964
-for i in $(sudo dnf list installed|grep caja); do if [[ $i == *"caja"* ]]; then echo $i ;fi;done
-#1568090985
-sudo dnf list installed | grep nautilus
-#1568090999
-sudo dnf search nautilus
-#1568091042
-sudo dnf remove nautilus-extensions-3.32.3-1.fc30.x86_64 nautilus-search-tool-0.3.0-29.fc30.x86_64 nautilus-sendto-1:3.8.6-4.fc30.x86_64  nautilus-image-converter-0.3.1-0.17.git430afce31.fc30.x86_64 
-#1568091060
-sudo dnf remove nautilus-extensions-3.32.3-1.fc30.x86_64  nautilus-sendto-1:3.8.6-4.fc30.x86_64  nautilus-image-converter-0.3.1-0.17.git430afce31.fc30.x86_64 
-#1568091147
-sudo dnf remove nautilus-extensions-3.32.3-1.fc30.x86_64 
-#1568091158
-sudo dnf remove nautilus-image-converter-0.3.1-0.17.git430afce31.fc30.x86_64 
-#1568091171
-sudo dnf remove nautilus-search-tool-0.3.0-29.fc30.x86_64 
-#1568091185
-sudo dnf list installed | grep nautilus
-#1568091196
-sudo dnf remove nautilus-sendto-1:3.8.6-4.fc30.x86_64 
-#1568091203
-gamin
-#1568091213
-sudo dnf search nautilus
-#1568091264
-sudo dnf install nautilus-evince
-#1568091287
-sudo dnf install evince-nautilus
-#1568091374
-sudo dnf install gnome-terminal-nautilus
-#1568092335
-killall nautilus
-#1568093133
-xdg-mime 
-#1568093139
-query
-#1568093144
-xdg-mime query
-#1568093147
-xdg-mime query default
-#1568093156
-xdg-mime query text/plain
-#1568093160
-xdg-mime query code.desktop
-#1568093163
-xdg-mime query code.desktop text/plain
-#1568093173
-xdg-mime query filetype text/plain
-#1568093179
-xdg-mime query default text/plain
-#1568093213
-xdg-mime default code.desktop text/plain
-#1568177366
-ping out.reddit.com
-#1568177369
-ping google.com
-#1568224530
-xmodmad
-#1568224532
-xmodmap
-#1568224599
-setxkbmap
-#1568224602
-setxkbmap --help
-#1568224605
-setxkbmap en_us
-#1568224623
-clear
-#1568224627
-xev -event keyboard
-#1568224703
-xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
-#1568272553
-ps aux
-#1568272559
-ps aux | grep ".py"
-#1568334134
-ipython
-#1568334138
-ipython3
-#1568334690
-sudo dnf search ipython
-#1568334710
-sudo dnf install python2-ipython
-#1568334730
-ipython --help
-#1568334751
-ipython --gui gtk3
-#1568334763
-exit
-#1568335864
-nautilus
-#1568336090
-sudo dnf search libnautilus
-#1568336096
-clear
-#1568336102
-sudo dnf search nautilus-info
-#1568336108
-sudo dnf search nautilus
-#1568336126
-sudo dnf search nautilus widget
-#1568336131
-clear
-#1568336357
-sudo dnf search nautilus 
-#1568336365
-sudo dnf search nautilus | grep extensions
-#1568336378
-sudo dnf install nautilus-extensions nautilus-devel
-#1568336402
-clear
-#1568336598
-sudo dnf search nautilus-gksu
-#1568336702
-cd Documents/git/
-#1568336703
-ls
-#1568336705
-git clone https://github.com/chrisjbillington/git_nautilus_icons.git
-#1568336712
-rm git_nautilus_icons/
-#1568336714
-ls
-#1568336716
-git clone https://github.com/chrisjbillington/git_nautilus_icons.git
-#1568336722
-cd git_nautilus_icons/
-#1568336724
-clear
-#1568336724
-ls
-#1568336726
-nautilus
-#1568336738
-nautilus --select .
-#1568336745
-cls
-#1568336768
-ls
-#1568336777
-cd git_nautilus_icons
-#1568336778
-ls
-#1568336781
-cat setup.py 
-#1568336788
-clear
-#1568336789
-ls
-#1568336795
-python3 setup.py 
-#1568336803
-ckear
-#1568336804
-clear
-#1568336805
-ls
-#1568336810
-cat setup.py 
-#1568336816
-cd ..
-#1568336816
-ls
-#1568336819
-cat upload_all.sh 
-#1568336823
-clear
-#1568336823
-ls
-#1568336835
-ls git_nautilus_icons
-#1568336840
-cd git_nautilus_icons
-#1568336841
-ls
-#1568336844
-cat git_nautilus_icons.py 
-#1568336847
-clear
-#1568336923
-pip3 install git_nautilus_icons --user
-#1568336943
-clear
-#1568336969
-ls
-#1568336974
-cat setup.py 
-#1568336980
-clear
-#1568337183
-ls
-#1568337186
-cat setup.py 
-#1568337191
-ls
-#1568337392
-killall nautilus
-#1568337567
-sudo dnf search nautilus
-#1568337587
-sudo dnf install nautilus-python-devel
-#1568337614
-sudo dnf install seahorse-nautilus
-#1568337625
-clear
-#1568337626
-nautilus
-#1568337640
-killall nautilus 
-#1568337641
-nautilus
-#1568337838
-clear
-#1568337842
-cd ..
-#1568337845
-clear
-#1568337847
-ls
-#1568337849
-git clone https://github.com/bilelmoussaoui/nautilus-git.git
-#1568337853
-clear
-#1568337857
-cd nautilus-git/
-#1568337857
-ls
-#1568337863
-meson 
-#1568337886
-meson builddir --prefix=/usr -Dfile_manager=nautilus
-#1568337901
-ninja -C builddir install
-#1568338163
-cd ..
-#1568338165
-rm nautilus-git/
-#1568338168
-git clone https://github.com/jfellus/nautilus-git.git
-#1568338207
-killall nautilus 
-#1568338221
-nautilus
-#1568339504
-killall nautilus
-#1568339507
-nautilus
-#1568339825
-killall nautilus
-#1568339829
-nautilus
-#1568339146
-sudo nautilus
-#1568335214
-killall nautilus 
-#1568335541
-killall nautilus; nautilus
-#1568335664
-clear
-#1568335666
-killall nautilus; nautilus
-#1568335767
-clear
-#1568338470
-cd Documents/Projects/nautilus-playground/simple-nautilus-extension-master/
-#1568338471
-ls
-#1568338472
-make
-#1568338586
-cd ..
-#1568338594
-cd ~/Documents/Projects/nautilus-playground/
-#1568338594
-ls
-#1568338595
-clear
-#1568338603
-cd nautilus-open-terminal-master/
-#1568338604
-clear
-#1568338605
-ls
-#1568338611
-cat README 
-#1568338612
-clear
-#1568338624
-automake
-#1568338637
-ls
-#1568338643
-cat autogen.sh 
-#1568338650
-./autogen.sh 
-#1568338656
-sudo dnf install gnome-common
-#1568338673
-yelp-check
-#1568338680
-yelp
-#1568338687
-yelp-build
-#1568338689
-clear
-#1568338692
-./autogen.sh 
-#1568338707
-sudo dnf search intltool
-#1568338719
-sudo dnf install intltool
-#1568338730
-clear
-#1568338731
-./autogen.sh 
-#1568338763
-cat autogen.sh 
-#1568338775
-clear
-#1568338775
-ls
-#1568338779
-gnome-autogen.sh 
-#1568338789
-clear
-#1568338909
-sudo dnf remove nautilus-open-terminal.
-#1568338911
-sudo dnf remove nautilus-open-terminal
-#1568338921
-ls
-#1568338922
-cd..
-#1568338922
-clear
-#1568338924
-git clone https://github.com/RishabhRD/nautilus-terminal.git
-#1568338939
-cd nautilus-open-terminal-master/
-#1568338954
-https://github.com/RishabhRD/nautilus-terminal.git
-#1568338971
-gcc -c src/nautilus_terminal.c -o src/nautilus-terminal.o -fPIC $(pkg-config libnautilus-extension --cflags)
-#1568338975
-ls
-#1568338977
-cd ..
-#1568338978
-ls
-#1568338982
-cd nautilus-terminal/
-#1568338982
-ls
-#1568338984
-gcc -c src/nautilus_terminal.c -o src/nautilus-terminal.o -fPIC $(pkg-config libnautilus-extension --cflags)
-#1568338988
-ls
-#1568339000
-ls src/
-#1568339013
-gcc -shared src/nautilus-terminal.o -o /usr/lib/nautilus/extensions-3.0/nautilus-terminal-extension.so $(pkg-config libnautilus-extension --libs)
-#1568339022
-sudo gcc -shared src/nautilus-terminal.o -o /usr/lib/nautilus/extensions-3.0/nautilus-terminal-extension.so $(pkg-config libnautilus-extension --libs)
-#1568339058
-sudo dnf search gksu
-#1568339102
-sudo dnf search gksudo
-#1568339113
-which ask4nano 
-#1568339118
-pkexec nautilus
-#1568339313
-killall nautilus
-#1568339322
-nautilus
-#1568339639
-sudo dnf install ET_DYN and ET_EXEC can be loaded
-#1568339659
-sudo dnf search libnautilus
-#1568339668
-sudo dnf search nautilus-exten
-#1568339676
-sudo dnf search nautilus
-#1568339681
-sudo dnf search nautilus dev
-#1568339694
-sudo dnf install nautilus-devel
-#1568339727
-echo $(pkg-config  libnautilus-extension --cflags)
-#1568339754
-clear
-#1568339759
-ls
-#1568339763
-sudo gcc -shared src/nautilus-terminal.o -o /usr/lib/nautilus/extensions-3.0/nautilus-terminal-extension.so $(pkg-config libnautilus-extension --libs)
-#1568339770
-sudo su
-#1568340092
-update-alternatives 
-#1568340105
-update-alternatives --display x-terminal-emulator
-#1568340109
-update-alternatives --config x-terminal-emulator
-#1568340133
-man alternatives 
-#1568340156
-update-alternatives --config x-terminal-emulator
-#1568340170
-sudo update-alternatives --config x-terminal-emulator
-#1568340252
-alternatives 
-#1568340264
-alternatives --display x-terminal-emulator
-#1568340265
-alternatives --display terminal-emulator
-#1568340267
-alternatives --display x-terminal-emulator
-#1568340270
-sudo alternatives --display x-terminal-emulator
-#1568340275
-sudo alternatives --list x-terminal-emulator
-#1568340280
-sudo alternatives --list
-#1568340314
-clear
-#1568340392
-xdg-open t
-#1568340394
-xdg-open 
-#1568340401
-xdg-open --help
-#1568341978
-nano /etc/dnf/dnf.conf 
-#1568342002
-cat /etc/dnf/dnf.conf 
-#1568341598
-cat /var/lib/flatpak/repo/config 
-#1568341639
-nano cat /var/lib/flatpak/repo/config 
-#1568341745
-clear
-#1568341758
-flatpak remote-delete flathub
-#1568341787
-flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-#1568341810
-flatpak search fractal
-#1568341845
-flatpak --user install flathub org.gnome.Fractal
-#1568341861
-flatpak remote-list
-#1568341871
-flatpak install flathub org.gnome.Fractal
-#1568343735
-ine
-#1568343736
-wine
-#1568343741
-wine /home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe --help
-#1568343748
-wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe" --help
-#1568343752
-wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe /?"
-#1568343756
-wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe --help"
-#1568343763
-wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe" '?'
-#1568343767
-wine "/home/nick/Games/battlenet/drive_c/Program Files (x86)/Battle.net/Battle.net.exe" /?'
-#1568344126
-ps aux
-#1568344154
-ps aux|grep battle
-#1568344172
-ps ax | grep battle
-#1568344175
-ps x | grep battle
-#1568344176
-ps a | grep battle
-#1568344195
-ps -ef | grep battle
-#1568344211
-ps -ef | grep battle | awk '{print $2'}
-#1568344214
-ps -ef | grep battle | awk '{print $2}'
-#1568344226
-for i in $(ps -ef | grep battle | awk '{print $2}') do kill $i;done
-#1568344229
-for i in $(ps -ef | grep battle | awk '{print $2}') do kill $i;
-#1568344234
-for i in $(ps -ef | grep battle | awk '{print $2}'); do kill $i;done
-#1568344239
-clear
-#1568340831
-clear
-#1568340833
-irc
-#1568340837
-irssi
-#1568340955
-sudo dnf search Fractal
-#1568340976
-sudo dnf search fractal
-#1568341016
-flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrep
-#1568341038
-flatpak
-#1568341040
-flatpak --help
-#1568341048
-flatpak search fractal
-#1568341108
-flatpak search org.gnome.Fractal
-#1568341114
-flatpak install org.gnome.Fractal
-#1568341244
-flatpak install fractal
-#1568341249
-clear
-#1568341254
-flatpak search fractal
-#1568341282
-fractal install --user flathub org.gnome.Fractal
-#1568341304
-flatpak install --user flathub org.gnome.Fractal
-#1568341355
-sudo dnf update flatpak
-#1568341364
-flatpak install --user flathub org.gnome.Fractal
-#1568341433
-sudo dnf update
-#1568342356
-clear
-#1568342358
-sudo dnf update
-#1568345645
-fractal
-#1568345649
-clear
-#1568346200
-exit
-#1568344965
-ls .wine/
-#1568344969
-ls .wine/drive_c/
-#1568344972
-clear
-#1568344978
-mv .wine/ wineold
-#1568344983
-cd Games/battlenet/
-#1568344983
-ls
-#1568344991
-chown * -R $USER:$USER
-#1568344993
-chown * -R $USER:$USER .
-#1568344997
-echo $USER
-#1568345000
-clear
-#1568345001
-cd ..
-#1568345004
-chown * -R $USER:$USER battlenet/
-#1568345011
-chown * -R nick: battlenet/
-#1568345014
-chown * -R nick: battlenet
-#1568345029
-chown -R nick:nick battlenet
-#1568345181
-clear
-#1568346201
-exit
-#1568348968
-clear
-#1568349058
-sudo dnf list installed | grep nautilus | grep exten
-#1568349163
-sudo dnf info nautilus-extensions
-#1568349325
-dot
-#1568349328
-dot --help
-#1568349331
-which dotdrop
-#1568349335
-which dot
-#1568349846
-killall nautilus
-#1568349847
-nautilu
-#1568349849
-nautilus
-#1568350518
-killall nautilus
-#1568350519
-nautilus
-#1568350576
-killall nautilus
-#1568350577
-nautilus
-#1568350744
-killall nautilus
-#1568351925
-nautilus
-#1568351937
-killall nautilus
-#1568351938
-nautilus
-#1568352159
-killall nautilus
-#1568352494
-nautilus
-#1568334202
-which ipython
-#1568334238
-code $PROFILE
-#1568334266
-alias dotdrop=/home/nick/Dotfiles/dotdrop.sh
-#1568334268
-clear
-#1568334271
-dotdrop
-#1568334285
-ipython3alias
-#1568334295
-bash-it reload
-#1568334300
-ipython
-#1568334775
-try:
-#1568334778
-clear
-#1568334823
-python2
-#1568334877
-ipython3
-#1568353662
-python3
-#1568353750
-ipython3
-#1568335326
-/usr/bin/python -m pip install -U "pylint<2.0.0" --user
-#1568335353
-clear
-#1568353886
-ipython3
-#1568356423
-clear
-#1568356685
-pop = Gtk.MessageDialog(self, 0, Gtk.MessageType.INFO, Gtk.ButtonsType.OK, "This is a test!")
-#1568356686
-pop.format_secondary_text("More explanation.")
-#1568356687
-pop.run()
-#1568356695
-ipython3
-#1568352768
-killall nautilus
-#1568357129
-nautilus
-#1568357132
-killall nautilus
-#1568655708
-xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
-#1568352574
-killall nautilus
-#1568352702
-nautilus
-#1568353002
-killall nautilus
-#1568354989
-clear
-#1568354991
-pip
-#1568354994
-which pip
-#1568354996
-clear
-#1568355003
-pip3 install jedi --user
-#1568355012
-pip3 install jedi
-#1568355995
-nautilus
-#1568357784
-pip3 install jedi
-#1568357787
-nautilus
-#1568360678
-pip3 install jedi
-#1568360682
-nautilus
-#1568361050
-pip3 install jedi
-#1568361052
-nautilus
-#1568656665
-cd ~
-#1568656668
-cd Documents/scripts/
-#1568656672
-./sign.sh 
-#1568656714
-modinfo wl
-#1568656716
-exit
-#1568658947
-xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
-#1568662068
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
-#1568662074
-./example-0 
-#1568662168
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
-#1568662170
-./example-0 
-#1568662198
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
-#1568662199
-./example-0 
-#1568662431
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
-#1568662432
-./example-0 
-#1568663621
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 main.c `pkg-config --libs gtk+-3.0`
-#1568663629
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
-#1568663637
-clear
-#1568663639
-./example-0 
-#1568663644
-clear
-#1568663951
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
-#1568663952
-./example-0 
-#1568664041
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`;./example-0 
-#1568664403
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`;./example-0 ;./example-0 
-#1568664472
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
-#1568664474
-./example-0 
-#1568664480
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
-#1568664481
-./example-0 
-#1568664518
-clear
-#1568664793
-gcc `pkg-config --cflags gtk+-3.0` -o example-0 example-0.c `pkg-config --libs gtk+-3.0`
-#1568664845
-./example-0 
-#1568664870
-gcc `pkg-config --cflags gtk+-3.0` -o example-1 example-1.c `pkg-config --libs gtk+-3.0`
-#1568664884
-./example-0 
-#1568664897
-./example-1\
-#1568664901
-./example-1
-#1568664969
-gcc `pkg-config --cflags gtk+-3.0` -o example-1 example-1.c `pkg-config --libs gtk+-3.0`
-#1568664972
-./example-1
-#1568664977
-clear
-#1568669851
-gcc `pkg-config --cflags gtk+-3.0` -o example-3 application3/main.c `pkg-config --libs gtk+-3.0`
-#1568669861
-cd application3/
-#1568669866
-gcc `pkg-config --cflags gtk+-3.0` -o example-3 main.c `pkg-config --libs gtk+-3.0`
-#1568669908
-glib-compile-resources exampleapp.gresource.xml --target=resources.c --generate-source
-#1568669910
-ls
-#1568669929
-gcc `pkg-config --cflags gtk+-3.0` -o example-3 main.c `pkg-config --libs gtk+-3.0`
-#1568669968
-gcc `pkg-config --cflags gtk+-3.0` -o example-3 exampleapp.c `pkg-config --libs gtk+-3.0`
-#1568670091
-clear
-#1568670092
-make
-#1568670096
-automake
-#1568670099
-ls
-#1568670104
-cat Makefile.am 
-#1568670109
-ls
-#1568670115
-cat Makefile.example 
-#1568670122
-mv Makefile.example Makefile
-#1568670123
-make
-#1568670127
-ls
-#1568670130
-./exampleapp 
-#1568670147
-ls
-#1568670160
-cat main.o
-#1568670161
-clear
-#1568670164
-./main.o
-#1568670169
-chmod +x main.o
-#1568670170
-./main.o
-#1568670174
-chmod ex main.o
-#1568670180
-chmod -x main.o
-#1568670181
-clear
-#1568670182
-ls
-#1568670187
-cat Makefile
-#1568670241
-clear
-#1568670242
-ls
-#1568670244
-cat Makefile.am
-#1568670271
-automake
-#1568670297
-autoconf
-#1568670302
-autoconf Makefile.am
-#1568670306
-automake
-#1568670310
-ls
-#1568670315
-make
-#1568670331
-make clean
-#1568670332
-make
-#1568670334
-ls
-#1568670335
-./exampleapp 
-#1568670356
-./exampleapp exampleapp.c
-#1568672622
-exit
-#1568673788
-/usr/bin/python3 /home/nick/Documents/Projects/PyNotes/main.py
-#1568673538
-ipython3
-#1568674141
-clear
-#1568674142
-ls
-#1568674148
-python main.py 
-#1568674183
-cls
-#1568672077
-sudo dnf search gnome
-#1568672088
-sudo dnf search gnome builder
-#1568672101
-sudo dnf install gnome-builder
-#1568672575
-sudo dnf install gnome-sdk
-#1568672586
-sudo dnf search gnome-sdk
-#1568672589
-sudo dnf search gnomesdk
-#1568672594
-sudo dnf search gnome sdk
-#1568672662
-flatpak build-init --arch=x86_64 /home/nick/.cache/gnome-builder/projects/notes/flatpak/staging/x86_64-master org.gtk.test org.gnome.Sdk org.gnome.Platform 3.32
-#1568672664
-clear
-#1568672667
-flatpak build-init --arch=x86_64 /home/nick/.cache/gnome-builder/projects/notes/flatpak/staging/x86_64-master org.gtk.test org.gnome.Sdk org.gnome.Platform 3.32
-#1568672675
-flatpak search org.gnome.Sdk
-#1568674791
-sudo dnf remove gnome-builder
-#1568674805
-cd Documents/Projects/PyNotes/
-#1568674805
-ls
-#1568674809
-python main.py 
-#1568675788
-cd Documents/Projects/PyNotes/
-#1568675789
-ls
-#1568675798
-python -m py_compile main.py 
-#1568675799
-ls
-#1568675816
-ls -O
-#1568675820
-python -m py_compile main.py -O
-#1568675833
-python -m py_compile main.py
-#1568675835
-ls
-#1568675863
-python -m compileall main.py 
-#1568675864
-ls
-#1568675875
-python -m py_compile help
-#1568675879
-python -m help py_compile
-#1568675882
-python -m py_compile --help
-#1568675884
-python -m py_compile /?
-#1568675888
-ipython
-#1568675934
-clear
-#1568675934
-ls
-#1568675935
-cd __pycache__/
-#1568675936
-ls
-#1568675940
-chmod +x main.cpython-37 
-#1568675950
-ls
-#1568675951
-./main.cpython-37 
-#1568675953
-clear
-#1568675984
-cd ..
-#1568675985
-ls
-#1568675989
-python main.py 
-#1568675995
-clear
-#1568676002
-python -m py_compile main.py
-#1568676003
-ls
-#1568676109
-python
-#1568676120
-clear
-#1568676122
-ipython
-#1568676912
-pip search cython
-#1568676926
-pip3 search cython
-#1568676949
-pip3 install cython
-#1568676956
-pip3 install cython --user
-#1568676965
-python -m cython
-#1568676969
-ls
-#1568676973
-cd Documents/Projects/PyNotes/
-#1568676973
-ls
-#1568676991
-python -m cython main.py -o test
-#1568676995
-ls
-#1568677006
-python -m cython -3 main.py -o test
-#1568677007
-ls
-#1568677009
-./test
-#1568677010
-cat test
-#1568677021
-mv test test.c
-#1568677028
-gcc `pkg-config --cflags gtk+-3.0` -o example-3 test.c `pkg-config --libs gtk+-3.0`
-#1568677036
-sudo dnf install python-devel
-#1568677057
-sudo dnf install python3-devel
-#1568677072
-gcc `pkg-config --cflags gtk+-3.0` -o example-3 test.c `pkg-config --libs gtk+-3.0`
-#1568677114
-clear
-#1568677884
-ls
-#1568677897
-python main.py 
-#1568678917
-cd Documents/Projects/PyNotes/
-#1568678919
-python main.py 
-#1568674713
-find
-#1568674725
-ipython
-#1568678516
-which cherrytree 
-#1568679097
-/home/nick/Documents/Projects/PyNotes/main.py
-#1568679252
-cd Documents/Projects/PyNotes/
-#1568679253
-python main.py 
-#1568679424
-python main.py --vervose
-#1568679429
-python main.py --verbose
-#1568705973
-clear
-#1568710965
-ping starbucks.com
-#1568710970
-ping google.com
-#1568720914
-clear
-#1568720915
-lspci
-#1568720930
-xrandr 
-#1568721008
-clear
-#1568721012
-get-edid
-#1568721024
-clear
-#1568721053
-grep "ASUS" /var/log/Xorg.0.log | head -17 | cut-d\: -f2
-#1568721058
-grep "ASUS" /var/log/Xorg.0.log | head -17 | cut -d\: -f2
-#1568721063
-grep "ASUS" /var/log/Xorg.0.log
-#1568721069
-grep "AMD" /var/log/Xorg.0.log
-#1568721085
-grep "GPU" /var/log/Xorg.0.log
-#1568721108
-monitor-edid
-#1568721115
-sudo dnf search monitor-edid
-#1568721133
-sudo dnf search edid
-#1568721152
-sudo dnf install perl-parse-edid
-#1568721181
-sudo dnf install perl-Parse-EDID
-#1568721191
-monitor-sensor 
-#1568721225
-ls /usr/bin | grep edid
-#1568721230
-edid-decode 
-#1568721235
-sudo dnf remove perl-Parse-EDID
-#1568721314
-xrandr -q verbose
-#1568721318
-xrandr -q
-#1568730961
-killall nautilus
-#1568730962
-nautilus
-#1568731089
-killall nautilus
-#1568731090
-nautilus
-#1568731660
-clear
-#1568731665
-sudo dnf list installed | grep nautilus
-#1568731683
-sudo dnf remove seahorse-nautilus
-#1568731695
-sudo dnf remove nautilus-search-tool
-#1568731752
-sudo dnf remove file-roller-nautilus-3.32.1-2.fc30.x86_64
-#1568731795
-sudo dnf info evince-nautilus
-#1568731826
-sudo dnf remove evince-nautilus
-#1568731831
-clear
-#1568732184
-nautilus
-#1568734218
-killall nautilus
-#1568734220
-nautilus
-#1568734734
-clear
-#1568734844
-sudo dnf search nautilus | grep type
-#1568735238
-killall nautilus
-#1568735242
-nautilus
-#1568735454
-from 
-#1568735455
-nautilus
-#1568735778
-killall nautilus
-#1568735779
-nautilus
-#1568735857
-[A
-#1568735859
-nautilus
-#1568736387
-clear
-#1568736513
-nautilus
-#1568728209
-killall nautilus
-#1568728218
-nautilus
-#1568728348
-killall nautilus
-#1568728349
-nautilus
-#1568728377
-killall nautilus
-#1568728378
-nautilus
-#1568728454
-killall nautilus
-#1568728455
-nautilus
-#1568728501
-clear
-#1568728510
-killall nautilus
-#1568728511
-nautilus
-#1568728541
-killall nautilus
-#1568728543
-nautilus
-#1568728823
-clear
-#1568729504
-killall nautilus
-#1568729506
-nautilus
-#1568729608
-killall nautilus
-#1568729608
-nautilus
-#1568729632
-clear
-#1568729636
-cd ~
-#1568729637
-clear
-#1568729677
-echo $XDG_SESSION_TYPE 
-#1568729712
-nautilus
-#1568730548
-clear
-#1568730549
-sudo dnf install gnome-builder
-#1568730695
-sudo dnf install flatpak-libs
-#1568730700
-flatpak install gnome org.gnome.Sdk 3.20
-#1568730762
-flatpak install org.gnome.Sdk 3.20
-#1568730792
-flatpak install org.gnome.Sdk 3.32
-#1568730828
-flatpak install flathub org.gnome.Sdk 3.32
-#1568733266
-sudo su
-#1568743014
-xdg-open --help
-#1568743018
-xdg-open x-nautilus-search
-#1568743034
-xdg-open x-nautilus-search://0/
-#1568743040
-gio
-#1568743043
-gio list
-#1568743046
-gio mime
-#1568743055
-gio mime x-nautilus-search
-#1568743584
-nautilus
-#1568753940
-utime
-#1568754501
-nautilus
-#1568757032
-clear
-#1568757054
-nautilus
-#1568758833
-clear
-#1568758834
-nautilus
-#1568761148
-clear
-#1568761167
-nautilus
-#1568761196
-clear
-#1568761198
-nautilus
-#1568763066
-clear
-#1568763123
-nautilus
-#1568764010
-automake
-#1568764013
-nautilus
-#1568768699
-dotdrop
-#1568768708
-nautilus
-#1568769114
-C6.8/0.9
-#1568769116
-nautilus
-#1568817767
-sudo dnf search exfat-utils
-#1568817782
-sudo dnf install exfat-utils
-#1568817808
-sudo dnf update
-#1568737976
-clear
-#1568737996
-nautilus
-#1568738702
-clear
-#1568738771
-nautilus
-#1568738835
-clear
-#1568738846
-nautilus --help
-#1568738854
-clear
-#1568738930
-nautilus --help
-#1568738933
-clear
-#1568738935
-nautilus
-#1568738946
-clear
-#1568739198
-nautilus
-#1568740286
-automake
-#1568740288
-clear
-#1568740290
-nautilus
-#1568740325
-lear
-#1568740349
-nautilus
-#1568740483
-clear
-#1568740537
-nautilus
-#1568741298
-automake
-#1568741300
-nautilus
-#1568756488
-pip3 install pynput --user
-#1568727660
-killall nautilus 
-#1568727792
-ipython
-#1568728023
-clear
-#1568728027
-ls /usr/share/nautilus-python/extensions/
-#1568728037
-find /
-#1568728042
-cd /
-#1568728049
-find | grep "nautilus/ui"
-#1568728084
-clear
-#1568728196
-ipython
-#1568743260
-clear
-#1568743268
-ipython
-#1568817817
-sudo dnf search test
-#1568817829
-sudo dnf install exfat-utils
-#1568817923
-sudo dnf install fuse-exfat
-#1568754648
-window.do_key_press_event()
-#1569270277
-if __name__ == "__main__":;     pass from gi.repository import Gtk builder = Gtk.Builder()
-#1569270277
-builder.add_from_file("example.ui")
-#1569270277
-win=builder.get_object("ExampleAppWindow")
-#1569270277
-win.set_titlebar(builder.get_object("header"))
-#1569270277
-win.show_all() win.connect("delete-event",Gtk.main_quit)
-#1569270277
-Gtk.main() 
-#1569270280
-clear
-#1569270280
-ls
-#1569270285
-python3 main.py 
-#1569270303
-clear
-#1569270384
-ipython3
-#1569271951
-ls /usr/share/pygtk/2.0/defs/
-#1569271956
-cat /usr/share/pygtk/2.0/defs/appindicator.defs 
-#1569271963
-cat /usr/share/pygtk
-#1569271966
-ls /usr/share/pygtk
-#1569271999
-clear
-#1569272036
-ls /usr/share/gtk-3.0
-#1569272041
-clear
-#1569272123
-ipython
-#1569217346
-nspawn
-#1569217361
-systemd-nspawn 
-#1569217364
-systemd-nspawn --help
-#1569218051
-clear
-#1569218053
-cd Downloads/
-#1569218093
-sudo dnf install ./expressvpn-2.2.0-1.x86_64.rpm 
-#1569218129
-expressvpn
-#1569218137
-expressvpn activate
-#1569218162
-expressvpn ls
-#1569218165
-expressvpn connect 
-#1569218195
-expressvpn status
-#1569218289
-sudo dnf install deluge
-#1569218297
-sudo dnf install deluge-gtk
-#1569218494
-expressvpn
-#1569218497
-expressvpn status
-#1569218717
-ps aux | grep deluge
-#1569218725
-expressvpn disconnect 
-#1569218730
-ps aux | grep vpn
-#1569218746
-expressvpn status
-#1569218749
-ps aux | grep deluge
-#1569218753
-ps aux | grep vpn
-#1569218768
-sudo systemctl status expressvpn.service 
-#1569218775
-sudo systemctl disable expressvpn.service 
-#1569218777
-sudo systemctl stop expressvpn.service 
-#1569218779
-sudo systemctl status expressvpn.service 
-#1569218781
-ps aux | grep vpn
-#1569218788
-expressvpn status
-#1569218792
-cleaer
-#1569269306
-clear
-#1569269308
-nautilus
-#1569269666
-clear
-#1569269669
-which cherrytree
-#1569269673
-cd /usr/bin
-#1569269674
-ls cherrytree 
-#1569269677
-cat cherrytree 
-#1569269802
-ls
-#1569269806
-ls cherrytree 
-#1569269808
-clear
-#1569269811
-code cherrytree 
-#1569269868
-cd ../share/cherrytree/
-#1569269869
-ls
-#1569270003
-cd modules/
-#1569270003
-ls
-#1569270026
-code main.py
-#1569270132
-code core
-#1569270138
-code core.py
-#1569270661
-ps aux | grep jefi
-#1569270663
-ps aux | grep jedi
-#1569271071
-sudo dnf update vscode
-#1569271088
-sudo dnf update scode
-#1569271091
-sudo dnf update code
-#1569271252
-jefi
-#1569271260
-pip3 install jedi
-#1569271267
-pip3 update jedi
-#1569271270
-pip3 upgrade jedi
-#1569271275
-pip3 reinstall jedi
-#1569271278
-pip3 install jedi
-#1569271283
-pip3
-#1569271313
-pip3 uninstall jedi
-#1569271318
-sudo pip3 uninstall jedi
-#1569271329
-pip3 install jedi --user
-#1569271916
-clear
-#1569272208
-ls /usr/lib64/pygtk/
-#1569272211
-ls /usr/lib64/pygtk/2.0/
-#1569272218
-clear
-#1569272219
-cd ~
-#1569272223
-find /
-#1569272225
-cd /
-#1569272230
-find | grep pygtk
-#1569273436
-sudo dnf update
-#1569281469
-ipython
-#1569281659
-clear
-#1569281661
-jedi
-#1569282703
-/bin/python3 -m pip install -U pytest --user
-#1569282713
-/bin/python3 -m pip install -U pytest --user
-#1569282777
-/bin/python3
-#1569282782
-clear
-#1569283216
-home/nick/Documents/Projects/PyNotes/main.py
-#1569283221
-/home/nick/Documents/Projects/PyNotes/main.py
-#1569283231
-/bin/python3 /home/nick/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 41941 /home/nick/Documents/Projects/PyNotes/main.py 
-#1569283613
-gi.__file__
-#1569283622
-ipy
-#1569284628
-ipython
-#1569285218
-ipy
-#1569280967
-poetry
-#1569281171
-ps aux | grep jedi
-#1569282039
-clear
-#1569282042
-ps aux | grep jedi
-#1569282047
-pip3 uninstall jedi
-#1569282057
-sudo pip3 uninstall jedi
-#1569282064
-sudo pip3 install jedi
-#1569282476
-pip3 install typing
-#1569282478
-pip3 install typing --user
-#1569283647
-cd /usr/lib64/python3.7/site-packages/
-#1569283648
-cd gi
-#1569283649
-ls
-#1569283659
-ls repository/
-#1569283662
-ls
-#1569283670
-cat _gtktemplate.py 
-#1569283678
-cls
-#1569283678
-ls
-#1569283820
-sudo dnf search pygtk
-#1569283834
-sudo dnf list installed | grep pygtk
-#1569283865
-sudo dnf install pygtksourceview pygtk2-doc
-#1569283879
-sudo dnf install pygtksourceview pygtk2-doc pygtk2-devel
-#1569283994
-pip3 search pygtk
-#1569284008
-pip3 install pygtk
-#1569284014
-pip3 install pygtk --user
-#1569284073
-sudo dnf search pygtk
-#1569284091
-sudo dnf install pygtk
-#1569284103
-sudo dnf install pygtk2-codegen
-#1569284122
-clear
-#1569284917
-ipy
-#1569305118
-users
-#1569305128
-user_host_prompt 
-#1569305130
-cvlear
-#1569305134
-which user_host_prompt 
-#1569305138
-clear
-#1569305142
-cat /etc/passwd
-#1569305280
-clear
-#1569305281
-sudo su
-#1569422488
-xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
-#1569430562
-cd Documents/Projects/PyNotes/
-#1569430562
-ls
-#1569430565
-python main.py 
-#1569436010
-python preferences.py 
-#1569438689
-getenv
-#1569438690
-clear
-#1569438698
-env
-#1569438700
-env| grep strick
-#1569438981
-usermod
-#1569439005
-chdn
-#1569439007
-chfn
-#1569439009
-chfn --help
-#1569439016
-man chfn
-#1569439038
-ls /bin | grep fn
-#1569439043
-lchfn
-#1569439083
-cat /etc/passwd
-#1569439531
-ipy
-#1569440012
-clear
-#1569440014
-ping google.com
-#1569440034
-clear
-#1569440147
-dns
-#1569440149
-dnsmasq 
-#1569440152
-clear
-#1569440158
-dnsdomainname 
-#1569440164
-ip
-#1569440169
-ifconfig 
-#1569440187
-ip
-#1569440198
-nmcli device show
-#1569440205
-nmcli device show wlp10s0
-#1569440214
-clear
-#1569441254
-python main.py 
-#1569441304
-python preferences.py 
-#1569441319
-python main.py 
-#1569442497
-python main.py &
-#1569442517
-python main.py 
-#1569444075
-clear
-#1569444297
-python main.py 
-#1569445114
-\/\____/\ \__\ \_\\ \____\\ \_\ \_\/\_\/\____\ \__/.\_\ \_\ \_\ \___,_\
-#1569445118
-python main.py 
-#1569421612
-python main.py 
-#1569421641
-ipython
-#1569460250
-cd Documents/Projects/PyNotes/
-#1569460251
-python main.py 
-#1569462852
-'
-#1569462855
-python main.py 
-#1569463125
-'
-#1569463127
-python main.py 
-#1569467335
-clear
-#1569467337
-python main.py 
-#1569469605
-python test.py 
-#1569470290
-python main.
-#1569470292
-python main.py 
-#1569471566
-sqllite3
-#1569471570
-sqlite
-#1569471615
-clear
-#1569614824
-sudo dnf install blender
-#1569817632
-xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
-#1569885564
-lua
-#1569885567
-clear
-#1569887009
-lua
-#1570042157
-clear
-#1570042160
-python main.py 
-#1570044554
-ipy
-#1570121163
-sudo dnf update code
-#1570121199
-sudo dnf update Code
-#1570121204
-sudo dnf update code
-#1570121210
-sudo dnf update
-#1570121231
-clear
-#1570124839
-/bin/python3
-#1570124845
-clear
-#1570127044
-clear; echo -e "Clear and Test!";
-#1570128155
-/bin/python3 /home/nick/.vscode/extensions/ms-python.python-2019.9.34911/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 42113 /home/nick/Documents/Projects/PyNotes/lib/main.py 
-#1570128169
-/home/nick/Documents/Projects/PyNotes/lib/main.py
-#1570128180
-clear
-#1570129056
-ipy
-#1570129628
-python lib/main.py 
-#1570149259
-ipy
-#1570162755
-ipy 
-#1570163043
-ipy
-#1570166767
-clear
-#1570166771
-ipy
-#1570761274
-cd Games/
-#1570761274
-ls
-#1570761275
-ls -al
-#1570761283
-chown nick: battlenet/ -R
-#1570761356
-lspci -v | grep driver
-#1570761408
-sudo dnf update
-#1570761474
-clear
-#1570761476
-sudo dnf update lutris
-#1570761514
-sudo dnf update wine
-#1570761526
-sudo dnf update wine-core
-#1570762354
-sudo dnf update
-#1570762981
-sudo reboot now
-#1570833602
-56/4
-#1570833606
-expr 56 / 4
-#1571109236
-sudo dnf install heidisql
-#1571199782
-xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
-#1571368955
+#1571955487
+bash &
+#1571955495
+ps 16435
+#1571955499
+fg
+#1571955504
+ps 16435
+#1571955505
+clear
+#1572063494
 xmodmap -e "keycode 105 = Control_R";xmodmap -e "keycode 37 = Control_L"
-#1571456882
-pulseaudio 
-#1571456884
-pulseaudio --help
-#1571456916
+#1572063498
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1572397985
+  echo "${tp_green}$@${tp_reset}"  ; } #}}}
+#1572397987
+XCL=$(command -v xclip)
+#1572397989
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1572474299
+dWx
+#1572474301
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1572593216
+sudo dnf search actions per minute
+#1572600539
 clear
+#1572600639
+sudo dnf search jstest-gtk
+#1572600652
+sudo dnf search jstest
+#1572600657
+sudo dnf search gamepad
+#1572600676
+sudo dnf search xbox
+#1572600694
+sudo dnf install antimicro
+#1572946146
+echo brag
+#1572946161
+exit
+#1572946177
+set +h
+#1572946184
+exit
+#1572600934
+sudo dnf install kodi
+#1572601330
+sudo dnf search xbox
+#1572601341
+sudo dnf search joystick
+#1572601359
+sudo dnf intstall kodi-peripheral-joystick
+#1572601366
+sudo dnf insttall kodi-peripheral-joystick
+#1572601372
+sudo dnf install kodi-peripheral-joystick
+#1572601499
+clear
+#1572601500
+groups
+#1572601510
+sudo groupmod
+#1572601519
+cat /etc/groups
+#1572601522
+cat /etc/group
+#1572601525
+cat /etc/group| grep input
+#1572601539
+sudo kodi
+#1572603053
+sudo dnf search daisywheel
+#1572603062
+sudo dnf search daisy wheel
+#1572603067
+sudo dnf search daisy-wheel
+#1572603152
+cd ~/Documents/git/
+#1572603154
+git clone https://github.com/ValdemarTD/daisywheel.git
+#1572603159
+cd daisywheel/
+#1572603159
+ls
+#1572603170
+ls example/daisywheeljs/
+#1572603186
+ls
+#1572603190
+./graphicstest.py 
+#1572603205
+./daisywheel_keyboard.py 
+#1572603220
+pip search pyautogui
+#1572603230
+pip install pyautogui --user
+#1572603238
+./daisywheel_keyboard.py 
+#1572603248
+sudo dnf install python-tk
+#1572603256
+sudo dnf search tkinter
+#1572603266
+sudo dnf install python2-tkinter
+#1572603278
+which tk
+#1572603280
+tk
+#1572603282
+clear
+#1572603284
+./daisywheel_keyboard.py 
+#1572603296
+pip install inputs
+#1572603302
+pip install inputs --user
+#1572603306
+./daisywheel_keyboard.py 
+#1572603414
+clear
+#1572603414
+ls
+#1572603418
+./daisywheelmk2.py 
+#1572603472
+clear
+#1572603478
+sudo dnf remove python2-tkinter
+#1572603832
+steam @panorama_daisy_wheel = "ABXY"
+#1572604151
+sudo kodi --help
+#1572604163
+sudo kodi 
+#1572606129
+sudo su
+#1572607313
+sudo dnf search squeakboard
+#1572680724
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1572945878
+set --help
+#1572945895
+clear
+#1572945897
+set -h
+#1572945914
+set --help
+#1572945955
+set +h
+#1572945956
+clear
+#1572945965
+ls
+#1572945966
+cd ..
+#1572945967
+ls
+#1572945968
+cd ..
+#1572945968
+ls
+#1572945977
+cd ..
+#1572945977
+ls
+#1572945979
+cd V
+#1572945980
+cd Videos/
+#1572945981
+ls
+#1572946026
+clear
+#1572947076
+history --help
+#1572947078
+history 
+#1572947085
+history -d -5
+#1572947086
+history 
+#1572947091
+history -d 5
+#1572947092
+history 
+#1572947101
+history --help
+#1572947117
+cd ~
+#1572947120
+nano .bash_history 
+#1572947157
+exit
+#1572947161
+history --help
+#1572947162
+history 
+#1572947169
+exit
+#1572985222
+cd /proc/
+#1572985222
+ls
+#1572985224
+cd sys
+#1572985224
+ls
+#1572985232
+cd ..
+#1572985233
+ls
+#1572985236
+cd ..
+#1572985236
+ls
+#1572985243
+cd sys
+#1572985243
+ls
+#1572985419
+ssh hachiman.strck.land 
+#1573007825
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1573041433
+sudo dnf install gedit
+#1573168329
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1573180467
+dwx
+#1573180469
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1572562324
+sqlite
+#1572562331
+clear
+#1572562334
+sqlite --help
+#1572562337
+sqlite -help
+#1572562420
+which getopt
+#1572562573
+clear
+#1572562574
+ls
+#1572562580
+chmod +x blog.sh 
+#1572562582
+./blog.sh 
+#1572562584
+./blog.sh test
+#1572562587
+./blog.sh t
+#1572562589
+./blog.sh -test
+#1572562592
+./blog.sh help
+#1572562759
+./blog.sh help test
+#1572562773
+./blog.sh help test test test test
+#1572562774
+clear
+#1572562902
+eval
+#1572562907
+help eval
+#1572562910
+eval --help
+#1572563597
+./blog.sh help test test test test
+#1572563657
+clear
+#1572563658
+./blog.sh 
+#1572563660
+./blog.sh  -c
+#1572563663
+./blog.sh  -c 1
+#1572563667
+./blog.sh  -h
+#1572563671
+./blog.sh  --help
+#1572563731
+shift --help
+#1572563824
+./blog.sh  --help
+#1572563932
+clear
+#1572563933
+./blog.sh  --help
+#1572564035
+set --help
+#1572564056
+./blog.sh  --help
+#1572564058
+clear
+#1572564059
+./blog.sh  --help
+#1572564274
+clear
+#1572564275
+./blog.sh  --help
+#1572564281
+./blog.sh  -h
+#1572564282
+clear
+#1572564285
+./blog.sh  -c 1
+#1572564332
+clear
+#1572564334
+./blog.sh  --help
+#1572564447
+sqlite --help
+#1572564451
+sqlite -help
+#1572564631
+./blog.sh  --help
+#1572564633
+./blog.sh
+#1572564843
+which sqlll
+#1572564850
+test=which sqlll
+#1572564857
+test=$(which sqlll)
+#1572564860
+echo $test
+#1572564908
+tp_reset="$(tput sgr0)"
+#1572564975
+./blog.sh
+#1572565234
+which --helpo
+#1572565267
+./blog.sh
+#1572565469
+clear
+#1572565480
+./blog.sh
+#1572565499
+clear
+#1572565505
+./blog.sh
+#1572565586
+sqlite --help
+#1572565588
+sqlite -help
+#1572565592
+sqlite -b
+#1572565593
+sqlite -batch
+#1572565737
+./blog.sh
+#1572566026
+__blog_main
+#1572566028
+clear
+#1572566034
+source ./blog.sh 
+#1572566256
+./blog.sh 
+#1572566270
+cls
+#1572566287
+eval
+#1572566308
+sqlite -help
+#1572566662
+sqlite
+#1572566678
+sqlite ~/Documents/notebook.ctb
+#1572566683
+sqlite3 ~/Documents/notebook.ctb
+#1572566750
+clear
+#1572566865
+./blog.sh help
+#1572566943
+sqlite3
+#1572566946
+sqlite3 --help
+#1572566995
+./blog.sh help
+#1572566998
+./blog.sh
+#1572567092
+sqlite3
+#1572567094
+sqlite3 -help
+#1572567115
+./blog.sh
+#1572567152
+clear
+#1572567153
+./blog.sh
+#1572567173
+clear
+#1572567278
+./blog.sh
+#1572567307
+clear
+#1572567308
+./blog.sh
+#1572567428
+clear
+#1572567429
+./blog.sh
+#1572567544
+./blog.sh post
+#1572567607
+clear
+#1572567739
+./blog.sh post
+#1572567940
+shift --help
+#1572567953
+./blog.sh post add
+#1572567987
+./blog.sh --help
+#1572568011
+clear
+#1572568014
+./blog.sh --help
+#1572568016
+./blog.sh
+#1572568017
+clear
+#1572568018
+./blog.sh --help
+#1572568324
+./blog.sh post
+#1572568326
+./blog.sh post add
+#1572568415
+./blog.sh post
+#1572568514
+./blog.sh category
+#1572568537
+./blog.sh post
+#1572568633
+./blog.sh post add
+#1572568681
+clear
+#1572568682
+./blog.sh post add
+#1572568684
+./blog.sh post add test
+#1572568685
+./blog.sh post add test 2
+#1572568813
+./blog.sh post add test 
+#1572568827
+./blog.sh post add "test 1 2 3" "here is my content, it's very nice and well formatted"
+#1572568863
+./blog.sh post add "test 1 2 3" "here is my content, it is very nice and well formatted"
+#1572569066
+./blog.sh post add "test 1 2 3" "here is my content, it's very nice and well formatted"
+#1572569096
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572569603
+shift --help
+#1572569642
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572569839
+zenity  --info
+#1572569843
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572569874
+for i in "1|2|3"; do echo $i; done
+#1572569890
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572570306
+$dql
+#1572570309
+$sql -help
+#1572570313
+sqlite3 -help
+#1572570368
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572570449
+sqlite3 -init
+#1572570489
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572570737
+expand --help
+#1572570744
+exp
+#1572570746
+clear
+#1572570758
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572571091
+sqlite3 ~/blog.sh.db "select * from posts"
+#1572571105
+sqlite3 ~/blog.sh.db "insert into posts values ("test", "test2")
+;
+#1572571113
+sqlite3 ~/blog.sh.db "insert into posts values ("test", "test2");"
+#1572571140
+sqlite3 ~/blog.sh.db "insert into posts (title, content) values ("test", "test2");"
+#1572571154
+sqlite3 ~/blog.sh.db "insert into posts (title, content) values (test, test2);"
+#1572571173
+sqlite3 ~/blog.sh.db "insert into posts (title, content) values(test, test2);"
+#1572571176
+sqlite3 ~/blog.sh.db "insert into posts(title, content) values(test, test2);"
+#1572571188
+sqlite3 ~/blog.sh.db "insert into posts(title, content) values('test', 'test2');"
+#1572571194
+sqlite3 ~/blog.sh.db "select * from posts"
+#1572571204
+sqlite3 ~/blog.sh.db "select id from posts"
+#1572571213
+sqlite3 ~/blog.sh.db "select id from posts where title = 'test'"
+#1572571215
+sqlite3 ~/blog.sh.db "select id from posts where title = 'test2'"
+#1572571292
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572571300
+sqlite3 ~/blog.sh.db "select id from posts where title = 'test'"
+#1572571306
+sqlite3 ~/blog.sh.db "select id from posts;"
+#1572571381
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572571391
+clear
+#1572571492
+./blog.sh post list
+#1572571614
+sqlite3 -hlep
+#1572571617
+sqlite3 -help
+#1572571637
+sqlite3 -list
+#1572571675
+./blog.sh post list
+#1572571856
+sqlite3 ~/blog.sh.db "select id, title from posts where title like '1' or content like '1'"
+#1572571865
+sqlite3 ~/blog.sh.db "select id, title from posts where title like 1 or content like 1"
+#1572571883
+sqlite3 ~/blog.sh.db "select id, title from posts where title like '1' or content like '1';"
+#1572571887
+sqlite3 ~/blog.sh.db "select id, title from posts where title like 1 or content like 1;"
+#1572571923
+sqlite3 ~/blog.sh.db "select id, title from posts where title LIKE 1 or content LIKE 1;"
+#1572571929
+sqlite3 ~/blog.sh.db "select id, title from posts where title LIKE '1' or content LIKE '1';"
+#1572571937
+sqlite3 ~/blog.sh.db "select id from posts where title LIKE '1' or content LIKE '1';"
+#1572571946
+sqlite3 ~/blog.sh.db "select id from posts where title LIKE 'test' or content LIKE '1';"
+#1572571969
+sqlite3 ~/blog.sh.db "select id, title from posts where title like '*1*' or content like '*1*';"
+#1572572014
+sqlite3 ~/blog.sh.db "select id, title from posts where title like '%1%' or content like '%1%';"
+#1572572132
+clear
+#1572572135
+./blog.sh post list
+#1572572138
+./blog.sh post search
+#1572572139
+./blog.sh post search test
+#1572572151
+./blog.sh post search "3"
+#1572572153
+./blog.sh post search 3
+#1572572268
+./blog.sh post search 3 --category test
+#1572572290
+./blog.sh --help
+#1572572472
+set --help
+#1572572491
+dot
+#1572572494
+dot --help
+#1572572496
+dot cd --help
+#1572572511
+dot --help cd
+#1572572572
+./blog.sh --help
+#1572572574
+./blog.sh 
+#1572572579
+cd 
+#1572572587
+cd Documents/git/nss-bcla/
+#1572572590
+./blog.sh 
+#1572572592
+./blog.sh  --help
+#1572572597
+./blog.sh --help
+#1572572629
+clear
+#1572572630
+./blog.sh --help
+#1572572716
+./blog.sh -help
+#1572572718
+./blog.sh help
+#1572572950
+./blog.sh -help
+#1572572958
+./blog.sh help
+#1572572992
+./blog.sh post search 3 --category test
+#1572573505
+./blog.sh post add "test 1 2 3" "here is my content, its very nice and well formatted"
+#1572573742
+./blog.sh post add 1 3 --category test
+#1572573766
+shift --help
+#1572573842
+./blog.sh post add 1 3 --category test
+#1572573968
+./blog.sh post add "1 3 --category test
+#1572573973
+./blog.sh post add "1" "3" --category test
+#1572574605
+./blog.sh post add
+#1572576679
+echo $!
+#1572576683
+echo $_
+#1572576684
+echo $?
+#1572576691
+echo $_
+#1572576697
+echo $$
+#1572576718
+echo $?
+#1572580027
+./blog.sh post add
+#1572580030
+echo $!
+#1572602823
+python2
+#1572602825
+clear
+#1572602846
+cd ~
+#1572602861
+cd Desktop/
+#1572602867
+python2 anywheel.py 
+#1572602879
+which pip
+#1572602887
+pip search pykeyboard
+#1572602894
+pip3 search pykeyboard
+#1572602900
+pip install pykeyboard
+#1573442796
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1573780358
+ x
+#1573780359
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1574305541
+clear
+#1574305542
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1574748795
+sudo dnf search kazam
+#1574748826
+sudo dnf search obs
+#1574748843
+sudo dnf install obs-studio
+#1575259515
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1575345764
+cd /home/nick/Games/Warcraft III
+#1575345768
+cd /home/nick/Games/Warcraft\ III/
+#1575345769
+ls
+#1575345776
+wine64
+#1575345785
+wine64 ./Frozen\ Throne.exe 
+#1575422816
+trash-empty 
+#1575429639
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1575491399
+lsblk
+#1575491477
+sudo fdisk /dev/sdg
+#1575491796
+sudo umount /dev/sdg
+#1575491802
+lsblk
+#1575491808
+sudo umount /dev/sdg1
+#1575491809
+sudo umount /dev/sdg2
+#1575491812
+sudo umount /dev/sdg
+#1575491816
+lsblk
+#1575491824
+sudo fdisk /dev/sdg
+#1575491843
+sudo mount /dev/sdg1
+#1575491845
+ls
+#1575491900
+man mount
+#1575491919
+mount --help
+#1575491998
+lsblk
+#1575492018
+sudo mount /dev/sdg1
+#1575492021
+sudo mount /dev/sdg
+#1575492026
+sudo umount /dev/sdg
+#1575492030
+sudo fdisk /dev/sdg
+#1575492055
+clear
+#1575492057
+gparted
+#1575497054
+lsblk
+#1575497073
+sudo mount /dev/sdd1 /run/media/nick/onetb
+#1575497084
+mkdir /run/media/nick/onetb
+#1575497087
+sudo mkdir /run/media/nick/onetb~
+#1575497092
+cd /run/media/nick/
+#1575497092
+ls
+#1575497094
+rm onetb~/
+#1575497099
+sudo mkdir /run/media/nick/onetb
+#1575497103
+sudo mount /dev/sdd1 /run/media/nick/onetb
+#1575603759
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1575849841
+/home/nick/Documents/Projects/PyNotes/lib/main.py
+#1575849849
+ipy
+#1575849857
+/bin/python3 /home/nick/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 44463 /home/nick/Documents/Projects/PyNotes/lib/main.py 
+#1575849985
+/home/nick/Documents/Projects/PyNotes/lib/main.py
+#1575849995
+ipy
+#1575849999
+/bin/python3 /home/nick/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 35031 /home/nick/Documents/Projects/PyNotes/lib/main.py 
+#1575873203
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1575878297
+randpkt 
+#1575878299
+clear
+#1575885631
+expressvpn
+#1575885636
+expressvpn activate
+#1575885645
+sudo systemctl start expressvpn.service 
+#1575885652
+expressvpn activate
+#1575885751
+expressvpn
+#1575885753
+expressvpn status
+#1575885757
+expressvpn connect
+#1575889159
+netstat 
+#1575889188
+netstat --help
+#1575889214
+netstat -W -N
+#1575889217
+clear
+#1575889220
+netstat --help
+#1575889230
+netstat -W -N -I
+#1575889238
+netstat -W -N -I wlp10s0
+#1575889255
+netstat -W -N -I=wlp10s0
+#1575889271
+netstat -W -N 
+#1575889321
+expressvpn disconnect 
+#1575889332
+sudo systemctl stop expressvpn.service 
+#1575889360
+netstat -W -N 
+#1575889425
+netstat  -t -u -c
+#1575889453
+netstat  -t -u -c -N
+#1575889458
+netstat  -t -u -c -W
+#1575889464
+clear
+#1575889486
+iftop
+#1575889504
+wireshark
+#1575889542
+clear
+#1575889555
+usermod -aG wireshark nick
+#1575889558
+sudo usermod -aG wireshark nick
+#1575889566
+groups
+#1575889568
+exit
+#1575889571
+groups
+#1575889577
+cat /etc/groupos
+#1575889579
+cat /etc/groups
+#1575889581
+cat /etc/group
+#1575889597
+clear
+#1575889712
+members
+#1575889719
+clear
+#1575889721
+lid
+#1575889728
+sudo lid
+#1575889739
+sudo lid nick
+#1575889748
+lid --help
+#1575889760
+sudo lid -g wiresharp
+#1575889762
+sudo lid -g wireshark
+#1575930186
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1575958411
+free -d
+#1575958418
+free 
+#1575958428
+clear
+#1575958433
+lsblk
+#1576013682
+java
+#1576013686
+clear
+#1576013687
+cd Downloads/
+#1576013739
+java -jar ./NMSSaveEditor.jar 
+#1576013755
+java -jar NMSSaveEditor.jar 
+#1576121882
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1576389654
+sudo dnf list installed
+#1576389665
+sudo dnf list installed|grep connect
+#1576389818
+sudo dnf list installed|grep kde
+#1576389999
+ifconfg
+#1576390001
+ifconfig
+#1576391307
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1576800946
+date 
+#1576800948
+date  --help
+#1576801060
+date +time'%m/%d/%Y %H:%M'
+#1576801062
+time
+#1576801066
+time --help
+#1576801073
+man time
+#1576804320
+nikola 
+#1576804325
+clear
+#1576804326
+ls
+#1576804331
+cd Documents/git/
+#1576804331
+ls
+#1576804347
+ls ..
+#1576804352
+cd ../Projects/
+#1576804352
+ls
+#1576804355
+cd strck.land/
+#1576804355
+ls
+#1576804358
+git
+#1576804360
+ls -al
+#1576804363
+git pull
+#1576804371
+cd ..
+#1576804372
+rm strck.land/
+#1576804387
+trash-restore 
+#1576804392
+ls
+#1576804396
+trash-restore 
+#1576804398
+ls
+#1576804400
+cd strck.land/
+#1576804400
+ls
+#1576804403
+nikola 
+#1576804429
+nikola log 
+#1576804433
+nikola list
+#1576804578
+ls
+#1576804581
+cd output/
+#1576804582
+ls
+#1576804583
+git
+#1576804601
+ls
+#1576804605
+cd ..
+#1576804613
+mkdir nsstrickland.github.io
+#1576804616
+cd nsstrickland.github.io/
+#1576804616
+ls
+#1576804618
+nikola 
+#1576804630
+nikola init
+#1576804644
+nikola init -q
+#1576804648
+ks
+#1576804650
+ls
+#1576804652
+ls -al
+#1576804658
+nikola init -d
+#1576804662
+ls
+#1576804664
+nikola init 
+#1576804857
+ls
+#1576804860
+ls github/
+#1576804866
+mv github/* .
+#1576804868
+ls 
+#1576804871
+rm github/
+#1576804872
+ls
+#1576804873
+nikola 
+#1576804878
+nikola list
+#1576804903
+nikola build
+#1576805242
+cd output/
+#1576805242
+l
+#1576805244
+clear
+#1576805244
+ls
+#1576805245
+clear
+#1576805248
+git add
+#1576805250
+git init
+#1576805253
+git add *
+#1576805254
+ls
+#1576805257
+git commit -m
+#1576805262
+git commit -m "initial commit"
+#1576805264
+clear
+#1576805280
+git remote add origin git@github.com:nsstrickland/nsstrickland.github.io.git
+#1576805286
+git push -u origin master
+#1576805380
+ls
+#1576805637
+cd ..
+#1576805637
+nikola build
+#1576805644
+ls
+#1576805645
+clear
+#1576805647
+git
+#1576805651
+cd output/
+#1576805654
+git add *
+#1576805663
+git commit -m "themed"
+#1576805665
+git push
+#1576806031
+nikola new
+#1576806035
+nikola 
+#1576806041
+nikola new_page
+#1576806105
+cd ..
+#1576806105
+ls
+#1576806107
+ls pages/
+#1576806324
+nikola build
+#1576806331
+cd output/
+#1576806335
+git add *
+#1576806341
+git commit -m "added privacy policy
+"
+#1576806354
+git push
+#1576808587
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1576820718
+killall firefox
+#1576991737
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1577004896
+sudo dnf search nautilus
+#1577004963
+sudo dnf install gnome-terminal-nautilus
+#1577004977
+sudo dnf install gnome-terminal-nautilus nautilus-sendto
+#1577005017
+killall nautilus
+#1577005062
+clear
+#1577005069
+sudo dnf remove nautilus-sendto
+#1577013288
+sudo dnf install nemo
+#1577005397
+killall nautilus
+#1577005731
+nautilus
+#1577005755
+killall nautilus
+#1577005756
+nautilus
+#1577008069
+clear
+#1577008187
+nautilus
+#1577012405
+n
+#1577012410
+nautilus
+#1577079174
+killall nautilus 
+#1577066113
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1577331952
+killall firefox x
+#1577332314
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1577338453
+killall steam
+#1577425825
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1577577728
+killall firefox 
+#1577577896
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1577586421
+man pipewire re
+#1577587481
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1577593744
+killall firefox 
+#1577659568
+clear
+#1577659573
+sudo dnf list installed | grep java
+#1577659588
+sudo dnf search java
+#1577659617
+sudo dnf search openjdk
+#1577659633
+sudo dnf list installed | grep java
+#1577659651
+sudo dnf install java-11-openjdk java-11-openjdk-headless
+#1577659676
+which java
+#1577659686
+sudo dnf remove java-1.8.0-openjdk-*
+#1577659701
+sudo dnf remove java-1.8.0-openjdk-devel
+#1577659712
+sudo dnf remove java-1.8.0-openjdk-headless-1:1.8.0.232.b09-0.fc30.x86_64 
+#1577659730
+cleART
+#1577659732
+CLEAR
+#1577659736
+sudo dnf list installed | grep java
+#1577659742
+which java
+#1577659750
+java
+#1577659753
+java -V
+#1577659757
+java --version
+#1577659785
+man java
+#1577659798
+clear
+#1577661602
+lsblk
+#1577661819
+pv
+#1577661822
+clear
+#1578035074
+ipy main.py
+#1578035082
+ls
+#1578035086
+ls lib/
+#1578035095
+ipy lib/main.py 
+#1577664142
+ls
+#1577664144
+./update.sh 
+#1577664313
+cd ../../server/
+#1577664313
+ls
+#1577664334
+cd ../build/spigot/
+#1577664336
+cat update.sh 
+#1577664373
+cd ../../server/
+#1577664373
+ls
+#1577664377
+java -jar spigot.jar 
+#1577987512
+ifconfig
+#1578125055
+java -jar spigot.jar 
+#1578166230
+cd Games/minecraft-server/minecraft/var/minecraft/server/
+#1578166230
+ls
+#1578166236
+java -jar spigot.jar 
+#1578169613
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578300374
+pulseaudio 
+#1578300377
+pulseaudio  --help
+#1578300433
+journalctl --user-unit pulseaudio.service 
+#1578300474
+sudo systemctl restart pulseaudio
+#1578300502
+pulseaudio --help
+#1578300520
+pulseaudio --kill
+#1578453102
+ifconfig
+#1578253425
+ifconfig 
+#1578253712
+firewall-cmd
+#1578253718
+firewall-cmd --help
+#1578253726
+firewall-cmd --list-all
+#1578253750
+firewall-cmd --add-port=25565/TCP --permanent 
+#1578253771
+sudo firewall-cmd --add-port=25565/tcp --permanent 
+#1578253776
+sudo firewall-cmd --add-port=25565/udp --permanent 
+#1578253815
+sudo firewall-cmd --remove-port=25565/udp --permanent 
+#1578253818
+sudo firewall-cmd --remove-port=25565/tco --permanent 
+#1578253822
+sudo firewall-cmd --remove-port=25565/tcp --permanent 
+#1578253833
+sudo firewall-cmd --add-port=40883/tcp --permanent 
+#1578253841
+sudo firewall-cmd --add-port=40883/udp --permanent 
+#1578290196
+sudo firewall-cmd --remove-port=40883/tcp --permanent 
+#1578290202
+sudo firewall-cmd --remove-port=40883/udp --permanent 
+#1578290209
+sudo firewall-cmd --remove-port=35031/udp --permanent 
+#1578290212
+sudo firewall-cmd --add-port=35031/udp --permanent 
+#1578290215
+sudo firewall-cmd --add-port=35031/tcp --permanent 
+#1578296940
+cd Games/minecraft-server/sponge/
+#1578296945
+java -jar spongevanilla-1.12.2-7.1.8.jar 
+#1578297141
+cd ..
+#1578297142
+ls
+#1578297148
+cd ~/Games/minecraft-server/
+#1578297151
+java -jar paper/
+#1578297156
+cd paper/
+#1578297159
+java -jar paper-34.jar 
+#1578455500
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578512824
+udo su
+#1578512827
+sudo su
+#1578512438
+sudo su
+#1578520939
+sudo dnf search pulseaudio
+#1578521043
+sudo dnf install pulseaudio-equalizer-2.7-21.fc29.noarch 
+#1578521119
+cls
+#1578521359
+clear
+#1578521361
+ls
+#1578521368
+sudo su
+#1578521871
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578521873
+sudo su
+#1578548703
+sudo dnf search i3
+#1578548958
+sudo dnf install i3
+#1578549234
+xrandr
+#1578549273
+xrandr --help
+#1578549302
+xrandr --output HDMI-1 --auto --right-of DVI-0
+#1578549307
+xrandr --output HDMI1 --auto --right-of DVI-0
+#1578549317
+xrandr --output HDMI-A-0 --auto --right-of DVI-0
+#1578549325
+xrandr --output HDMI-A-0 --auto --right-of DVI-D-0
+#1578549350
+xrandr --output DVI-I-0 --auto --left-of DVI-D-0
+#1578549359
+xrandr --output DVI-I-1 --auto --left-of DVI-D-0
+#1578549422
+xrandr --output DVI-I-1 --mode
+#1578549434
+xrandr --output DVI-I-1 --mode 144.0 
+#1578549464
+xrandr --output DVI-I-1 --rate 144.0
+#1578549469
+xrandr --output DVI-D-0 --rate 144.0
+#1578549483
+xrandr 
+#1578549530
+xrandr --output DVI-D-0 --rate 144.00
+#1578549535
+xrandr .
+#1578549536
+xrandr 
+#1578549554
+xrandr --output DVI-D-0 --mode 1920x1080 --rate 144.00 
+#1578549565
+xrandr --output DVI-I-1 --mode 1920x1080 --rate 144.00 
+#1578550271
+pulseaudio --help
+#1578550291
+sudo dnf search pulseaudio
+#1578550309
+sudo dnf install pavucontrol
+#1578550381
+clear
+#1578550520
+exit
+#1578550786
+sudo dnf install dwm
+#1578550832
+killall firefox
+#1578550833
+exit
+#1578550886
+clear
+#1578550896
+nano ~/.config/i3/config 
+#1578553183
+clear
+#1578553183
+ls
+#1578553185
+cd Documents/
+#1578553185
+ls
+#1578553189
+cd git/
+#1578553189
+ls
+#1578553192
+git clone git://git.suckless.org/dwm
+i3
+startx
+clear
+X: 1
+x
+X
+clear
+X; i3
+clear
+gnome-diskk
+gnome-disks
+clear
+sudo su
+exit
+#1578561419
+startx
+#1578561484
+exit
+#1578696935
+clear
+#1578696938
+ls /home/nick
+#1578696939
+clear
+#1578696947
+X : 0
+#1578696955
+X : 0 openbox
+#1578696958
+openbox
+#1578696965
+x : 0;openbox
+#1578696969
+x : 0 openbox
+#1578696971
+x : openbox
+#1578696974
+X : openbox
+#1578696981
+X : 0 openbox
+#1578696984
+X : 0; openbox
+#1578696990
+which startx
+#1578696996
+cat /usr/bin/startx
+#1578696998
+exit
+#1578698863
+DISPLAY=:1 xterm
+#1578698869
+DISPLAY=:1 gnome-terminal
+#1578698900
+DISPLAY=:1
+#1578698914
+DISPLAY=:1 xclock
+#1578698923
+clear
+#1578698925
+DISPLAY=:1 dwm
+#1578698931
+sudo dnf install dwm
+#1578698972
+DISPLAY=:1 dwm
+#1578699203
+clear
+#1578699217
+DISPLAY=:1 dwm
+#1578605529
+x
+#1578605533
+clear
+#1578605537
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578698673
+clear
+#1578698678
+sudo dnf search xephyr
+#1578698692
+sudo dnf install xorg-x11-Xephyr
+#1578698706
+sudo dnf install xorg-x11-server-Xephyr
+#1578698716
+Xephyr 
+#1578698800
+Xephyr --help
+#1578698825
+Xephyr -br -ac -noreset -screen 800x600 :1
+#1578699354
+DISPLAY=:1 xterm
+#1578699357
+clear
+#1578699367
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578699376
+clear
+#1578699383
+DISPLAY=:1 dwm
+#1578700162
+clear
+#1578717423
+ls
+#1578717424
+exit
+#1578713717
+sudo dnf search iat bchunk
+#1578713730
+sudo dnf search iat
+#1578713746
+sudo dnf search bchunk
+#1578713753
+sudo dnf install bchunk
+#1578713768
+clear
+#1578713769
+ls
+#1578713771
+cd Downloads/Moto\ Racer/
+#1578713772
+ls
+#1578713776
+bchunk --help
+#1578713804
+bchunk Moto\ Racer\ \(Delphine\ Software\ International\)\(1997\).BIN  Moto\ Racer\ \(Delphine\ Software\ International\)\(1997\).CUE moto-racer
+#1578713807
+ls
+#1578719044
+clear
+#1578719045
+xrandr 
+#1578719067
+clear
+#1578720307
+top
+#1578720310
+clear
+#1578720311
+ps aux
+#1578720313
+ps aux | grep wine
+#1578720317
+ps aux | grep tricks
+#1578720319
+clear
+#1578720379
+killall lutris
+#1578720380
+lutris
+#1578721759
+clear
+#1578721766
+cd Downloads/
+#1578721767
+ls
+#1578721775
+cd ~/Games/moto-racer/dxwnd/
+#1578721775
+ls
+#1578721776
+clear
+#1578721779
+rm *
+#1578721779
+ls
+#1578721791
+mv ~/Downloads/v2_05_41_build.rar .
+#1578721800
+unrar
+#1578721825
+sudo dnf install unrar
+#1578721854
+unrar 
+#1578721880
+unrar e v2_05_41_build.rar 
+#1578721904
+clear
+#1578721908
+unrar ex v2_05_41_build.rar 
+#1578721911
+unrar e x v2_05_41_build.rar 
+#1578721915
+unrar x v2_05_41_build.rar 
+#1578721956
+mv ~/Downloads/v2_05_41_build.rar .
+#1578721958
+unrar x v2_05_41_build.rar 
+#1578721967
+clear
+#1578722176
+read
+#1578726706
+sudo dnf search riot
+#1578730952
+clear
+#1578730974
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578730977
+clear
+#1578730985
+DISPLAY=:1 mutter
+#1578730998
+DISPLAY=:1 mutter & 
+#1578731001
+urxvt
+#1578731010
+
+#1578731022
+DISPLAY=:1 urxvt
+#1578731072
+clear
+#1578731503
+sudo dnf search files
+#1578731513
+sudo dnf search elementary
+#1578731529
+sudo dnf install elementary-files
+#1578731709
+sudo dnf remove elementary-files
+#1578769380
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578770776
+sudo dnf search pipes
+#1578770856
+clear
+#1578770866
+cd Documents/git/
+#1578770868
+git clone https://github.com/pipeseroni/pipes.sh.git
+#1578770870
+cd pipes.sh/
+#1578770871
+ls
+#1578770872
+make
+#1578770875
+make install
+#1578770885
+nano Makefile 
+#1578770933
+make install
+#1578770950
+ls ~/.local/bin/
+#1578770955
+pipes.sh 
+#1578771061
+clear
+#1578771064
+cd ~
+#1578771100
+pipes.sh -t 3
+#1578771115
+pipes.sh -t 6
+#1578780174
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578877433
+clear
+#1578877435
+cd Downloads/
+#1578877437
+mkdir youtuve
+#1578877440
+rm youtuve/
+#1578877444
+mkdir youtube
+#1578877569
+cd y
+#1578877570
+cd youtube/
+#1578877571
+ls
+#1578877574
+youtube-dl 
+#1578877580
+youtube-dl --help
+#1578877600
+clear
+#1578877602
+youtube-dl --help
+#1578877610
+youtube-dl https://www.youtube.com/watch?v=pTBooio3h9U -F
+#1578877634
+youtube-dl https://www.youtube.com/watch?v=pTBooio3h9U -f bestaudio
+#1578877645
+ls
+#1578877647
+rm J.\ S.\ Bach\ -\ \ Sonatas\ \&\ Partitas\ For\ Lute-pTBooio3h9U.webm.part 
+#1578877706
+youtube-dl https://www.youtube.com/watch?v=pTBooio3h9U -f bestaudio --audio-format mp3
+#1578877766
+ls
+#1578877795
+youtube-dl https://www.youtube.com/watch?v=pTBooio3h9U  --audio-format mp3
+#1578878023
+ffmpeg -i J.\ S.\ Bach\ -\ \ Sonatas\ \&\ Partitas\ For\ Lute-pTBooio3h9U.webm -vn -ab 128k -ar 44100
+#1578878039
+ffmpeg -i J.\ S.\ Bach\ -\ \ Sonatas\ \&\ Partitas\ For\ Lute-pTBooio3h9U.webm -vn -ab 128k -ar 44100 -y jsbach-lutes/mp3
+#1578878041
+ffmpeg -i J.\ S.\ Bach\ -\ \ Sonatas\ \&\ Partitas\ For\ Lute-pTBooio3h9U.webm -vn -ab 128k -ar 44100 -y jsbach-lutes.mp3
+#1578878648
+ffmpeg -i Mischa\ Maisky\ plays\ Bach\ Cello\ Suite\ No.1\ in\ G\ \(full\)-mGQLXRTl3Z0.webm -vn -ab 128k -ar 44100 -y cello-suite.mp3
+#1578878199
+clear
+#1578878230
+youtube-dl https://www.youtube.com/watch?v=mGQLXRTl3Z0 -f bestaudio --audio-format mp3
+#1578878244
+ls
+#1578878246
+clear
+#1578817686
+clear
+#1578817686
+ls
+#1578817698
+gcc window_manager.c -o wm
+#1578817707
+l
+#1578817708
+sls
+#1578818366
+gcc window_manager.c -o wm
+#1578818482
+gcc -help
+#1578818488
+gcc --help
+#1578818510
+clear
+#1578818539
+gcc window_manager.c -o wm `pkg-config --cflags --libs xcb`
+#1578784086
+sudo dnf search echinus
+#1578784455
+sudo dnf search libmutter
+#1578784599
+sudo dnf search mutter
+#1578784609
+sudo dnf install mutter-devel
+#1578784744
+sudo dnf --help
+#1578784765
+sudo dnf info mutter-devel
+#1578784778
+sudo rpm --help
+#1578784801
+sudo rpm -l mutter-devel
+#1578784811
+sudo rpm mutter-devel -l
+#1578784823
+sudo rpm -q mutter-devel -l
+#1578785131
+clear
+#1578785133
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578785137
+clear
+#1578785143
+DISPLAY=:1 i3
+#1578785149
+DISPLAY=:1 i3 &
+#1578785187
+DISPLAY=:1 mutter &
+#1578785210
+killall i3
+#1578785216
+killall urxvt 
+#1578785219
+DISPLAY=:1 mutter &
+#1578785223
+killall i3
+#1578785228
+DISPLAY=:1 i3 &
+#1578786415
+clear
+#1578804943
+cd Documents/git/wm2/
+#1578804944
+ls
+#1578804945
+clear
+#1578804948
+gcc
+#1578804953
+make
+#1578804977
+make -fpermissive
+#1578804978
+make fpermissive
+#1578804980
+make 
+#1578805019
+cd ..
+#1578805059
+cd wm
+#1578805060
+cd wmx
+#1578805061
+make
+#1578805062
+clear
+#1578805071
+cat README
+#1578805104
+clear
+#1578805105
+./configure 
+#1578805110
+make
+#1578805124
+cat README
+#1578805743
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1578817720
+cd ../../Projects/window-manager-playground/
+#1578817720
+ls
+#1578817724
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578817746
+DISPLAY=:1 ./wm
+#1578817761
+clear
+#1578818543
+DISPLAY=:1 ./wm
+#1578818580
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578818584
+DISPLAY=:1 ./wm
+#1578818601
+./wm 
+#1578820607
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578820614
+DISPLAY=:1 i3 &
+#1578820714
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1578820716
+DISPLAY=:1 i3 &
+#1578878450
+sudo dnf search finetune
+#1578878472
+sudo dnf search puddletag
+#1578878480
+sudo dnf install puddletag
+#1579327655
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1579451123
+ls
+#1579451125
+ls -al
+#1579451128
+ls -al | grep wine
+#1579451131
+ls ~/Games
+#1579451134
+ls ~/Games -al
+#1579451650
+ls
+#1579451654
+cd Games/the-movies/
+#1579451654
+ls
+#1579451656
+clear
+#1579451656
+ls
+#1579451658
+mkdir discs
+#1579451660
+cd discs/
+#1579451660
+ls
+#1579451661
+clear
+#1579451693
+ ls /dev/cdrom
+#1579451696
+clear
+#1579451747
+dd if=/dev/cdrom of=~/Games/the-movies/discs/MOVIES_2.iso
+#1579451987
+dd if=/dev/cdrom of=~/Games/the-movies/discs/MOVIES_2.iso bs=4m
+#1579451989
+dd if=/dev/cdrom of=~/Games/the-movies/discs/MOVIES_2.iso bs=4M
+#1579452202
+dd if=/dev/cdrom of=~/Games/the-movies/discs/MOVIES_1.iso bs=4M
+#1579452243
+dd if=/dev/cdrom of=~/Games/the-movies/discs/MOVIES_1.iso 
+#1579456340
+wine eject
+#1579456345
+clear
+#1579456367
+WINEPREFIX=/home/nick/Games/the-movies/
+#1579456372
+wine eject d
+#1579456382
+wine eject d:
+#1579456387
+wine eject -a
+#1579456394
+wine drive
+#1579456396
+wine drives
+#1579456902
+cd Extras
+#1579456903
+ls
+#1579456908
+wine Media\ Player/MPSetup.exe 
+#1579487004
+clear
+#1579487464
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1579652586
+cd ../../
+#1579652587
+ls
+#1579652589
+cd ../s-e
+#1579652590
+ls
+#1579652591
+clear
+#1579652640
+bchunk rld-tmse.bin rld-tmse.cue tmse
+#1579659883
+sudo dnf search clamtk
+#1579659901
+sudo dnf install clamtk
+#1579660091
+cd ..
+#1579660094
+clamscan 
+#1579660113
+clam
+#1579660115
+clamconf
+#1579660173
+cd ~
+#1579660174
+cleaer
+#1579660178
+cls
+#1579660181
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1579849601
+sudo dnf update firefox
+#1579850694
+sudo dnf search firefox
+#1579850717
+sudo dnf search netflix
+#1579880990
+sudo dnf install gnome-shell-extension-material-shell
+#1579881154
+sudo dnf remove gnome-shell-extension-material-shell
+#1579900621
+clear
+#1579902085
+cd Music/
+#1579902085
+ls
+#1579902092
+clear
+#1579902095
+cp --help
+#1579902126
+cp -R /run/media/nick/e99e6622-d41c-4e28-8d3a-5f369dd787ce/user/Music/ .
+#1579904181
+ls
+#1579904187
+mv Music/* .
+#1579904187
+ls
+#1579904192
+ls Music/
+#1579904193
+rm Music/
+#1580093740
+ln 
+#1580093741
+ln --help
+#1580093816
+ln ~/.steam/steam/steamapps/ "Steam Apps"
+#1580093821
+ln ~/.steam/steam/steamapps/ "Steam Apps" -s
+#1580093842
+rm Steam\ Apps/
+#1580093845
+ln ~/.steam/steam/steamapps/ "Steam" -s
+#1580152181
+clear
+#1580152190
+cat ~/.config/i3
+#1580152192
+cd ~/.config/i3
+#1580152193
+ls
+#1580152197
+nano config 
+#1580189648
+nautilus
+#1580262447
+exit
+#1580262449
+exit
+#1580262451
+exit
+#1580261088
+clear
+#1580261088
+ls
+#1580261092
+gcc main.c 
+#1580261114
+gcc main.c -o wm `pkg-config --cflags --libs xcb`
+#1580261121
+gcc main.c -o wm `pkg-config --cflags --libs xcb Xlib`
+#1580261131
+gcc main.c -o wm `pkg-config --cflags --libs xcb,xlib`
+#1580261174
+gcc -Wall prog.c -lxcb
+#1580261178
+gcc -Wall main.c -lxcb
+#1580265846
+ls
+#1580265848
+rm a.out
+#1580265849
+clear
+#1580265849
+ls
+#1580265857
+gcc -lxcb drawtest.c -o drawtest
+#1580265858
+ls
+#1580265860
+./drawtest 
+#1580331087
+gcc -lxcb xevent.c -o xevent
+#1580331265
+gcc -lxcb drawtext.c -o drawtext
+#1580331394
+gcc -lxcb windowprop.c.c -o winprop
+#1580331398
+gcc -lxcb windowprop.c -o winprop
+#1580331573
+ls /usr/include/xcb/
+#1580331648
+gcc -lxcb windowprop.c -o winprop
+#1580331662
+clear
+#1580331662
+ls
+#1580331670
+gcc -lxcb windowprop.c -o winprop
+#1580331945
+gcc -lxcb cursor.c -o cursor
+#1580331548
+sudo dnf install xcb-util-devel
+#1580331602
+sudo dnf install xcb-util-renderutil-devel
+#1580331614
+sudo dnf install xcb-util-wm-devel
+#1580331621
+sudo dnf install xcb-util-srm-devel
+#1580331623
+sudo dnf install xcb-util-xrm-devel
+#1580331965
+cd Documents/Projects/window-manager-playground/
+#1580331965
+ls
+#1580331973
+DISPLAY=:1 ./cursor
+#1580338857
+sudo dnf install fluxbox
+#1580338880
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580338889
+DISPLAY=:1 fluxbox&
+#1580339089
+DISPLAY=:1 urxvt&
+#1580353894
+sudo dnf update firefox
+#1580354305
+killall firefox
+#1580354793
+firefox
+#1580354908
+firefox --help
+#1580354935
+firefox --safe-mode
+#1580355168
+killall firefox
+#1580355651
+clear
+#1580355652
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580355670
+clear
+#1580355678
+DISPLAY=:1 fluxbox&
+#1580355984
+fluxbox-generate_menu 
+#1580356438
+DISPLAY=:1 fluxbox&
+#1580356552
+sudo dnf search fluxbox
+#1580356601
+sudo dnf search fluxconf
+#1580392526
+sudo dnf search picom
+#1580392537
+sudo dnf install picom
+#1580392548
+clear
+#1580392552
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580392557
+clear
+#1580392577
+DISPLAY=:1 fluxbox&;DISPLAY=:1 picom&
+#1580392581
+DISPLAY=:1 fluxbox& ;DISPLAY=:1 picom&
+#1580392584
+DISPLAY=:1 fluxbox& DISPLAY=:1 picom&
+#1580392598
+killall picom
+#1580392606
+DISPLAY=:1 picom&
+#1580392727
+killall picom
+#1580392794
+picom --help
+#1580392829
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1580393580
+DISPLAY=:1 openbox&
+#1580335083
+ls
+#1580335089
+cd lib
+#1580335089
+ls
+#1580335094
+ipy main.py 
+#1580335711
+python main.py 
+#1580393891
+sudo dnf search awesome
+#1580393944
+sudo dnf install awesome
+#1580393961
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580393971
+DISPLAY=:1 awesome&
+#1580401687
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1580403761
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580403807
+clear
+#1580403816
+DISPLAY=:1 mutter &
+#1580403831
+killall Xephyr 
+#1580403836
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580403839
+DISPLAY=:1 mutter &
+#1580403862
+DISPLAY=:1 urxvt&
+#1580407368
+sudo dnf search regolith
+#1580443726
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1580691853
+keypath="/home/nick/Documents/Modules"
+#1580691855
+sign="/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 "
+#1580691857
+pkexec $sign "$keypath/wl.priv" "$keypath/wl.der" $(modinfo -n wl)
+#1580691870
+sudo akmods --force
+#1580691880
+sudo dracut -f
+#1580692489
+sudo dnf search nordic
+#1580692499
+sudo dnf update
+#1580692820
+sudo dnf list installed | grep flat
+#1580692832
+sudo dnf remove flat-remix*
+#1580707940
+clear
+#1580708453
+exit
+#1580703473
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1580707836
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580707854
+DISPLAY=:1 fluxbox &
+#1580707908
+DISPLAY=:1 openb &
+#1580707912
+DISPLAY=:1 openbox &
+#1580708138
+clear
+#1580708142
+sudo dnf search gala
+#1580708155
+sudo dnf search pantheon
+#1580708324
+sudo dnf groupinstall pantheon
+#1580708331
+sudo dnf groupinstall pantheon desktop
+#1580708337
+sudo dnf groupinstall "pantheon desktop"
+#1580708396
+sudo dnf groupremove
+#1580708406
+sudo dnf groupremove "gnome desktop"
+#1580708426
+sudo dnf group list --installed
+#1580708437
+sudo dnf groupinstall "pantheon desktop"
+#1580708477
+DISPLAY=:1 gdm
+#1580708481
+sudo DISPLAY=:1 gdm
+#1580708501
+sudo DISPLAY=:1 gdm &
+#1580708519
+kill 1693
+#1580708523
+sudo kill 1693
+#1580708531
+DISPLAY=:1 sudo gdm &
+#1580708538
+sudo kill 1846
+#1580708595
+cat /usr/share/xsessions/pantheon.desktop 
+#1580708613
+DISPLAY=:1 gnome-session --session=pantheon
+#1580708626
+killall firefox
+#1580710610
+st
+#1580710615
+st &
+#1580709286
+sudo dnf group remove "pantheon desktop"
+#1580709312
+sudo dnf history undo
+#1580709314
+sudo dnf history undo 1
+#1580709323
+sudo dnf history undo last
+#1580709345
+sudo dnf history
+#1580709354
+sudo dnf history undo 282
+#1580709362
+sudo dnf group remove "pantheon desktop"
+#1580710395
+sudo dnf search cwm
+#1580710407
+sudo dnf install cwm
+#1580710416
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580710425
+DISPLAY=:1 cwm &
+#1580710558
+DISPLAY=:1 st &
+#1580710627
+killall cwm
+#1580710630
+sudo dnf remove cwm
+#1580710637
+sudo dnf search rio
+#1580711155
+sudo dnf install metacity
+#1580711178
+DISPLAY=:1 metacity&
+#1580711225
+killall metacity
+#1580713817
+sudo dnf search awn
+#1580714059
+gnome-session-properties
+#1580766294
+sudo dnf search obconf
+#1580766306
+sudo dnf install obconf
+#1580766431
+DISPLAY=:1 openbox &
+#1580766437
+DISPLAY=:1 obconf &
+#1580766636
+killall nautilus
+#1580766644
+DISPLAY=:1 nautilus -n &
+#1580766741
+killall nautilus
+#1580766742
+clear
+#1580766746
+DISPLAY=:1 nemo
+#1580766785
+nemo --help
+#1580766930
+gsettings set org.nemo.desktop show-desktop-icons true
+#1580766935
+DISPLAY=:1 nemo &
+#1580767058
+killall firefox
+#1580767120
+xrandr 
+#1580767128
+arandr 
+#1580767185
+clear
+#1580767188
+nemo --help
+#1580767203
+nemo --help-all
+#1580767211
+clear
+#1580767333
+xrandr 
+#1580767338
+clear
+#1580767339
+xrandr 
+#1580767353
+xrandr --output DVI-I-1 --mode 1920x1080 --rate 144.00 
+#1580767359
+xrandr --output DVI-D-0 --mode 1920x1080 --rate 144.00 
+#1580767368
+clear
+#1580767655
+sudo dnf install vala-panel
+#1580767741
+sudo dnf search vala-panel
+#1580767749
+sudo dnf search appmenu
+#1580768298
+picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1580768321
+killall picom
+#1580768595
+clear
+#1580768658
+tput smkx
+#1580768662
+clear
+#1580768672
+cd /usr/share/gnome-session/sessions/
+#1580768673
+ls
+#1580768674
+ls ..
+#1580768675
+ls
+#1580768684
+sudo touch gnome-openbox
+#1580768689
+sudo touch gnome-openbox.session
+#1580768693
+clear
+#1580768694
+ls
+#1580768697
+sudo nano gnome-openbox.session 
+#1580768745
+sudo nano /usr/share/xsessions/gnome-openbox.desktop
+#1580768775
+exit
+#1580768785
+killall firefox
+#1580768827
+ls
+#1580768833
+cd ~
+#1580768834
+ls
+#1580768835
+clear
+#1580768836
+ls
+#1580768838
+ls -al
+#1580768856
+find | grep X
+#1580768866
+find | grep X | more
+#1580768892
+clear
+#1580768894
+ls -al
+#1580768902
+journalctl -xe Xorg
+#1580768909
+journalctl -xe x11
+#1580768911
+journalctl -xe xorg
+#1580768916
+startx
+#1580768981
+gnome-session --session=gnome-openbox
+#1580768987
+gnome-session --session=gnome-openbox -V
+#1580768990
+gnome-session --session=gnome-openbox --help
+#1580769009
+ls
+#1580769044
+cd .local/share/xorg/
+#1580769045
+ls
+#1580769053
+ls -la
+#1580769091
+cat Xorg.0.log
+#1580769111
+nano Xorg.0.log
+#1580769140
+ls
+#1580769142
+ls -la
+#1580769154
+nano Xorg.0.log.old 
+#1580769163
+exit
+#1580769292
+sudo nano /usr/share/applications/openbox.desktop 
+#1580769351
+sudo dnf search gnome openbox
+#1580769357
+sudo dnf search gnome-openbox
+#1580769438
+cd /usr/share/gnome-session/sessions/
+#1580769438
+ls
+#1580769443
+cat gnome-classic.session 
+#1580769481
+sudo nano gnome-openbox.session 
+#1580769727
+clear
+#1580769748
+org.Gnome.Shell
+#1580769752
+clear
+#1580769754
+gnome-control-center 
+#1580769808
+arandr 
+#1580769831
+xrandr --output DVI-D-0 --mode 1920x1080 --rate 144.00 
+#1580769835
+xrandr --output DVI-I-1 --mode 1920x1080 --rate 144.00 
+#1580769959
+sudo nautilus
+#1580770216
+clear
+#1580770226
+cd /usr/share/applications/
+#1580770226
+ls
+#1580770229
+cat awesome.desktop 
+#1580770235
+cd ../xsessions/
+#1580770235
+ls
+#1580770241
+cat gnome-awesome.desktop 
+#1580770246
+nano gnome-awesome.desktop 
+#1580770258
+sudo nano gnome-awesome.desktop 
+#1580770272
+ls
+#1580770275
+cat gnome-openbox.desktop 
+#1580770281
+nano gnome-openbox.desktop 
+#1580770285
+sudo nano gnome-openbox.desktop 
+#1580770291
+ls
+#1580770293
+cat gnome-awesome.desktop 
+#1580770298
+sudo nano gnome-awesome.desktop 
+#1580770304
+exit
+#1580770553
+clear
+#1580770557
+xrandr --output DVI-I-1 --mode 1920x1080 --rate 144.00 
+#1580770564
+xrandr --output DVI-D-0 --mode 1920x1080 --rate 144.00 
+#1580771581
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1580779696
+sudo dnf search polybar
+#1580779720
+tput smkx
+#1580779723
+sudo dnf install  polybar
+#1580780576
+xinput --list-props 123
+#1580780577
+xinput --list-props 13
+#1580780650
+xinput --set-prop 13 288 -0.676471
+#1580780804
+clear
+#1580780299
+clear
+#1580780397
+xinput --list-props
+#1580780404
+xinput --list-props "Razer Naga Chroma"
+#1580780410
+xinput --list --short
+#1580780452
+xinput --list-props "Razer Razer Naga Trinity
+
+#1580780455
+xinput --list-props "Razer Razer Naga Trinity"
+#1580780470
+xinput --list-props 13
+#1580780519
+xinput --list-props 12
+#1580780523
+xinput --list-props 11
+#1580780528
+xinput --list-props 10
+#1580780532
+xinput --list-props 13
+#1580784967
+killall firefox
+#1580784969
+killall st
+#1580784975
+systemctl restart gdm
+#1580780274
+statrx
+#1580780276
+startx
+#1580784997
+exit
+#1580785037
+startx
+#1580785073
+clear
+#1580785074
+ls
+#1580785086
+cd ~/.config/abrt/
+#1580785096
+cd ..
+#1580785096
+ls
+#1580785103
+cd ..
+#1580785104
+ls
+#1580785105
+ls -al
+#1580785108
+exit
+#1580780882
+cp /etc/xdg/awesome/rc.lua .
+#1580780884
+ls
+#1580780893
+ls /etc/xdg/awesome/
+#1580892592
+xrandr 
+#1580893228
+exit
+#1580893263
+str=$(xrandr --listmonitors | head -1); echo "${str/Monitors: /}"
+#1580893282
+str=$(xrandr --listmonitors | head -1);test="${str/Monitors: /}"
+#1580893287
+echo $test
+#1580893288
+clear
+#1580951905
+cherrytree 
+#1580789545
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1580872332
+killall firefox
+#1580874760
+lkoi
+#1580876783
+clear
+#1580876784
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1580892527
+Xeph
+#1580892530
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580892539
+DISPLAY=:1 awesome&
+#1580892543
+xrandr
+#1580892549
+xrandr --help
+#1580892561
+xrandr -s
+#1580892697
+clear
+#1580892699
+xrandr 
+#1580892708
+xrandr --help
+#1580892717
+xrandr --current 
+#1580892725
+xrandr --listmonitors 
+#1580892730
+xrandr --listmonitors | sed -l 1
+#1580892738
+xrandr --listmonitors | sed 1
+#1580892745
+xrandr --listmonitors | sed -n 1
+#1580892749
+xrandr --listmonitors | sed -l1
+#1580892751
+xrandr --listmonitors | sed -l
+#1580892753
+xrandr --listmonitors | sed -l 1
+#1580892838
+xrandr --listmonitors | sed -n '1'
+#1580892848
+xrandr --listmonitors | sed -n '0,1'
+#1580892851
+xrandr --listmonitors | sed -n '1,1'
+#1580892871
+sed -n '1' $(xrandr --listmonitors )
+#1580892880
+xrandr --listmonitors | tail 
+#1580892883
+xrandr --listmonitors | tail -n 1
+#1580892887
+xrandr --listmonitors | tail -n 0
+#1580892893
+xrandr --listmonitors | tail --help
+#1580892951
+xrandr --listmonitors | head
+#1580892953
+xrandr --listmonitors | head 1
+#1580892957
+xrandr --listmonitors | head -1
+#1580892977
+${$(xrandr --listmonitors | head -1)/Monitors/}
+#1580892981
+echo ${$(xrandr --listmonitors | head -1)/Monitors/}
+#1580893018
+echo "${$(xrandr --listmonitors | head -1)/Monitors//}"
+#1580893020
+echo "${$(xrandr --listmonitors | head -1)/Monitors/}"
+#1580893031
+echo "${$(xrandr --listmonitors | head -1)//}
+#1580893034
+echo "${$(xrandr --listmonitors | head -1)//}"
+#1580893059
+echo "${$(xrandr --listmonitors | head -1)///}"
+#1580893067
+echo "${$(xrandr --listmonitors | head -1)/Monitors//}"
+#1580893069
+echo "${$(xrandr --listmonitors | head -1)/Monitors/}"
+#1580893105
+str=xrandr --listmonitors | head -1; echo "${$str/Monitors//}"
+#1580893113
+str=$(xrandr --listmonitors | head -1); echo "${$str/Monitors//}"
+#1580893116
+str=$(xrandr --listmonitors | head -1); echo "${$str/Monitors///}"
+#1580893118
+str=$(xrandr --listmonitors | head -1); echo "${$str/Monitors/}"
+#1580893125
+str=$(xrandr --listmonitors | head -1); echo "${$str/'Monitors'/}"
+#1580893165
+str=$(xrandr --listmonitors | head -1); echo "${str/Monitors/}"
+#1580893169
+str=$(xrandr --listmonitors | head -1); echo "${str/Monitors: /}"
+#1580893189
+str=$(xrandr --listmonitors | head -1); echo "${(xrandr --listmonitors | head -1)/Monitors: /}"
+#1580893194
+echo "${(xrandr --listmonitors | head -1)/Monitors: /}"
+#1580893198
+echo "${$(xrandr --listmonitors | head -1)/Monitors: /}"
+#1580893205
+echo "${{$(xrandr --listmonitors | head -1)}/Monitors: /}"
+#1580893208
+str=$(xrandr --listmonitors | head -1); echo "${(xrandr --listmonitors | head -1)/Monitors: /}"
+#1580893294
+clear
+#1580893414
+str=$(xrandr --listmonitors | head -1)
+#1580893419
+str="${(xrandr --listmonitors | head -1)/Monitors: /}"
+#1580893432
+str="${str/Monitors: /}"
+#1580893435
+echo $str
+#1580893662
+DISPLAY=:1 awesome&
+#1580938187
+clear
+#1580938192
+killall Xephyr 
+#1580948519
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1580948522
+DISPLAY=:1 awesome&
+#1580951310
+clear
+#1580951377
+DISPLAY=:1 awesome&
+#1580951741
+clear
+#1580952185
+clewar
+#1580952187
+clear
+#1580952187
+ls
+#1580952197
+cd .config/awesome/themes/
+#1580952197
+ls
+#1580962542
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581030383
+lsblk
+#1581030405
+sudo umount /dev/sdf1
+#1581030419
+lsblk
+#1581030677
+ls
+#1581030679
+cd Downloads/
+#1581030681
+sudo su
+#1581030683
+ls
+#1581030686
+clear
+#1581030704
+sudo dd if=debian-10.2.0-armhf-xfce-CD-1.iso of=/dev/sdf bs=4M
+#1581030713
+lsblk
+#1581030723
+ls | grep debian
+#1581030725
+sudo dd if=debian-10.2.0-armhf-xfce-CD-1.iso of=/dev/sdf bs=4M
+#1580893473
+str=$(xrandr --listmonitors | head -1)
+#1580893475
+str="${str/Monitors: /}"
+#1580893493
+if [ $str > 1 ] echo 1
+#1580893499
+if [ $str > 1 ]; echo 1
+#1580893520
+if [ $str -gt 1 ]; echo 1
+#1580893533
+if [ $str -gt 1 ]; then echo 1 fi
+#1580893538
+if [ $str -gt 1 ]; then echo 1; fi
+#1580893546
+if [ $str -gt 1 ]; then echo 1; else echo 2; fi
+#1581055929
+kill 6771
+#1581055942
+killall Warcraft 
+#1581055956
+killall "Warcraft III.ex" 
+#1581055958
+killall "Warcraft III.exe" 
+#1581055977
+killall wine
+#1581107738
+killall mpd
+#1581107753
+mpd ~/.config/mpd/mpd.conf 
+#1581107755
+mpc
+#1581107757
+mpc --help
+#1581107777
+man mpc
+#1581107796
+sudo dnf remove mpc
+#1581107833
+sudo dnf install ncmpc
+#1581107843
+ncmpc 
+#1581108378
+killall banshee 
+#1581110728
+exit
+#1581075929
+oomox
+#1581075936
+oomox-cli
+#1581075942
+clear
+#1581075955
+oomox-gui 
+#1581111165
+xrdb 
+#1581111172
+xrdb ~/.Xresources 
+#1581107671
+clear
+#1581107674
+killall gmpc
+#1581111653
+xrdb ~/.Xresources 
+#1581124126
+killall st
+#1581120016
+lua
+#1581130112
+code /home/nick/.Xresources 
+#1581057647
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581072801
+killall Civ6 
+#1581072837
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1581072840
+DISPLAY=:1 awesome&
+#1581072885
+clear
+#1581072890
+sudo dnf search xrdb
+#1581075717
+clear
+#1581075722
+sudo dnf copr search oomox
+#1581075774
+sudo dnf copr install tcg/themes
+#1581075781
+sudo dnf copr install enable tcg/themes
+#1581075784
+sudo dnf copr enable tcg/themes
+#1581075793
+sudo dnf copy install oomox
+#1581075798
+sudo dnf copr install oomox
+#1581075800
+sudo dnf install oomox
+#1581078602
+DISPLAY=:1 awesome&
+#1581079176
+loginctl 
+#1581079178
+clear
+#1581079179
+loginctl 
+#1581079181
+loginctl  --help
+#1581079189
+loginctl lock-session
+#1581105146
+sudo dnf search gnome music player
+#1581105164
+sudo dnf install gnome-music
+#1581105370
+sudo dnf install gmpc
+#1581105388
+sudo dnf search ario
+#1581105431
+clear
+#1581105435
+sudo dnf install mpd
+#1581105439
+sudo dnf search mpd
+#1581105448
+sudo dnf install mpd
+#1581105492
+systemctl start mpd
+#1581105549
+mpd
+#1581105553
+mpd --help
+#1581105571
+lear
+#1581105573
+clear
+#1581105579
+mkdir ~/.config/mpd
+#1581105583
+cd ~/.config/mpd
+#1581105583
+ls
+#1581105597
+clear
+#1581105617
+touch mpd.conf
+#1581105623
+code mpd.conf 
+#1581105821
+cd 
+#1581105823
+ls -al
+#1581105827
+ls -al | grep mpd
+#1581106048
+cd ~/.config/mpd/
+#1581106049
+ls
+#1581106055
+touch playlists
+#1581106074
+mpc
+#1581106086
+mpd ~/.config/mpd/mpd.conf 
+#1581106126
+netstat -tulpn
+#1581106130
+netstat -tulpn | grep 6000
+#1581106138
+sudo netstat -tulpn | grep 6000
+#1581106165
+mpd ~/.config/mpd/mpd.conf 
+#1581106427
+ps aux | grep mpd
+#1581106432
+killall mpd
+#1581106435
+ps aux | grep mpd
+#1581106439
+mpd ~/.config/mpd/mpd.conf 
+#1581106445
+ps aux | grep mpd
+#1581107065
+clear
+#1581107320
+sudo dnf install lxappearance
+#1581107681
+killall mpd
+#1581107694
+mpc
+#1581107973
+sudo dnf search canata
+#1581108007
+sudo dnf install covergrid
+#1581108017
+sudo dnf install mcg
+#1581108104
+sudo dnf search sonata
+#1581108258
+sudo dnf install banshee
+#1581108352
+sudo dnf remove banshee
+#1581108407
+killall banshee 
+#1581108433
+sudo dnf install lollypop
+#1581109315
+clear
+#1581109323
+cd ~/Documents/git/
+#1581109324
+ls
+#1581109327
+clone https://gitlab.com/coderkun/mcg.git
+#1581109331
+git clone https://gitlab.com/coderkun/mcg.git
+#1581109333
+clear
+#1581109341
+cd mcg/
+#1581109342
+ls
+#1581109351
+python3 ./setup.py 
+#1581109368
+python3 setup.py build
+#1581109387
+ls ~/.local/bin/
+#1581109389
+ls ~/.local/bin/| grep mc
+#1581109393
+clear
+#1581109393
+ls
+#1581109396
+ls ~/.local/bin/| grep mc
+#1581109397
+python3 setup.py build
+#1581109434
+python3 setup.py sdist
+#1581109439
+ls
+#1581109442
+ls dist
+#1581109447
+ls
+#1581109448
+ls build/
+#1581109451
+ls build/lib/
+#1581109452
+ls build/lib/mcg/
+#1581109454
+clear
+#1581109499
+python3 setup.py install
+#1581109516
+ls
+#1581109519
+ls data/
+#1581109523
+ls dist/
+#1581109531
+python3 setup.py sdist fedora
+#1581109533
+python3 setup.py sdist rpm
+#1581109535
+python3 setup.py rpm
+#1581109581
+ls
+#1581109585
+cat README.textile 
+#1581109588
+clear
+#1581109589
+l
+#1581109589
+ls
+#1581109592
+ls mcg
+#1581109601
+./mcg/mcg.py 
+#1581109605
+ls
+#1581109613
+ls build/
+#1581109615
+ls build/lib/
+#1581109616
+ls build/lib/mcg/
+#1581109618
+clear
+#1581109625
+python3 setup.py build
+#1581109660
+sudo dnf install python-setuptools
+#1581109667
+sudo dnf install python3-setuptools
+#1581109672
+clear
+#1581109679
+code ./setup.py 
+#1581109719
+python3 setup.py help
+#1581109723
+python3 setup.py --help
+#1581109753
+python3 setup.py build --help
+#1581109760
+python3 setup.py build 
+#1581109765
+python3 setup.py install --user
+#1581109778
+ls ~/.local/bin/
+#1581109786
+~/.local/bin/mcg 
+#1581109878
+python3 setup.py uninstall --user
+#1581109882
+python3 setup.py remove --user
+#1581109908
+find /home/nick/ | grep mcg
+#1581109932
+ls
+#1581109940
+./mcg/mcg.py 
+#1581109943
+ls
+#1581109947
+ls mcg.egg-info/
+#1581109950
+;s
+#1581109952
+ls
+#1581109954
+ls data
+#1581109956
+ls dist
+#1581109958
+ls buid
+#1581109960
+ls build/
+#1581109962
+ls build/bdist.linux-x86_64/
+#1581110010
+pip3 search mcg
+#1581110019
+pip3 search mp3
+#1581110020
+pip3 search mpd
+#1581110060
+clear
+#1581110070
+python3 setup.py build
+#1581110074
+python3 setup.py install
+#1581110077
+python3 setup.py install --user
+#1581110085
+mcg
+#1581110092
+ls
+#1581110094
+ls build/
+#1581110096
+ls build/lib/
+#1581110097
+ls build/lib/mcg/
+#1581110099
+ls build/lib/mcg/data/
+#1581110150
+ls
+#1581110154
+cd build/lib/mcg/data/
+#1581110154
+ls
+#1581110162
+gresource details de.coderkun.mcg.gresource
+#1581110236
+python3 setup.py develop --user
+#1581110247
+cd ../../../../
+#1581110249
+python3 setup.py develop --user
+#1581110251
+mcg
+#1581110485
+find /home/nick/ | grep mcg
+#1581110490
+cd ~
+#1581110508
+for i in $(find /home/nick/ | grep mcg) echo $i
+#1581110516
+for {i in $(find /home/nick/ | grep mcg)} echo $i
+#1581110530
+for i in $(find /home/nick/ | grep mcg); do echo $i; done
+#1581110586
+for i in $(find /home/nick/ | grep mcg); do rm $i; done
+#1581110606
+find /home/nick/ | grep mcg
+#1581110617
+for i in $(find /home/nick/ | grep mcg); do /bin/rm $i; done
+#1581110626
+for i in $(find /home/nick/ | grep mcg); do /bin/rm -rf $i; done
+#1581110639
+find /home/nick/ | grep mcg
+#1581110783
+clear
+#1581110926
+xrdb ~/.Xresources
+#1581111008
+touch ~/.Xresources
+#1581111013
+nano ~/.Xresources 
+#1581111095
+DISPLAY=:1 awesome&
+#1581111114
+killall awesome
+#1581111117
+DISPLAY=:1 awesome&
+#1581111303
+clear
+#1581111307
+xrdb ~/.Xresources 
+#1581111310
+xrdb -merge ~/.Xresources 
+#1581111508
+killall awesome
+#1581111509
+DISPLAY=:1 awesome&
+#1581112342
+sudo dnf search compton
+#1581112352
+clear
+#1581112362
+DISPLAY=:1 compton &
+#1581112593
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1581112596
+killall picom
+#1581112600
+killall compton
+#1581112601
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1581112842
+killall picom
+#1581113650
+clear
+#1581113657
+sudo dnf search icomoonm
+#1581113661
+sudo dnf search icomoon
+#1581113756
+clear
+#1581113760
+cd ~/.local/share/fonts/
+#1581113760
+ls
+#1581113763
+rm IcoMoon-Free.ttf 
+#1581121035
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1581121036
+clear
+#1581121039
+DISPLAY=:1 compton &
+#1581121041
+DISPLAY=:1 awesome&
+#1581122684
+clear
+#1581128135
+lua
+#1581130710
+clear
+#1581130721
+killall awesome
+#1581130723
+killall picom
+#1581130727
+DISPLAY=:1 awesome&
+#1581130733
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1581130920
+clear
+#1581130923
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1581130926
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1581130933
+DISPLAY=:1 awesome&
+#1581131559
+cls
+#1581133424
+clear
+#1581133472
+cls
+#1581133683
+clear
+#1581133685
+killall awesome
+#1581133687
+DISPLAY=:1 awesome&
+#1581134664
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581151076
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1581151080
+DISPLAY=:1 awesome&
+#1581151468
+cls
+#1581152342
+DISPLAY=:1 awesome&
+#1581200484
+killall firefox
+#1581202013
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581284731
+lspci 
+#1581284742
+clear
+#1581284769
+lsmod
+#1581284771
+lsmod | grep vga
+#1581284777
+clear
+#1581284782
+sudo dnf search amdgpu
+#1581285007
+killall steamwebhelper 
+#1581285019
+killall Civ6 
+#1581300796
+killall firefox
+#1581300800
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581308880
+kill 3223
+#1581308882
+kill 3443
+#1581314601
+killall firefox
+#1581314604
+killall Civ6 
+#1581314607
+killall steamwebhelper 
+#1581314628
+clear
+#1581327686
+#1581329498
+nano ~/.bash_history 
+#1581329518
+exit
+#1582030084
+gnome-system-monitor 
+#1581372014
+lsblk
+#1581372036
+lspci
+#1581372037
+clear
+#1581372104
+lsblk
+#1581372114
+cls
+#1581372115
+lsblk
+#1581372145
+cls
+#1581372148
+ls /dev/
+#1581372153
+ls /dev/cdrom 
+#1581372163
+cat /dev/cdrom 
+#1581372333
+sudo gnome-disk
+#1581372337
+sudo gnome-disks 
+#1581372415
+sudo gparted
+#1581372520
+sudo dnf install brasero
+#1581372625
+lsblk
+#1581393583
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581402136
+kill --help
+#1581402142
+man kill
+#1581402166
+clear
+#1581464580
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581471568
+killall firefox
+#1581549648
+kill 11805
+#1581549726
+killall Civ6
+#1581549727
+killall Civ6Sub 
+#1581549730
+killall Civ6
+#1581549731
+killall Civ6Sub 
+#1581549739
+killall steamwebhelper 
+#1581549886
+pid
+#1581549894
+ps aux | grep 27689
+#1581549901
+kill 27689
+#1581565291
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581565294
+killall firefox 
+#1581651363
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581788050
+killall Civ6 
+#1581788737
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1581788740
+DISPLAY=:1 awesome&
+#1581788745
+clear
+#1581803269
+find | grep valheim
+#1581911594
+killall firefox 
+#1581911625
+clear
+#1581911627
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1581976560
+ping google.com
+#1581976563
+killall firefox
+#1581976576
+ping google.com
+#1581976579
+clear
+#1582005367
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1582025296
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1582025300
+DISPLAY=:1 awesome&
+#1582025603
+killall awesome
+#1582025604
+DISPLAY=:1 awesome&
+#1582029034
+fsck --help
+#1582029043
+clear
+#1582030432
+DISPLAY=:1 awesome&
+#1582030853
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1582030855
+DISPLAY=:1 awesome&
+#1582082192
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1582083523
+CLEAR
+#1582083524
+clear
+#1582083526
+cd Games/
+#1582083527
+ls
+#1582083530
+cd Valheim_build_linux_0.79.10/
+#1582083530
+ls
+#1582083538
+cd Valheim_build_linux/
+#1582083539
+ls
+#1582083542
+./start_headless_server.sh 
+#1582083650
+iwconfig 
+#1582083655
+ifconfig 
+#1582083888
+./start_headless_server.sh 
+#1582282485
+xrdb -merge ~/.Xresources 
+#1582282491
+clear
+#1582283024
+ls
+#1582283026
+cd awesome-eph/
+#1582283026
+ls
+#1582283028
+rm *
+#1582283033
+cd ..
+#1582283035
+git clone https://github.com/elenapan/dotfiles.git
+#1582283039
+ls
+#1582283044
+rm awesome-eph/
+#1582283045
+ls
+#1582283051
+mv dotfiles/ ephemeral
+#1582283053
+cd e
+#1582283055
+cd ephemeral/
+#1582283055
+ls
+#1582283060
+echo_black
+#1582283065
+clear
+#1582283066
+ls
+#1582283070
+ls bin/
+#1582283076
+ls config/
+#1582283076
+ls
+#1582283080
+cd config/
+#1582283082
+ls awesome/
+#1582171420
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1582184225
+killall Civ6 
+#1582185087
+killall steam
+#1582185088
+killall steamwebhelper 
+#1582185089
+killall steam
+#1582185091
+clear
+#1582258176
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1582267378
+sudo dnf search nushell
+#1582267930
+killall Civ6
+#1582267931
+killall Civ6Sub 
+#1582277787
+killall Civ6
+#1582279803
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1582279807
+DISPLAY=:1 awesome&
+#1582280804
+clear
+#1582280808
+killall awesome 
+#1582280818
+DISPLAY=:1 mutter&
+#1582280977
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1582281008
+DISPLAY=:1 fluxbox&
+#1582281073
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1582282466
+clear
+#1582282470
+xrdb -merge ~/.Xresources 
+#1582283167
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1582283172
+DISPLAY=:1 picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88&
+#1582283177
+DISPLAY=:1 awesome&
+#1582283356
+killall awesome
+#1582283367
+DISPLAY=:1 awesome&
+#1582285615
+ls
+#1582285620
+cd .config/awesome/
+#1582285621
+ls
+#1582285623
+lua demo.lua 
+#1582285665
+clear
+#1582292736
+figlet
+#1582292751
+clear
+#1582292848
+figlet 
+#1582292855
+clear
+#1582292860
+figlet --help
+#1582292867
+man figlet
+#1582292986
+showfigfonts 
+#1582293013
+clear
+#1582293441
+which lua
+#1582293514
+clear
+#1582294785
+figlet -f slant "test"
+#1582294790
+figlet -f slant "nsstrickland"
+#1582294791
+figlet -f slant "nsstrickland"|clip
+#1582294829
+clear
+#1582294852
+while IFS= read -r line; do echo "read: $line"; done < figlet -f slant "strickland"
+#1582294880
+while IFS= read -r line; do echo "read: $line"; done < $(figlet -f slant "strickland")
+#1582294890
+while IFS= read -r line; do echo "read: $line"; done < ${figlet -f slant "strickland"}
+#1582294932
+figlet -f slant "nsstrickland"
+#1582294932
+clear
+#1582294966
+figlet -f slant "nsstrickland" | while read LINE; do echo "\"$LINE\"";done
+#1582294976
+figlet -f slant "nsstrickland" | while read LINE; do echo "\"$LINE\",";done
+#1582295017
+figlet -f slant "nsstrickland"
+#1582295970
+clear
+#1582295970
+lya
+#1582295972
+lua
+#1582296010
+clear
+#1582296227
+lua
+#1582298124
+echo ~
+#1582298131
+getenv
+#1582298133
+env
+#1582298153
+clear
+#1582298155
+lua
+#1582299326
+clear
+#1582299329
+scratchpad
+#1582306949
+lua
+#1582306963
+clear
+#1582311339
+lua
+#1582326575
+cd Desktop/
+#1582326575
+ls
+#1582326578
+./balenaEtcher-1.5.79-ia32.AppImage 
+#1582326589
+./balenaEtcher-1.5.79-ia32.AppImage  --appimage-extract
+#1582326596
+./balenaEtcher-1.5.79-ia32.AppImage 
+#1582326633
+cd ~/Downloads/
+#1582326633
+ls
+#1582326635
+clear
+#1582326637
+lsblk
+#1582326656
+sudo dd if=manjaro-xfce-18.0.4-x32-stable-minimal-i686.iso of=/dev/sdf bs=4M
+#1582326668
+ls
+#1582326670
+lsblk
+#1582326676
+sudo umount /dev/sdf1
+#1582426380
+clear
+#1582862603
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1582922637
+exit
+#1582869405
+lsblk
+#1582869660
+expressvpn
+#1582869668
+expressvpn connect
+#1582869679
+sudo systemctl restart expressvpn.service 
+#1582869685
+clear
+#1582869687
+expressvpn connect
+#1582869690
+expressvpn activate 
+#1582869692
+clear
+#1582869699
+sudo systemctl stop expressvpn.service 
+#1582869701
+cls
+#1582922551
+sudo dnf install 9wm
+#1582922587
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1582922600
+DISPLAY=:1 9wm &
+#1582927977
+cls
+#1582927981
+lsblk
+#1582928027
+sudo fdisk /dev/sdf
+#1582928046
+lsblk
+#1582928055
+sudo umount /run/media/nick/VOID_LIVE 
+#1582928056
+clear
+#1582928063
+lsblk
+#1582928067
+cd Downloads/
+#1582928078
+sudo dd if=Fedora-Server-dvd-x86_64-31-1.9.iso of=/dev/sdf bs=4M
+#1582943057
+clear
+#1582943081
+lspci
+#1582943085
+lspci | grep VPA
+#1582943087
+lspci | grep VGA
+#1582943094
+lspci --help 
+#1582943103
+lspci -ac
+#1582943154
+lspci –vvnn | grep VGA.
+#1582943158
+lspci –vvnn | grep VGA
+#1582943162
+lspci –vn | grep VGA
+#1582943183
+lspci –vvnn
+#1582943189
+lspci
+#1582943190
+lspci -v
+#1582943191
+lspci -vv
+#1582943192
+lspci -vvb
+#1582943193
+lspci -vvn
+#1582943194
+lspci -vvnn
+#1582943200
+lspci -vvnn | grep vga
+#1582943207
+lspci -vvnn | grep VGA
+#1582943225
+clear
+#1582943229
+cd /usr/share/
+#1582943230
+ls -al
+#1582943240
+ls discord/
+#1582943248
+cd dis
+#1582943249
+cd discord/
+#1582943250
+ls
+#1582943257
+sudo su
+#1582943275
+ls ~/Downloads/discord-0.0.10/Discord/
+#1582943282
+sudo mv ~/Downloads/discord-0.0.10/Discord/* .
+#1582943286
+ls
+#1582943304
+clear
+#1582943360
+ls
+#1582943362
+rm *
+#1582943365
+rm * -rf
+#1582943365
+ls
+#1582943370
+sudo rm * -rf
+#1582943371
+ls
+#1582943372
+clear
+#1582943381
+sudo mv ~/Downloads/discord-0.0.10/Discord/*
+#1582943382
+sudo mv ~/Downloads/discord-0.0.10/Discord/* .
+#1582943385
+ls
+#1582943499
+cls
+#1582943761
+clear
+#1582943799
+lspci
+#1582943832
+lspci --help
+#1582943962
+clear
+#1582943970
+lspci --help
+#1582944547
+kiecho $DESKTOP_SESSION 
+#1582944550
+echo $DESKTOP_SESSION 
+#1582944772
+clear
+#1582944777
+lspci | grep VGA
+#1582944788
+glxinfo | grep -i vendor
+#1582945211
+ps
+#1582945213
+ps aux
+#1582945218
+clear
+#1582945219
+top
+#1582945222
+clear
+#1582946246
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583023197
+gfeeds 
+#1583022192
+clear
+#1583022198
+sudo dnf search gnome-feeds
+#1583022236
+sudo dnf instal gnome-feeds
+#1583022238
+sudo dnf install gnome-feeds
+#1583022313
+gnome-feeds
+#1583022323
+sudo dnf install gnome-feeds
+#1583022344
+rpm -ql gnome-feels
+#1583022345
+rpm -ql gnome-feeds
+#1583022354
+gfeeds 
+#1583022499
+sudo dnf reinstall gnome-feeds
+#1583022510
+gfeeds 
+#1583022600
+sudo dnf update
+#1583023301
+0cls
+#1583023309
+gfeeds 
+#1583023314
+sudo dnf search handy
+#1583023328
+sudo dnf install libhandy
+#1583023338
+sudo dnf install libhandy-devel
+#1583023347
+gfeeds 
+#1583023480
+sudo dnf remove gnome-feeds
+#1583023491
+clear
+#1583023679
+flatpak remote-ls flathub | grep org.gtk.Gtk3theme
+#1583023687
+flatpak remote-ls flathub 
+#1583023700
+flatpak remote-ls flathub | grep org.gtk.Gtk3theme
+#1583023704
+flatpak remote-ls flathub | 2 | grep org.gtk.Gtk3theme
+#1583023707
+flatpak remote-ls flathub 2 | grep org.gtk.Gtk3theme
+#1583023715
+flatpak remote-ls flathub(user) | grep org.gtk.Gtk3theme
+#1583023719
+flatpak remote-ls "flathub(user)" | grep org.gtk.Gtk3theme
+#1583023722
+flatpak remote-ls "flathub (user)" | grep org.gtk.Gtk3theme
+#1583023726
+flatpak remote-ls "flathub user" | grep org.gtk.Gtk3theme
+#1583023730
+flatpak remote-ls 
+#1583023740
+flatpak remote-ls  | grep org.gtk.Gtk3theme
+#1583023746
+flatpak remote-ls  | grep org.gtk.Gtk3theme | grep nordic
+#1583023750
+clear
+#1583023800
+sudo dnf install gnome-feeds
+#1583023815
+gfeeds 
+#1583023937
+sudo dnf search godot
+#1583023952
+sudo dnf install godot
+#1583024823
+nautilus
+#1583024080
+cd Documents/git/
+#1583024080
+ls
+#1583024082
+git clone https://github.com/tryone144/compton.git
+#1583024085
+clear
+#1583024085
+ls
+#1583024089
+cd compton/
+#1583024089
+ls
+#1583024135
+make
+#1583024145
+sudo dnf search libconfig
+#1583024155
+sudo dnf install libconfig-devel
+#1583024163
+make
+#1583024195
+cmake
+#1583024199
+cmake .
+#1583024203
+ls
+#1583024218
+mv _CMakeLists.txt CMakeLists.txt 
+#1583024221
+cmake .
+#1583024226
+ls
+#1583024228
+make
+#1583024233
+make docs
+#1583024238
+make install
+#1583024332
+sudo dnf copr search compton
+#1583024464
+clear
+#1583024465
+ls
+#1583024470
+nano Makefile 
+#1583024546
+cls
+#1583024662
+sudo dnf search yaourt
+#1583024668
+sudo dnf search pacman
+#1583024686
+sudo dnf install pacman
+#1583024695
+clear
+#1583024710
+sudo dnf search compton
+#1583024722
+sudo dnf install compton
+#1583024731
+sudo dnf remove picom
+#1583024736
+sudo dnf install compton
+#1583024747
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1583024752
+DISPLAY=:1 9wm &
+#1583024756
+clear
+#1583024762
+DISPLAY=:1 compton &
+#1583024838
+killall 9wm
+#1583024840
+DISPLAY=:1 awesome&
+#1583024852
+killall compton 
+#1583024853
+clear
+#1583024857
+compton --help
+#1583024925
+DISPLAY=:1 compton &
+#1583024934
+man compton
+#1583024972
+killall compton 
+#1583024975
+DISPLAY=:1 compton &
+#1583025066
+clear
+#1583025078
+cls
+#1583025625
+lear
+#1583025626
+clear
+#1583025633
+sudo dnf repolist 
+#1583025658
+sudo dnf copr disable dcaratti-wpa_supplicant
+#1583025663
+sudo dnf copr disable dcaratti/wpa_supplicant
+#1583025667
+sudo dnf repolist 
+#1583025672
+sudo dnf install wpa_supplicant
+#1583025678
+sudo dnf install wpa-supplicant
+#1583025686
+sudo dnf info wpa_supplicant
+#1583025705
+sudo dnf remove wpa-supplicant
+#1583025716
+sudo dnf install wpa-supplicant
+#1583025721
+sudo dnf reinstall wpa-supplicant
+#1583025725
+sudo dnf reinstall wpa_supplicant
+#1583025738
+sudo dnf remove wpa_supplicant
+#1583025761
+sudo dnf search wpa_supplicant
+#1583025772
+sudo dnf search wpa_supplicant.x86_64
+#1583025780
+sudo dnf install wpa_supplicant.x86_64
+#1583025786
+sudo dnf install wpa_supplicant.x86_64 --force
+#1583025789
+sudo dnf install wpa_supplicant.x86_64 -force
+#1583025790
+sudo dnf install wpa_supplicant.x86_64 -f
+#1583025792
+sudo dnf install wpa_supplicant.x86_64
+#1583025802
+sudo dnf install wpa_supplicant@updates
+#1583025807
+clear
+#1583025851
+sudo dnf install wpa_supplicant
+#1583025856
+sudo dnf reinstall wpa_supplicant
+#1583025863
+sudo dnf install wpa_supplicant
+#1583025874
+sudo dnf remove wpa_supplicant
+#1583025895
+sudo dnf install wpa_supplicant
+#1583025910
+sudo dnf history
+#1583025931
+sudo dnf history undo 318
+#1583026080
+sudo dnf install NetworkManager-team-1:1.16.4-1.fc30.x86_64 NetworkManager-wifi-1:1.16.4-1.fc30.x86_64 anaconda-30.25.6-4.fc30.x86_64 anaconda-core-30.25.6-4.fc30.x86_64 anaconda-gui-30.25.6-4.fc30.x86_64 anaconda-live-30.25.6-4.fc30.x86_64 
+#1583026123
+man anaconda
+#1583026126
+anaconda
+#1583026132
+sudo anaconda
+#1583008173
+clear
+#1583008178
+sudo dnf remove anaconda
+#1583008184
+sudo dnf remove anaconda*
+#1583008210
+blivet-gui
+#1583008230
+clear
+#1583008232
+sudo dnf remove anaconda*
+#1583008245
+sudo dnf restart
+#1583008251
+sudo reboot noiw
+#1583026505
+sudo systemctl status wpa_supplicant.service 
+#1583026512
+sudo systemctl restart wpa_supplicant.service 
+#1583026525
+lsmod
+#1583026567
+modinfo wl
+#1583026584
+modinfo radeon 
+#1583026587
+modinfo wl
+#1583026597
+clear
+#1583026600
+sudo dnf update
+#1583026615
+sudo dnf list installed
+#1583026621
+sudo dnf list installed | grep wpa
+#1583026698
+clear
+#1583026702
+sudo dnf search kmod-wl
+#1583026709
+sudo dnf install kmod-wl
+#1583026738
+sudo dnf install kmod-wl akmod-wl
+#1583026750
+modinfo wl
+#1583026754
+sudo reboot now
+#1583026924
+sudo dnf search broadcom-wl
+#1583026936
+sudo dnf install broadcom-wl
+#1583026944
+sudo dnf reinstall broadcom-wl
+#1583026972
+modinfo wl
+#1583026980
+insmod wl
+#1583027003
+clear
+#1583027035
+cd Documents/scripts/
+#1583027035
+ls
+#1583027037
+./sign.sh 
+#1583027066
+modinfo wl
+#1583027076
+systemctl restart wpa_supplicant.service 
+#1583027086
+insmod wl
+#1583027089
+sudo insmod wl
+#1583027095
+sudo reboot now
+#1583027356
+sudo dnf copr enable dcaratti/wpa_supplicant
+#1583027367
+sudo dnf install dcaratti/wpa_supplicant
+#1583027380
+sudo dnf install dcaratti-wpa_supplicant
+#1583027386
+sudo dnf reinstall wpa_supplicant
+#1583027395
+sudo dnf remove wpa_supplicant
+#1583027423
+sudo dnf install wpa_supplicant
+#1583027445
+sudo dnf install NetworkManager-wifi-1:1.16.
+#1583027452
+sudo dnf install NetworkManager-wifi
+#1583027463
+sudo dnf reboot
+#1583027467
+sudo reboot now
+#1583028750
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1583028753
+clear
+#1583028760
+DISPLAY=:1 compton &
+#1583028763
+DISPLAY=:1 awesome&
+#1583029040
+DISPLAY=:1 compton &
+#1583029041
+cls
+#1583029158
+sudo dnf search appmenu
+#1583029186
+sudo dnf copr search appmenu
+#1583029213
+clear
+#1583029217
+sudo dnf copr enable alunux/vala-panel-appmenu 
+#1583029228
+sudo dnf install vala-panel-appmenu
+#1583029236
+sudo dnf copr install vala-panel-appmenu
+#1583029242
+sudo dnf copr search vala-panel-appmenu
+#1583029300
+sudo dnf searrch global-meun
+#1583029305
+sudo dnf search global-menu
+#1583029315
+sudo dnf copr enable jcornuz/xfce-global-menu 
+#1583029319
+sudo dnf install vala-panel-appmenu
+#1583029337
+sudo dnf install xfce-global-menu
+#1583029342
+sudo dnf install vala-panel-appmenu
+#1583029374
+cls
+#1583029380
+sudo dnf install xfce4-panel
+#1583029422
+cls
+#1583029436
+DISPLAY=:1 xfce4-panel 
+#1583029447
+DISPLAY=:1 xfce4-panel &
+#1583029519
+clear
+#1583029521
+sudo dnf install vala-panel-appmenu
+#1583029575
+xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+#1583029576
+xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+#1583029641
+killall xfce4-panel 
+#1583029644
+DISPLAY=:1 xfce4-panel &
+#1583029833
+sudo dnf reinstall vala-panel-appmenu
+#1583029851
+killall xfce4-panel 
+#1583029855
+DISPLAY=:1 xfce4-panel &
+#1583029971
+xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+#1583029972
+xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+#1583030150
+clear
+#1583030384
+killall firefox
+#1583030438
+xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+#1583030439
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583030610
+clear
+#1583043927
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1583043937
+DISPLAY=:1 xfce4-panel &
+#1583043943
+DISPLAY=:1 compton &
+#1583043954
+DISPLAY=:1 awesome&
+#1583043993
+clear
+#1583043998
+sudo dnf search appmenu
+#1583044028
+sudo dnf install appmenu-gtk-module-common-debuginfo-0.7.3-1.fc30.x86_64 
+#1583044033
+sudo dnf install appmenu-gtk-module-common
+#1583044056
+sudo dnf install xfce4-vala-panel-appmenu-plugin
+#1583044285
+killall firefox
+#1583044286
+clear
+#1583044286
+exit
+#1583044497
+killall Civ6
+#1583044498
+killall Civ6Sub 
+#1583044515
+killall Civ6
+#1583044517
+killall Civ6Sub 
+#1583044524
+killall steamwebhelper 
+#1583050511
+killall firefox
+#1583050568
+mousetweaks 
+#1583050662
+gnome-control-center 
+#1583050686
+killall gnome-control-center
+#1583050691
+cls
+#1583050693
+clear
+#1583050743
+xinput --set-prop 13 288 -0.676471
+#1583050819
+clear
+#1583050831
+killall xfce4-panel 
+#1583050836
+xfce4-panel 
+#1583051106
+clear
+#1583051237
+killall code
+#1583051239
+killall firefox
+#1583051355
+compton &
+#1583051399
+killall code
+#1583051401
+code
+#1583051410
+clear
+#1583052031
+rofi
+#1583052036
+rofi -show run
+#1583052057
+rofi --help
+#1583052065
+clear
+#1583052066
+rofi --help
+#1583052080
+clear
+#1583052085
+cd ~
+#1583052085
+clear
+#1583052087
+cd .config/
+#1583052088
+ls
+#1583052092
+cd gtk-3.0/
+#1583052092
+ls
+#1583052099
+cat settings.ini 
+#1583052113
+mv gtk.css.old gtk.css
+#1583052572
+cat gtk.css 
+#1583052605
+mv gtk.css gtk.css.old
+#1583052608
+nano gtk.css
+#1583052627
+exit
+#1583052647
+killall firefox
+#1583052649
+killall code
+#1583052717
+awesome &
+#1583052734
+loginctl lock-session
+#1583052737
+loginctl --help
+#1583052768
+loginctl user-status
+#1583052771
+clear
+#1583052775
+loginctl show-user
+#1583052788
+loginctl kill-session
+#1583052806
+loginctl terminate-se
+#1583052808
+loginctl terminate-session 
+#1583052811
+loginctl terminate-user
+#1583052813
+loginctl terminate-user nick
+#1583052840
+xinput --set-prop 13 288 -0.676471
+#1583052854
+xfce4-panel  &
+#1583052874
+xprop
+#1583052879
+clear
+#1583052881
+xprop
+#1583055027
+cls
+#1583056086
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1583056090
+DISPLAY=:1 awesome&
+#1583056093
+DISPLAY=:1 compton &
+#1583056095
+clear
+#1583056112
+sudo dnf repo-packages 
+#1583056119
+sudo dnf repolist
+#1583056132
+sudo dnf repo-packages  copr:copr.fedorainfracloud.org:jcornuz:xfce-global-menu
+#1583056141
+sudo dnf repo-packages list copr:copr.fedorainfracloud.org:jcornuz:xfce-global-menu
+#1583056150
+sudo dnf repo-packages list 
+#1583056154
+sudo dnf repo-packages copr:copr.fedorainfracloud.org:jcornuz:xfce-global-menu list 
+#1583056168
+sudo dnf remove xfce4-vala-panel-appmenu-plugin-0.7.3-1.fc30.x86_64 
+#1583056175
+sudo dnf repo-packages list 
+#1583056177
+sudo dnf repo-packages copr:copr.fedorainfracloud.org:jcornuz:xfce-global-menu list 
+#1583056243
+sudo dnf remove appmenu-gtk2-module-0.7.3-1.fc30.x86_64 appmenu-gtk3-module-0.7.3-1.fc30.x86_64  appmenu-gtk-module-common-0.7.3-1.fc30.x86_64 libappmenu-gtk* vala-panel-appmenu-0.7.3-1.fc30.x86_64 
+#1583056259
+sudo dnf copr disable copr:copr.fedorainfracloud.org:jcornuz:xfce-global-menu
+#1583056266
+sudo dnf copr disable jcornuz\xfce-global-menu
+#1583056269
+sudo dnf copr disable jcornuz/xfce-global-menu
+#1583056271
+clear
+#1583056273
+sudo dnf update
+#1583056711
+killall awesome
+#1583056719
+DISPLAY=:1 openbox &
+#1583056856
+killall compton 
+#1583056862
+DISPLAY=:1 compton &
+#1583056903
+killall openbox
+#1583056910
+DISPLAY=:1 fluxbox &
+#1583057257
+sudo dnf install 2bwm
+#1583057345
+sudo dnf install xfce
+#1583057352
+sudo dnf install xfce4
+#1583057377
+sudo dnf install xfce4-session
+#1583057415
+sudo dnf copr enable jcornuz/xfce-global-menu 
+#1583057442
+sudo dnf install xfce4-vala-panel-appmenu-plugin
+#1583057866
+sudo dnf install xfce4-settings
+#1583057919
+xinput --set-prop 13 288 -0.676471
+#1583058193
+compton &
+#1583058329
+compton --replace
+#1583058331
+cls
+#1583058340
+xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
+#1583058347
+xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+#1583115930
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583126435
+sudo dnf search mangohud
+#1583126447
+sudo dnf install mangohud
+#1583126565
+code $PROFILE 
+#1583127052
+MANGOHUD=1 ./minecraft-launcher 
+#1583127098
+echo $MANGOHUD
+#1583188603
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583217121
+clear
+#1583217125
+killall nautilus
+#1583217978
+sudo dnf install winetricks
+#1583218395
+wine
+#1583218402
+wine --help
+#1583218404
+clear
+#1583218904
+ls
+#1583218909
+wine WitcherScriptMerger.exe 
+#1583219622
+rm ~/.wine/
+#1583219732
+wine WitcherScriptMerger.exe 
+#1583219749
+wine --help
+#1583219800
+clear
+#1583219807
+echo $WINEPREFIX
+#1583219820
+export WINEPREFIX=/home/nick/.wine/
+#1583219821
+wineboot
+#1583219828
+wine WitcherScriptMerger.exe 
+#1583439589
+mpd
+#1583481077
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583481732
+sudo dnf search phosh
+#1583644799
+sudo firewall-cmd --list-all
+#1583644858
+sudo firewall-cmd --remove-port=1025-65535/udp
+#1583644866
+sudo firewall-cmd --remove-port=1025-65535/udp --permanent
+#1583644871
+sudo firewall-cmd --remove-port=1025-65535/tcp --permanent
+#1583644886
+sudo firewall-cmd --remove-port=35031/udp --permanent 
+#1583644889
+sudo firewall-cmd --remove-port=35031/tcp --permanent 
+#1583644902
+sudo firewall-cmd --add-port=25565/tcp
+#1583644905
+sudo firewall-cmd --reload 
+#1583644910
+ifconfig 
+#1583645027
+sudo firewall-cmd --list-all
+#1583645033
+sudo firewall-cmd --add-port=25565/tcp --permanent
+#1583645035
+sudo firewall-cmd --reload 
+#1583645037
+sudo firewall-cmd --list-all
+#1583645662
+xmodmap -e "keycode 105 = Control_R";xmodmap -e "keycode 37 = Control_L"
+#1583645677
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583644369
+java -jar paper-34.jar 
+#1583644379
+java -jar spigot.jar 
+#1583644441
+clear
+#1583644441
+ls
+#1583644444
+cd ..
+#1583644444
+ls
+#1583644451
+ls backup/
+#1583644452
+ls backup/server/
+#1583644454
+ls
+#1583644456
+ls build/
+#1583644458
+ls build/spigot/
+#1583644463
+ls
+#1583644466
+cd server/
+#1583644466
+ls
+#1583644472
+cd ..
+#1583644473
+ls
+#1583644474
+cd ..
+#1583644475
+ls
+#1583644476
+cd ..
+#1583644476
+ls
+#1583644489
+cd var
+#1583644489
+ls
+#1583644490
+cd minecraft/
+#1583644491
+ls
+#1583644494
+find | grep backu
+#1583644516
+find | grep update
+#1583644521
+ls
+#1583644527
+build/spigot/update.sh 
+#1583644651
+ls
+#1583644694
+mv spigot-1.15.2.jar server/
+#1583644695
+cd server/
+#1583644696
+ls
+#1583644703
+rm spigot.jar 
+#1583644710
+rm spigot-1.15.2.jar spigot.jar
+#1583644712
+java -jar spigot.jar 
+#1583644715
+ls
+#1583644729
+rm --help
+#1583644738
+trash-restore spigot-1
+#1583644743
+trash-restore 
+#1583644749
+ls
+#1583644754
+mv spigot-1.15.2.jar spigot.jar
+#1583644756
+java -jar spigot.jar 
+#1583566157
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1583977958
+killall firefox
+#1583978331
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584103384
+killall firefox 
+#1584103385
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584145999
+sudo systemctl stop firewalld
+#1584146022
+killall firefox 
+#1584146467
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584152627
+killall firefox 
+#1584201338
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584215483
+sudo systemctl start firewalld
+#1584237902
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584321289
+killall nautilusa
+#1584321291
+killall nautilus
+#1584322798
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584415478
+killall firefox 
+#1584415603
+xmodmap -e "keycode 105 = Control_R";xmodmap -e "keycode 37 = Control_L"
+#1584418435
+killall firefox 
+#1584435925
+killall stema
+#1584435927
+killall steam
+#1584485789
+xmodmap -e "keycode 105 = Control_R";xmodmap -e "keycode 37 = Control_L"
+#1584485792
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584493180
+clear
+#1584497411
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1584503601
+sudo dnf search flash
+#1584503722
+clear
+#1584503723
+cd Downloads/
+#1584503724
+ls
+#1584503743
+sudo dnf install ./adobe-release-x86_64-1.0-1.noarch.rpm 
+#1584905961
+cat config.sav 
+#1584905963
+clear
+#1584905956
+cat config 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          #1585173727
+cd Games/minecraft-server/
+#1585173727
+ls
+#1585174557
+ls -al
+#1585174561
+cd minecraft/
+#1585174561
+ls
+#1585174577
+scp mcsrv.tar.xz nick@akariin.strck.land:/home/nick/
+#1585013723
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585013727
+killall firefox
+#1585102958
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585113334
+killall firefox
+#1585170662
+ping akariin.strck.land
+#1585170738
+ping ~192.168.1.195
+#1585170740
+ping 192.168.1.195
+#1585170743
+ssh 192.168.1.195
+#1585170748
+ssh nick@192.168.1.195
+#1585170792
+ssh nick@192.168.1.221
+#1585170988
+hostname
+#1585171515
+ping 192.168.1.195
+#1585171517
+ping akariin.strck.land
+#1585171978
+cat ~/.ssh/
+#1585171986
+cat ~/.ssh/lin-kinzie.pub 
+#1585171988
+cat ~/.ssh/lin-kinzie.pub |clip
+#1585172010
+ssh nick@akariin.strck.land
+#1585172021
+clear
+#1585173163
+ping akariin.strck.land
+#1585173556
+clear
+#1585173560
+ssh nick@akariin.strck.land
+#1585178503
+oomox-gui 
+#1585179074
+clear
+#1585176934
+ssh hachiman.strck.land 
+#1585176944
+ssh nick@akariin.strck.land
+#1585180076
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585250114
+ssh nick@akariin.strck.land
+#1585251754
+mpd
+#1585286374
+ssh nick@akariin.strck.land
+#1585287066
+exit
+#1585332096
+cd Downloads/
+#1585332097
+ls
+#1585332112
+scp worldedit-bukkit-7.1.0.jar nick@akariin.strck.land:/home/nick/
+#1585332119
+ssh nick@akariin.strck.land
+#1585357614
+clear
+#1585357614
+exit
+#1585357622
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585442714
+ssh nick@akariin.strck.land
+#1585442770
+exit
+#1585709056
+scp ./RightClickTrack-1.0.jar  nick@akariin.strck.land:/home/nick/
+#1585526471
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585624665
+killall firefox
+#1585701775
+cd Downloads/
+#1585701783
+scp Items-3.0.6.jar  nick@akariin.strck.land:/home/nick/
+#1585701791
+ssh nick@akariin.strck.land
+#1585709396
+exit
+#1585706458
+cd Down
+#1585706461
+clear
+#1585706461
+ls
+#1585706472
+scp ./CustomCommands-1.1.1.jar  nick@akariin.strck.land:/home/nick/
+#1585707442
+sudo dnf search eclipse
+#1585707471
+sudo dnf search eclipse-ide
+#1585707476
+sudo dnf search netbeans
+#1585707568
+sudo dnf install netbeans
+#1585707868
+clear
+#1585707873
+cd ~/Documents/Projects/Eclipse/
+#1585707874
+ls
+#1585707880
+mkdir Spigot
+#1585707883
+mb BuildTools.jar Spigot/
+#1585707889
+mv BuildTools.jar Spigot/
+#1585707891
+ls
+#1585707892
+cd Spigot/
+#1585707893
+ls
+#1585707898
+java -jar BuildTools.jar 
+#1585709063
+clear
+#1585709271
+ls
+#1585709276
+cd ../
+#1585709276
+ls
+#1585709280
+cd RightClickTrack/exp/
+#1585709280
+ls
+#1585709286
+scp ./RightClickTrack-1.0.jar   nick@akariin.strck.land:/home/nick/
+#1585709397
+exit
+#1585709419
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585717337
+cd /home/nick/Documents/Projects/Eclipse/Spigot/server
+#1585717338
+ls
+#1585717342
+java -jar spigot-1.15.2.jar 
+#1585717349
+nano eula.txt 
+#1585717354
+java -jar spigot-1.15.2.jar 
+#1585717370
+cls
+#1585717435
+java -jar spigot-1.15.2.jar 
+#1585717917
+java -jar spigot-1.15.2.jar -nogui
+#1585720594
+cd Documents/Projects/Eclipse/Spigot/server/
+#1585720597
+java -jar spigot-1.15.2.jar -nogui
+#1585780008
+CLEAR
+#1585780010
+clear
+#1585780013
+cd ~/Downloads/
+#1585780031
+scp ./SkinsRestorer.jar nick@akariin.strck.land:/home/nick/
+#1585780034
+ssh nick@akariin.strck.land
+#1585792543
+killall firefox
+#1585792544
+clear
+#1585792547
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585851770
+clear
+#1585851779
+xdg-mime
+#1585851783
+which open
+#1585851785
+xdg-mime
+#1585851797
+xdg-mime --helpp
+#1585851798
+xdg-mime --help
+#1585851799
+clear
+#1585851805
+xdg-mime 
+#1585851809
+xdg-mime query default 
+#1585851812
+xdg-mime query default --help
+#1585851814
+cleare
+#1585851815
+clear
+#1585851873
+cat ~/.config/mimeapps.list 
+#1585851877
+cat ~/.config/mimeapps.list | grep code
+#1585851887
+ps aux
+#1585851893
+ps 
+#1585851894
+clear
+#1585851898
+ps u
+#1585851981
+which gedit 
+#1585851992
+find / | grep gedit
+#1585852282
+exit
+#1585852112
+ls /usr/share/applications/|grep gedit
+#1585852157
+cp /usr/share/applications/org.gnome.gedit.desktop ~/.local/share/applications
+#1585852171
+gedit ~/.local/share/applications/org.gnome.gedit.desktop 
+#1585852285
+clear
+#1585853306
+exit
+#1585853310
+cat ~/.config/mimeapps.list | grep code
+#1585853319
+gedit ~/.config/mimeapps.list 
+#1585857237
+sudu dnf shell
+#1585857241
+sudo dnf shell
+#1585879114
+clear
+#1585879119
+sudo dnf search back-in-time
+#1585879133
+sudo dnf search backintime
+#1585879161
+sudo dnf search sbackup
+#1585879172
+sudo dnf search backup
+#1585879998
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585893886
+killall firefox
+#1585893898
+MOZ_DISABLE_GMP_SANDBOX=1 firefox
+#1585893962
+clear
+#1585894021
+sudo dnf update firefox
+#1585894075
+killall firefox
+#1585894185
+sudo dnf install glibc-2.30
+#1585894202
+sudo dnf update glibc
+#1585894212
+sudo dnf install glibc
+#1585894219
+clear
+#1585894224
+killall firefox
+#1585894229
+MOZ_DISABLE_GMP_SANDBOX=1 firefox
+#1585894476
+killall firefox
+#1585894903
+firefox --help
+#1585894913
+firefox --safe-mode
+#1585895103
+killall firefox
+#1585895105
+MOZ_DISABLE_GMP_SANDBOX=1 firefox
+#1585895177
+uname -a
+#1585895179
+clear
+#1585897713
+cd Documents/
+#1585897714
+ls
+#1585897716
+cd scripts/
+#1585897716
+;s
+#1585897717
+clear
+#1585897718
+ls
+#1585897740
+cat sign.sh 
+#1585897757
+./sign.sh 
+#1585897802
+cat sign.txt 
+#1585897822
+open sign.txt 
+#1585897837
+sign=/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 /home/nick/Documents/MOK.priv /home/nick/Documents/MOK.der 
+#1585897845
+/usr/src/kernels/$(uname -r)/scripts/sign-file sha256 /home/nick/Documents/MOK.priv /home/nick/Documents/MOK.der 
+#1585897860
+clear
+#1585897867
+modinfo wl
+#1585897868
+exit
+#1585898020
+sudo dnf install fwupd
+#1585898230
+sudo dnf install gnome-tweaks
+#1585898236
+sudo dnf update gnome-tweaks
+#1585898281
+sudo dnf shell
+#1585898333
+sudo dnf install gnome-shell-extension-dash-to-dock
+#1585898474
+clear
+#1585898476
+sudo dnf update
+#1585898680
+sudo dnf update 
+#1585898702
+clear
+#1585898704
+cd Documents/git/
+#1585898704
+ls
+#1585898773
+git clone https://github.com/micheleg/dash-to-dock.git
+#1585898777
+cd dash-to-dock/
+#1585898777
+ls
+#1585898778
+clear
+#1585898784
+code ,
+#1585898799
+code .
+#1585965674
+killall Discord 
+#1585966921
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585968307
+sudo dnf search lib32-gamemode
+#1585968321
+sudo dnf search gamemode
+#1585968343
+sudo dnf install gamemode,gnome-shell-extension-gamemode
+#1585968462
+sudo dnf install gamemode gnome-shell-extension-gamemode
+#1585968586
+clear
+#1585968588
+killall firefox
+#1585968778
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1585978107
+sudo dnf update
+#1585979931
+sudo systemctl daemon-reload 
+#1585979946
+killall firefox
+#1585980266
+clear
+#1585980273
+sudo dnf list installed| grep glib
+#1585980276
+sudo dnf list installed| grep glibc
+#1585980503
+killall firefox
+#1585981094
+firefox
+#1585981237
++-++
+#1585981241
+firefox
+#1585981243
+killall firefox
+#1585981404
+firefox
+#1585981578
+killall firefox
+#1585981605
+firefox
+#1585982522
+sudo dnf list installed | grep glibc
+#1585982979
+sudo dnf update firefox
+#1585982992
+sudo dnf update
+#1585986611
+gamemode
+#1585986616
+gamemoded 
+#1585986618
+gamemoded  --help
+#1585986622
+gamemoded  --status
+#1585982438
+MOZ_DISABLE_CONTENT_SANDBOX=1 firefox
+#1585987596
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1585987607
+DISPLAY=:1 xfwm4
+#1585987625
+DISPLAY=:1 xfwm4 &
+#1585987637
+DISPLAY=:1 xfce4-panel &
+#1585987848
+clear
+#1585987855
+sudo dnf grouplist
+#1585987920
+sudo dnf groupinstall "Deepin Desktop"
+#1585987939
+sudo dnf grouplist
+#1585987958
+sudo dnf groupinstall "Xfce Desktop"
+#1585987998
+sudo dnf clean packages
+#1585988006
+sudo dnf groupinstall "Xfce Desktop"
+#1585988083
+sudo dnf undo
+#1585988088
+clear
+#1585988096
+DISPLAY=:1 xfce4-panel &
+#1585988102
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1585988111
+DISPLAY=:1 xfce4-session &
+#1585988148
+sudo dnf search enlightenment
+#1585988174
+sudo dnf install enlightenment e16-themes
+#1585988186
+sudo dnf install enlightenment e16-themes e16-epplets
+#1585988258
+killall firefox
+#1585988329
+clear
+#1585988338
+cd /usr/share/xsessions/
+#1585988338
+ls
+#1585988346
+nano e16-gnome3-session.desktop 
+#1585988351
+cat e16-gnome3-session.desktop 
+#1585988361
+clear
+#1585988362
+cat
+#1585988363
+ls
+#1585988372
+cat e16-gnome2-session.desktop 
+#1585988385
+cat e16-gnome3-session.desktop 
+#1585988392
+cd ..
+#1585988401
+sudo dnf search e16
+#1585988445
+clear
+#1585988446
+ls
+#1585988452
+ls gnome-session/
+#1585988458
+cd gnome-session/sessions/
+#1585988459
+ls
+#1585988466
+cat e16-gnome.session 
+#1585988485
+cat gnome-awesome.session 
+#1585988500
+sudo nano e16-gnome.session 
+#1585988524
+exit
+#1585990056
+xfce4-session
+#1585990068
+ls
+#1585990082
+journalctl gdm
+#1585990084
+clewar
+#1585990085
+clear
+#1585990087
+ls -al
+#1585990089
+cd ~
+#1585990091
+ls -al
+#1585990104
+cd .config/
+#1585990104
+ls
+#1585990111
+cd ..
+#1585990114
+find | grep log
+#1585990120
+find | grep X | grep log
+#1585990143
+clear
+#1585990175
+journalctl -u gdm
+#1585990216
+startx
+#1585990246
+journalctl -xru gdm
+#1585990250
+journalctl -xeu gdm
+#1585990299
+xfce4
+#1585990304
+Xorg 
+#1585990323
+Xorg && xfce4-session &
+#1585990340
+clear
+#1585990389
+cat /var/log/Xorg.0.log
+#1585990420
+cat /var/log/Xorg.0.log | grep xfce
+#1585990422
+cat /var/log/Xorg.0.log | grep Xf
+#1585990423
+cat /var/log/Xorg.0.log | grep X
+#1585990431
+cat /var/log/Xorg.0.log | grep xfwm
+#1585990432
+exit
+#1585990453
+cat /usr/share/xsessions/
+#1585990455
+cd /usr/share/xsessions/
+#1585990455
+ls
+#1585990459
+cat xfce.desktop 
+#1585990465
+startxfce4 
+#1585990486
+clear
+#1585990490
+systemctl restart gdm
+#1585990509
+startxfce4 
+#1585990549
+exit
+#1585991318
+clear
+#1585991339
+sudo su
+#1585991346
+cd /usr/share/xsessions/
+#1585991346
+ls
+#1585991368
+cp gnome-xorg.desktop gnome-xorg-nopanel.desktop
+#1585991372
+sudo cp gnome-xorg.desktop gnome-xorg-nopanel.desktop
+#1585991378
+nano gnome-xorg-nopanel.desktop 
+#1585991387
+cat gnome-xorg
+#1585991390
+cat gnome-xorg.desktop 
+#1585991396
+cat gnome-xorg-nopanel.desktop 
+#1585991404
+sudo nano gnome-xorg-nopanel.desktop 
+#1585991449
+ls
+#1585991453
+cat gnome-openbox.desktop 
+#1585991461
+sudo nano gnome-xorg-nopanel.desktop 
+#1585991481
+cd ../gnome-session/sessions/
+#1585991482
+ls
+#1585991494
+cp gnome.session nopanel.session
+#1585991503
+sudo cp gnome.session nopanel.session
+#1585991509
+sudo nano gnome-xorg-nopanel.desktop 
+#1585991514
+sudo nano nopanel.session 
+#1585991687
+sudo systemctl restart gdm
+#1585991717
+cd /usr/share/xsessions/
+#1585991717
+ls
+#1585991722
+cat gnome-xorg-nopanel.desktop 
+#1585991730
+sudo nano gnome-xorg-nopanel.desktop 
+#1585991737
+ls
+#1585991739
+cat gnome-openbox.desktop 
+#1585991748
+cat gnome-xorg
+#1585991752
+cat gnome-xorg.desktop 
+#1585991765
+cat gnome-xorg-nopanel.desktop 
+#1585991771
+sudo nano gnome-xorg-nopanel.desktop 
+#1585991788
+ls
+#1585991789
+cd ..
+#1585991790
+ls
+#1585991793
+cd gnome-session/sessions/
+#1585991794
+ls
+#1585991796
+cat nopanel.session 
+#1585991801
+cat gnome-openbox.session 
+#1585991813
+sudo systemctl restart gdm
+#1585991836
+ls
+#1585991853
+sudo mv nopanel.session gnome-nopanel.sessin
+#1585991874
+sudo mv gnome-nopanel.sessin gnome-nopanel.session
+#1585991878
+cat gnome-nopanel.session 
+#1585991888
+cat gnome-openbox.session 
+#1585991901
+cd ../../xsessions/
+#1585991901
+ls
+#1585991904
+cat gnome-openbox.desktop 
+#1585991909
+cat gnome-xorg-nopanel.desktop 
+#1585991927
+sudo nano gnome-xorg-nopanel.desktop 
+#1585992003
+cat gnome-xorg-nopanel.desktop 
+#1585992009
+sudo nano gnome-xorg-nopanel.desktop 
+#1585992028
+sudo systemctl restart gsm
+#1585992029
+sudo systemctl restart gdm
+#1585992088
+cd ../gnome-session/sessions/
+#1585992088
+ls
+#1585992094
+sudo nano gnome-nopanel.session 
+#1585992124
+exit
+#1585992282
+sudo dnf history help
+#1585992292
+sudo dnf history --help
+#1585992318
+sudo dnf history list
+#1585992337
+sudo dnf history last-4
+#1585992341
+sudo dnf history last
+#1585992360
+sudo dnf history undo 354 353
+#1585992370
+sudo dnf history undo 354
+#1585992415
+sudo dnf history undo 353
+#1585992529
+sudo dnf groupremove "Xfce Desktop"
+#1585992778
+sudo dnf remove NetworkManager-fortisslvpn-1.3.90-4.fc31.x86_64  NetworkManager-fortisslvpn-gnome-1.3.90-4.fc31.x86_64  NetworkManager-l2tp-1.8.2-1.fc31.x86_64   NetworkManager-l2tp-gnome-1.8.2-1.fc31.x86_64   Thunar-1.8.12-1.fc31.x86_64     blivet-data-1:3.1.7-2.fc31.noarch    blivet-gui-runtime-2.1.12-1.fc31.noarch   blueberry-1.3.3-2.fc31.noarch     daxctl-libs-68-1.fc31.x86_64     firewall-config-0.7.3-1.fc31.noarch    gtk2-immodule-xim-2.24.32-6.fc31.x86_64   gtk3-immodule-xim-3.24.13-1.fc31.x86_64   imsettings-1.8.2-1.fc31.x86_64    imsettings-gsettings-1.8.2-1.fc31.x86_64   imsettings-libs-1.8.2-1.fc31.x86_64    imsettings-qt-1.8.2-1.fc31.x86_64    imsettings-xfce-1.8.2-1.fc31.x86_64    libreport-anaconda-2.12.0-1.fc31.x86_64   libreswan-3.30-1.fc31.x86_64     lightdm-1.30.0-6.fc31.x86_64     lightdm-gobject-1.30.0-6.fc31.x86_64    ndctl-68-1.fc31.x86_64     ndctl-libs-68-1.fc31.x86_64     network-manager-applet-1.8.24-1.fc31.x86_64   nss-tools-3.50.0-2.fc31.x86_64    openfortivpn-1.13.1-1.fc31.x86_64    opensc-0.20.0-3.fc31.x86_64     openssh-askpass-8.1p1-1.fc31.x86_64    pcsc-lite-1.8.26-1.fc31.x86_64    python3-blivet-1:3.1.7-2.fc31.noarch    python3-bytesize-2.2-1.fc31.x86_64    python3-langtable-0.0.51-1.fc31.noarch   python3-productmd-1.24-1.fc31.noarch    python3-pwquality-1.4.2-1.fc31.x86_64    python3-xlib-0.26-1.fc31.noarch    rsyslog-8.2001.0-1.fc31.x86_64    setroubleshoot-3.3.22-6.fc31.x86_64    setroubleshoot-server-3.3.22-6.fc31.x86_64   smartmontools-1:7.1-7.fc31.x86_64    strongswan-5.8.2-3.fc31.x86_64    strongswan-charon-nm-5.8.2-3.fc31.x86_64   tigervnc-license-1.10.1-2.fc31.noarch    tigervnc-server-minimal-1.10.1-2.fc31.x86_64   tumbler-0.2.8-1.fc31.x86_64     vim-common-2:8.2.480-1.fc31.x86_64    vim-enhanced-2:8.2.480-1.fc31.x86_64    xfce4-screenshooter-1.9.7-1.fc31.x86_64   xfce4-screenshooter-plugin-1.9.7-1.fc31.x86_64  xfce4-terminal-0.8.9.1-1.fc31.x86_64    xfdesktop-4.14.2-1.fc31.x86_64    xscreensaver-base-1:5.44-1.fc31.x86_64   NetworkManager-iodine-1.2.0-9.fc31.x86_64   NetworkManager-iodine-gnome-1.2.0-9.fc31.x86_64  NetworkManager-libreswan-1.2.12-1.fc31.x86_64   NetworkManager-libreswan-gnome-1.2.12-1.fc31.x86_64  NetworkManager-sstp-1:1.2.6-4.fc31.x86_64   NetworkManager-sstp-gnome-1:1.2.6-4.fc31.x86_64  NetworkManager-strongswan-1.4.4-3.fc31.x86_64   NetworkManager-strongswan-gnome-1.4.4-3.fc31.x86_64  albatross-gtk2-theme-1.7.4-7.fc31.noarch   albatross-gtk3-theme-1.7.4-7.fc31.noarch   albatross-xfwm4-theme-1.7.4-7.fc31.noarch   anaconda-core-31.22.6-2.fc31.x86_64    anaconda-gui-31.22.6-2.fc31.x86_64    anaconda-tui-31.22.6-2.fc31.x86_64    anaconda-user-help-26.1-10.fc31.noarch   anaconda-widgets-31.22.6-2.fc31.x86_64   bcache-tools-1.0.8-16.fc31.x86_64    bluebird-gtk2-theme-1.3-3.fc31.noarch    bluebird-gtk3-theme-1.3-3.fc31.noarch    bluebird-xfwm4-theme-1.3-3.fc31.noarch   bluez-tools-0.2.0-0.11.git20170912.7cb788c.fc31.x86_64 desktop-backgrounds-compat-31.0.0-1.fc31.noarch  dnfdaemon-0.3.19-7.fc31.noarch    dnfdaemon-selinux-0.3.19-7.fc31.noarch   dnfdragora-1.1.1-3.fc31.noarch    dnfdragora-updater-1.1.1-3.fc31.noarch   espeak-1.48.04-16.fc31.x86_64     fedora-icon-theme-1.0.0-26.fc31.noarch   google-noto-sans-gurmukhi-fonts-20181223-6.fc31.noarch google-noto-sans-sinhala-vf-fonts-20181223-6.fc31.noarch greybird-gtk2-theme-3.22.10-2.fc31.noarch   greybird-gtk3-theme-3.22.10-2.fc31.noarch   greybird-xfce4-notifyd-theme-3.22.10-2.fc31.noarch  greybird-xfwm4-theme-3.22.10-2.fc31.noarch   gstreamer-plugins-espeak-0.5.0-7.fc31.x86_64   gtk-unico-engine-1.0.3-0.14.20140109bzr152.fc31.x86_64 gtk-xfce-engine-3.2.0-10.fc31.x86_64    ibus-cangjie-2.4-16.fc31.noarch    ibus-cangjie-engine-cangjie-2.4-16.fc31.noarch  im-chooser-1.7.3-2.fc31.x86_64    im-chooser-common-1.7.3-2.fc31.x86_64    im-chooser-xfce-1.7.3-2.fc31.x86_64    initial-setup-0.3.76-1.fc31.x86_64    initial-setup-gui-0.3.76-1.fc31.x86_64   intel-gmmlib-19.3.2-1.fc31.x86_64    iodine-client-0.7.0-13.fc31.x86_64    irqbalance-2:1.4.0-4.fc31.x86_64    keybinder3-0.3.2-7.fc31.x86_64    ldns-1.7.0-26.fc31.x86_64     libblockdev-btrfs-2.23-1.fc31.x86_64    libblockdev-dm-2.23-1.fc31.x86_64    libblockdev-kbd-2.23-1.fc31.x86_64    libblockdev-lvm-2.23-1.fc31.x86_64    libblockdev-mpath-2.23-1.fc31.x86_64    libblockdev-nvdimm-2.23-1.fc31.x86_64    libcangjie-1.3-12.fc31.x86_64     libcangjie-data-1.3-12.fc31.noarch    libestr-0.1.9-13.fc31.x86_64     libfastjson-0.99.8-5.fc31.x86_64    libtimezonemap-0.4.5.1-6.fc31.x86_64    libwvstreams-4.6.1-30.fc31.x86_64    libyui-3.3.3-7.fc31.x86_64     libyui-gtk-2.44.9-14.fc31.x86_64    libyui-mga-1.0.8-0.18.gita6a160e.20160313.fc31.x86_64  libyui-mga-gtk-1.0.2-0.19.git22f2cf6.20131215.fc31.x86_64 libyui-mga-ncurses-1.0.2-0.19.git026f2e6.20131215.fc31.x86_64 libyui-mga-qt-1.0.3-0.19.gitb508e88.20140119.fc31.x86_64 libyui-ncurses-2.48.3-8.fc31.x86_64    libyui-qt-2.47.1-16.fc31.x86_64    libyui-qt-graph-2.44.6-6.fc31.x86_64    lightdm-gtk-2.0.6-2.fc31.x86_64    linux-atm-2.5.1-25.fc31.x86_64    minicom-2.7.1-11.fc31.x86_64     newt-0.52.21-2.fc31.x86_64     nodoka-filesystem-0.3.90-18.fc31.noarch   pcsc-lite-ccid-1.4.31-1.fc31.x86_64    python3-blockdev-2.23-1.fc31.x86_64    python3-cairosvg-1.0.20-12.fc31.noarch   python3-canberra-0-0.20.git88c53cd.fc31.noarch  python3-cangjie-1.2-18.fc31.x86_64    python3-dnfdaemon-0.3.19-7.fc31.noarch   python3-kickstart-3.21-1.fc31.noarch    python3-meh-0.48-1.fc31.noarch    python3-meh-gui-0.48-1.fc31.noarch    python3-newt-0.52.21-2.fc31.x86_64    python3-notify2-0.3.1-4.fc31.noarch    python3-ntplib-0.3.3-15.fc31.noarch    python3-ordered-set-3.1-2.fc31.noarch    python3-pid-2.2.3-3.fc31.noarch    python3-pydbus-0.6.0-9.fc31.noarch    python3-pyparted-1:3.11.2-2.fc31.x86_64   python3-pystray-0.14.3-9.fc31.noarch    python3-pyudev-0.21.0-11.fc31.noarch    python3-requests-file-1.4.3-11.fc31.noarch   python3-requests-ftp-0.3.1-15.fc31.noarch   python3-simpleline-1.6-1.fc31.noarch    python3-yui-1.1.2-17.fc31.x86_64    setroubleshoot-plugins-3.3.10-3.fc31.noarch   sstp-client-1.0.11-13.fc31.x86_64    system-config-language-3.5.0-3.fc31.noarch   thunar-archive-plugin-0.4.0-22.fc31.x86_64   thunar-media-tags-plugin-0.3.0-22.fc31.x86_64   thunar-volman-0.9.5-1.fc31.x86_64    wvdial-1.61-23.fc31.x86_64     xfce4-about-4.14.1-1.fc31.x86_64    xfce4-appfinder-4.14.0-1.fc31.x86_64    xfce4-datetime-plugin-0.8.0-1.fc31.x86_64   xfce4-notifyd-0.4.4-2.fc31.x86_64    xfce4-places-plugin-1.8.1-1.fc31.x86_64   xfce4-power-manager-1.6.5-1.fc31.x86_64   xfce4-pulseaudio-plugin-0.4.2-1.fc31.x86_64   xfce4-taskmanager-1.2.2-3.fc31.x86_64    xfwm4-theme-nodoka-0.2-15.fc31.noarch    xfwm4-themes-4.10.0-13.fc31.noarch    xl2tpd-1.3.14-1.fc31.x86_64     xorg-x11-drv-ati-19.0.1-3.fc31.x86_64    gstreamer1-plugins-ugly-1.16.2-3.fc31.x86_64   @rpmfusion-free-updates
+#1585992858
+sudo dnf install firewall-config
+#1585992925
+sudo dnf install setroubleshoot-plugins-3.3.10-3.fc31.noarch 
+#1585994026
+cat /usr/share/applications/steam.desktop 
+#1585994043
+cat /usr/share/applications/firefox.desktop 
+#1585994158
+notepad 
+#1585994167
+clear
+#1585994169
+which notepad
+#1585994174
+cat /usr/bin/notepad 
+#1585994178
+clear
+#1585994194
+gedit ~/.local/bin/fake-home &
+#1585994208
+cd ~/.local/bin/
+#1585994208
+ls
+#1585994214
+chmod +x fake-home 
+#1585994227
+cd ../share/
+#1585994228
+ls
+#1585994232
+mkdir fake-home
+#1585994236
+cd fake-home/
+#1585994236
+ls
+#1585994261
+cd ../../bin/
+#1585994261
+ls
+#1585994353
+mkdir fake-home
+#1585994450
+mkdir evil-programs
+#1585994459
+rm evil-programs/
+#1585994460
+ls
+#1585994461
+clear
+#1585994470
+ln -s ~/.local/bin/fake-home ~/.local/bin/steam
+#1585994548
+killall steam
+#1585994553
+steam
+#1585994890
+cd /usr/share/applications/
+#1585994894
+sudo gedit steam.desktop 
+#1585994939
+sudo gedit firefox.desktop 
+#1585995098
+readlink 
+#1585995100
+readlink --help
+#1585995111
+test=".steam"
+#1585995113
+echo $test
+#1585995121
+${test/./}
+#1585995132
+clear
+#1585995135
+echo ${test/./}
+#1585995179
+cat /usr/share/applications/steam.desktop 
+#1585995240
+clear
+#1585995251
+echo "steam %U"
+#1585995256
+echo "steam %U" | cut -f1 " "
+#1585995261
+echo "steam %U" | cut -f1 -d" "
+#1585995290
+echo ".steam %U" | cut -f1 -d" "
+#1585995300
+${echo ".steam %U" | cut -f1 -d" "/./}
+#1585995307
+${(echo ".steam %U" | cut -f1 -d" ")/./}
+#1585995310
+${$(echo ".steam %U" | cut -f1 -d" ")/./}
+#1585995320
+$(echo ".steam %U" | cut -f1 -d" ")
+#1585995323
+echo $(echo ".steam %U" | cut -f1 -d" ")
+#1585995346
+echo $test
+#1585995355
+test = ".steam %U"
+#1585995360
+test=".steam %U"
+#1585995361
+echo $test
+#1585995370
+cut -f1 -d" " $test
+#1585995376
+echo $(cut -f1 -d" " $test)
+#1585995388
+echo $(cut $test -f1 -d" ")
+#1585995394
+cut --help
+#1585995407
+echo $(cut -f1 -d" " < $test)
+#1585995412
+echo $(cut -f1 -d" " << $test)
+#1585995417
+cut -f1 -d" " << $test
+#1585995421
+cut -f1 -d" " << $test EOF
+#1585995430
+cut -f1 -d" " < $test
+#1585995437
+$test|cut -f1 -d" "
+#1585995442
+echo $test|cut -f1 -d" "
+#1585995464
+clear
+#1585995465
+steam
+#1585995495
+clear
+#1585995497
+ln -s ~/.local/bin/fake-home ~/.local/bin/steam
+#1585995500
+steam
+#1585995778
+clear
+#1585995779
+steam
+#1585995818
+killall steam
+#1585995821
+steam
+#1585995849
+clear
+#1585995852
+killall steam
+#1585995854
+steam
+#1586001877
+mpd
+#1586001879
+clear
+#1586002450
+lsblk
+#1586002455
+sudo umount /dev/sdf1
+#1586002459
+clear
+#1586002462
+cd Downloads/
+#1586002462
+ls
+#1586002487
+unzip 2020-02-13-raspbian-buster-lite.zip 
+#1586002498
+lsblk
+#1586002506
+sudo fdisk /dev/sdf
+#1586002516
+lsblk
+#1586002535
+sudo dd if=./2020-02-13-raspbian-buster-lite.img of=/dev/sdf bs=4M
+#1586003125
+lsblk
+#1586004999
+ping inkarmat.strck.land
+#1586005003
+ping inkarmat
+#1586005142
+sudo dnf search barrier
+#1586005372
+cd ../Documents/git/
+#1586005372
+clear
+#1586005373
+ls
+#1586005376
+git clone https://github.com/debauchee/barrier.git
+#1586005552
+ping inkarmat
+#1586005557
+ping inkarmat.strck.land
+#1586005564
+ping akariin
+#1586005567
+ping akariin.strck.land
+#1586005607
+ping inkarmat.strck.land
+#1586005616
+ping inkarmat
+#1586005880
+cd barrier/
+#1586005880
+ls
+#1586005882
+clear
+#1586005882
+ls
+#1586005887
+cat clean_build.sh 
+#1586005902
+./clean_build.sh 
+#1586005922
+sudo dnf install curl-devel
+#1586005937
+./clean_build.sh 
+#1586006236
+clear
+#1586006237
+ls
+#1586006250
+ls dist
+#1586006253
+ls dist/rpm/
+#1586006268
+ls build
+#1586006270
+ls build/rpm/
+#1586006294
+clear
+#1586006294
+ls
+#1586006295
+cd ..
+#1586006297
+cd barrier/
+#1586006297
+ls
+#1586006305
+./clean_build.sh --help
+#1586006310
+cat clean_build.
+#1586006312
+cat clean_build.sh 
+#1586006318
+clear
+#1586006318
+ls
+#1586006323
+cat README.md 
+#1586006327
+cat README.md | grep rpm
+#1586006328
+clear
+#1586006329
+ls
+#1586006345
+cat Build.properties 
+#1586006356
+cat clean_build.
+#1586006357
+cat clean_build.sh 
+#1586006376
+cat Build.properties 
+#1586006384
+./clean_build.sh --help
+#1586006426
+clear
+#1586006426
+ls
+#1586006430
+cat clean_build.sh 
+#1586006498
+xlear
+#1586006500
+clear
+#1586006500
+ls
+#1586006502
+cd build/
+#1586006503
+ls
+#1586006505
+ls rpm/
+#1586006508
+cat rpm/barrier.spec 
+#1586006511
+clear
+#1586006567
+ls
+#1586006575
+make
+#1586006579
+cat Makefile 
+#1586006587
+cat Makefile | grep rpm
+#1586006592
+cd ..
+#1586006592
+ls
+#1586006604
+cat dist
+#1586006606
+ls dist
+#1586006608
+ls dist/rpm/
+#1586006655
+ls
+#1586006659
+cd build/
+#1586006659
+ls
+#1586006663
+ls rpm/
+#1586006671
+rpmbuild -ba rpm/barrier.spec 
+#1586006679
+cd ..
+#1586006679
+ls
+#1586006682
+cd dist/
+#1586006683
+ls
+#1586006685
+ls rpm/
+#1586006724
+clear
+#1586006804
+ls
+#1586006806
+cd ..
+#1586006807
+ls
+#1586006810
+ls dist/
+#1586006811
+ls dist/rpm/
+#1586006813
+ls
+#1586006815
+ls src/
+#1586006819
+clear
+#1586006819
+ls
+#1586006829
+gedit dist/rpm/barrier.spec.in 
+#1586006875
+clear
+#1586006878
+make install
+#1586006881
+ls
+#1586006905
+cd build/
+#1586006905
+ls
+#1586006906
+make
+#1586006909
+make --help
+#1586006911
+clear
+#1586006911
+ls
+#1586006913
+cat Makefile 
+#1586006933
+gedit Makefile 
+#1586006936
+ls
+#1586006940
+gedit Makefile &
+#1586006950
+cat compile_commands.json 
+#1586006952
+clear
+#1586006952
+ls
+#1586006963
+gedit cmake_install.cmake &
+#1586006999
+make preinstall
+#1586007010
+make package_source
+#1586007023
+ls
+#1586007030
+open barrier-2.3.2-Source.tar.xz 
+#1586007063
+make package
+#1586007079
+make platform
+#1586007081
+ls
+#1586007085
+ls bin/
+#1586007087
+ls
+#1586007184
+cat CPackConfig.cmake 
+#1586007276
+gedit CPackConfig.cmake 
+#1586007520
+cpack --help
+#1586007539
+cpack RPM
+#1586007680
+cpack -G RPM
+#1586007707
+cpack -G RPM -D RPM_DEFAULT=barrier.rpm
+#1586007714
+cpack -G RPM -D RPM_DEFAULT="barrier.rpm"
+#1586007756
+cpack -D RPM_DEFAULT="barrier.rpm" -G RPM
+#1586007872
+clear
+#1586007872
+ls
+#1586007874
+cd ..
+#1586007876
+ls
+#1586007880
+find | grep spec
+#1586007889
+cd ..
+#1586007890
+ls
+#1586007891
+clear
+#1586007892
+ls
+#1586007896
+cd barrier/build/
+#1586007897
+ls
+#1586007903
+rpmbuild --help[
+#1586007905
+rpmbuild --help
+#1586007933
+rpmbuild -bp rpm/barrier.spec 
+#1586007942
+gedit rpm/barrier.spec 
+#1586007962
+rpmbuild -bp rpm/barrier.spec 
+#1586007981
+ls ~/rpmbuild/SOURCES/
+#1586007987
+cd..
+#1586007988
+ls
+#1586007990
+cd .
+#1586007992
+cd ..
+#1586007993
+rm barrier/
+#1586007995
+clear
+#1586013874
+exit
+#1586008058
+ls
+#1586008060
+./clean_build.sh 
+#1586008207
+ls
+#1586008209
+cd build/
+#1586008210
+ls
+#1586008220
+rpmbuild -bc rpm/barrier.spec 
+#1586008224
+cd ..
+#1586008225
+ls
+#1586008238
+nano dist/rpm/barrier.spec.in 
+#1586008248
+ls
+#1586008254
+nano Build.properties 
+#1586008268
+./clean_build.sh 
+#1586008296
+ls
+#1586008308
+cat CMakeLists.txt 
+#1586008313
+cat CMakeLists.txt  | grep version
+#1586008314
+ls
+#1586008322
+nano cmake/Version.cmake 
+#1586008357
+nano Build.properties 
+#1586008385
+./clean_build.sh 
+#1586008392
+nano cmake/Version.cmake 
+#1586008458
+./clean_build.sh 
+#1586008488
+cd build/
+#1586008491
+rpmbuild -bc rpm/barrier.spec 
+#1586008494
+ls
+#1586008507
+make package_source
+#1586008520
+make package
+#1586008530
+nano rpm/barrier.spec 
+#1586008540
+ls
+#1586008543
+rpmbuild -bc rpm/barrier.spec 
+#1586008552
+nano rpm/barrier.spec 
+#1586008559
+rpmbuild -bc rpm/barrier.spec 
+#1586008562
+nano rpm/barrier.spec 
+#1586008568
+rpmbuild -bc rpm/barrier.spec 
+#1586008573
+nano rpm/barrier.spec 
+#1586008599
+cp barrier-2.3.2-Linux.tar.bz2 ~/rpmbuild/SOURCES/
+#1586008600
+rpmbuild -bc rpm/barrier.spec 
+#1586008639
+ls
+#1586008696
+mv ~/rpmbuild/SOURCES/barrier-2.3.2-Linux.tar.bz2  ~/rpmbuild/SOURCES/v2.3.2.Linux.tar.gz
+#1586008699
+rpmbuild -bc rpm/barrier.spec 
+#1586008732
+ls
+#1586008737
+nano rpm/barrier.spec 
+#1586008748
+ls
+#1586008753
+cat rpm/barrier.spec 
+#1586008758
+nano rpm/barrier.spec 
+#1586008798
+ls
+#1586008811
+mv ~/Downloads/barrier-2.3.2.tar.gz ~/rpmbuild/SOURCES/
+#1586008814
+rpmbuild -bc rpm/barrier.spec 
+#1586008819
+push
+#1586008848
+nano rpm/barrier.spec 
+#1586008891
+clear
+#1586008891
+ls
+#1586008893
+rpmbuild -bc rpm/barrier.spec 
+#1586009844
+ls
+#1586009862
+rpmbuild -ba rpm/barrier.spec 
+#1586008829
+cd ~/rpmbuild/SOURCES/
+#1586008830
+ls
+#1586008929
+mv barrier-2.3.2.tar.gz 2.3.2.tar.gz 
+#1586008942
+mv 2.3.2.tar.gz  v2.3.2.tar.gz 
+#1586009849
+cd ..
+#1586009849
+lks
+#1586009850
+ls
+#1586009855
+ls RPMS/
+#1586009965
+ls
+#1586009967
+ls RPMS/
+#1586009969
+ls RPMS/x86_64/
+#1586009981
+rpm
+#1586010012
+sudo dnf install ./RPMS/x86_64/barrier-2.3.2-1.fc31.x86_64.rpm 
+#1586013177
+lsblk
+#1586013184
+sudo umount /dev/sdf1
+#1586013188
+sudo firewall-cmd --list-all
+#1586013192
+sudo fdisk /dev/sdf
+#1586013194
+p
+#1586013196
+sudo fdisk /dev/sdf
+#1586013201
+clear
+#1586013205
+ls
+#1586013208
+cd ~/Downloads/
+#1586013209
+ls
+#1586013213
+ls | grep fedora
+#1586013216
+ls | grep fed
+#1586013877
+clear
+#1586013881
+cd /usr/share/applications/
+#1586013887
+cat code.desktop 
+#1586013911
+cp code.desktop ~/.local/share/applications
+#1586013920
+gedit ~/.local/share/applications
+#1586013925
+gedit ~/.local/share/applications/code.desktop 
+#1586013961
+ln -s ~/.local/bin/fake-home ~/.local/bin/code
+#1586013979
+gedit ~/.local/bin/fake-home 
+#1586014026
+clear
+#1586014101
+killall code
+#1586014154
+code
+#1586014285
+gedit ~/.local/bin/fake-home 
+#1586014302
+killall steam
+#1586014304
+killall code
+#1586051707
+ls /var/lib/gdm/
+#1586051712
+sudo su
+#1586051930
+exit
+#1586064639
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586210545
+sudo dnf update
+#1586211526
+sudo firewall-cmd --add-port=24800/tcp
+#1586211744
+killall barrier
+#1586146711
+ssh nick@akariin.strck.land
+#1586222825
+sudo dnf search widget-factory
+#1586222849
+sudo dnf search factory
+#1586222862
+sudo dnf search gtk3-
+#1586222968
+sudo dnf search gtk-chtheme
+#1586222981
+sudo dnf search gtk-theme
+#1586223043
+sudo dnf search awf
+#1586223116
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586223180
+cd Documents/git/
+#1586223188
+git clone https://github.com/valr/awf.git && cd awf
+#1586223197
+./autogen.sh 
+#1586223603
+ls
+#1586223609
+./configure 
+#1586223619
+makr  rpm
+#1586224185
+make rpm
+#1586224197
+ls
+#1586224846
+make rpm
+#1586224922
+sudo dnf install ~/rpmbuild/RPMS/x86_64/a-widget-factory-1.4.0-1.fc31.x86_64.rpm 
+#1586225783
+killall firefox
+#1586234151
+sudo dnf install qemu
+#1586234656
+man qemu
+#1586234698
+cls
+#1586234798
+clear
+#1586234799
+cd ~
+#1586234800
+clear
+#1586234800
+ls
+#1586234809
+ls Desktop-1/
+#1586234812
+ls Desktop-2/
+#1586234813
+ls Desktop
+#1586234825
+mv Desktop-1/* ~/Desktop
+#1586234827
+ls
+#1586234828
+ls Desktop
+#1586234830
+ls Desktop-1
+#1586234833
+ls Desktop-2
+#1586234836
+rm Desktop-1
+#1586234837
+rm Desktop-2
+#1586234838
+clear
+#1586234839
+ls
+#1586234844
+ls al FiraxisLive/
+#1586234848
+rm FiraxisLive/ -rf
+#1586234849
+ls
+#1586234853
+rm steam-292030.log 
+#1586234854
+ls -al
+#1586234859
+cat ICE
+#1586234865
+cat .ICEauthority 
+#1586234868
+clear
+#1586234868
+ls
+#1586234869
+ls -al
+#1586234874
+rm .ICEauthority 
+#1586234877
+ls -al
+#1586234878
+clear
+#1586234878
+ls -al
+#1586234887
+cd Documents/
+#1586234887
+ls
+#1586234896
+mkdir virtual-machines
+#1586234897
+cd virtual-machines/
+#1586234898
+ls
+#1586234902
+qemu-img 
+#1586234903
+qemu-img --help
+#1586234939
+qemu-img create -f qcow2 macos9.img 10G
+#1586234941
+;s
+#1586234942
+ls
+#1586234944
+rm macos9.img 
+#1586234949
+qemu-img create -f qcow2 macos9.img 5G
+#1586234952
+clear
+#1586234952
+ls
+#1586234981
+qemu-system-ppc --help
+#1586235433
+qemu-system-ppc -m 512 -hda ./macos_921_ppc.iso  -hdb ./macos9.img  -enable-kvm -smp3 -boot c
+#1586235436
+qemu-system-ppc -m 512 -hda ./macos_921_ppc.iso  -hdb ./macos9.img  -enable-kvm -smp 3 -boot c
+#1586235441
+qemu-system-ppc -m 512 -hda ./macos_921_ppc.iso  -hdb ./macos9.img  -enable-kvm -smp 1 -boot c
+#1586235469
+qemu-system-ppc -m 512 -fda ./macos_921_ppc.iso  -hdb ./macos9.img  -enable-kvm -smp 1 -boot b
+#1586235922
+clear
+#1586236054
+qemu-system-ppc -bios openbios-ppc -cpu "g4" -M mac99,via=pmu -m 512 -hda macos9.img -cdrom ./Mac\ OS\ 9.2.2\ Universal\ Install.iso  -boot d -g 1024x768x32 -device usb-kbd -device usb-mouse
+#1586236231
+qemu-system-ppc -bios openbios-ppc -cpu "g4" -M mac99,via=pmu -m 512 -hda macos9.img -cdrom ./Mac\ OS\ 9.2.2\ Universal\ Install.iso  -g 1024x768x32 -device usb-kbd -device usb-mouse
+#1586237256
+clear
+#1586237269
+echo 'qemu-system-ppc -bios openbios-ppc -cpu "g4" -M mac99,via=pmu -m 512 -hda macos9.img -cdrom ./Mac\ OS\ 9.2.2\ Universal\ Install.iso  -g 1024x768x32 -device usb-kbd -device usb-mouse' >> launch.sh
+#1586237270
+cat launch.sh 
+#1586237271
+clear
+#1586237287
+ls
+#1586237291
+mount macos9.img 
+#1586237305
+mkdir testmount
+#1586237314
+mount macos9.img ./testmount/
+#1586237318
+sudo  macos9.img ./testmount/
+#1586237325
+sudo mount macos9.img ./testmount/
+#1586237375
+sudo dnf search hfsplus
+#1586237388
+sudo dnf install hfsplusutils
+#1586237412
+clear
+#1586237451
+sudo dnf install hfsplusprogs
+#1586237457
+sudo dnf search hfsplus
+#1586237468
+sudo dnf install hfsplus-tools
+#1586237480
+hfs-bless 
+#1586237483
+hfs-bless --help
+#1586237488
+man hfs-bless 
+#1586237501
+clear
+#1586237512
+mount -o force macos9.img ./testmount/
+#1586237514
+sudo mount -o force macos9.img ./testmount/
+#1586237561
+sudo mount -t hfsplus macos9.img ./testmount/
+#1586237572
+sudo mount -t hfsplus 
+#1586237575
+sudo mount -t hfsplus  --hlep
+#1586237577
+sudo mount -t hfsplus  --help
+#1586237614
+sudo mkdir /run/media/test && sudo mount -t hfsplus ./macos9.img /run/media/test/
+#1586237619
+sudo mkdir /run/media/test && sudo mount -t hfsplus ./macos9.img 
+#1586237623
+sudo mount -t hfsplus ./macos9.img 
+#1586237629
+sudo mount -t hfsplus ./macos9.img /run/media/test/
+#1586237636
+sudo mount -o force -t hfsplus ./macos9.img /run/media/test/
+#1586237652
+fsck.hfs macos9.img 
+#1586237659
+fsck.hfsplus macos9.img 
+#1586237666
+sudo mount -o force -t hfs ./macos9.img /run/media/test/
+#1586237770
+sudo dnf search hfs
+#1586237797
+sudo dnf install hfsutils
+#1586237808
+sudo mount -o force -t hfs ./macos9.img /run/media/test/
+#1586237815
+sudo mount -o force -t hfsplus ./macos9.img /run/media/test/
+#1586237821
+sudo mount -t hfs ./macos9.img /run/media/test/
+#1586237844
+hfs
+#1586237850
+hfs --help
+#1586237857
+man hfs
+#1586237912
+hfs mount ./macos9.img 
+#1586238004
+hmount
+#1586238010
+hmount ./macos9.img 
+#1586238011
+hmount ./macos9.img  0
+#1586238013
+hmount ./macos9.img  1
+#1586238030
+hfs
+#1586238035
+clear
+#1586238045
+sudo dnf remove hfsutils
+#1586235713
+rpm -ql gnome-feeds
+#1586235716
+rpm -ql qemu
+#1586235720
+rpm -ql qemu*
+#1586235731
+rpm -qi qemu*
+#1586235735
+rpm -qi "qemu-*"
+#1586235740
+rpm -qil
+#1586235745
+rpm --help
+#1586235788
+rpm -l
+#1586235800
+rpm -al
+#1586235801
+rpm -a
+#1586235834
+rpm -ql qemu-system-ppc
+#1586235840
+rpm -ql qemu-img
+#1586235888
+rpm -ql qemu-common 
+#1586235891
+rpm -ql qemu-common |grep bios
+#1586235908
+find /usr/share/qemu/ | grep bios
+#1586235917
+clear
+#1586235954
+find /usr/share/qemu/ | grep bios
+#1586235063
+man qemu-system-ppc
+#1586235181
+yelp-new
+#1586235191
+yelp qemu-system-ppc
+#1586235202
+yelp --help
+#1586235213
+man help
+#1586235216
+man yelp
+#1586235222
+yelp man nano
+#1586235317
+yelp man:qemu-system-ppc
+#1586238170
+sudo rmr /run/media/test/
+#1586238178
+sudo rm /run/media/test/
+#1586238181
+sudo rm /run/media/test/ -rf
+#1586245924
+killall clamtk
+#1586278774
+code .
+#1586282813
+sudo dnf list installed | grep oomox
+#1586284055
+clear
+#1586284060
+sudo dnf search gtk converter
+#1586284074
+sudo dnf search gtk
+#1586301430
+ssh nick@akariin.strck.land
+#1586301901
+ssh root@akariin.strck.land
+#1586301908
+ssh nickj@akariin.strck.land
+#1586301910
+ssh nick@akariin.strck.land
+#1586303866
+scp Downloads/LuckPerms-Bukkit-5.0.72.jar nick@akariin.strck.land:/home/nick/
+#1586304851
+scp Downloads/worldguard-bukkit-7.0.2.jar nick@akariin.strck.land:/home/nick
+#1586309344
+cd Videos/
+#1586309344
+ls
+#1586309346
+clear
+#1586309348
+youtube-dl 
+#1586309351
+youtube-dl  https://www.youtube.com/watch?v=pB6ypbYIvmA
+#1586309359
+ls
+#1586309364
+rm Bugs\ Bunny\ “You\ got\ a\ tight\ little\ man\ P\ 🐱”-pB6ypbYIvmA.f137.mp4.*
+#1586309364
+ls
+#1586309366
+clear
+#1586309369
+youtube-dl --help
+#1586309378
+youtube-dl  https://www.youtube.com/watch?v=pB6ypbYIvmA -F
+#1586309392
+youtube-dl  https://www.youtube.com/watch?v=pB6ypbYIvmA -f bestaudio+bestvideo
+#1586309406
+youtube-dl  https://www.youtube.com/watch?v=pB6ypbYIvmA -f bestvideo+bestaudio
+#1586309415
+ls
+#1586309421
+rm Bugs\ Bunny\ “You\ got\ a\ tight\ little\ man\ P\ 🐱”-pB6ypbYIvmA.f137.mp4.*
+#1586309422
+ls
+#1586319595
+clear
+#1586319598
+killall firefox
+#1586319946
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586382354
+sudo dnf install budgie
+#1586382390
+sudo dnf install budgie-desktop
+#1586414147
+ssh nick@akariin.strck.land
+#1586416145
+exit
+#1586416517
+killall java
+#1586416526
+ps aux
+#1586416528
+ps aux | grep java
+#1586416536
+kill 297675
+#1586416539
+ps aux | grep java
+#1586416544
+kill -S 297675
+#1586416547
+kill -9 297675
+#1586472154
+cd Documents/scripts/
+#1586472155
+ls
+#1586472159
+gedit PyScreenshot.py 
+#1586472193
+gedit PyScreenshot.py &
+#1586472197
+./PyScreenshot.py 
+#1586472203
+./PyScreenshot.py  --help
+#1586472214
+./PyScreenshot.py  -s
+#1586472297
+gnome-screenshot --help
+#1586472309
+gnome-screenshot -w
+#1586472326
+gnome-screenshot -w -c
+#1586472419
+gnome-screenshot -w -c -f
+#1586472426
+gnome-screenshot -w -c -f ~/Pictures/test.png
+#1586472477
+gnome-screenshot -e none -w -c -f ~/Pictures/test.png
+#1586472497
+gnome-screenshot -e=none -w -c -f ~/Pictures/test.png
+#1586472505
+gnome-screenshot --border-effect=none -w -c -f ~/Pictures/test.png
+#1586472712
+./PyScreenshot.py 
+#1586472863
+code ./PyScreenshot.py 
+#1586472997
+./PyScreenshot.py 
+#1586473046
+./PyScreenshot.py -w
+#1586482537
+cd ~/Downloads/
+#1586482538
+ls
+#1586482553
+scp ./EssentialsXSpawn-2.17.2.0.jar nick@akariin.strck.land:/home/nick/
+#1586482560
+ssh nick@akariin.strck.land
+#1586483698
+exit
+#1586396943
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586413787
+clear
+#1586413814
+scp nick@akariin.strck.land:/var/minecraft/ /home/nick/Games/minecraft-server/akariin/
+#1586413822
+scp nick@akariin.strck.land:/var/minecraft/ -R /home/nick/Games/minecraft-server/akariin/
+#1586413824
+scp 
+#1586413851
+cd ~/Games/minecraft-server/
+#1586413851
+ls
+#1586413854
+mkdir akariin
+#1586413870
+scp -r nick@akariin.strck.land:/var/minecraft/ /home/nick/Games/minecraft-server/akariin/
+#1586414314
+clear
+#1586414316
+ls
+#1586414322
+rm paper/ -rf
+#1586414324
+cd akariin/
+#1586414324
+ls
+#1586414327
+cd minecraft/
+#1586414327
+ls
+#1586414332
+rm minecraft-mcrcon-exec-selinux.*
+#1586414333
+ls
+#1586414335
+ls server/
+#1586414637
+clear
+#1586414637
+ls
+#1586414646
+~/Documents/Projects/
+#1586414646
+ls
+#1586414650
+clear
+#1586414651
+ls
+#1586414652
+cd ..
+#1586414653
+ls
+#1586414666
+touch worlds.conf
+#1586414679
+echo "world world-2 world-nether" >> worlds.conf 
+#1586414713
+declare -a worlds=$(cat ./worlds.conf)
+#1586414725
+echo ${#worlds[@]}
+#1586414769
+readarray 
+#1586414773
+readarray  --help
+#1586414783
+readarray -t a ./worlds.conf 
+#1586414790
+readarray -t a < ./worlds.conf 
+#1586414804
+test=readarray -t a < ./worlds.conf 
+#1586414809
+test=$(readarray -t a < ./worlds.conf )
+#1586414812
+echo $test
+#1586414820
+echo ${#test[@]}
+#1586414826
+cat worlds.conf 
+#1586414890
+cat worlds.conf| readarray 
+#1586414893
+cat worlds.conf| readarray a
+#1586414895
+echo $a
+#1586414903
+cat worlds.conf| readarray -t a
+#1586414911
+echo ${#a[@]}
+#1586414916
+echo ${a[1]}
+#1586414918
+echo ${a[0]}
+#1586414940
+readarray -t a < ./worlds.conf 
+#1586414942
+echo ${a[1]}
+#1586414945
+echo ${#a[@]}
+#1586414948
+echo $a
+#1586415043
+echo $IFS
+#1586415048
+IFS=' '
+#1586415063
+read -ra worlds <<< ./worlds.conf 
+#1586415066
+echo $worlds
+#1586415076
+read -ra worlds <<< $(cat ./worlds.conf )
+#1586415078
+echo $worlds
+#1586415082
+echo $worlds[0]
+#1586415088
+echo ${worlds[0]}
+#1586415089
+echo ${worlds[1]}
+#1586415090
+echo ${worlds[]}
+#1586415093
+echo ${worlds[2]}
+#1586415121
+test="test1"
+#1586415135
+messages=""
+#1586415138
+messages+="test"
+#1586415140
+messages+="test2"
+#1586415143
+echo $messages 
+#1586415244
+clear
+#1586415248
+file="./worlds.conf" 
+#1586415256
+echo $(cat file)
+#1586415259
+echo $(cat $file)
+#1586415301
+echo $worlds
+#1586415305
+echo ${worlds[@]}
+#1586415326
+echo "test ${worlds[@]}"
+#1586415737
+rdiff
+#1586415740
+rdiff-backup
+#1586416393
+ls
+#1586416395
+cd minecraft/
+#1586416395
+ls
+#1586416397
+cd server/
+#1586416397
+ls
+#1586416401
+java -jar spigot.jar 
+#1586416552
+clear
+#1586416556
+java -jar spigot.jar --no-gui
+#1586416618
+java -jar spigot.jar --nogui
+#1586483768
+killall firefox
+#1586483774
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586507922
+netstat
+#1586507928
+ssh nick@akariin.strck.land
+#1586508923
+exit
+#1586508378
+ssh nick@akariin.strck.land
+#1586508926
+exit
+#1586508665
+lynx
+#1586508762
+lynx lb-140-82-112-6-iad.github.com 
+#1586508780
+lynx server-13-249-91-181.ord52.r.cloudfront.net
+#1586508799
+clear
+#1586509503
+whois 13.107.246.10
+#1586509703
+nmap
+#1586509891
+nmap 192.168.1.215
+#1586509910
+nmap 192.168.1.215 -Pn
+#1586509943
+ping 192.168.1.215
+#1586500070
+cd Games/minecraft-server/akariin/minecraft/server/
+#1586500075
+java -jar spigot.jar --nogui
+#1586554518
+ping akariin.strck.land 
+#1586557080
+cd Games/minecraft-server/akariin/minecraft/server/
+#1586557083
+java -jar spigot.jar --nogui
+#1586572145
+cls
+#1586572863
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586578472
+la -A
+#1586578474
+ls 
+#1586579023
+ls -alF
+#1586579026
+la -al
+#1586579085
+notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"
+
+#1586579102
+notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"
+ test
+
+
+
+'
+#1586579121
+notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"
+'
+#1586579125
+notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+'
+
+#1586580220
+mv --help
+#1586580230
+which mv
+#1586580231
+clear
+#1586625271
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+#1586625274
+alert 
+#1586625281
+alert test
+#1586625387
+which ls
+#1586625400
+/usr/bin/ls
+#1586625402
+ls
+#1586625438
+ll
+#1586625441
+which ll
+#1586625444
+clear
+#1586625448
+which la
+#1586625449
+la
+#1586625451
+ls
+#1586625454
+ls -F
+#1586625456
+ls -FA
+#1586625469
+l
+#1586627117
+cls
+#1586627121
+find | grep Tabletop
+#1586677170
+kill
+#1586677173
+kill --help
+#1586677175
+man kill
+#1586655804
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586660563
+killall firefox
+#1586673768
+clear
+#1586673769
+ls
+#1586673773
+cd Games/
+#1586673773
+ls
+#1586673778
+cd minecraft-server/akariin/
+#1586673779
+ls
+#1586673781
+cd minecraft/
+#1586673781
+ls
+#1586673782
+cd ..
+#1586673784
+rm worlds.conf 
+#1586673785
+ls
+#1586673792
+cd minecraft/
+#1586673792
+ls
+#1586673797
+mkdir util
+#1586673798
+ls
+#1586673804
+cd util/
+#1586673804
+ls
+#1586677102
+ssh nick@akariin.strck.land
+#1586693057
+xit
+#1586693059
+exit
+#1586678078
+scp Downloads/Gravestones-1.1-SNAPSHOT.jar nick@akariin.strck.land:/home/nick
+#1586678113
+ssh nick@akariin.strck.land
+#1586693077
+exit
+#1586673824
+ssh nick@akariin.strck.land
+#1586694638
+exit
+#1586687784
+scp Downloads/Vault.jar nick@akariin.strck.land:/home/nick/
+#1586694645
+ssh nick@akariin.strck.landclear
+#1586694647
+clear
+#1586694651
+cd Games/minecraft-server/akariin/
+#1586694651
+ls
+#1586694653
+cd minecraft/
+#1586694653
+ls
+#1586694657
+cd server/
+#1586694657
+l;s
+#1586694658
+ls
+#1586694660
+java -jar spigot.jar --nogui
+#1586699539
+sudo dnf update eclipse
+#1586699554
+y
+#1586699573
+sudo dnf remove eclipse-jdt
+#1586699579
+sudo dnf install eclipse
+#1586700772
+sudo dnf install cherrytree
+#1586703459
+cd Games/minecraft-server/akariin/
+#1586703460
+ls
+#1586703463
+cd minecraft/server/
+#1586703464
+java -jar spigot.jar --nogui
+#1586707943
+killall java
+#1586707959
+ps aux | grep java
+#1586707969
+kill -9 536584
+#1586707982
+kill -9 5242
+#1586707983
+kill -9 242
+#1586707997
+kill -9 563584
+#1586707909
+cd ~/Documents/Projects/Eclipse/Spigot/
+#1586707909
+ls
+#1586707911
+cd server/
+#1586707912
+ls
+#1586707918
+java -jar spigot-1.15.2.jar 
+#1586708000
+clear
+#1586708004
+java -jar spigot-1.15.2.jar --no-gui
+#1586708007
+java -jar spigot-1.15.2.jar --nogui
+#1586706875
+ssh nick@akariin.strck.landclear
+#1586706878
+ssh nick@akariin.strck.land
+#1586740823
+exit
+#1586741261
+cd Documents/Projects/Eclipse/Spigot/server/
+#1586741261
+ls
+#1586741264
+java -jar spigot-1.15.2.jar --nogui
+#1586812747
+killall javca
+#1586812748
+killall java
+#1586812756
+ps aux java
+#1586812764
+ps aux | grep java
+#1586812774
+kill -9 614938
+#1586813299
+ps aux | grep java
+#1586813308
+kill -9 618517
+#1586814343
+killall gedit
+#1586814356
+cd ~/Downloads/
+#1586814360
+ls
+#1586814375
+chmod +x MCEdit.v1.5.6.0.Lin.Universal.run 
+#1586814378
+./MCEdit.v1.5.6.0.Lin.Universal.run 
+#1586814546
+cd mcedit-1.5.6.0/
+#1586814547
+ls
+#1586814549
+./mcedit
+#1586814554
+./mcedit.sh 
+#1586800220
+cd Games/minecraft-server/akariin/minecraft/server/
+#1586800225
+java -jar spigot.jar --nogui
+#1586812171
+clear
+#1586812172
+ls
+#1586812176
+nano server.properties 
+#1586812187
+clear
+#1586812193
+cd plugins
+#1586812193
+ls
+#1586812206
+mv Multiverse-Core-4.1.0.jar Multiverse-Core
+#1586812208
+ls
+#1586812215
+rm Multiverse-NetherPortals* -rf
+#1586812215
+ls
+#1586812217
+cd ..
+#1586812219
+java -jar spigot.jar --nogui
+#1586812306
+nano server.properties 
+#1586812334
+java -jar spigot.jar --nogui
+#1586814051
+java -jar spigot.jar --nogui -X
+#1586814059
+java -X
+#1586814072
+java -Xmx 8G -Xms 6G -jar spigot.jar --nogui
+#1586814081
+java -Xmx 8g -Xms 6g -jar spigot.jar --nogui
+#1586814099
+java -Xmx8g -Xms6g -jar spigot.jar --nogui
+#1586814763
+clear
+#1586814764
+ls
+#1586814764
+cd ..
+#1586814765
+ls
+#1586814767
+cd build/
+#1586814767
+ls
+#1586814768
+cd spigot/
+#1586814769
+ls
+#1586814771
+./update.sh 
+#1586814906
+cd ..
+#1586814908
+cd ../server/
+#1586814910
+ls
+#1586814915
+java -jar spigot.jar 
+#1586814943
+java -jar spigot.jar -nogui
+#1586816826
+java -Xms8g -jar spigot.jar -nogui
+#1586815307
+ps aux | grep java
+#1586815326
+kill -9 626137
+#1586814702
+python mcedit.
+#1586814703
+python mcedit.py 
+#1586814706
+ls
+#1586814712
+./mcedit.
+#1586814714
+./mcedit.py 
+#1586746092
+killall firefox
+#1586747587
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586754398
+bc
+#1586754467
+ssh nick@akariin.strck.land
+#1586909328
+killall firefox
+#1586909329
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1586925802
+clear
+#1586925804
+neofetch 
+#1586984219
+cd Games/minecraft-server/akariin/minecraft/server/
+#1586984221
+java -Xms8g -jar spigot.jar -nogui
+#1587116822
+java -jar fabric-installer-0.5.2.39.jar 
+#1587239495
+killall firefox
+#1587239496
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587320893
+ls
+#1587320899
+cd plugins/
+#1587320899
+ls
+#1587320905
+cd AlchemicalArrows/
+#1587320905
+ls
+#1587320908
+nano config.yml 
+#1587320975
+ls
+#1587320976
+cd ..
+#1587320977
+ls
+#1587320979
+cd ..
+#1587320980
+ls
+#1587320987
+cd plugins/
+#1587320987
+ls
+#1587321130
+cd Essentials/
+#1587321131
+ls
+#1587321134
+nano config.yml 
+#1587321239
+clear
+#1587321239
+ls
+#1587321242
+cd ../Worl
+#1587321243
+cd ..
+#1587321243
+ls
+#1587321297
+cd WorldGuard/
+#1587321298
+ls
+#1587321301
+nano config.yml 
+#1587321437
+ls
+#1587321439
+cd ..
+#1587321439
+ls
+#1587321443
+nano AlchemicalArrows/config.yml 
+#1587320424
+clear
+#1587320439
+cd ~/Documents/Projects/Eclipse/Spigot/server/
+#1587320440
+ls
+#1587320448
+java -jar ./spigot-1.15.2.jar 
+#1587320456
+nautilus .
+#1587320488
+java -jar ./spigot-1.15.2.jar 
+#1587341974
+killall java
+#1587341976
+killall java -9
+#1587409380
+bc
+#1587431259
+killlall firefox
+#1587431260
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587431265
+killall firefox 
+#1587432143
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587443686
+java -jar ./spigot-1.15.2.jar 
+#1587443692
+java -Xms8g -jar spigot.jar -nogui
+#1587608360
+killall firefox
+#1587608360
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587616448
+killall firefox
+#1587616450
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587715052
+sudo dnf update
+#1587715128
+clear
+#1587715217
+sudo dnf update glibc
+#1587715230
+sudo dnf install glibc
+#1587715240
+sudo dnf install firefox
+#1587715347
+killall firefox
+#1587716229
+gdb
+#1587716263
+sudo dnf gdb
+#1587716268
+sudo dnf install gdb
+#1587716885
+sudo dnf install glibc
+#1587716897
+sudo dnf install glibc-2.29
+#1587716947
+sudo dnf --showduplicates list glibc
+#1587717103
+cd ~/Downloads/
+#1587717104
+ls
+#1587717109
+sudo dnf install ./glibc-2.31-1.fc32.src.rpm 
+#1587717181
+rm ./glibc-2.31-1.fc32.src.rpm 
+#1587717184
+sudo dnf install ./glibc-2.31.9000-9.fc33.x86_64.rpm 
+#1587717272
+sudo dnf install ./glibc-2.31.9000-9.fc33.x86_64.rpm  ./glibc-common-2.31.9000-9.fc33.x86_64.rpm  ./glibc-langpack-en-2.31.9000-9.fc33.x86_64.rpm 
+#1587717318
+rm ./glibc-*
+#1587715349
+MOZ_DISABLE_GMP_SANDBOX=1 firefox
+#1587716083
+cls
+#1587716084
+firefox
+#1587716280
+clear
+#1587716284
+gdb firefox
+#1587716405
+gdb /usr/bin/firefox
+#1587716429
+killall firefox
+#1587716431
+which firefox
+#1587716439
+ls -al /usr/bin/fire
+#1587716441
+ls -al /usr/bin/firefox 
+#1587717412
+cd Down
+#1587717416
+cd ~/Downloads/
+#1587717419
+sudo dnf install ./glibc-2.29-29.fc30.x86_64.rpm 
+#1587717493
+sudo dnf install ./glibc-common-2.29-29.fc30.x86_64.rpm  ./glibc-langpack-en-2.29-29.fc30.x86_64.rpm  ./glibc-2.29-29.fc30.x86_64.rpm 
+#1587717666
+sudo dnf search chromium
+#1587717862
+chrome-gnome-shell 
+#1587717870
+chrome-gnome-shell  --help
+#1587717894
+chrome-gnome-shell  --help-all
+#1587717896
+cls
+#1587717900
+which chromium-browser 
+#1587718215
+sudo dnf search chromium
+#1587718372
+sudo dnf remove chromium
+#1587718384
+sudo dnf list installed | grep chromium
+#1587718395
+sudo dnf remove fedora-chromium-config-1.1-3.fc31.noarch 
+#1587718404
+sudo dnf remove chromium-common
+#1587340937
+cd Games/minecraft-server/akariin/minecraft/server/
+#1587340939
+java -jar ./spigot-1.15.2.jar 
+#1587341896
+java -jar ./spigot.jar 
+#1587341986
+java -Xms8g -jar spigot.jar -nogui
+#1587345345
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587345407
+killall firefox
+#1587345409
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587354288
+java -Xms8g -jar spigot.jar -nogui
+#1587429526
+killall java
+#1587429537
+java -Xms8g -jar spigot.jar -nogui
+#1587523843
+killall firefox
+#1587525204
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587537210
+java -Xms8g -jar spigot.jar -nogui
+#1587682234
+killall firefox
+#1587682236
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587688487
+java -Xms8g -jar spigot.jar -nogui
+#1587692749
+killall firefox
+#1587692831
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587709488
+ip addr
+#1587709688
+sudo firewall-cmd --permanent --add-port=1714-1764/tcp
+#1587709709
+sudo firewall-cmd --permanent --add-port=1714-1764/udp
+#1587709712
+sudo systemctl restart firewalld.service
+#1587712992
+java -Xms8g -jar spigot.jar -nogui
+#1587942423
+bc
+#1588020944
+cd Downloads/
+#1588020948
+java -jar preview_OptiFine_1.15.2_HD_U_G1_pre13.jar 
+#1587955480
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588024420
+free
+#1588030285
+cd ~/Downloads/
+#1588030294
+java jar ./ChunkyLauncher.jar 
+#1588030298
+java -jar ./ChunkyLauncher.jar 
+#1588030355
+java -jar ./chunky-1.4.5.jar 
+#1588030398
+sudo dnf install openjfx
+#1588030440
+java -jar ./chunky-1.4.5.jar 
+#1588030455
+exit
+#1588030461
+cd ~/Downloads/
+#1588030461
+ls
+#1588030464
+java -jar ./chunky-1.4.5.jar 
+#1588030485
+java -jar ./ChunkyLauncher.jar 
+#1588030512
+java --module-path
+#1588030519
+clear
+#1588030523
+java --help
+#1588030527
+java /?
+#1588030529
+java help
+#1588030533
+java --Help
+#1588030535
+java --?
+#1588030544
+java --module-path //help
+#1588030577
+java --module-path /usr/lib/jvm/java-11-openjdk-11.0.6.10-0.fc31.x86_64/lib/
+#1588030600
+java --add-modules javafx.controls,javafx.fxml
+#1588030608
+which java
+#1588030613
+java -V
+#1588030616
+java --version
+#1588030645
+sudo dnf list installed | grep java
+#1588030667
+sudo dnf remove java-1.8.0-openjdk
+#1588030682
+java version
+#1588030689
+java --help X
+#1588030690
+java --help Xmx
+#1588030695
+java -X help
+#1588030702
+java - --help
+#1588030706
+java -help
+#1588030855
+exit
+#1587726171
+bc
+#1587775301
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1587867696
+cls
+#1587881422
+java -Xms8g -jar spigot.jar -nogui
+#1588026467
+java -Xmx8g -jar spigot.jar -nogui
+#1588042299
+java -jar Xmx2g lib/chunky-core-1.4.6-beta2.jar 
+#1588042303
+java -jar -Xmx2g lib/chunky-core-1.4.6-beta2.jar 
+#1588042327
+java -jar -Xmx2g ./ChunkyLauncher.jar
+#1588043024
+killall java
+#1588043028
+java -jar -Xmx2g ./ChunkyLauncher.jar
+#1588041605
+cd Games/minecraft-server/akariin/minecraft/server/
+#1588041608
+java -Xms8g -jar spigot.jar -nogui
+#1588110562
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588144256
+java -Xms8g -jar spigot.jar -nogui
+#1588235059
+smartctl
+#1588235165
+clear
+#1588235169
+lsblk
+#1588235182
+sudo smartctl -c /dev/sdb
+#1588235245
+sudo smartctl -t short /dev/sdb
+#1588235407
+sudo smartctl -H /dev/sdb
+#1588235424
+clear
+#1588235426
+lsblk
+#1588235435
+sudo smartctl -t short /dev/sda
+#1588235449
+sudo smartctl -t short /dev/sdc
+#1588235451
+sudo smartctl -t short /dev/sdd
+#1588235458
+sudo smartctl -t short /dev/sde
+#1588236081
+sudo smartctl -H /dev/sda
+#1588236086
+sudo smartctl -H /dev/sdc
+#1588236087
+sudo smartctl -H /dev/sdd
+#1588236088
+sudo smartctl -H /dev/sde
+#1588226365
+cd Games/minecraft-server/akariin/minecraft/server/
+#1588226367
+java -Xms8g -jar spigot.jar -nogui
+#1588294995
+nautilus .
+#1588295014
+java -Xms8g -jar spigot.jar -nogui
+#1588301236
+exit
+#1588389417
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588301584
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588309883
+java -Xms8g -jar spigot.jar -nogui
+#1588310266
+cd Games/minecraft-server/akariin/minecraft/server/
+#1588310267
+java -Xms8g -jar spigot.jar -nogui
+#1588460348
+killall Civ6Sub 
+#1588460350
+killall Civ6Sub -9
+#1588460354
+killall Civ6 -9
+#1588460536
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588522723
+cd Games/minecraft-server/akariin/minecraft/server/
+#1588522727
+java -Xms8g -jar spigot.jar -nogui
+#1588530306
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588543574
+java -Xms8g -jar spigot.jar -nogui
+#1588564261
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588569567
+clear
+#1588544619
+sudo dnf updatye
+#1588544625
+sudo dnf update
+#1588569693
+sudo dnf search "widget factory"
+#1588569710
+sudo d
+#1588632734
+cls
+#1588576234
+cd Downloads/
+#1588576239
+cd ~/Documents/git/
+#1588576239
+ls
+#1588576252
+cd ..
+#1588576252
+ls
+#1588576255
+ls Projects/
+#1588576258
+cd Projects/
+#1588576258
+ls
+#1588576265
+cd ..
+#1588576266
+ls
+#1588576267
+cd git/
+#1588576268
+ls
+#1588576275
+git clone https://github.com/elenapan/dotfiles.git
+#1588576281
+clear
+#1588576283
+ls
+#1588576287
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1588576317
+HOME=/home/nick/Documents/git/dotfiles/ DISPLAY=:1 awesome &
+#1588576323
+cd dot
+#1588576326
+cd ../dotfiles/
+#1588576327
+ls
+#1588576330
+cd config/
+#1588576331
+ls
+#1588576342
+cd ..
+#1588576344
+killall awesome
+#1588576347
+ls
+#1588576351
+mv config/ .config
+#1588576355
+HOME=/home/nick/Documents/git/dotfiles/ DISPLAY=:1 awesome &
+#1588576489
+clear
+#1588576492
+killall awesome
+#1588576613
+DISPLAY=:1 awesome &
+#1588578417
+cd ~
+#1588578417
+clear
+#1588578422
+cd /sys/class/backlight/
+#1588578422
+ls
+#1588578424
+ls -al
+#1588578466
+xrandr 
+#1588578480
+xrandr --output DVI-D-0
+#1588578483
+xrandr --output DVI-D-0 --list
+#1588578485
+xrandr --output DVI-D-0 --help
+#1588578535
+xrandr --output DVI-D-0 --brightness
+#1588578538
+xrandr --output DVI-D-0 --brightness 1
+#1588578541
+xrandr --output DVI-D-0 --brightness 0.8
+#1588578546
+xrandr --output DVI-D-0 --brightness 1
+#1588578555
+xrandr --output DVI-D-0 --brightness 0.1
+#1588578556
+xrandr --output DVI-D-0 --brightness 0.0
+#1588578558
+xrandr --output DVI-D-0 --brightness 0.1
+#1588578585
+xrandr --output DVI-D-0 --brightness 0.6
+#1588578588
+xrandr --output DVI-D-0 --brightness 2
+#1588578591
+xrandr --output DVI-D-0 --brightness 1
+#1588583341
+figlist
+#1588583344
+figlet
+#1588583349
+figlet --help
+#1588583444
+figlet nsstrickland -F gay
+#1588583459
+toilet
+#1588583478
+toilet 
+#1588583482
+toilet --help
+#1588583513
+toilet nsstrickland --gay
+#1588583517
+clear
+#1588583518
+toilet nsstrickland --gay
+#1588583520
+toilet nsstrickland --metal
+#1588583531
+figlet test |toilet --gay
+#1588583550
+clear
+#1588583552
+toiley -f
+#1588583555
+toilet -f
+#1588583557
+toilet --help
+#1588583563
+toilet -F
+#1588583567
+toilet -F list
+#1588583623
+ls /usr/share/figlet/
+#1588583639
+figley -f moscow test
+#1588583642
+figlet -f moscow test
+#1588583647
+toilet -f moscow test
+#1588583661
+toilet -f mono9 test
+#1588583666
+toilet -f mono9 test --metal
+#1588583670
+toilet -f mono9 test --gay
+#1588583674
+toilet -f mono9 test --gay|clip
+#1588583700
+ls /usr/share/figlet/ | grep .flf
+#1588583710
+for i in $(ls /usr/share/figlet/ | grep .flf) echo $i; done
+#1588583716
+for i in $(ls /usr/share/figlet/ | grep .flf) echo $i; done fi
+#1588583718
+for i in $(ls /usr/share/figlet/ | grep .flf) echo $i; fi
+#1588583720
+for i in $(ls /usr/share/figlet/ | grep .flf) echo $i; fi;
+#1588583729
+for i in $(ls /usr/share/figlet/ | grep .flf) do echo $i; done;
+#1588583732
+for i in $(ls /usr/share/figlet/ | grep .flf) do echo $i done;
+#1588583737
+for i in $(ls /usr/share/figlet/ | grep .flf) do echo $il
+#1588583739
+for i in $(ls /usr/share/figlet/ | grep .flf) do echo $i; done
+#1588583765
+for i in $(ls /usr/share/figlet/ | grep .flf); do echo $i;done;
+#1588583774
+for i in $(ls /usr/share/figlet/ | grep .flf); do echo ${i/.flf/};done;
+#1588583786
+for i in $(ls /usr/share/figlet/ | grep .flf); do toilet test -f ${i/.flf/};done;
+#1588583802
+for i in $(ls /usr/share/figlet/ | grep .flf); do toilet test --gay -f ${i/.flf/};done;
+#1588583826
+clear
+#1588583977
+figlet -f larry3d test
+#1588588690
+bc
+#1588622370
+Xephyr -br -ac -noreset -screen 1440x900 :1 &
+#1588622374
+DISPLAY=:1 awesome &
+#1588622904
+clear
+#1588622909
+ls /usr/share/awesome/
+#1588622913
+ls /usr/share/awesome/lib/
+#1588622917
+clear
+#1588622939
+rpm -qi awesome
+#1588622943
+rpm -qil awesome
+#1588622949
+rpm -qil awesome|grep rc.lua
+#1588622956
+ls /etc/xdg/awesome/
+#1588622967
+cd ~/.config/awesome/
+#1588622968
+ls
+#1588622973
+cp /etc/xdg/awesome/rc.lua .
+#1588623547
+gnome-music -d
+#1588623630
+clear
+#1588623634
+sudo dnf search gstreamer
+#1588623655
+sudo dnf search gstreamer-plugins-ugly
+#1588623663
+sudo dnf search gstreamer ugly
+#1588623678
+sudo dnf install gstreamer1-plugins-ugly-free
+#1588623691
+sudo dnf remove gnome-music
+#1588623704
+sudo dnf install gnome-music
+#1588623745
+sudo dnf install gstreamer1-plugins-ugly
+#1588623771
+killall gnome-music
+#1588623772
+gnome-music
+#1588624049
+sudo dnf search mpris
+#1588624087
+sudo dnf list installed | grep mprius
+#1588624090
+sudo dnf list installed | grep mpris
+#1588624133
+sudo dnf install mpdris2
+#1588624164
+sudo dnf remove mpdris2
+#1588626526
+bc
+#1588626758
+clear
+#1588626761
+mpc
+#1588626834
+ncmpcpp
+#1588626851
+ario
+#1588626867
+sudo dnf search ario
+#1588626880
+sudo dnf search mpd
+#1588626907
+sudo dnf install cantata
+#1588629316
+clear
+#1588629440
+cd 🏠
+#1588629442
+ls 🏠
+#1588629993
+clear
+#1588629993
+ls
+#1588629997
+cd ~/Documents/Projects/
+#1588629998
+ls
+#1588630002
+cd strck.land/
+#1588630003
+ls -al
+#1588630015
+cd file
+#1588630017
+cd files
+#1588630017
+ls
+#1588630025
+mv logo* ~/Pictures/avatars/
+#1588634449
+xinput --list-props 13
+#1588634485
+xinput --set-prop 13 288 -0.676471
+#1588634501
+xinput --list-props 13
+#1588634505
+xinput --list-props 13 288
+#1588634519
+xinput --list-props 13
+#1588634524
+xinput --set-prop 13 288 -0.676471
+#1588634576
+mpd &
+#1588634861
+sudo dnf remove oomox
+#1588635047
+sudo dnf search xfce
+#1588635080
+sudo dnf search xfce | grep pulse
+#1588635091
+sudo dnf install xfce4-pulseaudio-plugin
+#1588640944
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588709604
+clear
+#1588709633
+gedit $PROFILE 
+#1588709651
+bash-it
+#1588709720
+bash-it show plugins
+#1588709976
+echo $PROFILE 
+#1588716449
+sudo dnf search gtk
+#1588716461
+list=sudo dnf list installed
+#1588716466
+echo $list
+#1588716467
+clear
+#1588716474
+sudo dnf list installed | grep gtk
+#1588716502
+sudo dnf list installed | grep glib
+#1588716521
+sudo dnf list installed | grep clutter
+#1588716536
+sudo dnf list installed | grep gstreamer
+#1588716571
+sudo dnf list installed | grep vala
+#1588716576
+sudo dnf install vala
+#1588716685
+sudo dnf install gtk-devel
+#1588716690
+sudo dnf install gtk3-devel
+#1588716849
+sudo dnf install gtk2-devel
+#1588716928
+sudo dnf install libgtk3-devel
+#1588716935
+sudo dnf install libgtk3
+#1588716943
+sudo dnf search gtk3
+#1588716950
+sudo dnf search gtk3 | grep lib
+#1588716989
+sudo dnf search gtk3 | grep libg
+#1588717053
+clear
+#1588717053
+ls
+#1588717465
+clear
+#1588717468
+cd /usr/include/
+#1588717469
+ls
+#1588717472
+cd gtk-2.0/
+#1588717472
+ls
+#1588717475
+ls gdk/
+#1588717486
+cd ..
+#1588717487
+ls
+#1588717489
+cd gtk-3.0/
+#1588717490
+ls
+#1588717491
+ls gdk/
+#1588717711
+cd ..
+#1588717712
+ls
+#1588717718
+find | grep pixbuf
+#1588717755
+ls
+#1588717761
+ls | grep clutter
+#1588717770
+sudo dnf install clutter-gtk-devel
+#1588717788
+ls
+#1588717790
+ls | grep clutter
+#1588717815
+find cogl
+#1588717818
+clear
+#1588717821
+ls
+#1588717838
+clear
+#1588717838
+ls
+#1588717882
+find | grep gst
+#1588717893
+clear
+#1588717894
+ls
+#1588717905
+sudo dnf search clutter-gst
+#1588717915
+sudo dnf search clutter-gst3-devel
+#1588717922
+sudo dnf install clutter-gst3-devel
+#1588717929
+cls
+#1588717930
+ls
+#1588710126
+which clearWrap 
+#1588710133
+clear
+#1588710135
+which clearWrap 
+#1588710141
+clearWrap 
+#1588710144
+clear -la
+#1588710146
+clear
+#1588714547
+sudo dnf search komorebi
+#1588714610
+cd Documents/git/
+#1588714612
+git clone https://github.com/Ninlives/animated-wallpaper.git
+#1588714615
+cd animated-wallpaper/
+#1588714615
+ls
+#1588714626
+cmake
+#1588714637
+ls
+#1588714643
+ls cmake
+#1588714646
+cmake cmake
+#1588714650
+ls
+#1588714651
+clear
+#1588714651
+ls
+#1588714653
+ls src/
+#1588714655
+cmake
+#1588714657
+cmake .
+#1588714670
+sudo dnf install clutter-gtk
+#1588714676
+sudo dnf install clutter-gst
+#1588714708
+sudo dnf search clutter gstreamer
+#1588714720
+sudo dnf search install clutter-gst3
+#1588714726
+sudo dnf install clutter-gst3
+#1588714734
+sudo dnf install gst-libav
+#1588714744
+sudo dnf search libav
+#1588714759
+sudo dnf install gstreamer1-libav
+#1588714766
+cmake .
+#1588714870
+clear
+#1588714876
+sudo dnf copr search komorebi
+#1588714897
+sudo dnf copr enable atim/komorebi
+#1588714904
+sudo dnf install komorebi
+#1588714920
+sudo dnf install komorebi --skip-broken
+#1588714926
+y
+#1588714948
+sudo dnf copr disable atim/komorebi
+#1588714951
+sudo dnf copr remove atim/komorebi
+#1588714952
+clear
+#1588714971
+cd ..
+#1588714974
+rm animated-wallpaper/
+#1588714993
+git clone https://github.com/cheesecakeufo/komorebi.git
+#1588714998
+cd komorebi/
+#1588715006
+cmake
+#1588715013
+cd bui
+#1588715015
+cmake .
+#1588715025
+cd ..
+#1588715026
+ls
+#1588715030
+undo
+#1588715032
+clear
+#1588715038
+trash-restore animated-wallpaper
+#1588715041
+ks
+#1588715042
+ls
+#1588715047
+trash-restore ./animated-wallpaper
+#1588715049
+clear
+#1588715060
+ls
+#1588715061
+cd animated-wallpaper/
+#1588715062
+ls
+#1588715067
+cat CMakeLists.txt 
+#1588716394
+ls
+#1588716395
+clear
+#1588716395
+ls
+#1588716397
+make
+#1588716400
+cmake .
+#1588716415
+clear
+#1588716416
+ls
+#1588716418
+cmake
+#1588716419
+cmake .
+#1588716422
+clear
+#1588716422
+ls
+#1588716425
+nano CMakeLists.txt 
+#1588716562
+cmake .
+#1588716598
+make
+#1588716617
+cd ..
+#1588716619
+rm animated-wallpaper/
+#1588716623
+git clone https://github.com/Ninlives/animated-wallpaper.git
+#1588716624
+cd animated-wallpaper/
+#1588716627
+nano CMakeLists.txt 
+#1588716633
+cmake .
+#1588716637
+make
+#1588716660
+find /usr/lib/ | grep gtk
+#1588716669
+find / | grep gtk.h
+#1588716844
+clear
+#1588716857
+make
+#1588717060
+clear
+#1588717060
+ls
+#1588717063
+nano Makefile 
+#1588717278
+export CPATH=$CPATH:/usr/include/gtk-2.0
+#1588717278
+export CPATH=$CPATH:/usr/include/glib-2.0/
+#1588717278
+export CPATH=$CPATH:/usr/lib/glib-2.0/include/
+#1588717278
+export CPATH=$CPATH:/usr/include/pango-1.0/
+#1588717278
+export CPATH=$CPATH:/usr/lib/gtk-2.0/include/
+#1588717279
+export CPATH=$CPATH:/usr/include/atk-1.0/
+#1588717281
+make
+#1588717293
+ls /usr/include/
+#1588717296
+ls /usr/include/ | grep cairo
+#1588717304
+export CPATH=$CPATH:/usr/include/cairo
+#1588717306
+make
+#1588717336
+sudo dnf installl hb
+#1588717370
+export CPATH=$CPATH:/usr/include/harfbuzz
+#1588717372
+make
+#1588717385
+find /usr/include/ | grep gtkconfig
+#1588717389
+find /usr/include/
+#1588717390
+clear
+#1588717507
+echo $CMAKE_PATHS
+#1588717522
+echo $CPATH 
+#1588717538
+export CPATH=$CPATH:/usr/include/gtk-3.0
+#1588717540
+make
+#1588717548
+export CPATH=$CPATH:/usr/include/gtk-3.0/gdk
+#1588717549
+make
+#1588717564
+sudo dnf search pixbuf
+#1588717578
+sudo dnf install gtk-pixbuf2
+#1588717590
+sudo dnf install gdk-pixbuf2
+#1588717601
+make
+#1588717632
+ls
+#1588717635
+cat CMakeLists.txt 
+#1588717642
+clear
+#1588717642
+ls
+#1588717652
+echo $CPATH 
+#1588717693
+echo $CPATH
+#1588717697
+export CPATH=:/usr/include/gtk-3.0:/usr/include/glib-2.0/:/usr/lib/glib-2.0/include/:/usr/include/pango-1.0/:/usr/lib/gtk-2.0/include/:/usr/include/atk-1.0/:/usr/include/cairo:/usr/include/harfbuzz:/usr/include/gtk-3.0/gdk
+#1588717700
+echo $CPATH
+#1588717702
+make
+#1588717745
+export CPATH=$CPATH:/usr/include/gdk-pixbuf-2.0
+#1588717746
+make
+#1588717803
+export CPATH=$CPATH:/usr/include/clutter-gtk-1.0
+#1588717804
+makew
+#1588717805
+make
+#1588717811
+export CPATH=$CPATH:/usr/include/clutter-1.0
+#1588717812
+make
+#1588717829
+export CPATH=$CPATH:/usr/include/cogl
+#1588717832
+export CPATH=$CPATH:/usr/include/
+#1588717833
+make
+#1588717852
+export CPATH=$CPATH:/usr/include/json-glib-1.0
+#1588717855
+make
+#1588717889
+export CPATH=$CPATH:/usr/include/gstreamer-1.0
+#1588717890
+make
+#1588717940
+export CPATH=$CPATH:/usr/include/clutter-gst-3.0
+#1588717941
+make
+#1588718549
+killall Civ6 
+#1588718575
+killall Civ6
+#1588718582
+killall steam
+#1588729880
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588814843
+killall Civ6 
+#1588814847
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1588837021
+cd Downloads/
+#1588837030
+youtube-dl https://www.youtube.com/watch?v=fLAfKSU9ahQ -f bestaudio+bestvideo
+#1588837041
+youtube-dl https://www.youtube.com/watch?v=fLAfKSU9ahQ -F
+#1588837094
+youtube-dl https://www.youtube.com/watch?v=fLAfKSU9ahQ -f 135+251
+#1588837104
+ls
+#1588837177
+youtube-dl https://www.youtube.com/watch?v=fLAfKSU9ahQ -F
+#1588837189
+youtube-dl https://www.youtube.com/watch?v=fLAfKSU9ahQ -f 140+135
+#1588837197
+youtube-dl https://www.youtube.com/watch?v=fLAfKSU9ahQ -f 135+140
+#1588837432
+sudo dnf search trinitycore
+#1588837710
+cd ~
+#1588837711
+clear
+#1588837716
+cd .local/
+#1588837717
+ls
+#1588837719
+ls share/
+#1588837726
+ls share/gnome-b
+#1588837728
+ls share/gnome-boxes/
+#1588837728
+ls
+#1588837733
+cd share/gnome-boxes/
+#1588837734
+ls
+#1588837736
+ls images/
+#1588837740
+ls images/fedora31-ser 
+#1588837742
+cat images/fedora31-ser 
+#1588837744
+clear
+#1588838081
+ping 192.168.122.22
+#1588838097
+ssh 192.168.122.22
+#1588838107
+clear
+#1588838112
+cd ~/.ssh
+#1588838112
+ls
+#1588838116
+nano known_hosts 
+#1588838137
+clear
+#1588838195
+ping magi.strck.land
+#1588838275
+sudo systemctl restart dnsmasq.service 
+#1588838279
+ping magi.strck.land
+#1588838329
+ssh nick@magi.strck.land
+#1588838337
+ssh nick@192.168.122.22
+#1588900466
+sudo dnf search gnome-boxes
+#1588900499
+sudo dnf search spice-webdavd
+#1588900507
+sudo dnf install spice-webdavd
+#1588900534
+sudo systemctl status spice-webdavd.service 
+#1588900554
+sudo systemctl status spice-vdagentd.service 
+#1588900603
+sudo systemctl start spice-webdavd.service 
+#1588900763
+sudo dnf remove spice-webdavd
+#1588900770
+sudo systemctl status spice-webdavd.service 
+#1588900774
+sudo systemctl stop spice-webdavd.service 
+#1588900780
+sudo systemctl daemon-reload 
+#1588900783
+sudo systemctl status spice-webdavd.service 
+#1588900790
+cls
+#1588916861
+ssh nick@192.168.122.22
+#1588917986
+systemctl status spice-vdagentd.service 
+#1588917991
+systemctl status spice-webdavd.service 
+#1588925002
+history --help
+#1588925021
+history -p
+#1588927886
+clear
+#1588927888
+man cp
+#1588930640
+clear
+#1588930648
+nano $PROFILE 
+#1588930692
+exit
+#1588930778
+nano $PROFILE 
+#1588930784
+exit
+#1588930794
+nano $PROFILE 
+#1588930842
+exit
+#1588930846
+clear
+#1588930847
+echo 1
+#1588930854
+fuck
+#1588930860
+exit
+#1588930686
+bash
+#1588930741
+nano $PROFILE 
+#1588930750
+bash
+#1588930761
+nano $PROFILE 
+#1588930774
+bash
+#1588930788
+bas
+#1588930789
+bash
+#1588930862
+exit
+#1588991661
+rpm -ql /etc/logrotate.conf 
+#1588991663
+clear
+#1588991733
+rpm -qi basesystem
+#1588930176
+7z
+#1588930230
+7z a wow-client.7z World\ of\ Warcraft\ 3.3.5a/
+#1588930253
+clear
+#1588930256
+7z
+#1588930602
+7z a wow-client.7z World\ of\ Warcraft\ 3.3.5a/
+#1588933738
+clear
+#1588933739
+nc --help
+#1588933743
+clear
+#1588933797
+ls
+#1588933818
+tar -cf - wow-client.7z | pv | nc 192.168.122.22 7000
+#1588933838
+sudo tar -cf - wow-client.7z | pv | nc 192.168.122.22 7000
+#1588933864
+sudo $(tar -cf - wow-client.7z | pv | nc 192.168.122.22 7000)
+#1588933870
+$(sudo tar -cf - wow-client.7z | pv | nc 192.168.122.22 7000)
+#1588933876
+sudo su
+#1588934007
+ls
+#1588934024
+rsync wow-client.7z 192.168.122.22:/home/nick/
+#1588934066
+rsynx --help
+#1588934070
+rsync --help
+#1588934103
+rsync -ravz wow-client.7z 192.168.122.22:/home/nick/
+#1588934160
+rsync -ravz wow-client.7z 192.168.122.22:/home/nick/ --progress
+#1588935952
+ps aux | grep game
+#1588935962
+ps aux | grep wine
+#1588935966
+killall wine
+#1588989206
+ssh nick@192.168.122.22
+#1588992219
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589076586
+clear
+#1589076589
+killall firefox
+#1589102129
+sudo dnf search gis
+#1589102148
+sudo dnf install qgis
+#1589105839
+cd ~/Downloads/
+#1589105842
+cd FMG-linux-x64/
+#1589105842
+ls
+#1589105850
+chmod +x Azgaar\'sFantasyMapGenerator 
+#1589105854
+ls
+#1589105857
+./"Azgaar'sFantasyMapGenerator" 
+#1589159348
+killall firefox
+#1589182690
+sudo dnf update glibc
+#1589241574
+killall firefox
+#1589339078
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589412021
+ free
+#1589412034
+killall gimp
+#1589412046
+killall GIMP
+#1589413322
+killall firefox
+#1589455334
+sudo dnf install cherrytree
+#1589456901
+sudo dnf search laverna
+#1589457053
+sudo dnf search joplin
+#1589457214
+sudo dnf search boostnote
+#1589457222
+sudo dnf search note
+#1589553611
+emacs
+#1589553617
+emacsclient 
+#1589553620
+emacsclient --help
+#1589553622
+clear
+#1589553624
+emacs --help
+#1589553628
+emacs -t
+#1589553637
+emacs -nw
+#1589458027
+sudo dnf search glib config
+#1589458056
+find /usr/include/ | grep glibconfig.h
+#1589458064
+find /usr/ | grep glibconfig.h
+#1589459333
+sudo dnf install gtk4-devel
+#1589459424
+sudo dnf search graphene-config
+#1589459444
+cls
+#1589459454
+find /usr/lib64 | grep graphene-config
+#1589459463
+find /usr/lib | grep graphene-config
+#1589459470
+find /usr/lib64 | grep graphene-config|clip
+#1589462874
+sudo dnf install toolbox
+#1589508792
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589513784
+whois 37.244.19.229
+#1589549285
+find /usr/include/ | grep gtkapp
+#1589552507
+emacs
+#1589552514
+emacs --help
+#1589552524
+ps aux | grep emacs
+#1589553788
+clear
+#1589554830
+rd
+#1589554834
+cls
+#1589555759
+asktype
+#1589555763
+cls
+#1589556263
+ls ~/.emacs.d/
+#1589556266
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+#1589556276
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.dls
+#1589556280
+rm .emacs.d/
+#1589556282
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.dls
+#1589556290
+mv .emacs.dls/ .emacs.dl
+#1589556292
+cd .emacs.dl/
+#1589556292
+ls
+#1589556355
+install
+#1589556361
+install --help
+#1589556365
+ls
+#1589556370
+cd ..
+#1589556382
+ls ~/.emacs.d/
+#1589556395
+mv .emacs.dl/ .emacs.d
+#1589556398
+ls .emacs.d/
+#1589556400
+ls .emacs.d/ -al
+#1589556407
+rm .emacs.dl
+#1589556409
+rm .emacs.d/
+#1589556410
+ls
+#1589556411
+clear
+#1589556413
+ls -al
+#1589556442
+clear
+#1589556442
+ls
+#1589556445
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+#1589556448
+cd .emacs.d/
+#1589556449
+ls
+#1589556456
+bin/doom
+#1589556546
+bin/doom install
+#1589566195
+clear
+#1589566195
+ls
+#1589566197
+bin/doom
+#1589566202
+bin/doom sync
+#1589566216
+bin/doom update
+#1589566239
+clear
+#1589566239
+ls
+#1589566242
+bin/doom 
+#1589566246
+ls /bin/
+#1589566251
+ls bin/
+#1589566253
+clear
+#1589566254
+exit
+#1589566296
+cd .emacs.d/
+#1589566297
+ls
+#1589566300
+cat README.md 
+#1589566304
+cd bin/
+#1589566304
+ls
+#1589566307
+doom env
+#1589566309
+./doom env
+#1589566724
+./doom sync
+#1589566730
+./doom -d sync
+#1589566741
+./doom -d doctor
+#1589568579
+./doom sync
+#1589569296
+cd ~/.doom.d/
+#1589569297
+ls
+#1589569301
+gedit config.el 
+#1589570155
+clear
+#1589594469
+killall firefox
+#1589594472
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589632043
+exit
+#1589628038
+cd /usr/include/gtk-4.0/
+#1589628038
+ls
+#1589628087
+cd gtk/
+#1589628088
+ls
+#1589628090
+ls css
+#1589628998
+cd ../gtk/
+#1589628999
+ls
+#1589629002
+ls gtk.h
+#1589630068
+sudo dnf info emacs
+#1589630082
+clear
+#1589630476
+sudo dnf install spacemacs
+#1589631530
+echo $PATH 
+#1589631539
+echo $INCLUDE 
+#1589631594
+cd ~/.emacs.d/
+#1589631595
+ls
+#1589631601
+rm ~/.doom.d/
+#1589631606
+bin/doom 
+#1589631609
+bin/doom install
+#1589633302
+bin/doom sync
+#1589637384
+sudo dnf search irony-mode
+#1589637434
+sudo dnf search elpa-irony
+#1589637439
+sudo dnf search irony
+#1589637442
++++++++++++++++++++++++++++++++++
+#1589637586
+sudo dnf search libclang
+#1589637592
+sudo dnf search clang-devel
+#1589637600
+sudo dnf install clang-devel
+#1589637733
+sudo dnf search llvm
+#1589637749
+sudo dnf search llvm-devel
+#1589637757
+sudo dnf install llvm-devel
+#1589637856
+ps aux | grep irony
+#1589638083
+bin/doom sync
+#1589638088
+ps aux | grep irony
+#1589638419
+ls /usr/include/gtk-
+#1589638420
+ls /usr/include/gtk
+#1589638426
+ls /usr/include/gtk/
+#1589638428
+ls /usr/include/gtk
+#1589638432
+ls /usr/include/
+#1589638524
+sudo dnf install gtk3
+#1589638532
+sudo dnf install gtk3-devel
+#1589638538
+sudo dnf install gtk-devel
+#1589638543
+clear
+#1589638707
+sudo dnf search gdk
+#1589638721
+sudo dnf install gdk-pixbuf2-devel
+#1589639655
+bin/doom sync
+#1589640317
+ps aux | grep irony
+#1589640636
+bin/doom sync
+#1589640770
+cd ~
+#1589640774
+find | grep irony
+#1589640802
+cd .emacs.d/
+#1589640804
+cd .local/
+#1589640804
+ls
+#1589640812
+cat autoloads.pkg.el
+#1589640816
+cat autoloads.pkg.el | grep irony
+#1589640830
+nano autoloads.pkg.el | grep irony
+#1589640843
+nano autoloads.pkg.el
+#1589640919
+clear
+#1589640919
+ls
+#1589640926
+cat autoloads.el
+#1589640928
+cat autoloads.elc 
+#1589640933
+cat autoloads.elc  | grep irony-c-head
+#1589640935
+ls
+#1589640948
+cat autoloads.el | grep irony-c-head
+#1589640956
+nano autoloads.el
+#1589640969
+cat autoloads.el | grep irony-c-head
+#1589640970
+ls
+#1589640973
+cat custom.el 
+#1589640976
+ls
+#1589640979
+ls elpa/
+#1589640987
+cd ..
+#1589640991
+cd ../.doom.d/
+#1589640997
+ls
+#1589640998
+cd ..
+#1589641004
+cd .emacs.d/bin/
+#1589641006
+doom sync
+#1589641009
+./doom sync
+#1589641380
+cd ~/Documents/Projects/CNote/
+#1589641380
+ls
+#1589641384
+nano .clang_complete
+#1589641518
+ls /usr/include/
+#1589641521
+ls /usr/include/ | grep glib
+#1589641587
+ls /usr/include/ | grep glibconfig
+#1589641592
+cd /usr/include/ 
+#1589641597
+find | grep glibconf
+#1589641604
+find | grep config.h
+#1589641608
+find | grep config.h | grep gl
+#1589641615
+cd ..
+#1589641645
+find | grep glibconfig.h
+#1589641850
+history 
+#1589641854
+history  | grep INCLUDE
+#1589641857
+history  | grep cpath
+#1589641859
+history  | grep CPATH
+#1589641699
+clear
+#1589667842
+doom
+#1589667845
+clear
+#1589667852
+gedit $PROFILE
+#1589667861
+gedit $PROFILE &
+#1589667890
+ls -al ~/.emacs.d/
+#1589667897
+ls -al ~/.emacs.d/.local/
+#1589667908
+~/.emacs.d/bin/doom 
+#1589667916
+echo ~/.emacs.d/bin/doom
+#1589667918
+echo ~/.emacs.d/bin/doom|clip
+#1589667956
+doom
+#1589667960
+exit
+#1589732325
+clear
+#1589732325
+ls
+#1589732342
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589732345
+ls
+#1589732347
+./wm
+#1589732667
+ls
+#1589732670
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589732672
+./wm
+#1589732726
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589732727
+./wm
+#1589759385
+exit
+#1589759412
+ls
+#1589759418
+mkdir build
+#1589759431
+mv buildertest,p1,p2
+#1589759439
+mv buildertest,p1,p2 build
+#1589759448
+mv buildertest build/
+#1589759461
+mv p1 build/
+#1589759463
+mv p21 build/
+#1589759468
+mv p2 build/
+#1589759472
+ls
+#1589759482
+mv wm build/
+#1589759482
+ls
+#1589759488
+rm example.ui~ 
+#1589759489
+ls
+#1589759494
+mkdir resources
+#1589759497
+mv example.ui resources/
+#1589759498
+ls
+#1589759502
+mkdir src
+#1589759510
+mv builder.c src/
+#1589759515
+mv main.c src/
+#1589759516
+cd src/
+#1589759516
+ls
+#1589759522
+mv main.c main.c.old
+#1589759523
+ls
+#1589759525
+exit
+#1589667968
+doom refresh
+#1589671322
+doom sync
+#1589728550
+cd Documents/Projects/CNote/
+#1589728551
+ls
+#1589728552
+./p2
+#1589729565
+bc
+#1589732827
+clear
+#1589732828
+ls
+#1589732838
+gcc main.c -o wm `pkg-config --cflags --libs xcb,xlib`
+#1589732844
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589732848
+./wm
+#1589732884
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589732986
+./wm
+#1589751086
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589751180
+./wm 
+#1589751256
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589751279
+./wm 
+#1589751325
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589751327
+./wm 
+#1589751692
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589751878
+./wm
+#1589751932
+gcc main.c -o wm `pkg-config --cflags --libs gtk4`
+#1589751935
+./wm
+#1589752164
+ls ../PyNote/
+#1589752166
+ls ../PyNote/data/
+#1589752180
+ls ../PyNote/po
+#1589752181
+ls ../PyNote/src
+#1589752189
+cat ../PyNote/src/window.
+#1589752190
+cat ../PyNote/src/window.ui 
+#1589752203
+ls ../PyNotes/
+#1589752205
+ls ../PyNotes/resources/
+#1589752211
+cp ../PyNotes/resources/example.ui .
+#1589752213
+cat example.ui 
+#1589752215
+clear
+#1589752217
+ls
+#1589752609
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk4`
+#1589752679
+./buildertest 
+#1589752690
+glade example.ui 
+#1589752752
+glade example.ui & 
+#1589752756
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk4`
+#1589752758
+./buildertest 
+#1589752829
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk3`
+#1589752832
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk-3.0`
+#1589752835
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk_-3.0`
+#1589752839
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk+-3.0`
+#1589752863
+./buildertest 
+#1589752945
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk+-3.0`
+#1589752946
+./buildertest 
+#1589753028
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk+-3.0`
+#1589753030
+./b
+#1589753036
+gcc builder.c -o buildertest `pkg-config --cflags --libs gtk+-3.0`
+#1589753038
+./buildertest 
+#1589753490
+gcc builder.c -o buildertest `pkg-config --cflags gtk+3-.0 --libs gtk+-3.0`
+#1589753501
+gcc builder.c -o buildertest `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`
+#1589753504
+./buildertest 
+#1589753519
+nautilus .
+#1589753705
+gcc builder.c -o buildertest `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`
+#1589753777
+./buildertest 
+#1589753858
+gcc builder.c -o buildertest `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`
+#1589753860
+./buildertest 
+#1589754007
+gcc builder.c -o buildertest `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`
+#1589754026
+./buildertest 
+#1589758079
+clear
+#1589758081
+ssh nick@192.168.122.22
+#1589758091
+ssh nick@magi.strck.land
+#1589758098
+ssh nick@akariin.strck.land
+#1589759158
+scp /home/nick/Downloads/OpenInv.jar akariin.strck.land:/home/nick/
+#1589759160
+ssh nick@akariin.strck.land
+#1589760261
+clear
+#1589760262
+ls
+#1589760320
+mkdir temp
+#1589760321
+cd temp/
+#1589760328
+mv ~/Downloads/gtk+-3.24.0.tar.xz .
+#1589760336
+ls
+#1589760346
+tar -xf gtk+-3.24.0.tar.xz 
+#1589760348
+ls
+#1589760352
+rm gtk+-3.24.0.tar.xz 
+#1589760352
+ls
+#1589760354
+cd gtk+-3.24.0/
+#1589760354
+ls
+#1589760357
+cd examples/
+#1589760358
+ls
+#1589760404
+cat builder.c 
+#1589760409
+clear
+#1589760410
+ls
+#1589760464
+ls application4/
+#1589760474
+cd application4/
+#1589760474
+ls
+#1589760475
+clear
+#1589760475
+ls
+#1589760480
+emacs .
+#1589768936
+killall firefox
+#1589768951
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589846000
+killall firefox
+#1589846003
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589941709
+killall firefox
+#1589941886
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1589956691
+history 
+#1589956698
+history | grep menu
+#1589956923
+qgis --help
+#1589956961
+cd ~
+#1589956964
+find | grep qgis
+#1589957052
+cat .local/share/QGIS/QGIS3/profiles/profiles.ini 
+#1589957067
+cat .local/share/QGIS/QGIS3/profiles/default/qgis.db 
+#1589957078
+clear
+#1589957080
+qgis --help
+#1589957086
+qgis --nocustomization
+#1590032052
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1590042880
+sudo dnf list installed | grep appmenu
+#1590042896
+sudo dnf remove libappmenu
+#1590042899
+sudo dnf remove libappmenu-gtk2
+#1590042904
+sudo dnf remove libappmenu-gtk3
+#1590042910
+sudo dnf remove libappmenu-gtk3-parser
+#1590042941
+qgis
+#1590110245
+pip3 search gdal_polygonize
+#1590110254
+pip3 search gdal
+#1590110341
+gdalpolygonize
+#1590110349
+gdal_polygonize
+#1590102243
+sudo dnf search qgis
+#1590102272
+sudo dnf install python3- qgis
+#1590102273
+sudo dnf install python3-qgis
+#1590108290
+killall firefox
+#1590109448
+gdal_contour
+#1590110019
+gdl_polygonize
+#1590110021
+gdal_polygonize
+#1590110073
+find /
+#1590110080
+find / | grep gdal_polygonize
+#1590110461
+sudo dnf search gdal
+#1590110483
+sudo dnf search gdal-python-tools
+#1590110489
+sudo dnf install gdal-python-tools
+#1590110508
+gdal_polygonize.py 
+#1590111144
+ps aux | grep contour
+#1590111156
+kill -9 1185719
+#1590111173
+kill -9 1657628
+#1590111179
+kill -9 1237408
+#1590111196
+ps aux | grep contour
+#1590111219
+kill -9 1885719
+#1590111303
+ps aux | grep contour
+#1590114501
+killall firefox
+#1590114512
+clear
+#1590134627
+sudo dnf search "grass gis"
+#1590134643
+sudo dnf install grass-libs
+#1590134657
+sudo dnf install grass
+#1590134744
+sudo dnf install grass-gui
+#1590180542
+ls
+#1590180547
+chmod +x TreeSheets-806914f-x86_64.AppImage 
+#1590180549
+./TreeSheets-806914f-x86_64.AppImage 
+#1590185861
+clear
+#1590200020
+killall firefox
+#1590200023
+exit
+#1590142661
+sudo dnf search manuskript
+#1590142685
+cd Downloads/
+#1590142691
+sudo dnf install ./manuskript-0.11.0-1.noarch.rpm 
+#1590180026
+sudo dnf remove manuskript
+#1590180281
+sudo dnf search treenotes
+#1590180288
+sudo dnf search treesheets
+#1590200025
+clear
+#1590200027
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1590218149
+tomboy
+#1590218307
+sudo dnf search zim
+#1590218327
+sudo dnf install zim
+#1590218344
+sudo dnf install Zim
+#1590288494
+killall firefox
+#1590288497
+xmodmap -e "keycode 37 = Control_R";xmodmap -e "keycode 105 = Control_L"
+#1590377698
+uptime
+#1590391992
+sudo dnf search autorealm
+#1590393400
+cd Downloads/GentiumBasic_1102/
+#1590393404
+ls | grep .ttf
+#1590393419
+for i in $(ls | grep .ttf); do echo $i; dopne
+#1590393421
+for i in $(ls | grep .ttf); do echo $i; done
+#1590393433
+ls
+#1590393436
+cd ..
+#1590393436
+ls
+#1590393445
+mv GentiumBasic_1102 ~/.local/share/fonts/
+#1590393447
+clear
+#1590442382
+sudo dnf search glide
+#1590565851
+exit
+#1590565961
+fbset
+#1590565967
+fbsetroot 
+#1590565969
+fbsetroot --help
+#1590565978
+clear
+#1590565980
+fbdesk 
+#1590566009
+fbdesk --help
+#1590566020
+fbdesk &
+#1590566032
+st &
+#1590566043
+gnome-calculator 
+#1590566325
+fbdesk

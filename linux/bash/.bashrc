@@ -4,7 +4,7 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Thursday, 12th September 2019 8:24:49 pm
+# Last Modified: Monday, 2nd March 2020 12:29:18 am
 # ----
 # 
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
@@ -23,7 +23,9 @@
     MUSIC="$HOME/Music"
     VIDEOS="$HOME/Videos"
 
+    # Remember that the difference between var=val and export var=val is that subprocesses can use what has been exported
     export BROWSER="firefox"
+    export EDITOR="nano"
 
     #Important Personal Settings
     STOW_DIR="$HOME/Config"
@@ -57,6 +59,11 @@
     
     if [ -f /etc/bashrc ]; then . /etc/bashrc; fi; #Source machine global settings if available
     if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then PATH="$HOME/.local/bin:$HOME/bin:$PATH"; fi; export PATH;
+
+    #MangoHUD
+    export MANGOHUD=1
+    export MANGOHUD_CONFIG=MANGOHUD_CONFIG=height=120,font_size=16,toggle_hud=F2,position=top-left,cpu_temp,gpu_temp
+
 # !SECTION  
 
 # SECTION History
@@ -151,9 +158,11 @@
     alias push=pushd
     alias pop=popd
     alias nano=ask4nano
+    alias doom=/home/nick/.emacs.d/bin/doom
     alias python=$(which python3)
     alias ipython=ipython3
     alias dotdrop=/home/nick/Dotfiles/dotdrop.sh
     alias rm=trash-put
     alias bashdot=~/Dotfiles/bashdot/bashdot
     alias open=$(which xdg-open)
+    alias fuck='sudo $(history -p !!)'
