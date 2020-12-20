@@ -1,0 +1,6 @@
+# GIMP gimp-rect-select-tool options
+
+(fixed-rule width)
+(feather-radius 0)
+
+# end of gimp-rect-select-tool options

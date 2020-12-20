@@ -13,3 +13,5 @@ linux/gtk/gtk-4.0,.config/gtk-4.0
 linux/applications/cherrytree,.config/cherrytree
 linux/applications/htop,.config/htop
 linux/applications/rofi,.config/rofi
+linux/bash/.bash_appearance,.bash_appearance
+linux/applications/gimp,.config/GIMP

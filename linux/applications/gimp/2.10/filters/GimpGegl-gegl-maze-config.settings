@@ -1,0 +1,13 @@
+# settings
+
+(GimpGegl-gegl-maze-config "2020-05-10 03:41:55"
+    (time 1589096515)
+    (x 11)
+    (y 11)
+    (algorithm-type depth-first)
+    (tileable no)
+    (seed 153105286)
+    (fg-color (color-rgba 0 0 0 1))
+    (bg-color (color-rgba 1 1 1 1)))
+
+# end of settings

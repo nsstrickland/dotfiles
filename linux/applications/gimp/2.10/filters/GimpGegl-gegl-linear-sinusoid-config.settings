@@ -1,0 +1,19 @@
+# settings
+
+(GimpGegl-gegl-linear-sinusoid-config "2020-05-09 22:05:37"
+    (time 1589076337)
+    (x-period 128)
+    (y-period 128)
+    (x-amplitude 0)
+    (y-amplitude 0)
+    (x-phase 0)
+    (y-phase 0)
+    (angle 90)
+    (offset 0)
+    (exponent 0)
+    (x-offset 0)
+    (y-offset 0)
+    (rotation 0)
+    (supersampling 1))
+
+# end of settings

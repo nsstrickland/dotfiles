@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# Custom PS1 appearance shamelessly stolen from bash-it
+
+THEME_CLOCK_FORMAT="%H:%M:%S";
+THEME_CLOCK_CHAR="🕙";
+THEME_SHOW_CLOCK=true;
+THEME_SHOW_CLOCK_CHAR=true;
+#POWERLINE_PROMPT="clock user_info hostname scm cwd last_status"
+POWERLINE_PROMPT="cwd"
+POWERLINE_PROMPT_CHAR=""
+POWERLINE_LEFT_SEPARATOR=""
+#▓▒░
+
+PROMPT_BUILD=''
+
+#Colors
+normal="\e[0m"
+reset_color="\e[39m"
+
+function set_color {
+  set +u
+  if [[ "${1}" != "-" ]]; then
+    fg="38;5;${1}"
+  fi
+  if [[ "${2}" != "-" ]]; then
+    bg="48;5;${2}"
+    [[ -n "${fg}" ]] && bg=";${bg}"
+  fi
+  echo -e "\033[${fg}${bg}m"
+}
+
+function __add_prompt_segment {
+  local OLD_IFS=${IFS}; IFS="|"
+  local params=( $1 )
+  IFS="$OLD_IFS"
+  local separator_char="${POWERLINE_LEFT_SEPARATOR}"
+  local separator=""
+
+  if [[ "${SEGMENTS_AT_LEFT}" -gt 0 ]]; then
+    separator="$(set_color ${LAST_SEGMENT_COLOR} ${params[1]})${separator_char}${reset_color}"
+  fi
+  PROMPT_BUILD+="${separator}${normal}$(set_color - ${params[1]}) ${params[0]} ${normal}"
+  LAST_SEGMENT_COLOR=${params[1]}
+  (( SEGMENTS_AT_LEFT += 1 ))
+}
+
+function __powerline_cwd_prompt {
+  IFS="/"
+  local cwd=$(pwd | sed "s|^${HOME}|🏠|")
+  c=240
+  oc=0
+  sep=""
+  out=''
+  for i in $cwd; do
+    if [[ "${c}" -eq 240 ]]; then c=0;oc=240; elif [[ "${c}" -eq 0 ]]; then c=240;oc=0; fi
+    __add_prompt_segment "${i}|${c}"
+  done
+  echo ${out}
+  #echo "${cwd}|${CWD_THEME_PROMPT_COLOR}"
+}
+
+
+# function __prompt_command {
+#   local last_status="$?"
+#   local separator_char="${POWERLINE_PROMPT_CHAR}"
+
+#   LEFT_PROMPT=""
+#   SEGMENTS_AT_LEFT=0
+#   LAST_SEGMENT_COLOR=""
+
+#   for segment in $POWERLINE_PROMPT; do
+#     local info="$(__${segment}_prompt)"
+#     [[ -n "${info}"]] && __left_segment "${info}"
+#   done
+# }

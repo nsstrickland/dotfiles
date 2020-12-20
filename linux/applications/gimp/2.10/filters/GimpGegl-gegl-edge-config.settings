@@ -1,0 +1,9 @@
+# settings
+
+(GimpGegl-gegl-edge-config "2020-06-07 06:38:53"
+    (time 1591526333)
+    (algorithm sobel)
+    (amount 6.992)
+    (border-behavior clamp))
+
+# end of settings

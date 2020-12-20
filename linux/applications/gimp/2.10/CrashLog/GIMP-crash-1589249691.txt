@@ -1,0 +1,153 @@
+
+# Stack traces obtained from PID 1293151 - Thread 1293151 #
+
+[New LWP 1293152]
+[New LWP 1293153]
+[New LWP 1293154]
+[New LWP 1293155]
+[New LWP 1293156]
+[New LWP 1293157]
+[New LWP 1293158]
+[New LWP 1293159]
+[New LWP 1293160]
+[New LWP 1293161]
+[New LWP 1293193]
+[New LWP 1293201]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x00007ff61bdf187c in read () from /lib64/libpthread.so.0
+  Id   Target Id                                         Frame 
+* 1    Thread 0x7ff61b085dc0 (LWP 1293151) "gimp-2.10"   0x00007ff61bdf187c in read () from /lib64/libpthread.so.0
+  2    Thread 0x7ff60de84700 (LWP 1293152) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  3    Thread 0x7ff60d683700 (LWP 1293153) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  4    Thread 0x7ff60ce82700 (LWP 1293154) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  5    Thread 0x7ff607fff700 (LWP 1293155) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  6    Thread 0x7ff6077fe700 (LWP 1293156) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  7    Thread 0x7ff606ffd700 (LWP 1293157) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  8    Thread 0x7ff6067fc700 (LWP 1293158) "worker"      0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  9    Thread 0x7ff605ffb700 (LWP 1293159) "gmain"       0x00007ff61bd0ba3f in poll () from /lib64/libc.so.6
+  10   Thread 0x7ff6057fa700 (LWP 1293160) "gdbus"       0x00007ff61bd0ba3f in poll () from /lib64/libc.so.6
+  11   Thread 0x7ff5e1a8c700 (LWP 1293161) "async"       0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  12   Thread 0x7ff5e128b700 (LWP 1293193) "swap writer" 0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+  13   Thread 0x7ff5dbfff700 (LWP 1293201) "paint"       0x00007ff61bd111bd in syscall () from /lib64/libc.so.6
+
+Thread 13 (Thread 0x7ff5dbfff700 (LWP 1293201)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x0000555d8373529d in gimp_paint_tool_paint_thread ()
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 12 (Thread 0x7ff5e128b700 (LWP 1293193)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c4d5ced in gegl_tile_backend_swap_writer_thread () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 11 (Thread 0x7ff5e1a8c700 (LWP 1293161)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x0000555d83980e14 in gimp_parallel_run_async_thread_func ()
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 10 (Thread 0x7ff6057fa700 (LWP 1293160)):
+#0  0x00007ff61bd0ba3f in poll () at /lib64/libc.so.6
+#1  0x00007ff61bfba86e in g_main_context_iterate.isra () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61bfbabf3 in g_main_loop_run () at /lib64/libglib-2.0.so.0
+#3  0x00007ff61c23bfca in gdbus_shared_thread_func () at /lib64/libgio-2.0.so.0
+#4  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#5  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#6  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 9 (Thread 0x7ff605ffb700 (LWP 1293159)):
+#0  0x00007ff61bd0ba3f in poll () at /lib64/libc.so.6
+#1  0x00007ff61bfba86e in g_main_context_iterate.isra () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61bfba9a3 in g_main_context_iteration () at /lib64/libglib-2.0.so.0
+#3  0x00007ff61bfba9f1 in glib_worker_main () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#5  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#6  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 8 (Thread 0x7ff6067fc700 (LWP 1293158)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 7 (Thread 0x7ff606ffd700 (LWP 1293157)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 6 (Thread 0x7ff6077fe700 (LWP 1293156)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 5 (Thread 0x7ff607fff700 (LWP 1293155)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 4 (Thread 0x7ff60ce82700 (LWP 1293154)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 3 (Thread 0x7ff60d683700 (LWP 1293153)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 2 (Thread 0x7ff60de84700 (LWP 1293152)):
+#0  0x00007ff61bd111bd in syscall () at /lib64/libc.so.6
+#1  0x00007ff61c006c13 in g_cond_wait () at /lib64/libglib-2.0.so.0
+#2  0x00007ff61c49d91b in gegl_parallel_distribute_thread_func () at /lib64/libgegl-0.4.so.0
+#3  0x00007ff61bfe4022 in g_thread_proxy () at /lib64/libglib-2.0.so.0
+#4  0x00007ff61bde74e2 in start_thread () at /lib64/libpthread.so.0
+#5  0x00007ff61bd166a3 in clone () at /lib64/libc.so.6
+
+Thread 1 (Thread 0x7ff61b085dc0 (LWP 1293151)):
+#0  0x00007ff61bdf187c in read () at /lib64/libpthread.so.0
+#1  0x00007ff61c91f8b7 in gimp_stack_trace_print () at /lib64/libgimpbase-2.0.so.0
+#2  0x0000555d8369a010 in gimp_eek ()
+#3  0x0000555d8369a44e in  ()
+#4  0x0000555d8369aae0 in gimp_sigfatal_handler ()
+#5  0x00007ff61bdf2b20 in <signal handler called> () at /lib64/libpthread.so.0
+#6  0x00007ff61bc51625 in raise () at /lib64/libc.so.6
+#7  0x00007ff61bc3a8d9 in abort () at /lib64/libc.so.6
+#8  0x00007ff61bc3a7a9 in _nl_load_domain.cold () at /lib64/libc.so.6
+#9  0x00007ff61bc49a66 in annobin_assert.c_end () at /lib64/libc.so.6
+#10 0x00007ff61ba35773 in  () at /lib64/libX11.so.6
+#11 0x00007ff61ba3581d in poll_for_response () at /lib64/libX11.so.6
+#12 0x00007ff61ba35b1a in _XEventsQueued () at /lib64/libX11.so.6
+#13 0x00007ff61ba27451 in XPending () at /lib64/libX11.so.6
+#14 0x00007ff61c9ee638 in gdk_event_check () at /lib64/libgdk-x11-2.0.so.0
+#15 0x00007ff61bfba2c9 in g_main_context_check () at /lib64/libglib-2.0.so.0
+#16 0x00007ff61bfba812 in g_main_context_iterate.isra () at /lib64/libglib-2.0.so.0
+#17 0x00007ff61bfbabf3 in g_main_loop_run () at /lib64/libglib-2.0.so.0
+#18 0x0000555d836997e6 in app_run ()
+#19 0x0000555d836990be in main ()
+[Inferior 1 (process 1293151) detached]

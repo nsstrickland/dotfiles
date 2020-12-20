@@ -1,0 +1,9 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.27644996789301424 0.35567010309278346 0.21483429045872826))
+(palette "mm")
+(font "Gentium Book Basic Bold")
+(font-size 300)
+(justify center)
+
+# end of gimp-text-tool options

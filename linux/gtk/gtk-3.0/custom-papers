@@ -1,0 +1,21 @@
+[Paper0]
+Name=Custom Size 1
+DisplayName=Custom Size 1
+Width=215.89999389648438
+Height=279.39999389648438
+MarginTop=6.3499999999999996
+MarginBottom=14.224
+MarginLeft=6.3499999999999996
+MarginRight=6.3499999999999996
+Orientation=portrait
+
+[Paper1]
+Name=HP Glossy Photo Paper
+DisplayName=HP Glossy Photo Paper
+Width=101.59999999999999
+Height=152.39999999999998
+MarginTop=3.1749999999999998
+MarginBottom=3.1749999999999998
+MarginLeft=3.1749999999999998
+MarginRight=3.1749999999999998
+Orientation=portrait

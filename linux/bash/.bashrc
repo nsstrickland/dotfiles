@@ -4,12 +4,13 @@
 # Created: Saturday June 15th 2019
 # Author: nsstrickland
 # -----
-# Last Modified: Monday, 2nd March 2020 12:29:18 am
+# Last Modified: Thursday, 20th August 2020 5:53:07 am
 # ----
 # 
 # Copright 2019 nsstrickland, nsstrickland@outlook.com>>
 # MIT License - http://www.opensource.org/licenses/MIT
 ###
+
 
 # SECTION Personal
     #Personal Variables
@@ -29,13 +30,6 @@
 
     #Important Personal Settings
     STOW_DIR="$HOME/Config"
-
-    #Colorz
-    export CLICOLOR=1
-    export TERM='xterm-256color'
-    export GREP_COLOR='1;4;31'
-    alias grep="/usr/bin/grep --color=always"
-    alias ls="/bin/ls --color=always"
 
     PS1="\[$(tput setaf 2)\][$(ls -al|sed -n 2p|awk '{print substr($0,0,10)}')] \[$(tput setaf 7)\][ \u ] \[$(tput setaf 1)\][ \W ] \[$(tput sgr0)\]\\$ " 
 
@@ -95,7 +89,7 @@
     export GIT_HOSTING='git@git.domain.com'
 
     # Don't check mail when opening terminal.
-    unset MAILCHECK
+    #unset MAILCHECK
 
     # Change this to your console based IRC client of choice.
     export IRC_CLIENT='irssi'
@@ -139,7 +133,7 @@
     THEME_CLOCK_CHAR="🕙";
     THEME_SHOW_CLOCK=true;
     THEME_SHOW_CLOCK_CHAR=true;
-    POWERLINE_PROMPT="clock user_info hostname scm cwd last_status"
+    POWERLINE_PROMPT="user_info hostname scm awd last_status"
     POWERLINE_PROMPT_CHAR=""
     POWERLINE_LEFT_SEPARATOR=""
     #▓▒░
@@ -166,3 +160,32 @@
     alias bashdot=~/Dotfiles/bashdot/bashdot
     alias open=$(which xdg-open)
     alias fuck='sudo $(history -p !!)'
+
+    alias ..='cd ..' 
+    alias .2='cd ../..'
+    alias .3='cd ../../..'
+    alias .4='cd ../../..'
+    alias .5='cd ../../../..'
+    alias .6='cd ../../../../..'
+
+    # Changing "ls" to "exa"
+    alias ls='exa -g --color=always --group-directories-first' # my preferred listing
+    alias la='exa -ag --color=always --group-directories-first'  # all files and dirs
+    alias ll='exa -alg --color=always --group-directories-first'  # long format
+    alias lt='exa -aTg --color=always --group-directories-first' # tree listing
+    alias l.='exa -ag --color=always --group-directories-first | egrep "^\."'
+
+    # Colorize grep output (good for log files)
+    alias grep='grep --color=auto'
+    alias egrep='egrep --color=auto'
+    alias fgrep='fgrep --color=auto'
+
+    # adding flags
+    alias cp="cp -i"                          # confirm before overwriting something
+    alias df='df -h'                          # human-readable sizes
+    alias free='free -m'                      # show sizes in MB
+
+
+    export CLICOLOR=1
+    export TERM='xterm-256color'
+    #export GREP_COLOR='1;4;31'

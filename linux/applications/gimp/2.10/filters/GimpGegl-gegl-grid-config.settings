@@ -1,0 +1,40 @@
+# settings
+
+(GimpGegl-gegl-grid-config "2020-05-29 19:24:48"
+    (time 1590794688)
+    (x 20)
+    (y 10000)
+    (x-offset 0)
+    (y-offset 0)
+    (line-width 1)
+    (line-height 1)
+    (line-color (color-rgba 0 0 0 1)))
+(GimpGegl-gegl-grid-config "2020-05-29 19:21:58"
+    (time 1590794518)
+    (x 6)
+    (y 564)
+    (x-offset 0)
+    (y-offset 0)
+    (line-width 1)
+    (line-height 1)
+    (line-color (color-rgba 0 0 0 1)))
+(GimpGegl-gegl-grid-config "2020-05-23 10:11:03"
+    (time 1590243063)
+    (x 1500)
+    (y 1041)
+    (x-offset 0)
+    (y-offset 0)
+    (line-width 0)
+    (line-height 10)
+    (line-color (color-rgba 0 0 0 1)))
+(GimpGegl-gegl-grid-config "2020-05-23 10:08:57"
+    (time 1590242937)
+    (x 10000)
+    (y 3125)
+    (x-offset 0)
+    (y-offset 0)
+    (line-width 10)
+    (line-height 10)
+    (line-color (color-rgba 0 0 0 1)))
+
+# end of settings

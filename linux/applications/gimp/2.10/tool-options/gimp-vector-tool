@@ -1,0 +1,10 @@
+# GIMP gimp-vector-tool options
+
+(foreground (color-rgb 0.27644996789301424 0.35567010309278346 0.21483429045872826))
+(brush "Sketching 1")
+(dynamics "Dynamics Off")
+(pattern "Pine")
+(gradient "FG to BG (HSV clockwise hue)")
+(palette "mm")
+
+# end of gimp-vector-tool options
