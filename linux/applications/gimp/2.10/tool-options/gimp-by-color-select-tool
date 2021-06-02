@@ -1,6 +1,8 @@
 # GIMP gimp-by-color-select-tool options
 
+(antialias no)
+(feather yes)
 (feather-radius 3)
-(threshold 154.19999999999999)
+(threshold 87.599999999999994)
 
 # end of gimp-by-color-select-tool options

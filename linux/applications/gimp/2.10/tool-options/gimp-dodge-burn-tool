@@ -1,15 +1,14 @@
 # GIMP gimp-dodge-burn-tool options
 
-(foreground (color-rgb 0.27644996789301424 0.35567010309278346 0.21483429045872826))
 (brush "Sketching 1")
-(dynamics "Dynamics Off")
+(dynamics "Pressure Size")
 (palette "mm")
-(brush-size 10)
+(brush-size 5)
 (brush-spacing 0.050000000000000003)
-(brush-hardness 0.4699999988079071)
-(brush-force 0.90000000000000002)
+(brush-hardness 0.99200000000000044)
+(brush-force 1)
 (dynamics-expanded yes)
-(fade-length 5)
+(fade-length 0)
 (fade-repeat truncate)
 
 # end of gimp-dodge-burn-tool options

@@ -132,3 +132,11 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+function setupWacomTablet() {
+	wacID=$(xsetwacom --list | grep pad | sed 's/\(.*id.\)//g' | sed 's/[^0-9]*//g')
+	xsetwacom set "$wacID" Button 1 "key Super_L" || echo "Failed to set button 1"
+	xsetwacom set "$wacID" Button 3 "key Control_L" || echo "Failed to set button 3"
+	xsetwacom set "$wacID" Button 8 "key ctrl z" || echo "Failed to set button 8"
+	xsetwacom set "$wacID" Button 9 "key ctrl y" || echo "Failed to set button 9"
+}

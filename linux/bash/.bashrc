@@ -160,6 +160,7 @@
     alias bashdot=~/Dotfiles/bashdot/bashdot
     alias open=$(which xdg-open)
     alias fuck='sudo $(history -p !!)'
+    #alias notify-send=/home/nick/Documents/Scripts/notify-send.sh/notify-send.sh
 
     alias ..='cd ..' 
     alias .2='cd ../..'

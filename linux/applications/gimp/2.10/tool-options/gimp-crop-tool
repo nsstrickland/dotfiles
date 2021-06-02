@@ -1,6 +1,7 @@
 # GIMP gimp-crop-tool options
 
-(aspect-denominator 6250)
-(aspect-numerator 4500)
+(aspect-denominator 5500)
+(aspect-numerator 7000)
+(pattern "Marble #1")
 
 # end of gimp-crop-tool options

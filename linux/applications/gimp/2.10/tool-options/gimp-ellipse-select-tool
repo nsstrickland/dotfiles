@@ -1,8 +1,8 @@
 # GIMP gimp-ellipse-select-tool options
 
-(fixed-center yes)
+(operation subtract)
 (antialias no)
 (feather yes)
-(feather-radius 2)
+(feather-radius 100)
 
 # end of gimp-ellipse-select-tool options

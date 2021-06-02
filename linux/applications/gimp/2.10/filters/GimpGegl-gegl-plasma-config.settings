@@ -1,44 +1,44 @@
 # settings
 
-(GimpGegl-gegl-plasma-config "2020-11-25 04:37:33"
-    (time 1606297053)
-    (turbulence 0.78700000000000003)
-    (seed 3060320866))
-(GimpGegl-gegl-plasma-config "2020-07-25 20:04:53"
-    (time 1595721893)
+(GimpGegl-gegl-plasma-config "2021-04-22 17:58:47"
+    (time 1619128727)
     (turbulence 1)
-    (seed 1118247854))
-(GimpGegl-gegl-plasma-config "2020-05-18 03:58:08"
-    (time 1589788688)
+    (seed 58523662))
+(GimpGegl-gegl-plasma-config "2021-04-08 23:43:01"
+    (time 1617939781)
     (turbulence 1)
-    (seed 830658714))
-(GimpGegl-gegl-plasma-config "2020-05-17 09:28:49"
-    (time 1589722129)
-    (turbulence 1)
-    (seed 192283792))
-(GimpGegl-gegl-plasma-config "2020-05-17 08:53:04"
-    (time 1589719984)
+    (seed 2032957975))
+(GimpGegl-gegl-plasma-config "2021-01-29 21:20:49"
+    (time 1611973249)
     (turbulence 1)
     (seed 0))
-(GimpGegl-gegl-plasma-config "2020-05-12 23:02:40"
-    (time 1589338960)
+(GimpGegl-gegl-plasma-config "2021-01-29 21:16:47"
+    (time 1611973007)
     (turbulence 1)
-    (seed 967739870))
-(GimpGegl-gegl-plasma-config "2020-05-12 23:01:50"
-    (time 1589338910)
+    (seed 1260989127))
+(GimpGegl-gegl-plasma-config "2021-01-29 20:44:00"
+    (time 1611971040)
     (turbulence 1)
-    (seed 120164159))
-(GimpGegl-gegl-plasma-config "2020-05-12 23:00:29"
-    (time 1589338829)
+    (seed 3489522496))
+(GimpGegl-gegl-plasma-config "2021-01-29 20:41:52"
+    (time 1611970912)
     (turbulence 1)
-    (seed 4227388120))
-(GimpGegl-gegl-plasma-config "2020-05-12 22:39:08"
-    (time 1589337548)
+    (seed 2844901943))
+(GimpGegl-gegl-plasma-config "2021-01-20 02:49:27"
+    (time 1611128967)
     (turbulence 1)
-    (seed 1346140255))
-(GimpGegl-gegl-plasma-config "2020-05-12 20:52:52"
-    (time 1589331172)
+    (seed 3739302598))
+(GimpGegl-gegl-plasma-config "2021-01-18 04:51:47"
+    (time 1610963507)
     (turbulence 1)
-    (seed 2729421296))
+    (seed 3691073491))
+(GimpGegl-gegl-plasma-config "2021-01-18 04:45:23"
+    (time 1610963123)
+    (turbulence 1)
+    (seed 1128642319))
+(GimpGegl-gegl-plasma-config "2021-01-18 04:40:27"
+    (time 1610962827)
+    (turbulence 1)
+    (seed 990404091))
 
 # end of settings

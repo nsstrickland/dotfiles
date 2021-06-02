@@ -1,13 +1,17 @@
 # GIMP gimp-ink-tool options
 
-(foreground (color-rgb 0.27644996789301424 0.35567010309278346 0.21483429045872826))
 (brush-size 51)
 (brush-hardness 0.5)
-(size 3)
-(tilt-angle -52.399999999999999)
-(size-sensitivity 0.29999999999999999)
-(vel-sensitivity 0.82000000000000006)
+(use-smoothing yes)
+(smoothing-quality 100)
+(smoothing-factor 3)
+(size 12)
+(tilt-angle 74.299999999999997)
+(size-sensitivity 0)
+(vel-sensitivity 0.22)
 (tilt-sensitivity 1)
-(blob-type diamond)
+(blob-type square)
+(blob-aspect 10)
+(blob-angle 2.5127963671743605)
 
 # end of gimp-ink-tool options

@@ -1,0 +1,12 @@
+# settings
+
+(GimpGegl-gegl-texturize-canvas-config "2021-05-08 18:38:27"
+    (time 1620513507)
+    (direction top-right)
+    (depth 1))
+(GimpGegl-gegl-texturize-canvas-config "2021-05-08 18:37:30"
+    (time 1620513450)
+    (direction top-right)
+    (depth 4))
+
+# end of settings

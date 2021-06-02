@@ -1,5 +1,8 @@
 # settings
 
+(GimpGegl-gimp-posterize-config "2021-04-08 23:29:36"
+    (time 1617938976)
+    (levels 5))
 (GimpGegl-gimp-posterize-config "2020-11-25 04:44:33"
     (time 1606297473)
     (gimp-mode luminance)
